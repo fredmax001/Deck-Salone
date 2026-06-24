@@ -1,0 +1,145 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+          - text: Discover
+        - link "Rankings" [ref=e14] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e15] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e16] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e17] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e18]:
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - link "Join as DJ" [ref=e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - paragraph [ref=e29]: DISCOVER
+        - heading "FIND YOUR PERFECT DJ" [level=1] [ref=e31]
+        - paragraph [ref=e33]: Browse verified DJs across Sierra Leone. Filter by genre, city, budget, and availability.
+        - generic [ref=e36]:
+          - img
+          - textbox "Search by DJ name, genre, or city..." [ref=e37]
+          - button "Search" [ref=e38] [cursor=pointer]
+        - button "All" [ref=e41] [cursor=pointer]
+        - button "Advanced Filters" [ref=e44] [cursor=pointer]:
+          - img [ref=e45]
+          - text: Advanced Filters
+          - img [ref=e46]
+      - generic [ref=e49]:
+        - generic [ref=e50]: Showing 0 of 0 DJs
+        - 'button "Sort: Rank (Default)" [ref=e52] [cursor=pointer]':
+          - text: "Sort: Rank (Default)"
+          - img [ref=e53]
+      - img [ref=e58]
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "ARE YOU A DJ?" [level=2] [ref=e65]
+          - paragraph [ref=e67]: Join the platform and get discovered by promoters, fans, and event organizers across Sierra Leone.
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - img [ref=e71]
+              - text: Create your verified professional profile
+            - listitem [ref=e74]:
+              - img [ref=e75]
+              - text: Upload and showcase your mixes
+            - listitem [ref=e78]:
+              - img [ref=e79]
+              - text: Track performance with real analytics
+            - listitem [ref=e82]:
+              - img [ref=e83]
+              - text: Get booked directly through the platform
+            - listitem [ref=e86]:
+              - img [ref=e87]
+              - text: Compete in weekly DJ battles
+          - link "Create Free Profile" [ref=e91] [cursor=pointer]:
+            - /url: /login
+            - text: Create Free Profile
+            - img [ref=e92]
+        - generic [ref=e97]:
+          - img "DJ performing" [ref=e98]
+          - img "DJ at club" [ref=e99]
+  - contentinfo [ref=e100]:
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - link "DECK SALONE" [ref=e104] [cursor=pointer]:
+            - /url: /
+            - img [ref=e105]
+            - generic [ref=e107]: DECK
+            - generic [ref=e108]: SALONE
+          - paragraph [ref=e109]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e110]:
+            - link "Instagram" [ref=e111] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e112]
+            - link "Twitter" [ref=e115] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e116]
+            - link "YouTube" [ref=e118] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e119]
+            - link "TikTok" [ref=e122] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e123]
+        - generic [ref=e127]:
+          - heading "Platform" [level=4] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "Discover DJs" [ref=e131] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e132]:
+              - link "Rankings" [ref=e133] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e134]:
+              - link "Mix Hub" [ref=e135] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e136]:
+              - link "Events" [ref=e137] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e138]:
+              - link "Book a DJ" [ref=e139] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e140]:
+              - link "Battle Arena" [ref=e141] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e142]:
+          - heading "Resources" [level=4] [ref=e143]
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - link "Hall of Fame" [ref=e146] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e147]:
+              - link "Blog" [ref=e148] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e149]:
+              - link "Help Center" [ref=e150] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e151]:
+              - link "Privacy Policy" [ref=e152] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e153]:
+              - link "Terms of Service" [ref=e154] [cursor=pointer]:
+                - /url: /discover
+        - generic [ref=e155]:
+          - heading "Connect" [level=4] [ref=e156]
+          - paragraph [ref=e157]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e158]:
+            - generic [ref=e159]: SLE
+            - generic [ref=e160]: "|"
+            - generic [ref=e161]: English
+      - generic [ref=e162]:
+        - paragraph [ref=e163]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e164]: All rights reserved.

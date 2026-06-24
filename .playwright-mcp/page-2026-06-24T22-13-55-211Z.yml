@@ -1,0 +1,161 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+          - text: Discover
+        - link "Rankings" [ref=e14] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e15] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e16] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e17] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e18]:
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - link "Join as DJ" [ref=e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - paragraph [ref=e29]: DISCOVER
+        - heading "FIND YOUR PERFECT DJ" [level=1] [ref=e31]
+        - paragraph [ref=e33]: Browse verified DJs across Sierra Leone. Filter by genre, city, budget, and availability.
+        - generic [ref=e36]:
+          - img
+          - textbox "Search by DJ name, genre, or city..." [ref=e37]
+          - button "Search" [ref=e38] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "All" [ref=e41] [cursor=pointer]
+          - button "Afrobeats" [ref=e42] [cursor=pointer]
+          - button "Dancehall" [ref=e43] [cursor=pointer]
+          - button "Hip Hop" [ref=e44] [cursor=pointer]
+          - button "Salone Mix" [ref=e45] [cursor=pointer]
+          - button "Amapiano" [ref=e46] [cursor=pointer]
+          - button "Azonto" [ref=e47] [cursor=pointer]
+          - button "Hip Life" [ref=e48] [cursor=pointer]
+          - button "R&B" [ref=e49] [cursor=pointer]
+          - button "Wedding Mixes" [ref=e50] [cursor=pointer]
+          - button "Club Mixes" [ref=e51] [cursor=pointer]
+          - button "Reggae" [ref=e52] [cursor=pointer]
+          - button "Dub" [ref=e53] [cursor=pointer]
+          - button "Gospel" [ref=e54] [cursor=pointer]
+          - button "Deep House" [ref=e55] [cursor=pointer]
+          - button "Throwbacks" [ref=e56] [cursor=pointer]
+        - button "Advanced Filters" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - text: Advanced Filters
+          - img [ref=e61]
+      - generic [ref=e64]:
+        - generic [ref=e65]: Showing 11 of 11 DJs
+        - 'button "Sort: Rank (Default)" [ref=e67] [cursor=pointer]':
+          - text: "Sort: Rank (Default)"
+          - img [ref=e68]
+      - img [ref=e73]
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "ARE YOU A DJ?" [level=2] [ref=e80]
+          - paragraph [ref=e82]: Join the platform and get discovered by promoters, fans, and event organizers across Sierra Leone.
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - img [ref=e86]
+              - text: Create your verified professional profile
+            - listitem [ref=e89]:
+              - img [ref=e90]
+              - text: Upload and showcase your mixes
+            - listitem [ref=e93]:
+              - img [ref=e94]
+              - text: Track performance with real analytics
+            - listitem [ref=e97]:
+              - img [ref=e98]
+              - text: Get booked directly through the platform
+            - listitem [ref=e101]:
+              - img [ref=e102]
+              - text: Compete in weekly DJ battles
+          - link "Create Free Profile" [ref=e106] [cursor=pointer]:
+            - /url: /login
+            - text: Create Free Profile
+            - img [ref=e107]
+        - generic [ref=e112]:
+          - img "DJ performing" [ref=e113]
+          - img "DJ at club" [ref=e114]
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - link "DECK SALONE" [ref=e119] [cursor=pointer]:
+            - /url: /
+            - img [ref=e120]
+            - generic [ref=e122]: DECK
+            - generic [ref=e123]: SALONE
+          - paragraph [ref=e124]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e125]:
+            - link "Instagram" [ref=e126] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e127]
+            - link "Twitter" [ref=e130] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e131]
+            - link "YouTube" [ref=e133] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e134]
+            - link "TikTok" [ref=e137] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e138]
+        - generic [ref=e142]:
+          - heading "Platform" [level=4] [ref=e143]
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - link "Discover DJs" [ref=e146] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e147]:
+              - link "Rankings" [ref=e148] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e149]:
+              - link "Mix Hub" [ref=e150] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e151]:
+              - link "Events" [ref=e152] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e153]:
+              - link "Book a DJ" [ref=e154] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e155]:
+              - link "Battle Arena" [ref=e156] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e157]:
+          - heading "Resources" [level=4] [ref=e158]
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - link "Hall of Fame" [ref=e161] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e162]:
+              - link "Blog" [ref=e163] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e164]:
+              - link "Help Center" [ref=e165] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e166]:
+              - link "Privacy Policy" [ref=e167] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e168]:
+              - link "Terms of Service" [ref=e169] [cursor=pointer]:
+                - /url: /discover
+        - generic [ref=e170]:
+          - heading "Connect" [level=4] [ref=e171]
+          - paragraph [ref=e172]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e173]:
+            - generic [ref=e174]: SLE
+            - generic [ref=e175]: "|"
+            - generic [ref=e176]: English
+      - generic [ref=e177]:
+        - paragraph [ref=e178]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e179]: All rights reserved.

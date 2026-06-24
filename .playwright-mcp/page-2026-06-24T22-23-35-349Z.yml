@@ -1,0 +1,206 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e16] [cursor=pointer]:
+          - /url: /battles
+          - text: Battles
+      - generic [ref=e18]:
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - link "Join as DJ" [ref=e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - img "Battle arena" [ref=e28]
+        - generic [ref=e30]:
+          - generic [ref=e31]: Weekly Competition
+          - heading "Battle Arena" [level=1] [ref=e32]
+          - generic [ref=e33]: VS
+          - paragraph [ref=e34]: DJs go head-to-head. Fans vote. One winner rises.
+          - generic [ref=e39]: Voting Open
+          - generic [ref=e40]:
+            - text: Ends in
+            - generic [ref=e41]: 01d23h59m59s
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: This Week's Battle
+          - heading "Afrobeats vs Amapiano" [level=2] [ref=e47]
+          - paragraph [ref=e49]: Two genres. Two DJs. One winner.
+        - generic [ref=e51]:
+          - img [ref=e52]
+          - heading "No Active Battle" [level=3] [ref=e58]
+          - paragraph [ref=e59]: There isn't a battle running right now. Check back soon or browse the leaderboard and past battles.
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]: The Rules
+          - heading "How Battles Work" [level=2] [ref=e65]
+        - generic [ref=e66]:
+          - generic [ref=e68]:
+            - img [ref=e70]
+            - generic [ref=e73]: "1"
+            - heading "DJs Submit Mixes" [level=4] [ref=e74]
+            - paragraph [ref=e75]: A new battle theme is announced every Monday. Two DJs are selected or volunteer to compete.
+          - generic [ref=e78]:
+            - img [ref=e80]
+            - generic [ref=e83]: "2"
+            - heading "Upload Your Mix" [level=4] [ref=e84]
+            - paragraph [ref=e85]: Each DJ has until Friday midnight to upload their best mix fitting the battle theme.
+          - generic [ref=e88]:
+            - img [ref=e90]
+            - generic [ref=e95]: "3"
+            - heading "Community Votes" [level=4] [ref=e96]
+            - paragraph [ref=e97]: Fans listen to both mixes and vote for their favorite. Voting is open 48 hours.
+          - generic [ref=e100]:
+            - img [ref=e102]
+            - generic [ref=e104]: "4"
+            - heading "Winner Advances" [level=4] [ref=e105]
+            - paragraph [ref=e106]: The DJ with the most votes wins. Winners earn points on the battle leaderboard.
+      - generic [ref=e108]:
+        - generic [ref=e110]:
+          - generic [ref=e112]:
+            - img [ref=e113]
+            - text: Battle Leaderboard
+          - heading "All-Time Champions" [level=2] [ref=e120]
+        - paragraph [ref=e123]: No battle history yet.
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]: Archive
+          - heading "Past Battles" [level=2] [ref=e129]
+        - paragraph [ref=e132]: No past battles yet. The first winner will be shown here soon.
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]: For DJs
+          - heading "Want to Battle?" [level=2] [ref=e139]
+          - paragraph [ref=e141]: Think you have what it takes? Join the Battle Arena and prove your skills against Sierra Leone's best.
+          - generic [ref=e142]:
+            - generic [ref=e144]:
+              - img [ref=e145]
+              - generic [ref=e148]: Verified DJ profile
+            - generic [ref=e150]:
+              - img [ref=e151]
+              - generic [ref=e154]: Minimum 5 mixes uploaded
+            - generic [ref=e156]:
+              - img [ref=e157]
+              - generic [ref=e160]: Active in last 30 days
+            - generic [ref=e162]:
+              - img [ref=e163]
+              - generic [ref=e166]: No strikes for fake engagement
+          - link "Apply to Join" [ref=e168] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e169]
+            - text: Apply to Join
+        - generic [ref=e173]:
+          - img [ref=e175]
+          - generic [ref=e177]: VS
+          - img [ref=e179]
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]: For Fans
+          - heading "Your Vote Matters" [level=2] [ref=e186]
+        - generic [ref=e187]:
+          - generic [ref=e189]:
+            - img [ref=e190]
+            - heading "Voting Power" [level=4] [ref=e193]
+            - paragraph [ref=e194]: Every vote counts equally. Listen to both mixes before voting — quality over loyalty.
+            - paragraph [ref=e195]: 1 vote per account per battle
+          - generic [ref=e197]:
+            - img [ref=e198]
+            - heading "Voter Streaks" [level=4] [ref=e200]
+            - paragraph [ref=e201]: Vote in 3 consecutive battles to start a streak. Streak holders get a special badge and early access.
+            - paragraph [ref=e202]: "Current record: 12-week streak"
+          - generic [ref=e204]:
+            - img [ref=e205]
+            - heading "Community Rewards" [level=4] [ref=e208]
+            - paragraph [ref=e209]: Top voters each month win exclusive merch, free event tickets, and shoutouts from battling DJs.
+            - paragraph [ref=e210]: "This month: Freetown Vibes Festival tickets"
+        - link "Sign Up to Start Voting" [ref=e213] [cursor=pointer]:
+          - /url: /register
+          - text: Sign Up to Start Voting
+          - img [ref=e214]
+  - contentinfo [ref=e216]:
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - link "DECK SALONE" [ref=e220] [cursor=pointer]:
+            - /url: /
+            - img [ref=e221]
+            - generic [ref=e223]: DECK
+            - generic [ref=e224]: SALONE
+          - paragraph [ref=e225]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e226]:
+            - link "Instagram" [ref=e227] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e228]
+            - link "Twitter" [ref=e231] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e232]
+            - link "YouTube" [ref=e234] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e235]
+            - link "TikTok" [ref=e238] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e239]
+        - generic [ref=e243]:
+          - heading "Platform" [level=4] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - link "Discover DJs" [ref=e247] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e248]:
+              - link "Rankings" [ref=e249] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e250]:
+              - link "Mix Hub" [ref=e251] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e252]:
+              - link "Events" [ref=e253] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e254]:
+              - link "Book a DJ" [ref=e255] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e256]:
+              - link "Battle Arena" [ref=e257] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e258]:
+          - heading "Resources" [level=4] [ref=e259]
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link "Hall of Fame" [ref=e262] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e263]:
+              - link "Blog" [ref=e264] [cursor=pointer]:
+                - /url: /battles
+            - listitem [ref=e265]:
+              - link "Help Center" [ref=e266] [cursor=pointer]:
+                - /url: /battles
+            - listitem [ref=e267]:
+              - link "Privacy Policy" [ref=e268] [cursor=pointer]:
+                - /url: /battles
+            - listitem [ref=e269]:
+              - link "Terms of Service" [ref=e270] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e271]:
+          - heading "Connect" [level=4] [ref=e272]
+          - paragraph [ref=e273]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e274]:
+            - generic [ref=e275]: SLE
+            - generic [ref=e276]: "|"
+            - generic [ref=e277]: English
+      - generic [ref=e278]:
+        - paragraph [ref=e279]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e280]: All rights reserved.

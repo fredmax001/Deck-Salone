@@ -1,0 +1,230 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+          - text: Mixes
+        - link "Events" [ref=e16] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e17] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e18]:
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - link "Join as DJ" [ref=e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - text: MIX HUB
+          - heading "DISCOVER & STREAM THE BEST MIXES" [level=1] [ref=e30]
+          - paragraph [ref=e31]: From Salone classics to the hottest Afrobeats and Amapiano — stream, download, and share mixes from Sierra Leone's top DJs.
+          - generic [ref=e33]:
+            - img [ref=e34]
+            - textbox "Search mixes, DJs, or genres..." [ref=e37]
+        - generic [ref=e39] [cursor=pointer]:
+          - text: NOW TRENDING
+          - generic [ref=e40]:
+            - img "Salone Vibes Vol. 1" [ref=e41]
+            - generic [ref=e42]:
+              - heading "Salone Vibes Vol. 1" [level=4] [ref=e43]
+              - paragraph [ref=e44]: Fred Max
+              - paragraph [ref=e45]: 0 plays
+      - img [ref=e47]
+      - generic [ref=e51]:
+        - button "All" [ref=e52] [cursor=pointer]
+        - button "Salone Mix" [ref=e53] [cursor=pointer]
+        - button "Throwbacks" [ref=e54] [cursor=pointer]
+        - button "Afrobeats" [ref=e55] [cursor=pointer]
+        - button "Amapiano" [ref=e56] [cursor=pointer]
+        - button "Dancehall" [ref=e57] [cursor=pointer]
+        - button "Club Mixes" [ref=e58] [cursor=pointer]
+        - button "Wedding Mixes" [ref=e59] [cursor=pointer]
+        - button "Gospel" [ref=e60] [cursor=pointer]
+      - generic [ref=e61]:
+        - generic [ref=e63]:
+          - img [ref=e64]
+          - generic [ref=e66]: TRENDING NOW
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - img "Salone Vibes Vol. 1" [ref=e70]
+              - img [ref=e74] [cursor=pointer]
+            - heading "Salone Vibes Vol. 1" [level=4] [ref=e76]
+            - paragraph [ref=e77]: Fred Max
+            - generic [ref=e78]:
+              - generic [ref=e79]: 0 plays
+              - generic [ref=e80]: "|"
+              - generic [ref=e81]:
+                - img [ref=e82]
+                - text: 1:17:26
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - img "Dancehall Don" [ref=e87]
+              - img [ref=e91] [cursor=pointer]
+            - heading "Dancehall Don" [level=4] [ref=e93]
+            - paragraph [ref=e94]: Kaywize Salone
+            - generic [ref=e95]:
+              - generic [ref=e96]: 0 plays
+              - generic [ref=e97]: "|"
+              - generic [ref=e98]:
+                - img [ref=e99]
+                - text: 1:37:00
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - img "Afrobeats Heatwave 2024" [ref=e104]
+              - img [ref=e108] [cursor=pointer]
+            - heading "Afrobeats Heatwave 2024" [level=4] [ref=e110]
+            - paragraph [ref=e111]: Rampage
+            - generic [ref=e112]:
+              - generic [ref=e113]: 0 plays
+              - generic [ref=e114]: "|"
+              - generic [ref=e115]:
+                - img [ref=e116]
+                - text: 1:44:41
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - img "Amapiano to the World" [ref=e121]
+              - img [ref=e125] [cursor=pointer]
+            - heading "Amapiano to the World" [level=4] [ref=e127]
+            - paragraph [ref=e128]: Busy
+            - generic [ref=e129]:
+              - generic [ref=e130]: 0 plays
+              - generic [ref=e131]: "|"
+              - generic [ref=e132]:
+                - img [ref=e133]
+                - text: 1:16:22
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - img "Reggae Roots Revival" [ref=e138]
+              - img [ref=e142] [cursor=pointer]
+            - heading "Reggae Roots Revival" [level=4] [ref=e144]
+            - paragraph [ref=e145]: DJ Maggie
+            - generic [ref=e146]:
+              - generic [ref=e147]: 0 plays
+              - generic [ref=e148]: "|"
+              - generic [ref=e149]:
+                - img [ref=e150]
+                - text: 1:32:40
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - img "Dancehall Kings Mix" [ref=e155]
+              - img [ref=e159] [cursor=pointer]
+            - heading "Dancehall Kings Mix" [level=4] [ref=e161]
+            - paragraph [ref=e162]: Cess
+            - generic [ref=e163]:
+              - generic [ref=e164]: 0 plays
+              - generic [ref=e165]: "|"
+              - generic [ref=e166]:
+                - img [ref=e167]
+                - text: 1:47:48
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - img "Sound System Culture" [ref=e172]
+              - img [ref=e176] [cursor=pointer]
+            - heading "Sound System Culture" [level=4] [ref=e178]
+            - paragraph [ref=e179]: Switch
+            - generic [ref=e180]:
+              - generic [ref=e181]: 0 plays
+              - generic [ref=e182]: "|"
+              - generic [ref=e183]:
+                - img [ref=e184]
+                - text: 1:21:27
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - img "Salone Fiesta Mix" [ref=e189]
+              - img [ref=e193] [cursor=pointer]
+            - heading "Salone Fiesta Mix" [level=4] [ref=e195]
+            - paragraph [ref=e196]: Kaywize Salone
+            - generic [ref=e197]:
+              - generic [ref=e198]: 0 plays
+              - generic [ref=e199]: "|"
+              - generic [ref=e200]:
+                - img [ref=e201]
+                - text: 1:38:16
+      - generic [ref=e206]:
+        - text: FRESH DROPS
+        - heading "LATEST UPLOADS" [level=2] [ref=e207]
+  - contentinfo [ref=e208]:
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - link "DECK SALONE" [ref=e212] [cursor=pointer]:
+            - /url: /
+            - img [ref=e213]
+            - generic [ref=e215]: DECK
+            - generic [ref=e216]: SALONE
+          - paragraph [ref=e217]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e218]:
+            - link "Instagram" [ref=e219] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e220]
+            - link "Twitter" [ref=e223] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e224]
+            - link "YouTube" [ref=e226] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e227]
+            - link "TikTok" [ref=e230] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e231]
+        - generic [ref=e235]:
+          - heading "Platform" [level=4] [ref=e236]
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - link "Discover DJs" [ref=e239] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e240]:
+              - link "Rankings" [ref=e241] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e242]:
+              - link "Mix Hub" [ref=e243] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e244]:
+              - link "Events" [ref=e245] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e246]:
+              - link "Book a DJ" [ref=e247] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e248]:
+              - link "Battle Arena" [ref=e249] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e250]:
+          - heading "Resources" [level=4] [ref=e251]
+          - list [ref=e252]:
+            - listitem [ref=e253]:
+              - link "Hall of Fame" [ref=e254] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e255]:
+              - link "Blog" [ref=e256] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e257]:
+              - link "Help Center" [ref=e258] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e259]:
+              - link "Privacy Policy" [ref=e260] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e261]:
+              - link "Terms of Service" [ref=e262] [cursor=pointer]:
+                - /url: /mixes
+        - generic [ref=e263]:
+          - heading "Connect" [level=4] [ref=e264]
+          - paragraph [ref=e265]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e266]:
+            - generic [ref=e267]: SLE
+            - generic [ref=e268]: "|"
+            - generic [ref=e269]: English
+      - generic [ref=e270]:
+        - paragraph [ref=e271]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e272]: All rights reserved.

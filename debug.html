@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deck Salone Debug</title>
+  <style>
+    body { font-family: monospace; padding: 20px; background: #111; color: #0f0; }
+    .error { color: #f44; }
+    .info { color: #4af; }
+    pre { white-space: pre-wrap; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>Deck Salone — Debug Console</h1>
+  <p class="info">Loading <a href="http://localhost:3000" target="app">http://localhost:3000</a> in iframe below...</p>
+  <div id="logs"></div>
+  <hr style="border-color:#333; margin:20px 0;">
+  <iframe id="app" src="http://localhost:3000" width="100%" height="600" style="border:2px solid #D4A24A; background:#0A0A0A;"></iframe>
+  
+  <script>
+    const logs = document.getElementById('logs');
+    function log(msg, cls='info') {
+      const p = document.createElement('pre');
+      p.className = cls;
+      p.textContent = '[' + new Date().toLocaleTimeString() + '] ' + msg;
+      logs.appendChild(p);
+    }
+    
+    // Capture iframe errors
+    const iframe = document.getElementById('app');
+    iframe.onload = () => {
+      try {
+        const doc = iframe.contentDocument || iframe.contentWindow.document;
+        const title = doc.title;
+        const rootHtml = doc.getElementById('root')?.innerHTML?.slice(0, 500) || 'NO ROOT';
+        const bodyBg = getComputedStyle(doc.body).backgroundColor;
+        log('Iframe loaded. Title: ' + title);
+        log('Body bg: ' + bodyBg);
+        log('Root HTML: ' + rootHtml);
+      } catch(e) {
+        log('Cross-origin error: ' + e.message, 'error');
+      }
+    };
+    
+    // Also try fetch
+    fetch('http://localhost:3000/')
+      .then(r => r.text())
+      .then(html => log('Fetch OK: ' + html.length + ' bytes'))
+      .catch(e => log('Fetch ERROR: ' + e.message, 'error'));
+  </script>
+</body>
+</html>

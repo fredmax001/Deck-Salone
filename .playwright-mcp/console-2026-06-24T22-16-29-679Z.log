@@ -1,0 +1,10 @@
+[      88ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:20102
+[     147ms] Error: There was an error during concurrent rendering but React was able to recover by instead synchronously rendering the entire root.
+    at throwException (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:7149:11)
+    at throwAndUnwindWorkLoop (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:12622:15)
+    at renderRootSync (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:12405:139)
+    at performWorkOnRoot (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:11766:189)
+    at performSyncWorkOnRoot (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:13517:9)
+    at flushSyncWorkAcrossRoots_impl (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:13414:122)
+    at processRootScheduleInMicrotask (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:13437:106)
+    at http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=d277f962:13531:15

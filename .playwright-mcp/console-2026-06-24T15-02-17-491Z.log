@@ -1,0 +1,57 @@
+[      63ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:20102
+[  575255ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:20102
+[  575295ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. T @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  575295ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. S @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  598995ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. T @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  598995ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. S @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  599673ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. T @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  599673ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. S @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  613058ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. T @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  613058ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. S @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  614425ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. T @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  614425ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. S @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  615511ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. T @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  615511ms] [ERROR] Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. S @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:4924
+[  870494ms] [ERROR] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://192.168.2.169:3000/node_modules/.vite/deps/chunk-BVJBJJA6.js?v=990137ce:391
+[  870496ms] [ERROR] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://192.168.2.169:3000/node_modules/.vite/deps/chunk-BVJBJJA6.js?v=990137ce:391
+[  870500ms] TypeError: Cannot read properties of null (reading 'useCallback')
+    at exports.useCallback (http://192.168.2.169:3000/node_modules/.vite/deps/chunk-BVJBJJA6.js?v=990137ce:904:35)
+    at useStore (http://192.168.2.169:3000/node_modules/.vite/deps/zustand.js?v=c78d0109:38:26)
+    at useBoundStore (http://192.168.2.169:3000/node_modules/.vite/deps/zustand.js?v=c78d0109:46:39)
+    at AuthInitializer (http://192.168.2.169:3000/src/App.tsx?t=1782314207347:24:16)
+    at Object.react_stack_bottom_frame (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:18509:20)
+    at renderWithHooks (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:5654:24)
+    at updateFunctionComponent (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:7475:21)
+    at beginWork (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:8525:20)
+    at runWithFiberInDEV (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:997:72)
+    at performUnitOfWork (http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:12561:98)
+[  870500ms] [WARNING] %s
+
+%s
+ An error occurred in the <AuthInitializer> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=1af24d26:6965
+[  871195ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=990137ce:20102
+[  871272ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5000/api/auth/me' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/login:0
+[  871273ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5000/api/auth/me:0
+[  894097ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx?t=1782314231578:0
+[  894097ms] [ERROR] [vite] Failed to reload /src/pages/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.2.169:3000/@vite/client:808
+[  898390ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx?t=1782314235876:0
+[  898391ms] [ERROR] [vite] Failed to reload /src/pages/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.2.169:3000/@vite/client:808
+[ 1096814ms] [LOG] [vite] server connection lost. Polling for restart... @ http://192.168.2.169:3000/@vite/client:864
+[ 1098443ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx:0
+[ 1108299ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx:0
+[ 1420695ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx:0
+[ 1421729ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx:0
+[ 1450214ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx:0
+[ 1479153ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx:0
+[ 1493455ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=a2c55431:20102
+[ 1500407ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://192.168.2.169:3000/src/pages/Login.tsx?t=1782314837842:0
+[ 1500407ms] [ERROR] [vite] Failed to reload /src/pages/Login.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.2.169:3000/@vite/client:808

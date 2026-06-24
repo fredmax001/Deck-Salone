@@ -1,0 +1,336 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e16] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e17]:
+        - button "Search" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Join as DJ" [ref=e22] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - text: Book a DJ
+        - heading "Find the Perfect DJ for Your Event" [level=1] [ref=e27]:
+          - text: Find the Perfect DJ
+          - text: for Your Event
+        - paragraph [ref=e28]: From intimate weddings to stadium festivals — browse verified DJs, compare prices, and book securely in minutes.
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - img [ref=e31]
+            - generic [ref=e33]: Secure Payments
+          - generic [ref=e34]:
+            - img [ref=e35]
+            - generic [ref=e37]: Verified DJs
+          - generic [ref=e38]:
+            - img [ref=e39]
+            - generic [ref=e42]: Instant Confirmation
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - generic [ref=e46]: Direct Communication
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - img [ref=e52]
+            - textbox "What type of DJ?" [ref=e55]
+          - generic [ref=e56]:
+            - img [ref=e57]
+            - combobox [ref=e60]:
+              - option "City or Venue" [selected]
+          - generic [ref=e61]:
+            - img [ref=e62]
+            - textbox [ref=e64]
+          - button "Search DJs" [ref=e65] [cursor=pointer]:
+            - img [ref=e66]
+            - text: Search DJs
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: Event Type
+            - generic [ref=e73]:
+              - button "Club Night" [ref=e74] [cursor=pointer]
+              - button "Festival" [ref=e75] [cursor=pointer]
+              - button "Private Party" [ref=e76] [cursor=pointer]
+              - button "Wedding" [ref=e77] [cursor=pointer]
+              - button "Corporate Event" [ref=e78] [cursor=pointer]
+              - button "Open DJ Slot" [ref=e79] [cursor=pointer]
+          - generic [ref=e81]: Genre
+          - generic [ref=e82]:
+            - generic [ref=e83]: Budget Range (SLE)
+            - generic [ref=e84]:
+              - slider [ref=e85]: "100000"
+              - generic [ref=e86]: SLE 0 – 100,000
+            - generic [ref=e87]:
+              - button "SLE Under 5K" [ref=e88] [cursor=pointer]
+              - button "SLE 5K-15K" [ref=e89] [cursor=pointer]
+              - button "SLE 15K-30K" [ref=e90] [cursor=pointer]
+              - button "SLE 30K+" [ref=e91] [cursor=pointer]
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - heading "0 DJs found" [level=3] [ref=e95]
+          - generic [ref=e96]:
+            - generic [ref=e97]: "Sort by:"
+            - combobox [ref=e98]:
+              - option "Recommended" [selected]
+              - 'option "Price: Low to High"'
+              - 'option "Price: High to Low"'
+              - option "Highest Rated"
+              - option "Most Experienced"
+        - generic [ref=e99]:
+          - img [ref=e100]
+          - paragraph [ref=e103]: No DJs found
+          - paragraph [ref=e104]: Try adjusting your filters
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - text: Simple Process
+          - heading "How Booking Works" [level=2] [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - text: "01"
+            - img [ref=e112]
+            - heading "Search" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Browse DJs by genre, location, budget, and availability. Filter until you find your match.
+          - generic [ref=e119]:
+            - text: "02"
+            - img [ref=e121]
+            - heading "Request" [level=3] [ref=e124]
+            - paragraph [ref=e125]: Send a booking request with your event details. The DJ reviews and responds within 24 hours.
+          - generic [ref=e128]:
+            - text: "03"
+            - img [ref=e130]
+            - heading "Confirm" [level=3] [ref=e133]
+            - paragraph [ref=e134]: Once accepted, pay a deposit to secure the booking. Full payment after the event.
+          - generic [ref=e137]:
+            - text: "04"
+            - img [ref=e139]
+            - heading "Enjoy" [level=3] [ref=e143]
+            - paragraph [ref=e144]: Your DJ arrives, sets up, and delivers an unforgettable performance. Leave a review after!
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - text: Pricing
+          - heading "Typical Price Ranges" [level=2] [ref=e148]
+          - paragraph [ref=e149]: Prices vary by DJ experience, event type, and duration. These are average ranges.
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - img [ref=e152]
+            - heading "Wedding" [level=4] [ref=e154]
+            - paragraph [ref=e155]: SLE 5,000 – 25,000
+            - paragraph [ref=e156]: per event
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - img [ref=e160]
+                - generic [ref=e162]: 4-6 hour set
+              - listitem [ref=e163]:
+                - img [ref=e164]
+                - generic [ref=e166]: Consultation
+              - listitem [ref=e167]:
+                - img [ref=e168]
+                - generic [ref=e170]: Ceremony + reception music
+              - listitem [ref=e171]:
+                - img [ref=e172]
+                - generic [ref=e174]: MC services
+            - button "Browse DJs" [ref=e175] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=e176]
+          - generic [ref=e178]:
+            - img [ref=e179]
+            - heading "Club Night" [level=4] [ref=e182]
+            - paragraph [ref=e183]: SLE 3,000 – 15,000
+            - paragraph [ref=e184]: per event
+            - list [ref=e186]:
+              - listitem [ref=e187]:
+                - img [ref=e188]
+                - generic [ref=e190]: 3-5 hour set
+              - listitem [ref=e191]:
+                - img [ref=e192]
+                - generic [ref=e194]: Club sound system
+              - listitem [ref=e195]:
+                - img [ref=e196]
+                - generic [ref=e198]: Mix integration
+              - listitem [ref=e199]:
+                - img [ref=e200]
+                - generic [ref=e202]: Crowd reading
+            - button "Browse DJs" [ref=e203] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=e204]
+          - generic [ref=e206]:
+            - img [ref=e207]
+            - heading "Corporate" [level=4] [ref=e210]
+            - paragraph [ref=e211]: SLE 8,000 – 30,000
+            - paragraph [ref=e212]: per event
+            - list [ref=e214]:
+              - listitem [ref=e215]:
+                - img [ref=e216]
+                - generic [ref=e218]: Background music
+              - listitem [ref=e219]:
+                - img [ref=e220]
+                - generic [ref=e222]: MC services
+              - listitem [ref=e223]:
+                - img [ref=e224]
+                - generic [ref=e226]: Professional setup
+              - listitem [ref=e227]:
+                - img [ref=e228]
+                - generic [ref=e230]: Branded presentation
+            - button "Browse DJs" [ref=e231] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=e232]
+          - generic [ref=e234]:
+            - img [ref=e235]
+            - heading "Festival" [level=4] [ref=e238]
+            - paragraph [ref=e239]: SLE 15,000 – 100,000+
+            - paragraph [ref=e240]: per event
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - img [ref=e244]
+                - generic [ref=e246]: 1-2 hour set
+              - listitem [ref=e247]:
+                - img [ref=e248]
+                - generic [ref=e250]: Festival-grade equipment
+              - listitem [ref=e251]:
+                - img [ref=e252]
+                - generic [ref=e254]: Travel included
+              - listitem [ref=e255]:
+                - img [ref=e256]
+                - generic [ref=e258]: Sound check
+            - button "Browse DJs" [ref=e259] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=e260]
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - text: Trust & Safety
+          - heading "Why Book Through Sound It?" [level=2] [ref=e265]
+        - generic [ref=e266]:
+          - generic [ref=e267]:
+            - img [ref=e269]
+            - generic [ref=e271]:
+              - heading "Verified DJs Only" [level=4] [ref=e272]
+              - paragraph [ref=e273]: Every DJ on our platform is identity-verified. No fake profiles, no surprises.
+          - generic [ref=e274]:
+            - img [ref=e276]
+            - generic [ref=e279]:
+              - heading "Secure Payments" [level=4] [ref=e280]
+              - paragraph [ref=e281]: Your deposit is held securely. Released to the DJ only after your event is confirmed complete.
+          - generic [ref=e282]:
+            - img [ref=e284]
+            - generic [ref=e287]:
+              - heading "Transparent Pricing" [level=4] [ref=e288]
+              - paragraph [ref=e289]: See exact pricing upfront. No hidden fees, no last-minute price changes.
+          - generic [ref=e290]:
+            - img [ref=e292]
+            - generic [ref=e294]:
+              - heading "Dispute Protection" [level=4] [ref=e295]
+              - paragraph [ref=e296]: If something goes wrong, our support team mediates and ensures fair resolution.
+        - generic [ref=e297]:
+          - heading "Frequently Asked Questions" [level=3] [ref=e298]
+          - generic [ref=e299]:
+            - group [ref=e301]:
+              - generic "How do I book a DJ through Sound It?" [ref=e302] [cursor=pointer]:
+                - generic [ref=e303]: How do I book a DJ through Sound It?
+                - img [ref=e304]
+            - group [ref=e307]:
+              - generic "What payment methods are accepted?" [ref=e308] [cursor=pointer]:
+                - generic [ref=e309]: What payment methods are accepted?
+                - img [ref=e310]
+            - group [ref=e313]:
+              - generic "Can I cancel or reschedule my booking?" [ref=e314] [cursor=pointer]:
+                - generic [ref=e315]: Can I cancel or reschedule my booking?
+                - img [ref=e316]
+            - group [ref=e319]:
+              - generic "What happens if the DJ cancels?" [ref=e320] [cursor=pointer]:
+                - generic [ref=e321]: What happens if the DJ cancels?
+                - img [ref=e322]
+            - group [ref=e325]:
+              - generic "Do DJs bring their own equipment?" [ref=e326] [cursor=pointer]:
+                - generic [ref=e327]: Do DJs bring their own equipment?
+                - img [ref=e328]
+        - generic [ref=e330]:
+          - heading "Ready to book?" [level=3] [ref=e331]
+          - button "Browse 0 Verified DJs" [ref=e332] [cursor=pointer]:
+            - img [ref=e333]
+            - text: Browse 0 Verified DJs
+  - contentinfo [ref=e336]:
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - generic [ref=e339]:
+          - link "DECK SALONE" [ref=e340] [cursor=pointer]:
+            - /url: /
+            - img [ref=e341]
+            - generic [ref=e343]: DECK
+            - generic [ref=e344]: SALONE
+          - paragraph [ref=e345]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e346]:
+            - link "Instagram" [ref=e347] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e348]
+            - link "Twitter" [ref=e351] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e352]
+            - link "YouTube" [ref=e354] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e355]
+            - link "TikTok" [ref=e358] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e359]
+        - generic [ref=e363]:
+          - heading "Platform" [level=4] [ref=e364]
+          - list [ref=e365]:
+            - listitem [ref=e366]:
+              - link "Discover DJs" [ref=e367] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e368]:
+              - link "Rankings" [ref=e369] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e370]:
+              - link "Mix Hub" [ref=e371] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e372]:
+              - link "Events" [ref=e373] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e374]:
+              - link "Book a DJ" [ref=e375] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e376]:
+              - link "Battle Arena" [ref=e377] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e378]:
+          - heading "Resources" [level=4] [ref=e379]
+          - list [ref=e380]:
+            - listitem [ref=e381]:
+              - link "Hall of Fame" [ref=e382] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e383]:
+              - link "Blog" [ref=e384] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e385]:
+              - link "Help Center" [ref=e386] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e387]:
+              - link "Privacy Policy" [ref=e388] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e389]:
+              - link "Terms of Service" [ref=e390] [cursor=pointer]:
+                - /url: /booking
+        - generic [ref=e391]:
+          - heading "Connect" [level=4] [ref=e392]
+          - paragraph [ref=e393]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e394]:
+            - generic [ref=e395]: SLE
+            - generic [ref=e396]: "|"
+            - generic [ref=e397]: English
+      - generic [ref=e398]:
+        - paragraph [ref=e399]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e400]: All rights reserved.

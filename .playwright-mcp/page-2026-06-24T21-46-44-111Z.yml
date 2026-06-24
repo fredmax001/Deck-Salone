@@ -1,0 +1,233 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e16] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e17]:
+        - button "Search" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Join as DJ" [ref=e22] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Fred Max cover" [ref=e26]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - img "Fred Max" [ref=e32]
+            - img [ref=e34]
+          - generic [ref=e36]:
+            - heading "Fred Max" [level=1] [ref=e37]
+            - paragraph [ref=e38]: Abdul Conteh
+            - generic [ref=e39]:
+              - generic: Verified DJ
+              - generic: Top Ranked
+              - generic: Veteran
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e42]: Afrobeats
+                - generic [ref=e43]: Dancehall
+                - generic [ref=e44]: Hip Hop
+              - generic [ref=e45]: ·
+              - generic [ref=e46]:
+                - img [ref=e47]
+                - text: Freetown, Sierra Leone
+              - generic [ref=e50]: ·
+              - generic [ref=e51]: Active since 12
+          - generic [ref=e52]:
+            - button "Book Now" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - text: Book Now
+            - generic [ref=e56]:
+              - button "Message" [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+                - generic [ref=e60]: Message
+              - button [ref=e61] [cursor=pointer]:
+                - img [ref=e62]
+              - button [ref=e68] [cursor=pointer]:
+                - img [ref=e69]
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: "#1"
+            - paragraph [ref=e74]: NATIONAL RANK
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: "92.5"
+            - paragraph [ref=e77]: RANKING SCORE
+          - generic [ref=e78]:
+            - paragraph [ref=e79]: 45K
+            - paragraph [ref=e80]: FOLLOWERS
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: "48"
+            - paragraph [ref=e83]: MIXES
+          - generic [ref=e84]:
+            - paragraph [ref=e85]:
+              - img [ref=e86]
+              - text: "4.8"
+            - paragraph [ref=e88]: RATING
+      - generic [ref=e91]:
+        - button "Overview" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: Overview
+        - button "Mixes 48" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]:
+            - text: Mixes
+            - generic [ref=e97]: "48"
+        - button "Stats" [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]: Stats
+        - button "Reviews 2" [ref=e100] [cursor=pointer]:
+          - generic [ref=e101]:
+            - text: Reviews
+            - generic [ref=e102]: "2"
+        - button "Events" [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]: Events
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - text: About
+            - paragraph [ref=e111]: One of Sierra Leone's most celebrated DJs, known for electrifying club sets and seamless transitions between Afrobeats and Dancehall.
+          - generic [ref=e112]:
+            - text: Genres
+            - generic [ref=e113]:
+              - generic [ref=e114]: Afrobeats
+              - generic [ref=e115]: Dancehall
+              - generic [ref=e116]: Hip Hop
+          - generic [ref=e117]:
+            - text: Equipment
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - img [ref=e120]
+                - generic [ref=e122]: Pioneer CDJ-3000
+              - generic [ref=e123]:
+                - img [ref=e124]
+                - generic [ref=e126]: DJM-900NXS2
+              - generic [ref=e127]:
+                - img [ref=e128]
+                - generic [ref=e130]: RANE Twelve
+          - generic [ref=e131]:
+            - text: Languages
+            - paragraph [ref=e132]: English, Krio
+          - generic [ref=e133]:
+            - text: Awards
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - img [ref=e136]
+                - generic [ref=e138]: Best Club DJ 2023
+              - generic [ref=e139]:
+                - img [ref=e140]
+                - generic [ref=e142]: DJ of the Year 2022
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - text: Booking Information
+            - generic [ref=e145]:
+              - paragraph [ref=e146]: SLE 3K - 8K
+              - paragraph [ref=e147]: per event
+            - generic [ref=e152]: Available for bookings
+            - paragraph [ref=e153]: Typically responds within 24 hours
+          - generic [ref=e154]:
+            - text: Streaming Platforms
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - img [ref=e158]
+                  - generic [ref=e162]: You Tube
+                - generic [ref=e163]: 25K
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - img [ref=e166]
+                  - generic [ref=e170]: Audiomack
+                - generic [ref=e171]: 15K
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - img [ref=e174]
+                  - generic [ref=e178]: Mixcloud
+                - generic [ref=e179]: 5K
+          - generic [ref=e180]:
+            - text: Contact
+            - generic [ref=e182]:
+              - img [ref=e183]
+              - generic [ref=e186]: fredmax@soundit.sl
+  - contentinfo [ref=e187]:
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - link "DECK SALONE" [ref=e191] [cursor=pointer]:
+            - /url: /
+            - img [ref=e192]
+            - generic [ref=e194]: DECK
+            - generic [ref=e195]: SALONE
+          - paragraph [ref=e196]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e197]:
+            - link "Instagram" [ref=e198] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e199]
+            - link "Twitter" [ref=e202] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e203]
+            - link "YouTube" [ref=e205] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e206]
+            - link "TikTok" [ref=e209] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e210]
+        - generic [ref=e214]:
+          - heading "Platform" [level=4] [ref=e215]
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - link "Discover DJs" [ref=e218] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e219]:
+              - link "Rankings" [ref=e220] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e221]:
+              - link "Mix Hub" [ref=e222] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e223]:
+              - link "Events" [ref=e224] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e225]:
+              - link "Book a DJ" [ref=e226] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e227]:
+              - link "Battle Arena" [ref=e228] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e229]:
+          - heading "Resources" [level=4] [ref=e230]
+          - list [ref=e231]:
+            - listitem [ref=e232]:
+              - link "Hall of Fame" [ref=e233] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e234]:
+              - link "Blog" [ref=e235] [cursor=pointer]:
+                - /url: /dj/cmqs83jao000eyihdsc7eqia8
+            - listitem [ref=e236]:
+              - link "Help Center" [ref=e237] [cursor=pointer]:
+                - /url: /dj/cmqs83jao000eyihdsc7eqia8
+            - listitem [ref=e238]:
+              - link "Privacy Policy" [ref=e239] [cursor=pointer]:
+                - /url: /dj/cmqs83jao000eyihdsc7eqia8
+            - listitem [ref=e240]:
+              - link "Terms of Service" [ref=e241] [cursor=pointer]:
+                - /url: /dj/cmqs83jao000eyihdsc7eqia8
+        - generic [ref=e242]:
+          - heading "Connect" [level=4] [ref=e243]
+          - paragraph [ref=e244]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e245]:
+            - generic [ref=e246]: SLE
+            - generic [ref=e247]: "|"
+            - generic [ref=e248]: English
+      - generic [ref=e249]:
+        - paragraph [ref=e250]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e251]: All rights reserved.

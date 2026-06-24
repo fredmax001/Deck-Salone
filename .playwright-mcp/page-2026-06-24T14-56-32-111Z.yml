@@ -1,0 +1,463 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+          - text: Discover
+        - link "Rankings" [ref=e14] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e15] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e16] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e17] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e18]:
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - link "Join as DJ" [ref=e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - paragraph [ref=e29]: DISCOVER
+        - heading "FIND YOUR PERFECT DJ" [level=1] [ref=e31]
+        - paragraph [ref=e33]: Browse 250+ verified DJs across Sierra Leone. Filter by genre, city, budget, and availability.
+        - generic [ref=e36]:
+          - img
+          - textbox "Search by DJ name, genre, or city..." [ref=e37]
+          - button "Search" [ref=e38] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "All" [ref=e41] [cursor=pointer]
+          - button "Afrobeats" [ref=e42] [cursor=pointer]
+          - button "Dancehall" [ref=e43] [cursor=pointer]
+          - button "Amapiano" [ref=e44] [cursor=pointer]
+          - button "Hip Hop" [ref=e45] [cursor=pointer]
+          - button "R&B" [ref=e46] [cursor=pointer]
+          - button "Gospel" [ref=e47] [cursor=pointer]
+          - button "Salone Mix" [ref=e48] [cursor=pointer]
+          - button "Club Mix" [ref=e49] [cursor=pointer]
+          - button "Throwback" [ref=e50] [cursor=pointer]
+          - button "Reggae" [ref=e51] [cursor=pointer]
+          - button "EDM" [ref=e52] [cursor=pointer]
+          - button "House" [ref=e53] [cursor=pointer]
+        - button "Advanced Filters" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+          - text: Advanced Filters
+          - img [ref=e58]
+      - generic [ref=e61]:
+        - generic [ref=e62]: Showing 15 DJs
+        - 'button "Sort: Rank (Default)" [ref=e64] [cursor=pointer]':
+          - text: "Sort: Rank (Default)"
+          - img [ref=e65]
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - img "Fred Max" [ref=e72]
+            - generic [ref=e75]: "1"
+            - img [ref=e77]
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Afrobeats
+              - generic [ref=e83]: Dancehall
+            - heading "Fred Max" [level=3] [ref=e84]
+            - generic [ref=e85]:
+              - img [ref=e86]
+              - generic [ref=e89]: Freetown
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - img [ref=e93]
+                - text: 24.5K
+              - generic [ref=e98]:
+                - img [ref=e100]
+                - text: "89"
+              - generic [ref=e103]:
+                - img [ref=e105]
+                - text: "4.9"
+            - link "View Profile" [ref=e107] [cursor=pointer]:
+              - /url: /dj/1
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - img "Rampage" [ref=e110]
+            - generic [ref=e113]: "2"
+            - img [ref=e115]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: Amapiano
+              - generic [ref=e121]: Hip Hop
+            - heading "Rampage" [level=3] [ref=e122]
+            - generic [ref=e123]:
+              - img [ref=e124]
+              - generic [ref=e127]: Freetown
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - img [ref=e131]
+                - text: 18.2K
+              - generic [ref=e136]:
+                - img [ref=e138]
+                - text: "67"
+              - generic [ref=e141]:
+                - img [ref=e143]
+                - text: "4.8"
+            - link "View Profile" [ref=e145] [cursor=pointer]:
+              - /url: /dj/2
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - img "Kaywize Salone" [ref=e148]
+            - generic [ref=e151]: "3"
+            - img [ref=e153]
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: Afrobeats
+              - generic [ref=e159]: R&B
+            - heading "Kaywize Salone" [level=3] [ref=e160]
+            - generic [ref=e161]:
+              - img [ref=e162]
+              - generic [ref=e165]: Bo
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - img [ref=e169]
+                - text: 15.1K
+              - generic [ref=e174]:
+                - img [ref=e176]
+                - text: "45"
+              - generic [ref=e179]:
+                - img [ref=e181]
+                - text: "4.9"
+            - link "View Profile" [ref=e183] [cursor=pointer]:
+              - /url: /dj/3
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - img "Bow" [ref=e186]
+            - generic [ref=e189]: "4"
+            - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]: Salone Mix
+              - generic [ref=e197]: Throwback
+            - heading "Bow" [level=3] [ref=e198]
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - generic [ref=e203]: Kenema
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - img [ref=e207]
+                - text: 12.8K
+              - generic [ref=e212]:
+                - img [ref=e214]
+                - text: "112"
+              - generic [ref=e217]:
+                - img [ref=e219]
+                - text: "4.7"
+            - link "View Profile" [ref=e221] [cursor=pointer]:
+              - /url: /dj/4
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - img "Cess" [ref=e224]
+            - generic [ref=e227]: "5"
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - generic [ref=e230]: Dancehall
+              - generic [ref=e231]: Reggae
+            - heading "Cess" [level=3] [ref=e232]
+            - generic [ref=e233]:
+              - img [ref=e234]
+              - generic [ref=e237]: Freetown
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - img [ref=e241]
+                - text: 11.3K
+              - generic [ref=e246]:
+                - img [ref=e248]
+                - text: "38"
+              - generic [ref=e251]:
+                - img [ref=e253]
+                - text: "4.6"
+            - link "View Profile" [ref=e255] [cursor=pointer]:
+              - /url: /dj/5
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - img "Dito Freaky" [ref=e258]
+            - generic [ref=e261]: "6"
+            - img [ref=e263]
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - generic [ref=e268]: Hip Hop
+              - generic [ref=e269]: Afrobeats
+            - heading "Dito Freaky" [level=3] [ref=e270]
+            - generic [ref=e271]:
+              - img [ref=e272]
+              - generic [ref=e275]: Freetown
+            - generic [ref=e276]:
+              - generic [ref=e277]:
+                - img [ref=e279]
+                - text: 10.7K
+              - generic [ref=e284]:
+                - img [ref=e286]
+                - text: "52"
+              - generic [ref=e289]:
+                - img [ref=e291]
+                - text: "4.5"
+            - link "View Profile" [ref=e293] [cursor=pointer]:
+              - /url: /dj/6
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - img "DJ Maggie" [ref=e296]
+            - generic [ref=e299]: "7"
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - generic [ref=e302]: Club Mix
+              - generic [ref=e303]: Dancehall
+            - heading "DJ Maggie" [level=3] [ref=e304]
+            - generic [ref=e305]:
+              - img [ref=e306]
+              - generic [ref=e309]: Makeni
+            - generic [ref=e310]:
+              - generic [ref=e311]:
+                - img [ref=e313]
+                - text: 9.4K
+              - generic [ref=e318]:
+                - img [ref=e320]
+                - text: "56"
+              - generic [ref=e323]:
+                - img [ref=e325]
+                - text: "4.6"
+            - link "View Profile" [ref=e327] [cursor=pointer]:
+              - /url: /dj/7
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - img "Switch" [ref=e330]
+            - generic [ref=e333]: "8"
+            - img [ref=e335]
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - generic [ref=e340]: Gospel
+              - generic [ref=e341]: Afrobeats
+            - heading "Switch" [level=3] [ref=e342]
+            - generic [ref=e343]:
+              - img [ref=e344]
+              - generic [ref=e347]: Freetown
+            - generic [ref=e348]:
+              - generic [ref=e349]:
+                - img [ref=e351]
+                - text: 8.7K
+              - generic [ref=e356]:
+                - img [ref=e358]
+                - text: "34"
+              - generic [ref=e361]:
+                - img [ref=e363]
+                - text: "4.8"
+            - link "View Profile" [ref=e365] [cursor=pointer]:
+              - /url: /dj/8
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - img "Busy" [ref=e368]
+            - generic [ref=e371]: "9"
+          - generic [ref=e372]:
+            - generic [ref=e373]:
+              - generic [ref=e374]: Amapiano
+              - generic [ref=e375]: Club
+            - heading "Busy" [level=3] [ref=e376]
+            - generic [ref=e377]:
+              - img [ref=e378]
+              - generic [ref=e381]: Bo
+            - generic [ref=e382]:
+              - generic [ref=e383]:
+                - img [ref=e385]
+                - text: 7.2K
+              - generic [ref=e390]:
+                - img [ref=e392]
+                - text: "41"
+              - generic [ref=e395]:
+                - img [ref=e397]
+                - text: "4.4"
+            - link "View Profile" [ref=e399] [cursor=pointer]:
+              - /url: /dj/9
+        - generic [ref=e400]:
+          - generic [ref=e401]:
+            - img "Min-1" [ref=e402]
+            - generic [ref=e405]: "10"
+            - img [ref=e407]
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - generic [ref=e412]: Throwback
+              - generic [ref=e413]: Salone Mix
+            - heading "Min-1" [level=3] [ref=e414]
+            - generic [ref=e415]:
+              - img [ref=e416]
+              - generic [ref=e419]: Freetown
+            - generic [ref=e420]:
+              - generic [ref=e421]:
+                - img [ref=e423]
+                - text: 6.8K
+              - generic [ref=e428]:
+                - img [ref=e430]
+                - text: "78"
+              - generic [ref=e433]:
+                - img [ref=e435]
+                - text: "4.7"
+            - link "View Profile" [ref=e437] [cursor=pointer]:
+              - /url: /dj/10
+        - generic [ref=e438]:
+          - generic [ref=e439]:
+            - img "Flex" [ref=e440]
+            - generic [ref=e443]: "11"
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - generic [ref=e446]: R&B
+              - generic [ref=e447]: Hip Hop
+            - heading "Flex" [level=3] [ref=e448]
+            - generic [ref=e449]:
+              - img [ref=e450]
+              - generic [ref=e453]: Kenema
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - img [ref=e457]
+                - text: 5.9K
+              - generic [ref=e462]:
+                - img [ref=e464]
+                - text: "29"
+              - generic [ref=e467]:
+                - img [ref=e469]
+                - text: "4.3"
+            - link "View Profile" [ref=e471] [cursor=pointer]:
+              - /url: /dj/11
+        - generic [ref=e472]:
+          - generic [ref=e473]:
+            - img "DJ SOUL" [ref=e474]
+            - generic [ref=e477]: "13"
+            - img [ref=e479]
+          - generic [ref=e482]:
+            - generic [ref=e483]:
+              - generic [ref=e484]: Gospel
+              - generic [ref=e485]: R&B
+            - heading "DJ SOUL" [level=3] [ref=e486]
+            - generic [ref=e487]:
+              - img [ref=e488]
+              - generic [ref=e491]: Freetown
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - img [ref=e495]
+                - text: 6.1K
+              - generic [ref=e500]:
+                - img [ref=e502]
+                - text: "31"
+              - generic [ref=e505]:
+                - img [ref=e507]
+                - text: "4.6"
+            - link "View Profile" [ref=e509] [cursor=pointer]:
+              - /url: /dj/13
+      - generic [ref=e511]:
+        - generic [ref=e512]:
+          - button [disabled] [ref=e513]:
+            - img [ref=e514]
+          - button "1" [ref=e516] [cursor=pointer]
+          - button "2" [ref=e517] [cursor=pointer]
+          - button [ref=e518] [cursor=pointer]:
+            - img [ref=e519]
+        - button "Load More DJs" [ref=e521] [cursor=pointer]
+      - generic [ref=e524]:
+        - generic [ref=e525]:
+          - heading "ARE YOU A DJ?" [level=2] [ref=e527]
+          - paragraph [ref=e529]: Join the platform and get discovered by promoters, fans, and event organizers across Sierra Leone.
+          - list [ref=e531]:
+            - listitem [ref=e532]:
+              - img [ref=e533]
+              - text: Create your verified professional profile
+            - listitem [ref=e536]:
+              - img [ref=e537]
+              - text: Upload and showcase your mixes
+            - listitem [ref=e540]:
+              - img [ref=e541]
+              - text: Track performance with real analytics
+            - listitem [ref=e544]:
+              - img [ref=e545]
+              - text: Get booked directly through the platform
+            - listitem [ref=e548]:
+              - img [ref=e549]
+              - text: Compete in weekly DJ battles
+          - link "Create Free Profile" [ref=e553] [cursor=pointer]:
+            - /url: /login
+            - text: Create Free Profile
+            - img [ref=e554]
+        - generic [ref=e559]:
+          - img "DJ performing" [ref=e560]
+          - img "DJ at club" [ref=e561]
+  - contentinfo [ref=e562]:
+    - generic [ref=e563]:
+      - generic [ref=e564]:
+        - generic [ref=e565]:
+          - link "DECK SALONE" [ref=e566] [cursor=pointer]:
+            - /url: /
+            - img [ref=e567]
+            - generic [ref=e569]: DECK
+            - generic [ref=e570]: SALONE
+          - paragraph [ref=e571]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e572]:
+            - link "Instagram" [ref=e573] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e574]
+            - link "Twitter" [ref=e577] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e578]
+            - link "YouTube" [ref=e580] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e581]
+            - link "TikTok" [ref=e584] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e585]
+        - generic [ref=e589]:
+          - heading "Platform" [level=4] [ref=e590]
+          - list [ref=e591]:
+            - listitem [ref=e592]:
+              - link "Discover DJs" [ref=e593] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e594]:
+              - link "Rankings" [ref=e595] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e596]:
+              - link "Mix Hub" [ref=e597] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e598]:
+              - link "Events" [ref=e599] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e600]:
+              - link "Book a DJ" [ref=e601] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e602]:
+              - link "Battle Arena" [ref=e603] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e604]:
+          - heading "Resources" [level=4] [ref=e605]
+          - list [ref=e606]:
+            - listitem [ref=e607]:
+              - link "Hall of Fame" [ref=e608] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e609]:
+              - link "Blog" [ref=e610] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e611]:
+              - link "Help Center" [ref=e612] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e613]:
+              - link "Privacy Policy" [ref=e614] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e615]:
+              - link "Terms of Service" [ref=e616] [cursor=pointer]:
+                - /url: /discover
+        - generic [ref=e617]:
+          - heading "Connect" [level=4] [ref=e618]
+          - paragraph [ref=e619]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e620]:
+            - generic [ref=e621]: SLE
+            - generic [ref=e622]: "|"
+            - generic [ref=e623]: English
+      - generic [ref=e624]:
+        - paragraph [ref=e625]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e626]: All rights reserved.

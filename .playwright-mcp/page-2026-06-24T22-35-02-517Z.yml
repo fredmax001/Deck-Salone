@@ -1,0 +1,322 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e16] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e17]:
+        - button "Search" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Join as DJ" [ref=e22] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: PRESERVING THE CULTURE
+          - heading "Sierra Leone DJ Hall of Fame" [level=1] [ref=e30]
+          - paragraph [ref=e31]: Honoring the pioneers, preserving the mixes, and documenting the history of Sierra Leone's DJ culture for future generations.
+          - generic [ref=e32]:
+            - generic [ref=e33]: Since 1985
+            - generic [ref=e35]: Decades of history
+            - generic [ref=e37]: A living archive
+        - generic [ref=e38]:
+          - generic [ref=e39]: Explore
+          - img [ref=e40]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: THE MISSION
+          - heading "Why This Matters" [level=2] [ref=e48]
+          - generic [ref=e49]:
+            - paragraph [ref=e51]: Long before streaming platforms and digital mixers, Sierra Leone's DJs were the heartbeat of our celebrations. From small neighborhood sound systems in Freetown to the biggest stages across the nation, these pioneers shaped the sound of a generation.
+            - paragraph [ref=e53]: The Hall of Fame exists to document this rich history — to honor the legends who started it all, preserve the mixes that defined eras, and create a historical record that future generations can learn from and be inspired by.
+            - paragraph [ref=e55]: This is a living archive. We rely on the community to share stories, submit mixes, and nominate pioneers who deserve recognition.
+          - link "Nominate a Pioneer" [ref=e57] [cursor=pointer]:
+            - /url: "#nominate"
+        - generic [ref=e60]:
+          - img "Vintage DJ portrait" [ref=e61]
+          - img [ref=e63]
+          - img [ref=e69]
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: THE PIONEERS
+          - heading "Legends Who Started It All" [level=2] [ref=e76]
+          - paragraph [ref=e78]: The founding generation of Sierra Leone's DJ culture
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - img "DJ MASTER K" [ref=e83]
+            - generic [ref=e84]:
+              - generic [ref=e85]: Pioneer
+              - heading "DJ MASTER K" [level=3] [ref=e86]
+              - paragraph [ref=e87]: 1985 – 2010
+              - paragraph [ref=e88]: One of the first professional DJs in Freetown, Master K built his own sound system from salvaged parts and played at every major event in the city for 25 years.
+              - paragraph [ref=e89]: "Known for: Creating the first mobile DJ setup in Sierra Leone"
+              - blockquote [ref=e90]: "\"The music chose me. I just had to find a way to let it speak.\""
+          - generic [ref=e92]:
+            - img "QUEEN LUCY" [ref=e94]
+            - generic [ref=e95]:
+              - generic [ref=e96]: Pioneer
+              - heading "QUEEN LUCY" [level=3] [ref=e97]
+              - paragraph [ref=e98]: 1990 – 2015
+              - paragraph [ref=e99]: Breaking barriers as one of the first female DJs in Sierra Leone, Queen Lucy inspired a generation of women to take up the craft. Her Sunday gospel mixes are still talked about today.
+              - paragraph [ref=e100]: "Known for: Pioneering female DJ culture in Sierra Leone"
+              - blockquote [ref=e101]: "\"The turntables don't care who's spinning. Only the crowd does.\""
+          - generic [ref=e103]:
+            - img "DJ SOUNDMAN" [ref=e105]
+            - generic [ref=e106]:
+              - generic [ref=e107]: Pioneer
+              - heading "DJ SOUNDMAN" [level=3] [ref=e108]
+              - paragraph [ref=e109]: 1988 – 2005
+              - paragraph [ref=e110]: The Eastern Region's ambassador of sound. DJ Soundman connected Kenema to Freetown's music scene, bringing the latest tracks to the provinces before anyone else.
+              - paragraph [ref=e111]: "Known for: Bridging urban and provincial music scenes"
+              - blockquote [ref=e112]: "\"Every town deserves to hear the best music.\""
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e116]: THE ARCHIVE
+          - heading "Legendary Mixes" [level=2] [ref=e118]
+          - paragraph [ref=e120]: Mixes that defined eras and shaped the sound of Sierra Leone
+        - table [ref=e123]:
+          - rowgroup [ref=e124]:
+            - row "Year Mix Name DJ Significance Listen" [ref=e125]:
+              - columnheader "Year" [ref=e126]
+              - columnheader "Mix Name" [ref=e127]
+              - columnheader "DJ" [ref=e128]
+              - columnheader "Significance" [ref=e129]
+              - columnheader "Listen" [ref=e130]
+          - rowgroup [ref=e131]:
+            - row "1995 Freetown All-Nighter Vol. 1 DJ Master K The first widely-circulated mixtape in Sierra Leone. Cassette copies traded across the country." [ref=e132]:
+              - cell "1995" [ref=e133]
+              - cell "Freetown All-Nighter Vol. 1" [ref=e134]
+              - cell "DJ Master K" [ref=e135]
+              - cell "The first widely-circulated mixtape in Sierra Leone. Cassette copies traded across the country." [ref=e136]:
+                - paragraph [ref=e137]: The first widely-circulated mixtape in Sierra Leone. Cassette copies traded across the country.
+              - cell [ref=e138]:
+                - button [ref=e139] [cursor=pointer]:
+                  - img [ref=e140]
+            - row "2002 Post-War Revival Mix DJ Soundman Recorded just after the civil war ended, this mix symbolized hope and the return of celebration." [ref=e142]:
+              - cell "2002" [ref=e143]
+              - cell "Post-War Revival Mix" [ref=e144]
+              - cell "DJ Soundman" [ref=e145]
+              - cell "Recorded just after the civil war ended, this mix symbolized hope and the return of celebration." [ref=e146]:
+                - paragraph [ref=e147]: Recorded just after the civil war ended, this mix symbolized hope and the return of celebration.
+              - cell [ref=e148]:
+                - button [ref=e149] [cursor=pointer]:
+                  - img [ref=e150]
+            - row "2005 Sunday Gospel Special Queen Lucy Her most celebrated mix — a 3-hour journey through gospel that united churches across Bo." [ref=e152]:
+              - cell "2005" [ref=e153]
+              - cell "Sunday Gospel Special" [ref=e154]
+              - cell "Queen Lucy" [ref=e155]
+              - cell "Her most celebrated mix — a 3-hour journey through gospel that united churches across Bo." [ref=e156]:
+                - paragraph [ref=e157]: Her most celebrated mix — a 3-hour journey through gospel that united churches across Bo.
+              - cell [ref=e158]:
+                - button [ref=e159] [cursor=pointer]:
+                  - img [ref=e160]
+            - row "2010 Independence Golden Jubilee Various DJs 50 DJs contributed to this 24-hour mix celebrating 50 years of Sierra Leone's independence." [ref=e162]:
+              - cell "2010" [ref=e163]
+              - cell "Independence Golden Jubilee" [ref=e164]
+              - cell "Various DJs" [ref=e165]
+              - cell "50 DJs contributed to this 24-hour mix celebrating 50 years of Sierra Leone's independence." [ref=e166]:
+                - paragraph [ref=e167]: 50 DJs contributed to this 24-hour mix celebrating 50 years of Sierra Leone's independence.
+              - cell [ref=e168]:
+                - button [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+            - row "2015 Ebola Survivors Celebration Bow Mixed during the Ebola recovery, this became the soundtrack to Sierra Leone's resilience." [ref=e172]:
+              - cell "2015" [ref=e173]
+              - cell "Ebola Survivors Celebration" [ref=e174]
+              - cell "Bow" [ref=e175]
+              - cell "Mixed during the Ebola recovery, this became the soundtrack to Sierra Leone's resilience." [ref=e176]:
+                - paragraph [ref=e177]: Mixed during the Ebola recovery, this became the soundtrack to Sierra Leone's resilience.
+              - cell [ref=e178]:
+                - button [ref=e179] [cursor=pointer]:
+                  - img [ref=e180]
+            - row "2020 Lockdown Livestream Fred Max The first major livestreamed DJ set from Sierra Leone, reaching viewers across the diaspora." [ref=e182]:
+              - cell "2020" [ref=e183]
+              - cell "Lockdown Livestream" [ref=e184]
+              - cell "Fred Max" [ref=e185]
+              - cell "The first major livestreamed DJ set from Sierra Leone, reaching viewers across the diaspora." [ref=e186]:
+                - paragraph [ref=e187]: The first major livestreamed DJ set from Sierra Leone, reaching viewers across the diaspora.
+              - cell [ref=e188]:
+                - button [ref=e189] [cursor=pointer]:
+                  - img [ref=e190]
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - generic [ref=e195]: THE JOURNEY
+          - heading "A History of DJ Culture in Sierra Leone" [level=2] [ref=e197]
+        - generic [ref=e200]:
+          - generic [ref=e203]:
+            - text: "1985"
+            - heading "First Sound System in Freetown" [level=4] [ref=e204]
+            - paragraph [ref=e205]: Mobile sound systems appear in Freetown. DJs begin playing at weddings and community events using vinyl records and basic mixers.
+          - generic [ref=e208]:
+            - text: "1990"
+            - heading "Rise of Mobile DJ Culture" [level=4] [ref=e209]
+            - paragraph [ref=e210]: DJs take their setups on the road, playing at events across the city. Mobile DJ culture becomes the heartbeat of celebrations.
+          - generic [ref=e213]:
+            - text: "1995"
+            - heading "First DJ Battle at Lumley Beach" [level=4] [ref=e214]
+            - paragraph [ref=e215]: The first DJ battle takes place at Lumley Beach, Freetown. Two DJs go head-to-head, launching the competitive DJ scene.
+          - generic [ref=e218]:
+            - text: "2000"
+            - heading "Digital Mixing Arrives" [level=4] [ref=e219]
+            - paragraph [ref=e220]: CDJs replace turntables. Digital recording allows DJs to produce higher-quality mixes and reach wider audiences.
+          - generic [ref=e223]:
+            - text: "2005"
+            - heading "Mixtape Culture Explosion" [level=4] [ref=e224]
+            - paragraph [ref=e225]: The first widely-circulated mixtapes spread across Sierra Leone. DJs become household names through cassette culture.
+          - generic [ref=e228]:
+            - text: "2010"
+            - heading "Social Media Changes DJ Promotion" [level=4] [ref=e229]
+            - paragraph [ref=e230]: Platforms like Facebook transform how DJs promote events and share mixes. The digital revolution reshapes the industry.
+          - generic [ref=e233]:
+            - text: "2015"
+            - heading "Afrobeats Fusion Era Begins" [level=4] [ref=e234]
+            - paragraph [ref=e235]: Afrobeats takes center stage. Sierra Leonean DJs blend global sounds with local Salone music, creating a unique fusion.
+          - generic [ref=e238]:
+            - text: "2018"
+            - heading "First National DJ Competition" [level=4] [ref=e239]
+            - paragraph [ref=e240]: The first national DJ competition brings together talent from across the country, crowning Sierra Leone's best DJ.
+          - generic [ref=e243]:
+            - text: "2020"
+            - heading "Streaming Platforms Transform Reach" [level=4] [ref=e244]
+            - paragraph [ref=e245]: COVID-19 forces innovation. DJs master livestreaming, reaching diaspora communities worldwide through digital platforms.
+          - generic [ref=e248]:
+            - text: "2025"
+            - heading "Deck Salone Platform Launches" [level=4] [ref=e249]
+            - paragraph [ref=e250]: The first official digital ecosystem for Sierra Leonean DJs is born, backed by Sound It Entertainment.
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]: CONTRIBUTE
+          - heading "Nominate a Pioneer" [level=2] [ref=e257]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - generic [ref=e261]: Your Name
+              - textbox "Enter your full name" [ref=e262]
+            - generic [ref=e263]:
+              - generic [ref=e264]: Your Email
+              - textbox "your@email.com" [ref=e265]
+            - generic [ref=e266]:
+              - generic [ref=e267]: Nominee's Name / Stage Name
+              - textbox "Who are you nominating?" [ref=e268]
+            - generic [ref=e269]:
+              - generic [ref=e270]: Why They Deserve Recognition
+              - textbox "Tell us about this DJ's contribution to Sierra Leone's music culture..." [ref=e271]
+            - button "Submit Nomination" [ref=e272] [cursor=pointer]:
+              - img [ref=e273]
+              - text: Submit Nomination
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - heading "What Happens Next?" [level=4] [ref=e278]
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - generic [ref=e281]: "1"
+                - paragraph [ref=e282]: We review every submission within 7 days
+              - generic [ref=e283]:
+                - generic [ref=e284]: "2"
+                - paragraph [ref=e285]: Our editorial team researches the nominee
+              - generic [ref=e286]:
+                - generic [ref=e287]: "3"
+                - paragraph [ref=e288]: Community members may be contacted for verification
+              - generic [ref=e289]:
+                - generic [ref=e290]: "4"
+                - paragraph [ref=e291]: Approved nominees are added to the Hall of Fame
+              - generic [ref=e292]:
+                - generic [ref=e293]: "5"
+                - paragraph [ref=e294]: Nominators receive credit on the nominee's page
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - img [ref=e298]
+              - generic [ref=e301]: Questions?
+            - paragraph [ref=e302]:
+              - text: Contact us at
+              - link "halloffame@decksalone.com" [ref=e303] [cursor=pointer]:
+                - /url: mailto:halloffame@decksalone.com
+      - generic [ref=e307]:
+        - heading "You Are Part of This Story" [level=2] [ref=e309]
+        - paragraph [ref=e311]: Every mix you upload, every event you play, every fan you inspire — you're writing the next chapter of Sierra Leone's DJ history.
+        - link "Create Your Profile" [ref=e313] [cursor=pointer]:
+          - /url: /register
+  - contentinfo [ref=e314]:
+    - generic [ref=e315]:
+      - generic [ref=e316]:
+        - generic [ref=e317]:
+          - link "DECK SALONE" [ref=e318] [cursor=pointer]:
+            - /url: /
+            - img [ref=e319]
+            - generic [ref=e321]: DECK
+            - generic [ref=e322]: SALONE
+          - paragraph [ref=e323]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e324]:
+            - link "Instagram" [ref=e325] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e326]
+            - link "Twitter" [ref=e329] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e330]
+            - link "YouTube" [ref=e332] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e333]
+            - link "TikTok" [ref=e336] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e337]
+        - generic [ref=e341]:
+          - heading "Platform" [level=4] [ref=e342]
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - link "Discover DJs" [ref=e345] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e346]:
+              - link "Rankings" [ref=e347] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e348]:
+              - link "Mix Hub" [ref=e349] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e350]:
+              - link "Events" [ref=e351] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e352]:
+              - link "Book a DJ" [ref=e353] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e354]:
+              - link "Battle Arena" [ref=e355] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e356]:
+          - heading "Resources" [level=4] [ref=e357]
+          - list [ref=e358]:
+            - listitem [ref=e359]:
+              - link "Hall of Fame" [ref=e360] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e361]:
+              - link "Blog" [ref=e362] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e363]:
+              - link "Help Center" [ref=e364] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e365]:
+              - link "Privacy Policy" [ref=e366] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e367]:
+              - link "Terms of Service" [ref=e368] [cursor=pointer]:
+                - /url: /hall-of-fame
+        - generic [ref=e369]:
+          - heading "Connect" [level=4] [ref=e370]
+          - paragraph [ref=e371]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e372]:
+            - generic [ref=e373]: SLE
+            - generic [ref=e374]: "|"
+            - generic [ref=e375]: English
+      - generic [ref=e376]:
+        - paragraph [ref=e377]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e378]: All rights reserved.

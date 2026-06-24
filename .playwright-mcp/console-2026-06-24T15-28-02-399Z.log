@@ -1,0 +1,21 @@
+[      86ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.2.169:3000/node_modules/.vite/deps/react-dom_client.js?v=a2c55431:20102
+[     122ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/djs?limit=6&sortBy=ranking' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[     122ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/djs?limit=6&sortBy=ranking:0
+[     122ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/rankings?limit=10' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[     122ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/rankings?limit=10:0
+[     122ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/mixes/categories' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[     122ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/mixes/categories:0
+[     122ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/events?limit=3&status=upcoming' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[     122ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/events?limit=3&status=upcoming:0
+[     123ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/battles/current' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[     124ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/battles/current:0
+[    1137ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/djs?limit=6&sortBy=ranking' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[    1140ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/djs?limit=6&sortBy=ranking:0
+[    1140ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/rankings?limit=10' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[    1140ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/rankings?limit=10:0
+[    1140ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/mixes/categories' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[    1140ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/mixes/categories:0
+[    1140ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/events?limit=3&status=upcoming' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[    1141ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/events?limit=3&status=upcoming:0
+[    1142ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:5001/api/battles/current' from origin 'http://192.168.2.169:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.2.169:3000/:0
+[    1143ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:5001/api/battles/current:0

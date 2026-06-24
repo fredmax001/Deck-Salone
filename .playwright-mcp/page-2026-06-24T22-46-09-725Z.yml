@@ -1,0 +1,163 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e16] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e17]:
+        - button "Search" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - generic [ref=e137]:
+          - link "djtest" [ref=e138] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e139]
+            - text: djtest
+          - button "Logout" [ref=e142] [cursor=pointer]
+  - main [ref=e23]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - heading "DJ Dashboard" [level=1] [ref=e148]
+          - paragraph [ref=e149]: Track your performance, bookings, and rankings.
+        - link "Upload Mix" [ref=e151] [cursor=pointer]:
+          - /url: /mixes
+          - img [ref=e152]
+          - text: Upload Mix
+      - generic [ref=e156]: You do not have a DJ profile
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - img [ref=e161]
+            - img [ref=e163]
+          - paragraph [ref=e166]: "0"
+          - paragraph [ref=e167]: Total Streams
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - img [ref=e171]
+            - img [ref=e175]
+          - paragraph [ref=e178]: "0"
+          - paragraph [ref=e179]: Mixes
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - img [ref=e183]
+            - img [ref=e186]
+          - paragraph [ref=e189]: "0"
+          - paragraph [ref=e190]: Bookings
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - img [ref=e194]
+            - img [ref=e196]
+          - paragraph [ref=e199]: "0.0"
+          - paragraph [ref=e200]: Rating
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - heading "Ranking History" [level=2] [ref=e204]
+            - generic [ref=e205]: "#- · 0 pts"
+          - img [ref=e209]
+        - generic [ref=e213]:
+          - heading "Rank Snapshot" [level=2] [ref=e214]
+          - generic [ref=e215]:
+            - img [ref=e217]
+            - generic [ref=e223]:
+              - paragraph [ref=e224]: "#-"
+              - paragraph [ref=e225]: Current rank
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - generic [ref=e228]: Score
+              - generic [ref=e229]: "0.0"
+            - generic [ref=e230]:
+              - generic [ref=e231]: Reviews
+              - generic [ref=e232]: "0"
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - heading "Recent Bookings" [level=2] [ref=e235]
+          - paragraph [ref=e236]: No bookings yet.
+        - generic [ref=e237]:
+          - heading "Top Mixes" [level=2] [ref=e238]
+          - paragraph [ref=e239]: No mixes uploaded yet.
+  - contentinfo [ref=e70]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - link "DECK SALONE" [ref=e74] [cursor=pointer]:
+            - /url: /
+            - img [ref=e75]
+            - generic [ref=e77]: DECK
+            - generic [ref=e78]: SALONE
+          - paragraph [ref=e79]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e80]:
+            - link "Instagram" [ref=e81] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e82]
+            - link "Twitter" [ref=e85] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e86]
+            - link "YouTube" [ref=e88] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e89]
+            - link "TikTok" [ref=e92] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e93]
+        - generic [ref=e97]:
+          - heading "Platform" [level=4] [ref=e98]
+          - list [ref=e99]:
+            - listitem [ref=e100]:
+              - link "Discover DJs" [ref=e101] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e102]:
+              - link "Rankings" [ref=e103] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e104]:
+              - link "Mix Hub" [ref=e105] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e106]:
+              - link "Events" [ref=e107] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e108]:
+              - link "Book a DJ" [ref=e109] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e110]:
+              - link "Battle Arena" [ref=e111] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e112]:
+          - heading "Resources" [level=4] [ref=e113]
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - link "Hall of Fame" [ref=e116] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e117]:
+              - link "Blog" [ref=e118] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=e119]:
+              - link "Help Center" [ref=e120] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=e121]:
+              - link "Privacy Policy" [ref=e122] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=e123]:
+              - link "Terms of Service" [ref=e124] [cursor=pointer]:
+                - /url: /dashboard
+        - generic [ref=e125]:
+          - heading "Connect" [level=4] [ref=e126]
+          - paragraph [ref=e127]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e128]:
+            - generic [ref=e129]: SLE
+            - generic [ref=e130]: "|"
+            - generic [ref=e131]: English
+      - generic [ref=e132]:
+        - paragraph [ref=e133]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e134]: All rights reserved.

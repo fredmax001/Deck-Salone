@@ -1,0 +1,653 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e16] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e17]:
+        - button "Search" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Join as DJ" [ref=e22] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e23]:
+    - generic [ref=e27]:
+      - paragraph [ref=e28]: Sierra Leone's Official DJ Ecosystem
+      - heading "Discover the" [level=1] [ref=e29]
+      - heading "Best DJs" [level=1] [ref=e30]
+      - paragraph [ref=e31]: The first digital platform connecting DJs, promoters, and fans across Sierra Leone. Upload mixes, get booked, track rankings, and be part of the movement.
+      - generic [ref=e33]:
+        - img [ref=e34]
+        - textbox "Search DJs, genres, or cities..." [ref=e37]
+        - button "Search" [ref=e38] [cursor=pointer]
+      - generic [ref=e39]:
+        - button "Afrobeats" [ref=e40] [cursor=pointer]
+        - button "Amapiano" [ref=e41] [cursor=pointer]
+        - button "Dancehall" [ref=e42] [cursor=pointer]
+        - button "Hip Hop" [ref=e43] [cursor=pointer]
+        - button "Gospel" [ref=e44] [cursor=pointer]
+      - generic [ref=e45]:
+        - link "Explore DJs" [ref=e46] [cursor=pointer]:
+          - /url: /discover
+        - link "Join as DJ" [ref=e47] [cursor=pointer]:
+          - /url: /login
+      - generic [ref=e48]:
+        - generic [ref=e49]: Scroll to explore
+        - img [ref=e50]
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: 0+
+        - paragraph [ref=e57]: VERIFIED DJS
+      - generic [ref=e58]:
+        - generic [ref=e59]: 0+
+        - paragraph [ref=e60]: MIXES UPLOADED
+      - generic [ref=e61]:
+        - text: "0"
+        - paragraph [ref=e62]: CITIES COVERED
+      - generic [ref=e63]:
+        - generic [ref=e64]: 0+
+        - paragraph [ref=e65]: EVENTS THIS YEAR
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: Featured
+          - heading "Top DJs to Watch" [level=2] [ref=e72]
+          - paragraph [ref=e73]: Handpicked by our editorial team based on performance, consistency, and community impact.
+        - link "View All DJs" [ref=e74] [cursor=pointer]:
+          - /url: /discover
+          - text: View All DJs
+          - img [ref=e75]
+      - generic [ref=e77]:
+        - 'link "Fred Max #1 Fred Max Freetown, SL Afrobeats Dancehall 24.5K Followers 89 Mixes 4.9 Rating View Profile" [ref=e79] [cursor=pointer]':
+          - /url: /dj/1
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - img "Fred Max" [ref=e82]
+              - generic [ref=e85]: "#1"
+              - img [ref=e87]
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - heading "Fred Max" [level=3] [ref=e91]
+                - img [ref=e92]
+              - generic [ref=e95]:
+                - img [ref=e96]
+                - text: Freetown, SL
+              - generic [ref=e99]:
+                - generic [ref=e100]: Afrobeats
+                - generic [ref=e101]: Dancehall
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - paragraph [ref=e104]: 24.5K
+                  - paragraph [ref=e105]: Followers
+                - generic [ref=e106]:
+                  - paragraph [ref=e107]: "89"
+                  - paragraph [ref=e108]: Mixes
+                - generic [ref=e109]:
+                  - paragraph [ref=e110]: "4.9"
+                  - paragraph [ref=e111]: Rating
+              - paragraph [ref=e112]: View Profile
+        - 'link "Rampage #2 Rampage Freetown, SL Amapiano Hip Hop 18.2K Followers 67 Mixes 4.8 Rating View Profile" [ref=e114] [cursor=pointer]':
+          - /url: /dj/2
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - img "Rampage" [ref=e117]
+              - generic [ref=e120]: "#2"
+              - img [ref=e122]
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - heading "Rampage" [level=3] [ref=e126]
+                - img [ref=e127]
+              - generic [ref=e130]:
+                - img [ref=e131]
+                - text: Freetown, SL
+              - generic [ref=e134]:
+                - generic [ref=e135]: Amapiano
+                - generic [ref=e136]: Hip Hop
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - paragraph [ref=e139]: 18.2K
+                  - paragraph [ref=e140]: Followers
+                - generic [ref=e141]:
+                  - paragraph [ref=e142]: "67"
+                  - paragraph [ref=e143]: Mixes
+                - generic [ref=e144]:
+                  - paragraph [ref=e145]: "4.8"
+                  - paragraph [ref=e146]: Rating
+              - paragraph [ref=e147]: View Profile
+        - 'link "Kaywize Salone #3 Kaywize Salone Bo, SL Afrobeats R&B 15.1K Followers 45 Mixes 4.9 Rating View Profile" [ref=e149] [cursor=pointer]':
+          - /url: /dj/3
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - img "Kaywize Salone" [ref=e152]
+              - generic [ref=e155]: "#3"
+              - img [ref=e157]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - heading "Kaywize Salone" [level=3] [ref=e161]
+                - img [ref=e162]
+              - generic [ref=e165]:
+                - img [ref=e166]
+                - text: Bo, SL
+              - generic [ref=e169]:
+                - generic [ref=e170]: Afrobeats
+                - generic [ref=e171]: R&B
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - paragraph [ref=e174]: 15.1K
+                  - paragraph [ref=e175]: Followers
+                - generic [ref=e176]:
+                  - paragraph [ref=e177]: "45"
+                  - paragraph [ref=e178]: Mixes
+                - generic [ref=e179]:
+                  - paragraph [ref=e180]: "4.9"
+                  - paragraph [ref=e181]: Rating
+              - paragraph [ref=e182]: View Profile
+        - 'link "Bow #5 Bow Kenema, SL Salone Mix Throwback 12.8K Followers 112 Mixes 4.7 Rating View Profile" [ref=e184] [cursor=pointer]':
+          - /url: /dj/5
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - img "Bow" [ref=e187]
+              - generic [ref=e190]: "#5"
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - heading "Bow" [level=3] [ref=e193]
+                - img [ref=e194]
+              - generic [ref=e197]:
+                - img [ref=e198]
+                - text: Kenema, SL
+              - generic [ref=e201]:
+                - generic [ref=e202]: Salone Mix
+                - generic [ref=e203]: Throwback
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - paragraph [ref=e206]: 12.8K
+                  - paragraph [ref=e207]: Followers
+                - generic [ref=e208]:
+                  - paragraph [ref=e209]: "112"
+                  - paragraph [ref=e210]: Mixes
+                - generic [ref=e211]:
+                  - paragraph [ref=e212]: "4.7"
+                  - paragraph [ref=e213]: Rating
+              - paragraph [ref=e214]: View Profile
+        - 'link "DJ Maggie #7 DJ Maggie Makeni, SL Club Mix Dancehall 9.4K Followers 56 Mixes 4.6 Rating View Profile" [ref=e216] [cursor=pointer]':
+          - /url: /dj/7
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - img "DJ Maggie" [ref=e219]
+              - generic [ref=e222]: "#7"
+            - generic [ref=e223]:
+              - heading "DJ Maggie" [level=3] [ref=e225]
+              - generic [ref=e226]:
+                - img [ref=e227]
+                - text: Makeni, SL
+              - generic [ref=e230]:
+                - generic [ref=e231]: Club Mix
+                - generic [ref=e232]: Dancehall
+              - generic [ref=e233]:
+                - generic [ref=e234]:
+                  - paragraph [ref=e235]: 9.4K
+                  - paragraph [ref=e236]: Followers
+                - generic [ref=e237]:
+                  - paragraph [ref=e238]: "56"
+                  - paragraph [ref=e239]: Mixes
+                - generic [ref=e240]:
+                  - paragraph [ref=e241]: "4.6"
+                  - paragraph [ref=e242]: Rating
+              - paragraph [ref=e243]: View Profile
+        - 'link "Switch #8 Switch Freetown, SL Gospel Afrobeats 8.7K Followers 34 Mixes 4.8 Rating View Profile" [ref=e245] [cursor=pointer]':
+          - /url: /dj/8
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img "Switch" [ref=e248]
+              - generic [ref=e251]: "#8"
+            - generic [ref=e252]:
+              - generic [ref=e253]:
+                - heading "Switch" [level=3] [ref=e254]
+                - img [ref=e255]
+              - generic [ref=e258]:
+                - img [ref=e259]
+                - text: Freetown, SL
+              - generic [ref=e262]:
+                - generic [ref=e263]: Gospel
+                - generic [ref=e264]: Afrobeats
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - paragraph [ref=e267]: 8.7K
+                  - paragraph [ref=e268]: Followers
+                - generic [ref=e269]:
+                  - paragraph [ref=e270]: "34"
+                  - paragraph [ref=e271]: Mixes
+                - generic [ref=e272]:
+                  - paragraph [ref=e273]: "4.8"
+                  - paragraph [ref=e274]: Rating
+              - paragraph [ref=e275]: View Profile
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - paragraph [ref=e279]: Live Rankings
+        - heading "Top 10 DJs in Sierra Leone" [level=2] [ref=e280]
+        - paragraph [ref=e281]: Updated weekly based on streaming data, bookings, and community votes.
+        - link "View Full Rankings" [ref=e282] [cursor=pointer]:
+          - /url: /rankings
+          - text: View Full Rankings
+          - img [ref=e283]
+      - generic [ref=e285]:
+        - generic [ref=e287] [cursor=pointer]:
+          - generic [ref=e288]: "1"
+          - generic [ref=e290]:
+            - generic [ref=e291]:
+              - heading "Fred Max" [level=4] [ref=e292]
+              - img [ref=e293]
+            - generic [ref=e295]:
+              - generic [ref=e296]: Afrobeats, Dancehall
+              - generic [ref=e297]: "|"
+              - generic [ref=e298]:
+                - img [ref=e299]
+                - text: Freetown
+          - generic [ref=e304]: "94.2"
+          - generic [ref=e305]:
+            - img [ref=e306]
+            - generic [ref=e309]: +2.3%
+        - generic [ref=e311] [cursor=pointer]:
+          - generic [ref=e312]: "2"
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - heading "Rampage" [level=4] [ref=e316]
+              - img [ref=e317]
+            - generic [ref=e319]:
+              - generic [ref=e320]: Amapiano, Hip Hop
+              - generic [ref=e321]: "|"
+              - generic [ref=e322]:
+                - img [ref=e323]
+                - text: Freetown
+          - generic [ref=e328]: "91.8"
+          - generic [ref=e329]:
+            - img [ref=e330]
+            - generic [ref=e333]: +1.1%
+        - generic [ref=e335] [cursor=pointer]:
+          - generic [ref=e336]: "3"
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - heading "Kaywize Salone" [level=4] [ref=e340]
+              - img [ref=e341]
+            - generic [ref=e343]:
+              - generic [ref=e344]: Afrobeats, R&B
+              - generic [ref=e345]: "|"
+              - generic [ref=e346]:
+                - img [ref=e347]
+                - text: Bo
+          - generic [ref=e352]: "88.5"
+          - generic [ref=e353]:
+            - img [ref=e354]
+            - generic [ref=e357]: +4.7%
+        - generic [ref=e359] [cursor=pointer]:
+          - generic [ref=e360]: "4"
+          - generic [ref=e362]:
+            - heading "Bow" [level=4] [ref=e364]
+            - generic [ref=e365]:
+              - generic [ref=e366]: Salone Mix, Throwback
+              - generic [ref=e367]: "|"
+              - generic [ref=e368]:
+                - img [ref=e369]
+                - text: Kenema
+          - generic [ref=e374]: "85.3"
+          - generic [ref=e375]:
+            - img [ref=e376]
+            - generic [ref=e379]: "-0.8%"
+        - generic [ref=e381] [cursor=pointer]:
+          - generic [ref=e382]: "5"
+          - generic [ref=e384]:
+            - heading "Cess" [level=4] [ref=e386]
+            - generic [ref=e387]:
+              - generic [ref=e388]: Dancehall, Reggae
+              - generic [ref=e389]: "|"
+              - generic [ref=e390]:
+                - img [ref=e391]
+                - text: Freetown
+          - generic [ref=e396]: "82.1"
+          - generic [ref=e397]:
+            - img [ref=e398]
+            - generic [ref=e401]: +3.2%
+        - generic [ref=e403] [cursor=pointer]:
+          - generic [ref=e404]: "6"
+          - generic [ref=e406]:
+            - heading "Dito Freaky" [level=4] [ref=e408]
+            - generic [ref=e409]:
+              - generic [ref=e410]: Hip Hop, Afrobeats
+              - generic [ref=e411]: "|"
+              - generic [ref=e412]:
+                - img [ref=e413]
+                - text: Freetown
+          - generic [ref=e418]: "79.6"
+          - generic [ref=e419]:
+            - img [ref=e420]
+            - generic [ref=e423]: +1.5%
+        - generic [ref=e425] [cursor=pointer]:
+          - generic [ref=e426]: "7"
+          - generic [ref=e428]:
+            - heading "DJ Maggie" [level=4] [ref=e430]
+            - generic [ref=e431]:
+              - generic [ref=e432]: Club Mix, Dancehall
+              - generic [ref=e433]: "|"
+              - generic [ref=e434]:
+                - img [ref=e435]
+                - text: Makeni
+          - generic [ref=e440]: "76.4"
+          - generic [ref=e441]:
+            - img [ref=e442]
+            - generic [ref=e445]: "-1.2%"
+        - generic [ref=e447] [cursor=pointer]:
+          - generic [ref=e448]: "8"
+          - generic [ref=e450]:
+            - heading "Switch" [level=4] [ref=e452]
+            - generic [ref=e453]:
+              - generic [ref=e454]: Gospel, Afrobeats
+              - generic [ref=e455]: "|"
+              - generic [ref=e456]:
+                - img [ref=e457]
+                - text: Freetown
+          - generic [ref=e462]: "74.8"
+          - generic [ref=e463]:
+            - img [ref=e464]
+            - generic [ref=e467]: +5.1%
+        - generic [ref=e469] [cursor=pointer]:
+          - generic [ref=e470]: "9"
+          - generic [ref=e472]:
+            - heading "Busy" [level=4] [ref=e474]
+            - generic [ref=e475]:
+              - generic [ref=e476]: Amapiano, Club
+              - generic [ref=e477]: "|"
+              - generic [ref=e478]:
+                - img [ref=e479]
+                - text: Bo
+          - generic [ref=e484]: "71.2"
+          - generic [ref=e485]:
+            - img [ref=e486]
+            - generic [ref=e489]: +2.8%
+        - generic [ref=e491] [cursor=pointer]:
+          - generic [ref=e492]: "10"
+          - generic [ref=e494]:
+            - heading "Min-1" [level=4] [ref=e496]
+            - generic [ref=e497]:
+              - generic [ref=e498]: Throwback, Salone
+              - generic [ref=e499]: "|"
+              - generic [ref=e500]:
+                - img [ref=e501]
+                - text: Freetown
+          - generic [ref=e506]: "68.9"
+          - generic [ref=e507]:
+            - img [ref=e508]
+            - generic [ref=e511]: "-2.4%"
+    - generic [ref=e513]:
+      - generic [ref=e515]:
+        - generic [ref=e516]:
+          - paragraph [ref=e517]: Mix Hub
+          - heading "Explore Mixes by Genre" [level=2] [ref=e518]
+          - paragraph [ref=e519]: From Salone classics to the latest Amapiano — find your sound.
+        - link "Browse All Mixes" [ref=e520] [cursor=pointer]:
+          - /url: /mixes
+          - text: Browse All Mixes
+          - img [ref=e521]
+      - generic [ref=e523]:
+        - link "SALONE MIX SALONE MIX 342 mixes" [ref=e525] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e526]:
+            - img "SALONE MIX" [ref=e527]
+            - generic [ref=e529]:
+              - heading "SALONE MIX" [level=3] [ref=e530]
+              - paragraph [ref=e531]: 342 mixes
+        - link "AFROBEATS AFROBEATS 289 mixes" [ref=e533] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e534]:
+            - img "AFROBEATS" [ref=e535]
+            - generic [ref=e537]:
+              - heading "AFROBEATS" [level=3] [ref=e538]
+              - paragraph [ref=e539]: 289 mixes
+        - link "AMAPIANO AMAPIANO 198 mixes" [ref=e541] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e542]:
+            - img "AMAPIANO" [ref=e543]
+            - generic [ref=e545]:
+              - heading "AMAPIANO" [level=3] [ref=e546]
+              - paragraph [ref=e547]: 198 mixes
+        - link "DANCEHALL DANCEHALL 176 mixes" [ref=e549] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e550]:
+            - img "DANCEHALL" [ref=e551]
+            - generic [ref=e553]:
+              - heading "DANCEHALL" [level=3] [ref=e554]
+              - paragraph [ref=e555]: 176 mixes
+        - link "THROWBACKS THROWBACKS 245 mixes" [ref=e557] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e558]:
+            - img "THROWBACKS" [ref=e559]
+            - generic [ref=e561]:
+              - heading "THROWBACKS" [level=3] [ref=e562]
+              - paragraph [ref=e563]: 245 mixes
+        - link "CLUB MIXES CLUB MIXES 312 mixes" [ref=e565] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e566]:
+            - img "CLUB MIXES" [ref=e567]
+            - generic [ref=e569]:
+              - heading "CLUB MIXES" [level=3] [ref=e570]
+              - paragraph [ref=e571]: 312 mixes
+        - link "WEDDING MIXES WEDDING MIXES 89 mixes" [ref=e573] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e574]:
+            - img "WEDDING MIXES" [ref=e575]
+            - generic [ref=e577]:
+              - heading "WEDDING MIXES" [level=3] [ref=e578]
+              - paragraph [ref=e579]: 89 mixes
+        - link "GOSPEL GOSPEL 67 mixes" [ref=e581] [cursor=pointer]:
+          - /url: /mixes
+          - generic [ref=e582]:
+            - img "GOSPEL" [ref=e583]
+            - generic [ref=e585]:
+              - heading "GOSPEL" [level=3] [ref=e586]
+              - paragraph [ref=e587]: 67 mixes
+    - generic [ref=e589]:
+      - generic [ref=e590]:
+        - paragraph [ref=e591]: Get Started
+        - heading "How It Works" [level=2] [ref=e592]
+      - generic [ref=e593]:
+        - generic [ref=e595]:
+          - generic [ref=e596]: "01"
+          - img [ref=e598]
+          - heading "CREATE PROFILE" [level=4] [ref=e601]
+          - paragraph [ref=e602]: Sign up, verify your identity, and build your professional DJ profile with bio, genres, equipment, and social links.
+          - img "CREATE PROFILE" [ref=e604]
+        - generic [ref=e607]:
+          - generic [ref=e608]: "02"
+          - img [ref=e610]
+          - heading "UPLOAD MIXES" [level=4] [ref=e613]
+          - paragraph [ref=e614]: Upload your mixes, connect streaming platforms, and let fans discover your sound across all genres.
+          - img "UPLOAD MIXES" [ref=e616]
+        - generic [ref=e619]:
+          - generic [ref=e620]: "03"
+          - img [ref=e622]
+          - heading "GET DISCOVERED" [level=4] [ref=e625]
+          - paragraph [ref=e626]: Our ranking algorithm tracks your streams, bookings, and engagement. Climb the leaderboard and get noticed.
+          - img "GET DISCOVERED" [ref=e628]
+        - generic [ref=e631]:
+          - generic [ref=e632]: "04"
+          - img [ref=e634]
+          - heading "GET BOOKED" [level=4] [ref=e637]
+          - paragraph [ref=e638]: Receive booking requests from promoters and fans. Negotiate fees, manage your calendar, and grow your career.
+          - img "GET BOOKED" [ref=e640]
+    - generic [ref=e642]:
+      - generic [ref=e644]:
+        - generic [ref=e645]:
+          - paragraph [ref=e646]: Upcoming
+          - heading "Events & Open Slots" [level=2] [ref=e647]
+        - link "View All Events" [ref=e648] [cursor=pointer]:
+          - /url: /events
+          - text: View All Events
+          - img [ref=e649]
+      - generic [ref=e651]:
+        - generic [ref=e653]:
+          - generic [ref=e654]:
+            - img "FREETOWN VIBES FESTIVAL" [ref=e655]
+            - generic [ref=e656]:
+              - paragraph [ref=e657]: MAR
+              - paragraph [ref=e658]: "15"
+          - generic [ref=e659]:
+            - heading "FREETOWN VIBES FESTIVAL" [level=4] [ref=e660]
+            - generic [ref=e661]:
+              - img [ref=e662]
+              - text: National Stadium, Freetown
+            - generic [ref=e671]: +3 slots open
+            - generic [ref=e672]:
+              - button "Apply to DJ" [ref=e673] [cursor=pointer]
+              - button "Get Tickets" [ref=e674] [cursor=pointer]
+        - generic [ref=e676]:
+          - generic [ref=e677]:
+            - img "CLUB NIGHT XL" [ref=e678]
+            - generic [ref=e679]:
+              - paragraph [ref=e680]: MAR
+              - paragraph [ref=e681]: "22"
+          - generic [ref=e682]:
+            - heading "CLUB NIGHT XL" [level=4] [ref=e683]
+            - generic [ref=e684]:
+              - img [ref=e685]
+              - text: Paddy's Club, Bo
+            - generic [ref=e694]: +1 slots open
+            - generic [ref=e695]:
+              - button "Apply to DJ" [ref=e696] [cursor=pointer]
+              - button "Get Tickets" [ref=e697] [cursor=pointer]
+        - generic [ref=e699]:
+          - generic [ref=e700]:
+            - img "EASTERN BLOCK PARTY" [ref=e701]
+            - generic [ref=e702]:
+              - paragraph [ref=e703]: APR
+              - paragraph [ref=e704]: "05"
+          - generic [ref=e705]:
+            - heading "EASTERN BLOCK PARTY" [level=4] [ref=e706]
+            - generic [ref=e707]:
+              - img [ref=e708]
+              - text: Kenema City Centre
+            - generic [ref=e717]: +2 slots open
+            - generic [ref=e718]:
+              - button "Apply to DJ" [ref=e719] [cursor=pointer]
+              - button "Get Tickets" [ref=e720] [cursor=pointer]
+    - generic [ref=e723]:
+      - img "Battle Arena" [ref=e726]
+      - generic [ref=e728]:
+        - generic [ref=e729]:
+          - paragraph [ref=e730]: Battle Arena
+          - heading "Weekly DJ Battles" [level=2] [ref=e731]
+          - paragraph [ref=e732]: Go head-to-head with other DJs. Upload your best mix, let the community vote, and climb the battle leaderboard. New battle every week.
+        - generic [ref=e734]:
+          - paragraph [ref=e735]: This Week's Battle
+          - heading "Afrobeats vs Amapiano" [level=3] [ref=e736]
+          - generic [ref=e737]:
+            - generic [ref=e738]:
+              - img "Fred Max" [ref=e740]
+              - paragraph [ref=e741]: Fred Max
+              - paragraph [ref=e742]: 156 votes
+            - generic [ref=e743]: VS
+            - generic [ref=e744]:
+              - img "Rampage" [ref=e746]
+              - paragraph [ref=e747]: Rampage
+              - paragraph [ref=e748]: 142 votes
+          - generic [ref=e752]:
+            - generic [ref=e753]: 52%
+            - generic [ref=e754]: 48%
+          - link "Vote Now" [ref=e755] [cursor=pointer]:
+            - /url: /battles
+            - img [ref=e756]
+            - text: Vote Now
+        - link "View All Battles" [ref=e760] [cursor=pointer]:
+          - /url: /battles
+          - text: View All Battles
+          - img [ref=e761]
+    - generic [ref=e765]:
+      - heading "Ready to Amplify Your Sound?" [level=2] [ref=e767]
+      - paragraph [ref=e769]: Join 250+ verified DJs on Sierra Leone's premier platform. Create your profile, upload mixes, and start getting booked today.
+      - generic [ref=e770]:
+        - link "Join as DJ — It's Free" [ref=e772] [cursor=pointer]:
+          - /url: /login
+        - link "Already a member? Log in" [ref=e773] [cursor=pointer]:
+          - /url: /login
+  - contentinfo [ref=e774]:
+    - generic [ref=e775]:
+      - generic [ref=e776]:
+        - generic [ref=e777]:
+          - link "DECK SALONE" [ref=e778] [cursor=pointer]:
+            - /url: /
+            - img [ref=e779]
+            - generic [ref=e781]: DECK
+            - generic [ref=e782]: SALONE
+          - paragraph [ref=e783]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e784]:
+            - link "Instagram" [ref=e785] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e786]
+            - link "Twitter" [ref=e789] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e790]
+            - link "YouTube" [ref=e792] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e793]
+            - link "TikTok" [ref=e796] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e797]
+        - generic [ref=e801]:
+          - heading "Platform" [level=4] [ref=e802]
+          - list [ref=e803]:
+            - listitem [ref=e804]:
+              - link "Discover DJs" [ref=e805] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e806]:
+              - link "Rankings" [ref=e807] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e808]:
+              - link "Mix Hub" [ref=e809] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e810]:
+              - link "Events" [ref=e811] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e812]:
+              - link "Book a DJ" [ref=e813] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e814]:
+              - link "Battle Arena" [ref=e815] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e816]:
+          - heading "Resources" [level=4] [ref=e817]
+          - list [ref=e818]:
+            - listitem [ref=e819]:
+              - link "Hall of Fame" [ref=e820] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e821]:
+              - link "Blog" [ref=e822] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e823]:
+              - link "Help Center" [ref=e824] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e825]:
+              - link "Privacy Policy" [ref=e826] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e827]:
+              - link "Terms of Service" [ref=e828] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e829]:
+          - heading "Connect" [level=4] [ref=e830]
+          - paragraph [ref=e831]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e832]:
+            - generic [ref=e833]: SLE
+            - generic [ref=e834]: "|"
+            - generic [ref=e835]: English
+      - generic [ref=e836]:
+        - paragraph [ref=e837]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e838]: All rights reserved.

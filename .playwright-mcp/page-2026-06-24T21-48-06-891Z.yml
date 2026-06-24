@@ -1,0 +1,521 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+          - generic [ref=e9]: DECK
+          - generic [ref=e10]: SALONE
+        - generic [ref=e11]:
+          - link "Discover" [ref=e12] [cursor=pointer]:
+            - /url: /discover
+          - link "Rankings" [ref=e13] [cursor=pointer]:
+            - /url: /rankings
+            - text: Rankings
+          - link "Mixes" [ref=e15] [cursor=pointer]:
+            - /url: /mixes
+          - link "Events" [ref=e16] [cursor=pointer]:
+            - /url: /events
+          - link "Battles" [ref=e17] [cursor=pointer]:
+            - /url: /battles
+        - generic [ref=e18]:
+          - button "Search" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+          - link "Join as DJ" [ref=e23] [cursor=pointer]:
+            - /url: /login
+    - main [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e27]:
+          - paragraph [ref=e29]: LIVE RANKINGS
+          - heading "SIERRA LEONE DJ RANKINGS" [level=1] [ref=e31]
+          - paragraph [ref=e33]: Transparent, data-driven rankings updated weekly. See exactly how scores are calculated.
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e41]: "Last updated: 6/25/2026"
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: HOW SCORES ARE CALCULATED
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - text: ~85%
+                - paragraph [ref=e47]: Digital Score
+                - list [ref=e48]:
+                  - listitem [ref=e49]: Streams & Followers
+                  - listitem [ref=e50]: Mix Uploads
+                  - listitem [ref=e51]: Platform Engagement
+              - generic [ref=e52]:
+                - text: ~10%
+                - paragraph [ref=e53]: Industry Score
+                - list [ref=e54]:
+                  - listitem [ref=e55]: Booking Count
+                  - listitem [ref=e56]: Events Played
+                  - listitem [ref=e57]: Awards & Recognition
+              - generic [ref=e58]:
+                - text: ~5%
+                - paragraph [ref=e59]: Community Score
+                - list [ref=e60]:
+                  - listitem [ref=e61]: User Ratings
+                  - listitem [ref=e62]: Reviews & Feedback
+                  - listitem [ref=e63]: Profile Engagement
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - button "Global" [ref=e68] [cursor=pointer]
+            - button "By City" [ref=e69] [cursor=pointer]
+            - button "By Genre" [ref=e70] [cursor=pointer]
+            - button "Fastest Rising" [ref=e71] [cursor=pointer]
+            - button "Most Booked" [ref=e72] [cursor=pointer]
+            - button "Most Streamed" [ref=e73] [cursor=pointer]
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - paragraph [ref=e76]: GLOBAL TOP 50
+              - generic [ref=e77]:
+                - img [ref=e78]
+                - generic [ref=e81]: All Cities
+            - generic [ref=e82]:
+              - generic [ref=e83] [cursor=pointer]:
+                - generic [ref=e85]:
+                  - img [ref=e86]
+                  - generic [ref=e92]: "1"
+                - img "Fred Max" [ref=e94]
+                - generic [ref=e95]:
+                  - generic [ref=e96]:
+                    - generic [ref=e97]: Fred Max
+                    - img [ref=e98]
+                  - generic [ref=e101]:
+                    - generic [ref=e102]: Afrobeats
+                    - generic [ref=e103]: Dancehall
+                    - generic [ref=e104]: Hip Hop
+                    - generic [ref=e105]:
+                      - img [ref=e106]
+                      - text: Freetown
+                - generic [ref=e111]: "92.5"
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - generic [ref=e116]: 0%
+                - link "View" [ref=e118]:
+                  - /url: /dj/cmqs83jao000eyihdsc7eqia8
+              - generic [ref=e119] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - img [ref=e122]
+                  - generic [ref=e128]: "2"
+                - img "Kaywize Salone" [ref=e130]
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: Kaywize Salone
+                    - img [ref=e134]
+                  - generic [ref=e137]:
+                    - generic [ref=e138]: Dancehall
+                    - generic [ref=e139]: Reggae
+                    - generic [ref=e140]: Dub
+                    - generic [ref=e141]:
+                      - img [ref=e142]
+                      - text: Freetown
+                - generic [ref=e147]: "88.7"
+                - generic [ref=e148]:
+                  - img [ref=e149]
+                  - generic [ref=e152]: 0%
+                - link "View" [ref=e154]:
+                  - /url: /dj/cmqs83jk3001nyihd0a0t9rau
+              - generic [ref=e155] [cursor=pointer]:
+                - generic [ref=e157]:
+                  - img [ref=e158]
+                  - generic [ref=e164]: "3"
+                - img "Rampage" [ref=e166]
+                - generic [ref=e167]:
+                  - generic [ref=e168]:
+                    - generic [ref=e169]: Rampage
+                    - img [ref=e170]
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: Salone Mix
+                    - generic [ref=e175]: Afrobeats
+                    - generic [ref=e176]: Amapiano
+                    - generic [ref=e177]:
+                      - img [ref=e178]
+                      - text: Freetown
+                - generic [ref=e183]: "85.3"
+                - generic [ref=e184]:
+                  - img [ref=e185]
+                  - generic [ref=e188]: 0%
+                - link "View" [ref=e190]:
+                  - /url: /dj/cmqs83jcp000nyihdy4zsyaiy
+              - generic [ref=e191] [cursor=pointer]:
+                - generic [ref=e192]: "4"
+                - img "Dito Freaky" [ref=e194]
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: Dito Freaky
+                    - img [ref=e198]
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: R&B
+                    - generic [ref=e203]: Salone Mix
+                    - generic [ref=e204]: Wedding Mixes
+                    - generic [ref=e205]:
+                      - img [ref=e206]
+                      - text: Freetown
+                - generic [ref=e211]: "82.1"
+                - generic [ref=e212]:
+                  - img [ref=e213]
+                  - generic [ref=e216]: 0%
+                - link "View" [ref=e218]:
+                  - /url: /dj/cmqs83jgf0015yihdy23hkxpu
+              - generic [ref=e219] [cursor=pointer]:
+                - generic [ref=e220]: "5"
+                - img "Cess" [ref=e222]
+                - generic [ref=e223]:
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: Cess
+                    - img [ref=e226]
+                  - generic [ref=e229]:
+                    - generic [ref=e230]: Azonto
+                    - generic [ref=e231]: Afrobeats
+                    - generic [ref=e232]: Dancehall
+                    - generic [ref=e233]:
+                      - img [ref=e234]
+                      - text: Freetown
+                - generic [ref=e239]: "78.9"
+                - generic [ref=e240]:
+                  - img [ref=e241]
+                  - generic [ref=e244]: 0%
+                - link "View" [ref=e246]:
+                  - /url: /dj/cmqs83jek000wyihddgm7d3kp
+              - generic [ref=e247] [cursor=pointer]:
+                - generic [ref=e248]: "6"
+                - img "DJ Maggie" [ref=e250]
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: DJ Maggie
+                    - img [ref=e254]
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: Afrobeats
+                    - generic [ref=e259]: Amapiano
+                    - generic [ref=e260]: R&B
+                    - generic [ref=e261]:
+                      - img [ref=e262]
+                      - text: Bo
+                - generic [ref=e267]: "76.4"
+                - generic [ref=e268]:
+                  - img [ref=e269]
+                  - generic [ref=e272]: 0%
+                - link "View" [ref=e274]:
+                  - /url: /dj/cmqs83jly001wyihdy7si7f83
+              - generic [ref=e275] [cursor=pointer]:
+                - generic [ref=e276]: "7"
+                - img "Flex" [ref=e278]
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: Flex
+                    - img [ref=e282]
+                  - generic [ref=e285]:
+                    - generic [ref=e286]: Club Mixes
+                    - generic [ref=e287]: Afrobeats
+                    - generic [ref=e288]: Hip Hop
+                    - generic [ref=e289]:
+                      - img [ref=e290]
+                      - text: Freetown
+                - generic [ref=e295]: "74.1"
+                - generic [ref=e296]:
+                  - img [ref=e297]
+                  - generic [ref=e300]: 0%
+                - link "View" [ref=e302]:
+                  - /url: /dj/cmqs83jt9002wyihd9z681vbu
+              - generic [ref=e303] [cursor=pointer]:
+                - generic [ref=e304]: "8"
+                - img "Bow" [ref=e306]
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - generic [ref=e309]: Bow
+                    - img [ref=e310]
+                  - generic [ref=e313]:
+                    - generic [ref=e314]: Salone Mix
+                    - generic [ref=e315]: Gospel
+                    - generic [ref=e316]: Afrobeats
+                    - generic [ref=e317]:
+                      - img [ref=e318]
+                      - text: Makeni
+                - generic [ref=e323]: "73.8"
+                - generic [ref=e324]:
+                  - img [ref=e325]
+                  - generic [ref=e328]: 0%
+                - link "View" [ref=e330]:
+                  - /url: /dj/cmqs83jpl002eyihdcdfequ0x
+              - generic [ref=e331] [cursor=pointer]:
+                - generic [ref=e332]: "9"
+                - img "Busy" [ref=e334]
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - generic [ref=e337]: Busy
+                    - img [ref=e338]
+                  - generic [ref=e341]:
+                    - generic [ref=e342]: Club Mixes
+                    - generic [ref=e343]: Dancehall
+                    - generic [ref=e344]: Hip Hop
+                    - generic [ref=e345]:
+                      - img [ref=e346]
+                      - text: Freetown
+                - generic [ref=e351]: "71.5"
+                - generic [ref=e352]:
+                  - img [ref=e353]
+                  - generic [ref=e356]: 0%
+                - link "View" [ref=e358]:
+                  - /url: /dj/cmqs83ji9001eyihd3bayzu2j
+              - generic [ref=e359] [cursor=pointer]:
+                - generic [ref=e360]: "10"
+                - img "Switch" [ref=e362]
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: Switch
+                    - img [ref=e366]
+                  - generic [ref=e369]:
+                    - generic [ref=e370]: Salone Mix
+                    - generic [ref=e371]: Afrobeats
+                    - generic [ref=e372]: Dancehall
+                    - generic [ref=e373]:
+                      - img [ref=e374]
+                      - text: Kenema
+                - generic [ref=e379]: "65.2"
+                - generic [ref=e380]:
+                  - img [ref=e381]
+                  - generic [ref=e384]: 0%
+                - link "View" [ref=e386]:
+                  - /url: /dj/cmqs83jnr0025yihd8li5gnyq
+              - generic [ref=e387] [cursor=pointer]:
+                - generic [ref=e388]: "11"
+                - img "Min-1" [ref=e390]
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - generic [ref=e393]: Min-1
+                    - img [ref=e394]
+                  - generic [ref=e397]:
+                    - generic [ref=e398]: Amapiano
+                    - generic [ref=e399]: Afrobeats
+                    - generic [ref=e400]: Deep House
+                    - generic [ref=e401]:
+                      - img [ref=e402]
+                      - text: Bo
+                - generic [ref=e407]: "58.7"
+                - generic [ref=e408]:
+                  - img [ref=e409]
+                  - generic [ref=e412]: 0%
+                - link "View" [ref=e414]:
+                  - /url: /dj/cmqs83jrg002nyihdbws0mycu
+        - generic [ref=e417]:
+          - generic [ref=e418]:
+            - img [ref=e419]
+            - paragraph [ref=e422]: MOST STREAMED
+          - generic [ref=e423]:
+            - generic [ref=e425]:
+              - generic [ref=e426]: "1"
+              - img "Fred Max" [ref=e427]
+              - generic [ref=e428]: Fred Max
+              - generic [ref=e430]: 1.2M
+            - generic [ref=e432]:
+              - generic [ref=e433]: "2"
+              - img "Kaywize Salone" [ref=e434]
+              - generic [ref=e435]: Kaywize Salone
+              - generic [ref=e437]: 900K
+            - generic [ref=e439]:
+              - generic [ref=e440]: "3"
+              - img "Rampage" [ref=e441]
+              - generic [ref=e442]: Rampage
+              - generic [ref=e444]: 800K
+            - generic [ref=e446]:
+              - generic [ref=e447]: "4"
+              - img "Dito Freaky" [ref=e448]
+              - generic [ref=e449]: Dito Freaky
+              - generic [ref=e451]: 650K
+            - generic [ref=e453]:
+              - generic [ref=e454]: "5"
+              - img "DJ Maggie" [ref=e455]
+              - generic [ref=e456]: DJ Maggie
+              - generic [ref=e458]: 580K
+            - generic [ref=e460]:
+              - generic [ref=e461]: "6"
+              - img "Cess" [ref=e462]
+              - generic [ref=e463]: Cess
+              - generic [ref=e465]: 550K
+            - generic [ref=e467]:
+              - generic [ref=e468]: "7"
+              - img "Flex" [ref=e469]
+              - generic [ref=e470]: Flex
+              - generic [ref=e472]: 520K
+            - generic [ref=e474]:
+              - generic [ref=e475]: "8"
+              - img "Bow" [ref=e476]
+              - generic [ref=e477]: Bow
+              - generic [ref=e479]: 480K
+            - generic [ref=e481]:
+              - generic [ref=e482]: "9"
+              - img "Busy" [ref=e483]
+              - generic [ref=e484]: Busy
+              - generic [ref=e486]: 420K
+            - generic [ref=e488]:
+              - generic [ref=e489]: "10"
+              - img "Switch" [ref=e490]
+              - generic [ref=e491]: Switch
+              - generic [ref=e493]: 350K
+        - generic [ref=e496]:
+          - generic [ref=e497]:
+            - img [ref=e498]
+            - paragraph [ref=e501]: MOST BOOKED
+          - generic [ref=e502]:
+            - generic [ref=e504]:
+              - generic [ref=e505]: "1"
+              - img "Kaywize Salone" [ref=e506]
+              - generic [ref=e507]: Kaywize Salone
+              - generic [ref=e509]: "95"
+            - generic [ref=e511]:
+              - generic [ref=e512]: "2"
+              - img "Fred Max" [ref=e513]
+              - generic [ref=e514]: Fred Max
+              - generic [ref=e516]: "85"
+            - generic [ref=e518]:
+              - generic [ref=e519]: "3"
+              - img "Dito Freaky" [ref=e520]
+              - generic [ref=e521]: Dito Freaky
+              - generic [ref=e523]: "72"
+            - generic [ref=e525]:
+              - generic [ref=e526]: "4"
+              - img "Rampage" [ref=e527]
+              - generic [ref=e528]: Rampage
+              - generic [ref=e530]: "60"
+            - generic [ref=e532]:
+              - generic [ref=e533]: "5"
+              - img "Bow" [ref=e534]
+              - generic [ref=e535]: Bow
+              - generic [ref=e537]: "50"
+            - generic [ref=e539]:
+              - generic [ref=e540]: "6"
+              - img "DJ Maggie" [ref=e541]
+              - generic [ref=e542]: DJ Maggie
+              - generic [ref=e544]: "48"
+            - generic [ref=e546]:
+              - generic [ref=e547]: "7"
+              - img "Flex" [ref=e548]
+              - generic [ref=e549]: Flex
+              - generic [ref=e551]: "45"
+            - generic [ref=e553]:
+              - generic [ref=e554]: "8"
+              - img "Cess" [ref=e555]
+              - generic [ref=e556]: Cess
+              - generic [ref=e558]: "42"
+            - generic [ref=e560]:
+              - generic [ref=e561]: "9"
+              - img "Busy" [ref=e562]
+              - generic [ref=e563]: Busy
+              - generic [ref=e565]: "35"
+            - generic [ref=e567]:
+              - generic [ref=e568]: "10"
+              - img "Switch" [ref=e569]
+              - generic [ref=e570]: Switch
+              - generic [ref=e572]: "28"
+        - generic [ref=e574]:
+          - generic [ref=e576]:
+            - paragraph [ref=e577]: TRENDS
+            - heading "TOP 5 RANKING TRAJECTORY" [level=2] [ref=e578]
+          - generic [ref=e581]:
+            - img [ref=e582]:
+              - generic [ref=e587]:
+                - generic [ref=e589]: Jan W1
+                - generic [ref=e591]: Jan W2
+                - generic [ref=e593]: Jan W3
+                - generic [ref=e595]: Jan W4
+                - generic [ref=e597]: Feb W1
+                - generic [ref=e599]: Feb W2
+                - generic [ref=e601]: Feb W3
+                - generic [ref=e603]: Feb W4
+                - generic [ref=e605]: Mar W1
+                - generic [ref=e607]: Mar W2
+              - generic [ref=e609]:
+                - generic [ref=e611]: "3"
+                - generic [ref=e613]: "6"
+                - generic [ref=e615]: "9"
+                - generic [ref=e617]: "12"
+            - list [ref=e629]:
+              - listitem [ref=e630]:
+                - img [ref=e631]
+                - text: Fred Max
+              - listitem [ref=e633]:
+                - img [ref=e634]
+                - text: Rampage
+              - listitem [ref=e636]:
+                - img [ref=e637]
+                - text: Kaywize Salone
+              - listitem [ref=e639]:
+                - img [ref=e640]
+                - text: Bow
+              - listitem [ref=e642]:
+                - img [ref=e643]
+                - text: Cess
+    - contentinfo [ref=e645]:
+      - generic [ref=e646]:
+        - generic [ref=e647]:
+          - generic [ref=e648]:
+            - link "DECK SALONE" [ref=e649] [cursor=pointer]:
+              - /url: /
+              - img [ref=e650]
+              - generic [ref=e652]: DECK
+              - generic [ref=e653]: SALONE
+            - paragraph [ref=e654]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+            - generic [ref=e655]:
+              - link "Instagram" [ref=e656] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e657]
+              - link "Twitter" [ref=e660] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e661]
+              - link "YouTube" [ref=e663] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e664]
+              - link "TikTok" [ref=e667] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e668]
+          - generic [ref=e672]:
+            - heading "Platform" [level=4] [ref=e673]
+            - list [ref=e674]:
+              - listitem [ref=e675]:
+                - link "Discover DJs" [ref=e676] [cursor=pointer]:
+                  - /url: /discover
+              - listitem [ref=e677]:
+                - link "Rankings" [ref=e678] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=e679]:
+                - link "Mix Hub" [ref=e680] [cursor=pointer]:
+                  - /url: /mixes
+              - listitem [ref=e681]:
+                - link "Events" [ref=e682] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=e683]:
+                - link "Book a DJ" [ref=e684] [cursor=pointer]:
+                  - /url: /booking
+              - listitem [ref=e685]:
+                - link "Battle Arena" [ref=e686] [cursor=pointer]:
+                  - /url: /battles
+          - generic [ref=e687]:
+            - heading "Resources" [level=4] [ref=e688]
+            - list [ref=e689]:
+              - listitem [ref=e690]:
+                - link "Hall of Fame" [ref=e691] [cursor=pointer]:
+                  - /url: /hall-of-fame
+              - listitem [ref=e692]:
+                - link "Blog" [ref=e693] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=e694]:
+                - link "Help Center" [ref=e695] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=e696]:
+                - link "Privacy Policy" [ref=e697] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=e698]:
+                - link "Terms of Service" [ref=e699] [cursor=pointer]:
+                  - /url: /rankings
+          - generic [ref=e700]:
+            - heading "Connect" [level=4] [ref=e701]
+            - paragraph [ref=e702]: Follow us for updates, featured DJs, and exclusive content.
+            - generic [ref=e703]:
+              - generic [ref=e704]: SLE
+              - generic [ref=e705]: "|"
+              - generic [ref=e706]: English
+        - generic [ref=e707]:
+          - paragraph [ref=e708]: © 2025 Deck Salone. A Sound It Entertainment platform.
+          - paragraph [ref=e709]: All rights reserved.
+  - generic [ref=e710]: "0"
