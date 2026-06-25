@@ -1,0 +1,178 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e16] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e17]:
+        - button "Search" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Join as DJ" [ref=e22] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "DJ Test cover" [ref=e26]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - img "DJ Test" [ref=e32]
+          - generic [ref=e33]:
+            - heading "DJ Test" [level=1] [ref=e34]
+            - paragraph [ref=e35]: Test DJ
+            - generic [ref=e36]:
+              - generic [ref=e38]: Afrobeats
+              - generic [ref=e39]: ·
+              - generic [ref=e40]:
+                - img [ref=e41]
+                - text: Freetown, Sierra Leone
+              - generic [ref=e44]: ·
+              - generic [ref=e45]: Active since 5
+          - generic [ref=e46]:
+            - button "Book Now" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - text: Book Now
+            - generic [ref=e50]:
+              - button "Message" [ref=e51] [cursor=pointer]:
+                - img [ref=e52]
+                - generic [ref=e54]: Message
+              - button "Share" [ref=e56] [cursor=pointer]:
+                - img [ref=e57]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: "#0"
+            - paragraph [ref=e66]: NATIONAL RANK
+          - generic [ref=e67]:
+            - paragraph [ref=e68]: "0"
+            - paragraph [ref=e69]: RANKING SCORE
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: "0"
+            - paragraph [ref=e72]: FOLLOWERS
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: "0"
+            - paragraph [ref=e75]: MIXES
+          - generic [ref=e76]:
+            - paragraph [ref=e77]:
+              - img [ref=e78]
+              - text: "0.0"
+            - paragraph [ref=e80]: RATING
+      - generic [ref=e83]:
+        - button "Overview" [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: Overview
+        - button "Mixes 0" [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]:
+            - text: Mixes
+            - generic [ref=e89]: "0"
+        - button "Stats" [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]: Stats
+        - button "Reviews 0" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]:
+            - text: Reviews
+            - generic [ref=e94]: "0"
+        - button "Events" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Events
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - text: About
+            - paragraph [ref=e103]: Test DJ for verification
+          - generic [ref=e104]:
+            - text: Genres
+            - generic [ref=e106]: Afrobeats
+          - generic [ref=e107]:
+            - text: Languages
+            - paragraph [ref=e108]: English
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - text: Booking Information
+            - generic [ref=e111]:
+              - paragraph [ref=e112]: SLE null - null
+              - paragraph [ref=e113]: per event
+            - generic [ref=e118]: Available for bookings
+            - paragraph [ref=e119]: Typically responds within 24 hours
+          - generic [ref=e120]:
+            - text: Contact
+            - img [ref=e123]
+  - contentinfo [ref=e126]:
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - link "DECK SALONE" [ref=e130] [cursor=pointer]:
+            - /url: /
+            - img [ref=e131]
+            - generic [ref=e133]: DECK
+            - generic [ref=e134]: SALONE
+          - paragraph [ref=e135]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e136]:
+            - link "Instagram" [ref=e137] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e138]
+            - link "Twitter" [ref=e141] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e142]
+            - link "YouTube" [ref=e144] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e145]
+            - link "TikTok" [ref=e148] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e149]
+        - generic [ref=e153]:
+          - heading "Platform" [level=4] [ref=e154]
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "Discover DJs" [ref=e157] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e158]:
+              - link "Rankings" [ref=e159] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e160]:
+              - link "Mix Hub" [ref=e161] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e162]:
+              - link "Events" [ref=e163] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e164]:
+              - link "Book a DJ" [ref=e165] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e166]:
+              - link "Battle Arena" [ref=e167] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e168]:
+          - heading "Resources" [level=4] [ref=e169]
+          - list [ref=e170]:
+            - listitem [ref=e171]:
+              - link "Hall of Fame" [ref=e172] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e173]:
+              - link "Blog" [ref=e174] [cursor=pointer]:
+                - /url: /dj/testdj
+            - listitem [ref=e175]:
+              - link "Help Center" [ref=e176] [cursor=pointer]:
+                - /url: /dj/testdj
+            - listitem [ref=e177]:
+              - link "Privacy Policy" [ref=e178] [cursor=pointer]:
+                - /url: /dj/testdj
+            - listitem [ref=e179]:
+              - link "Terms of Service" [ref=e180] [cursor=pointer]:
+                - /url: /dj/testdj
+        - generic [ref=e181]:
+          - heading "Connect" [level=4] [ref=e182]
+          - paragraph [ref=e183]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e184]:
+            - generic [ref=e185]: SLE
+            - generic [ref=e186]: "|"
+            - generic [ref=e187]: English
+      - generic [ref=e188]:
+        - paragraph [ref=e189]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e190]: All rights reserved.

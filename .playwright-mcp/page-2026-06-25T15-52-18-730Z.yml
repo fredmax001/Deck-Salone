@@ -1,0 +1,104 @@
+- generic [ref=e196]:
+  - complementary [ref=e197]:
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - img [ref=e201]
+        - generic [ref=e203]:
+          - paragraph [ref=e204]: Deck Salone
+          - paragraph [ref=e205]: DJ Studio
+      - generic [ref=e207]:
+        - generic [ref=e209]: FA
+        - generic [ref=e210]:
+          - paragraph [ref=e211]: fan
+          - paragraph [ref=e212]: Fan Account
+      - navigation [ref=e213]:
+        - link "Overview" [ref=e214] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e216]
+          - generic [ref=e221]: Overview
+        - link "Bookings" [ref=e222] [cursor=pointer]:
+          - /url: /dashboard/bookings
+          - img [ref=e224]
+          - generic [ref=e226]: Bookings
+        - link "Messages" [ref=e227] [cursor=pointer]:
+          - /url: /dashboard/messages
+          - img [ref=e229]
+          - generic [ref=e231]: Messages
+          - img [ref=e232]
+        - link "Mixes" [ref=e234] [cursor=pointer]:
+          - /url: /dashboard/mixes
+          - img [ref=e236]
+          - generic [ref=e240]: Mixes
+        - link "Events" [ref=e241] [cursor=pointer]:
+          - /url: /dashboard/events
+          - img [ref=e243]
+          - generic [ref=e245]: Events
+        - link "Analytics" [ref=e246] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e248]
+          - generic [ref=e250]: Analytics
+        - link "Earnings" [ref=e251] [cursor=pointer]:
+          - /url: /dashboard/earnings
+          - img [ref=e253]
+          - generic [ref=e256]: Earnings
+        - link "Profile" [ref=e257] [cursor=pointer]:
+          - /url: /dashboard/profile
+          - img [ref=e259]
+          - generic [ref=e262]: Profile
+        - link "Subscription" [ref=e263] [cursor=pointer]:
+          - /url: /dashboard/subscription
+          - img [ref=e265]
+          - generic [ref=e267]: Subscription
+        - link "Settings" [ref=e268] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e270]
+          - generic [ref=e273]: Settings
+      - button "Logout" [ref=e275] [cursor=pointer]:
+        - img [ref=e276]
+        - generic [ref=e279]: Logout
+  - generic [ref=e280]:
+    - banner [ref=e281]:
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - link "Home" [ref=e284] [cursor=pointer]:
+            - /url: /
+          - img [ref=e285]
+          - generic [ref=e287]: Dashboard
+          - img [ref=e288]
+          - generic [ref=e290]: messages
+        - generic [ref=e292]:
+          - img [ref=e293]
+          - textbox "Search bookings, mixes, messages..." [ref=e296]
+        - generic [ref=e297]:
+          - button [ref=e298] [cursor=pointer]:
+            - img
+          - button "FA fan" [ref=e299] [cursor=pointer]:
+            - generic [ref=e301]: FA
+            - generic [ref=e302]: fan
+    - main [ref=e303]:
+      - generic [ref=e305]:
+        - generic [ref=e307]:
+          - heading "Messages" [level=1] [ref=e308]
+          - paragraph [ref=e309]: Communicate with clients and fans.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e313]:
+              - img [ref=e314]
+              - textbox "Search conversations..." [ref=e317]
+            - button "DJ DJ Test 11:52 PM" [ref=e319] [cursor=pointer]:
+              - generic [ref=e321]: DJ
+              - generic [ref=e322]:
+                - paragraph [ref=e324]: DJ Test
+                - paragraph
+                - paragraph [ref=e325]: 11:52 PM
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e329]: DJ
+              - generic [ref=e330]:
+                - paragraph [ref=e331]: DJ Test
+                - paragraph [ref=e332]: Online
+            - paragraph [ref=e335]: No messages yet. Start a conversation!
+            - generic [ref=e337]:
+              - textbox "Type a message..." [ref=e338]
+              - button [disabled]:
+                - img

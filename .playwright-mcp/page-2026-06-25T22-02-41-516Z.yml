@@ -1,0 +1,77 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "Deck Salone" [ref=e7]
+        - paragraph [ref=e9]: DJ Studio
+      - generic [ref=e11]:
+        - generic [ref=e13]: DJ
+        - generic [ref=e14]:
+          - paragraph [ref=e15]: DJ Test
+          - paragraph [ref=e16]: DJ Account
+      - navigation [ref=e17]:
+        - link "Overview" [ref=e18] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e20]
+          - generic [ref=e25]: Overview
+        - link "Bookings" [ref=e26] [cursor=pointer]:
+          - /url: /dashboard/bookings
+          - img [ref=e28]
+          - generic [ref=e30]: Bookings
+        - link "Messages" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard/messages
+          - img [ref=e33]
+          - generic [ref=e35]: Messages
+        - link "Mixes" [ref=e36] [cursor=pointer]:
+          - /url: /dashboard/mixes
+          - img [ref=e38]
+          - generic [ref=e42]: Mixes
+        - link "Events" [ref=e43] [cursor=pointer]:
+          - /url: /dashboard/events
+          - img [ref=e45]
+          - generic [ref=e47]: Events
+        - link "Analytics" [ref=e48] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e50]
+          - generic [ref=e52]: Analytics
+        - link "Earnings" [ref=e53] [cursor=pointer]:
+          - /url: /dashboard/earnings
+          - img [ref=e55]
+          - generic [ref=e58]: Earnings
+        - link "Profile" [ref=e59] [cursor=pointer]:
+          - /url: /dashboard/profile
+          - img [ref=e61]
+          - generic [ref=e64]: Profile
+          - img [ref=e65]
+        - link "Subscription" [ref=e67] [cursor=pointer]:
+          - /url: /dashboard/subscription
+          - img [ref=e69]
+          - generic [ref=e71]: Subscription
+        - link "Settings" [ref=e72] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e74]
+          - generic [ref=e77]: Settings
+      - button "Logout" [ref=e79] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e83]: Logout
+  - generic [ref=e84]:
+    - banner [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - link "Home" [ref=e88] [cursor=pointer]:
+            - /url: /
+          - img [ref=e89]
+          - generic [ref=e91]: Dashboard
+          - img [ref=e92]
+          - generic [ref=e94]: profile
+        - generic [ref=e96]:
+          - img [ref=e97]
+          - textbox "Search bookings, mixes, messages..." [ref=e100]
+        - generic [ref=e101]:
+          - button [ref=e102] [cursor=pointer]:
+            - img
+          - button "DJ DJ Test" [ref=e103] [cursor=pointer]:
+            - generic [ref=e105]: DJ
+            - generic [ref=e106]: DJ Test
+    - main [ref=e107]:
+      - img [ref=e110]

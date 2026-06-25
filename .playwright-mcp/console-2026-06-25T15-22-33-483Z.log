@@ -1,0 +1,22 @@
+[    1869ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:20102
+[   11849ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3000/@vite/client:864
+[   13867ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/cover-placeholder.jpg:0
+[   22236ms] ReferenceError: user is not defined
+    at onClick (http://localhost:3000/src/pages/DjProfile.tsx:3088:23)
+    at executeDispatch (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:13622:11)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:997:72)
+    at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:13658:37)
+    at http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:14071:11
+    at batchedUpdates$1 (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:2626:42)
+    at dispatchEventForPluginEventSystem (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:13763:9)
+    at dispatchEvent (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:16784:13)
+    at dispatchDiscreteEvent (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:16765:62)
+[   46735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/placeholder.jpg:0
+[   61157ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/placeholder.jpg:0
+[   67886ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/placeholder.jpg:0
+[   72323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/placeholder.jpg:0
+[   73451ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/placeholder.jpg:0
+[  178581ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/register:0
+[  178581ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/register:0
+[  180613ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/placeholder.jpg:0
+[  804792ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=61fbb786:20102

@@ -1,0 +1,171 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "Deck Salone" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=e7]
+      - generic [ref=e8]:
+        - link "Discover" [ref=e9] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e10] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e11] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e12] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e13] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e14]:
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+        - link "Join as DJ" [ref=e19] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - img "Deck Salone" [ref=e24]
+        - paragraph [ref=e26]: Your stage is waiting. Create your profile and let the world hear your sound.
+        - generic [ref=e27]:
+          - generic [ref=e28]: © 2025 Deck Salone by Sound It Entertainment
+          - generic [ref=e29]: "|"
+          - link "Terms" [ref=e30] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e31]: "|"
+          - link "Privacy" [ref=e32] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - heading "Join Deck Salone" [level=1] [ref=e37]
+          - paragraph [ref=e38]: Create your account to get started
+        - generic [ref=e40]:
+          - generic [ref=e41]: Step 1 of 2
+          - generic [ref=e42]: Account
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Stage Name / DJ Name
+            - generic [ref=e48]:
+              - img
+              - textbox "DJ YourName" [ref=e49]: DJ Test
+          - generic [ref=e50]:
+            - generic [ref=e51]: Full Name
+            - generic [ref=e52]:
+              - img
+              - textbox "Your full legal name" [ref=e53]: Test User
+          - generic [ref=e54]:
+            - generic [ref=e55]: Email
+            - generic [ref=e56]:
+              - img
+              - textbox "dj@example.com" [ref=e57]: testdj2025@example.com
+          - generic [ref=e58]:
+            - generic [ref=e59]: Phone Number (optional)
+            - textbox "+232 XX XXX XXXX" [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]: Password
+            - generic [ref=e63]:
+              - img
+              - textbox "••••••••" [ref=e64]: Password123
+              - button [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+            - paragraph [ref=e167]: Good
+          - generic [ref=e75]:
+            - generic [ref=e76]: Confirm Password
+            - generic [ref=e77]:
+              - img
+              - textbox "••••••••" [ref=e78]: Password123
+              - button [ref=e79] [cursor=pointer]:
+                - img [ref=e80]
+          - generic [ref=e83]:
+            - generic [ref=e84]: "I am a:"
+            - generic [ref=e85]:
+              - generic [ref=e86] [cursor=pointer]:
+                - radio "DJ" [checked] [ref=e87]
+                - generic [ref=e88]: DJ
+              - generic [ref=e89] [cursor=pointer]:
+                - radio "Promoter / Fan" [ref=e90]
+                - generic [ref=e91]: Promoter / Fan
+          - generic [ref=e93] [cursor=pointer]:
+            - checkbox "I agree to the Terms of Service and Privacy Policy" [checked] [active] [ref=e94]
+            - generic [ref=e95]:
+              - text: I agree to the
+              - link "Terms of Service" [ref=e96]:
+                - /url: "#"
+              - text: and
+              - link "Privacy Policy" [ref=e97]:
+                - /url: "#"
+          - button "Continue" [ref=e99] [cursor=pointer]:
+            - text: Continue
+            - img [ref=e100]
+          - paragraph [ref=e102]:
+            - text: Already have an account?
+            - link "Sign in" [ref=e103] [cursor=pointer]:
+              - /url: /login
+  - contentinfo [ref=e104]:
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - link "Deck Salone" [ref=e108] [cursor=pointer]:
+            - /url: /
+            - img "Deck Salone" [ref=e109]
+          - paragraph [ref=e110]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e111]:
+            - link "Instagram" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e113]
+            - link "Twitter" [ref=e116] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e117]
+            - link "YouTube" [ref=e119] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e120]
+            - link "TikTok" [ref=e123] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e124]
+        - generic [ref=e128]:
+          - heading "Platform" [level=4] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - link "Discover DJs" [ref=e132] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e133]:
+              - link "Rankings" [ref=e134] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e135]:
+              - link "Mix Hub" [ref=e136] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e137]:
+              - link "Events" [ref=e138] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e139]:
+              - link "Book a DJ" [ref=e140] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e141]:
+              - link "Battle Arena" [ref=e142] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e143]:
+          - heading "Resources" [level=4] [ref=e144]
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - link "Hall of Fame" [ref=e147] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e148]:
+              - link "Blog" [ref=e149] [cursor=pointer]:
+                - /url: /register
+            - listitem [ref=e150]:
+              - link "Help Center" [ref=e151] [cursor=pointer]:
+                - /url: /register
+            - listitem [ref=e152]:
+              - link "Privacy Policy" [ref=e153] [cursor=pointer]:
+                - /url: /register
+            - listitem [ref=e154]:
+              - link "Terms of Service" [ref=e155] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=e156]:
+          - heading "Connect" [level=4] [ref=e157]
+          - paragraph [ref=e158]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e159]:
+            - generic [ref=e160]: SLE
+            - generic [ref=e161]: "|"
+            - generic [ref=e162]: English
+      - generic [ref=e163]:
+        - paragraph [ref=e164]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e165]: All rights reserved.

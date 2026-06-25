@@ -1,0 +1,123 @@
+- generic [ref=e234]:
+  - complementary [ref=e235]:
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - img "Deck Salone" [ref=e238]
+        - paragraph [ref=e240]: DJ Studio
+      - generic [ref=e242]:
+        - generic [ref=e244]: DJ
+        - generic [ref=e245]:
+          - paragraph [ref=e246]: DJ Test
+          - paragraph [ref=e247]: DJ Account
+      - navigation [ref=e248]:
+        - link "Overview" [ref=e249] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e251]
+          - generic [ref=e256]: Overview
+        - link "Bookings" [ref=e257] [cursor=pointer]:
+          - /url: /dashboard/bookings
+          - img [ref=e259]
+          - generic [ref=e261]: Bookings
+        - link "Messages" [ref=e262] [cursor=pointer]:
+          - /url: /dashboard/messages
+          - img [ref=e264]
+          - generic [ref=e266]: Messages
+        - link "Mixes" [ref=e267] [cursor=pointer]:
+          - /url: /dashboard/mixes
+          - img [ref=e269]
+          - generic [ref=e273]: Mixes
+        - link "Events" [ref=e274] [cursor=pointer]:
+          - /url: /dashboard/events
+          - img [ref=e276]
+          - generic [ref=e278]: Events
+        - link "Analytics" [ref=e279] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e281]
+          - generic [ref=e283]: Analytics
+        - link "Earnings" [ref=e284] [cursor=pointer]:
+          - /url: /dashboard/earnings
+          - img [ref=e286]
+          - generic [ref=e289]: Earnings
+        - link "Profile" [ref=e290] [cursor=pointer]:
+          - /url: /dashboard/profile
+          - img [ref=e292]
+          - generic [ref=e295]: Profile
+          - img [ref=e296]
+        - link "Subscription" [ref=e298] [cursor=pointer]:
+          - /url: /dashboard/subscription
+          - img [ref=e300]
+          - generic [ref=e302]: Subscription
+        - link "Settings" [ref=e303] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e305]
+          - generic [ref=e308]: Settings
+      - button "Logout" [ref=e310] [cursor=pointer]:
+        - img [ref=e311]
+        - generic [ref=e314]: Logout
+  - generic [ref=e315]:
+    - banner [ref=e316]:
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - link "Home" [ref=e319] [cursor=pointer]:
+            - /url: /
+          - img [ref=e320]
+          - generic [ref=e322]: Dashboard
+          - img [ref=e323]
+          - generic [ref=e325]: profile
+        - generic [ref=e327]:
+          - img [ref=e328]
+          - textbox "Search bookings, mixes, messages..." [ref=e331]
+        - generic [ref=e332]:
+          - button [ref=e333] [cursor=pointer]:
+            - img
+          - button "DJ DJ Test" [ref=e334] [cursor=pointer]:
+            - generic [ref=e336]: DJ
+            - generic [ref=e337]: DJ Test
+    - main [ref=e338]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - generic [ref=e342]:
+            - heading "Profile" [level=1] [ref=e343]
+            - paragraph [ref=e344]: Edit your public DJ profile. This is what clients see when they visit your page.
+          - button "Save Changes" [ref=e346] [cursor=pointer]:
+            - img
+            - text: Save Changes
+        - generic [ref=e347]:
+          - tablist [ref=e348]:
+            - tab "Basic Info" [selected] [ref=e349] [cursor=pointer]
+            - tab "Photos" [ref=e350] [cursor=pointer]
+            - tab "Genres & Skills" [ref=e351] [cursor=pointer]
+            - tab "Pricing" [ref=e352] [cursor=pointer]
+            - tab "Social & Links" [ref=e353] [cursor=pointer]
+            - tab "Verification" [ref=e354] [cursor=pointer]
+          - tabpanel "Basic Info" [ref=e355]:
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - generic [ref=e359]:
+                  - generic [ref=e360]: Stage Name
+                  - textbox [ref=e361]: DJ Test
+                - generic [ref=e362]:
+                  - generic [ref=e363]: Full Name
+                  - textbox [ref=e364]: Test User
+              - generic [ref=e365]:
+                - generic [ref=e366]: Bio
+                - textbox [ref=e367]: Test bio
+                - paragraph [ref=e368]: 8/2000 characters
+              - generic [ref=e369]:
+                - generic [ref=e370]:
+                  - generic [ref=e371]: Years Active
+                  - spinbutton [ref=e372]: "5"
+                - generic [ref=e373]:
+                  - generic [ref=e374]: City
+                  - combobox [ref=e375] [cursor=pointer]:
+                    - generic: Freetown
+                    - img
+                - generic [ref=e376]:
+                  - generic [ref=e377]: Languages
+                  - generic [ref=e378]:
+                    - button "English" [ref=e379] [cursor=pointer]
+                    - button "Krio" [ref=e380] [cursor=pointer]
+                    - button "Mende" [ref=e381] [cursor=pointer]
+                    - button "Temne" [ref=e382] [cursor=pointer]
+                    - button "Limba" [ref=e383] [cursor=pointer]
+                    - button "Other" [ref=e384] [cursor=pointer]

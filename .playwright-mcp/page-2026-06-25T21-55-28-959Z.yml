@@ -1,0 +1,118 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "Deck Salone" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=e7]
+      - generic [ref=e8]:
+        - link "Discover" [ref=e9] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e10] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e11] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e12] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e13] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e14]:
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+        - generic [ref=e223]:
+          - link "DJ Test" [ref=e224] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e225]
+            - text: DJ Test
+          - button "Logout" [ref=e228] [cursor=pointer]
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - img "Deck Salone" [ref=e24]
+        - paragraph [ref=e26]: Your stage is waiting. Create your profile and let the world hear your sound.
+        - generic [ref=e27]:
+          - generic [ref=e28]: © 2025 Deck Salone by Sound It Entertainment
+          - generic [ref=e29]: "|"
+          - link "Terms" [ref=e30] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e31]: "|"
+          - link "Privacy" [ref=e32] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e229]:
+        - img [ref=e231]
+        - heading "Welcome to Deck Salone!" [level=2] [ref=e234]
+        - paragraph [ref=e235]: Your profile is now live. Start uploading mixes and get discovered.
+        - generic [ref=e236]:
+          - link "Go to Dashboard" [ref=e237] [cursor=pointer]:
+            - /url: /dashboard
+          - link "Upload a Mix" [ref=e238] [cursor=pointer]:
+            - /url: /mixes
+  - contentinfo [ref=e104]:
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - link "Deck Salone" [ref=e108] [cursor=pointer]:
+            - /url: /
+            - img "Deck Salone" [ref=e109]
+          - paragraph [ref=e110]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e111]:
+            - link "Instagram" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e113]
+            - link "Twitter" [ref=e116] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e117]
+            - link "YouTube" [ref=e119] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e120]
+            - link "TikTok" [ref=e123] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e124]
+        - generic [ref=e128]:
+          - heading "Platform" [level=4] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - link "Discover DJs" [ref=e132] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e133]:
+              - link "Rankings" [ref=e134] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e135]:
+              - link "Mix Hub" [ref=e136] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e137]:
+              - link "Events" [ref=e138] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e139]:
+              - link "Book a DJ" [ref=e140] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e141]:
+              - link "Battle Arena" [ref=e142] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e143]:
+          - heading "Resources" [level=4] [ref=e144]
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - link "Hall of Fame" [ref=e147] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e148]:
+              - link "Blog" [ref=e149] [cursor=pointer]:
+                - /url: /register
+            - listitem [ref=e150]:
+              - link "Help Center" [ref=e151] [cursor=pointer]:
+                - /url: /register
+            - listitem [ref=e152]:
+              - link "Privacy Policy" [ref=e153] [cursor=pointer]:
+                - /url: /register
+            - listitem [ref=e154]:
+              - link "Terms of Service" [ref=e155] [cursor=pointer]:
+                - /url: /register
+        - generic [ref=e156]:
+          - heading "Connect" [level=4] [ref=e157]
+          - paragraph [ref=e158]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e159]:
+            - generic [ref=e160]: SLE
+            - generic [ref=e161]: "|"
+            - generic [ref=e162]: English
+      - generic [ref=e163]:
+        - paragraph [ref=e164]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e165]: All rights reserved.

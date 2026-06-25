@@ -1,0 +1,203 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DECK SALONE" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: DECK
+        - generic [ref=e10]: SALONE
+      - generic [ref=e11]:
+        - link "Discover" [ref=e12] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e13] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e14] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+          - text: Events
+        - link "Battles" [ref=e17] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=e18]:
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - generic [ref=e23]:
+          - link "DJ Test" [ref=e24] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e25]
+            - text: DJ Test
+          - button "Logout" [ref=e28] [cursor=pointer]
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - text: EVENTS
+          - heading "WHAT'S HAPPENING IN SIERRA LEONE" [level=1] [ref=e35]
+          - paragraph [ref=e36]: Discover upcoming events, festivals, and club nights. DJs — find open slots and apply to perform.
+        - generic [ref=e38]:
+          - img "Events" [ref=e39]
+          - generic [ref=e40]: UPCOMING
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - button "All Types" [ref=e45] [cursor=pointer]
+          - button "Club Night" [ref=e46] [cursor=pointer]
+          - button "Festival" [ref=e47] [cursor=pointer]
+          - button "Private Party" [ref=e48] [cursor=pointer]
+          - button "Wedding" [ref=e49] [cursor=pointer]
+          - button "Corporate Event" [ref=e50] [cursor=pointer]
+          - button "Open DJ Slot" [ref=e51] [cursor=pointer]
+        - combobox [ref=e53] [cursor=pointer]:
+          - option "All Cities" [selected]
+          - option "Freetown"
+          - option "Bo"
+          - option "Kenema"
+          - option "Makeni"
+        - combobox [ref=e54] [cursor=pointer]:
+          - option "Soonest" [selected]
+          - option "Alphabetical"
+        - button "Calendar" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+          - text: Calendar
+      - generic [ref=e59]:
+        - generic [ref=e60] [cursor=pointer]:
+          - img "Summer Vibes Party" [ref=e61]
+          - generic [ref=e63]:
+            - generic [ref=e64]: FEATURED
+            - heading "Summer Vibes Party" [level=3] [ref=e65]
+            - paragraph [ref=e66]: THU, JUL 16 • 4:00 AM
+            - paragraph [ref=e67]:
+              - img [ref=e68]
+              - text: Atlantic Hall, Freetown
+        - generic [ref=e71] [cursor=pointer]:
+          - img "New Year Bash" [ref=e72]
+          - generic [ref=e74]:
+            - generic [ref=e75]: FEATURED
+            - heading "New Year Bash" [level=3] [ref=e76]
+            - paragraph [ref=e77]: THU, DEC 31 • 10:00 PM
+            - paragraph [ref=e78]:
+              - img [ref=e79]
+              - text: Radisson Blu, Freetown
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - heading "UPCOMING EVENTS" [level=2] [ref=e84]
+          - generic [ref=e85]:
+            - button [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+            - button [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+        - generic [ref=e94]:
+          - generic [ref=e95] [cursor=pointer]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: JUL
+              - generic [ref=e98]: "16"
+              - generic [ref=e99]: THU
+            - img "Summer Vibes Party" [ref=e100]
+            - generic [ref=e101]:
+              - heading "Summer Vibes Party" [level=4] [ref=e102]
+              - paragraph [ref=e103]:
+                - img [ref=e104]
+                - text: Atlantic Hall, Freetown
+              - paragraph [ref=e107]:
+                - img [ref=e108]
+                - text: 4:00 AM
+              - generic [ref=e111]:
+                - generic "DJ Test" [ref=e113]: D
+                - generic [ref=e114]: Club Night
+            - link "Get Tickets" [ref=e116]:
+              - /url: https://tickets.example.com/summer-vibes
+          - generic [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: DEC
+              - generic [ref=e120]: "31"
+              - generic [ref=e121]: THU
+            - img "New Year Bash" [ref=e122]
+            - generic [ref=e123]:
+              - heading "New Year Bash" [level=4] [ref=e124]
+              - paragraph [ref=e125]:
+                - img [ref=e126]
+                - text: Radisson Blu, Freetown
+              - paragraph [ref=e129]:
+                - img [ref=e130]
+                - text: 10:00 PM
+              - generic [ref=e133]:
+                - generic "DJ Test" [ref=e135]: D
+                - generic [ref=e136]: Club Night
+            - link "Get Tickets" [ref=e138]:
+              - /url: https://tickets.example.com/nye
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - img [ref=e144]
+          - generic [ref=e148]: OPEN DJ SLOTS
+        - heading "DJs WANTED" [level=2] [ref=e149]
+  - contentinfo [ref=e150]:
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - link "DECK SALONE" [ref=e154] [cursor=pointer]:
+            - /url: /
+            - img [ref=e155]
+            - generic [ref=e157]: DECK
+            - generic [ref=e158]: SALONE
+          - paragraph [ref=e159]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e160]:
+            - link "Instagram" [ref=e161] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e162]
+            - link "Twitter" [ref=e165] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e166]
+            - link "YouTube" [ref=e168] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e169]
+            - link "TikTok" [ref=e172] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e173]
+        - generic [ref=e177]:
+          - heading "Platform" [level=4] [ref=e178]
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - link "Discover DJs" [ref=e181] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e182]:
+              - link "Rankings" [ref=e183] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e184]:
+              - link "Mix Hub" [ref=e185] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e186]:
+              - link "Events" [ref=e187] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e188]:
+              - link "Book a DJ" [ref=e189] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e190]:
+              - link "Battle Arena" [ref=e191] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e192]:
+          - heading "Resources" [level=4] [ref=e193]
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - link "Hall of Fame" [ref=e196] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e197]:
+              - link "Blog" [ref=e198] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e199]:
+              - link "Help Center" [ref=e200] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e201]:
+              - link "Privacy Policy" [ref=e202] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e203]:
+              - link "Terms of Service" [ref=e204] [cursor=pointer]:
+                - /url: /events
+        - generic [ref=e205]:
+          - heading "Connect" [level=4] [ref=e206]
+          - paragraph [ref=e207]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e208]:
+            - generic [ref=e209]: SLE
+            - generic [ref=e210]: "|"
+            - generic [ref=e211]: English
+      - generic [ref=e212]:
+        - paragraph [ref=e213]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e214]: All rights reserved.

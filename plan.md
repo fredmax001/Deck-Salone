@@ -1,60 +1,84 @@
-# Plan: Build "Sound It DJs" — Sierra Leone DJ Ecosystem Platform
+# DJ Dashboard Build Plan — The Deck Salone
 
-## Overview
-Build a professional full-stack web platform for DJs in Sierra Leone — featuring profiles, booking, rankings, mix hub, analytics, and more. Dark premium theme (Black/Gold/White).
+## Current State Audit
 
-## Skill Selection
-- **Primary**: `vibecoding-webapp-swarm` — React + Vite + Tailwind CSS + shadcn/ui fullstack webapp
-- **Database**: PostgreSQL (via Prisma ORM)
-- **Backend**: Express.js API with Zod validation
-- **Auth**: JWT + Google OAuth + Phone login
-- **Storage**: Cloudinary (images), AWS S3 (mix files)
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Dashboard.tsx | Basic single page | Stats cards, ranking chart, recent bookings, top mixes, username editor |
+| Backend `/dashboard` | Real data | overview, bookings, mixes, reviews, rankings, events, battles, payments |
+| Backend `/bookings` | Full CRUD | status transitions, filtering, pagination |
+| Backend `/djs` | Full CRUD | profile update with avatar/cover upload |
+| Messages API | Missing | No `/api/messages` routes exist |
+| Dedicated layout | Missing | Dashboard is under public Layout (Navbar + Footer) |
+| Sub-routes | Missing | No `/dashboard/bookings`, etc. |
+| shadcn/ui sidebar | Available | `src/components/ui/sidebar.tsx` exists |
 
-## Stage 1 — Skill Loading & Architecture Design
-- Load `vibecoding-webapp-swarm` skill
-- Design full database schema (Prisma)
-- Design API architecture
-- Design frontend routing & state management
+## Architecture
 
-## Stage 2 — Backend Development (Parallel where possible)
-- Database schema & migrations (Prisma)
-- Authentication system (JWT, Google, Phone)
-- DJ Profile CRUD API
-- Ranking Engine API
-- Booking System API
-- Mix Hub API
-- Event Integration API
-- Reviews & Ratings API
-- Admin Dashboard API
+```
+/dashboard              → Overview (enhanced)
+/dashboard/bookings     → Booking management
+/dashboard/messages     → Message center (frontend ready, backend needs wiring)
+/dashboard/mixes        → Mix upload & management
+/dashboard/profile      → Profile editor
+/dashboard/analytics    → Detailed performance
+/dashboard/earnings     → Income tracking
+/dashboard/settings     → Account settings
+```
 
-## Stage 3 — Frontend Development (Parallel where possible)
-- Project scaffolding with Vite + React + Tailwind + shadcn/ui
-- Global state management (Zustand)
-- Auth flows (login/register/forgot password)
-- Home page (hero, featured DJs, rankings preview)
-- Discover DJs page (search, filter, browse)
-- Rankings page (leaderboards, categories)
-- DJ Profile page (full portfolio view)
-- Booking flow (search → request → payment)
-- Mix Hub (categories, waveform player)
-- Events page
-- Hall of Fame
-- Dashboard (analytics for DJs)
-- Admin Dashboard
-- Battle Arena
+## Shared Contract
 
-## Stage 4 — Integration & Polish
-- Frontend-backend integration
-- Animation polish (Framer Motion)
-- Responsive design (mobile-ready)
-- Performance optimization
-- Final build & deploy
+### Colors (existing Tailwind)
+- `gold` (#D4A24A), `gold-light`, `gold-dark` — accent/primary actions
+- `black` (#0A0A0A), `black-elevated` (#111), `black-surface` (#181818) — backgrounds
+- `dark-gray` (#1E1E1E), `medium-gray` (#2A2A2A) — borders, cards
+- `text-primary` (#F5F5F5), `text-secondary` (#A3A3A3), `text-muted` (#6B6B6B) — text
+- `green`, `red`, `blue`, `purple`, `orange` — status colors
 
-## Key Decisions
-- Use React 19 + Vite + Tailwind v4 + shadcn/ui
-- Express.js API with Prisma ORM
-- PostgreSQL via connection string (Neon or Railway)
-- Dark premium theme: Black (#0A0A0A), Gold (#D4AF37), White (#FFFFFF)
-- Framer Motion for all animations
-- Zustand for state management
-- Axios for API calls
+### Fonts
+- Display: `font-display` (Clash Display)
+- Body: `font-body` (Inter)
+
+### API Endpoints (existing)
+- `GET /dashboard` — full dashboard data
+- `GET /dashboard/stats` — quick stats
+- `GET /bookings?asDj=true` — DJ bookings list
+- `PUT /bookings/:id/status` — update status
+- `GET /djs/:id` — DJ profile
+- `PUT /djs/:id` — update profile (with multipart for avatar/cover)
+- `GET /mixes` — list mixes (with `djId` filter)
+
+### New API Endpoints needed
+- `POST /messages` — send message
+- `GET /messages/conversations` — list conversations
+- `GET /messages/:userId` — get thread
+- `PATCH /messages/:id/read` — mark as read
+- `GET /payments?asDj=true` — earnings data
+
+## Implementation Order
+
+1. **Stage 1 — Foundation**: DashboardLayout + App.tsx routing + Overview page (enhanced)
+2. **Stage 2 — Bookings**: Full booking management page (calendar, list, requests)
+3. **Stage 3 — Profile + Mixes**: Profile editor + Mix management
+4. **Stage 4 — Messages**: Frontend with mock/polling (backend to be wired)
+5. **Stage 5 — Analytics + Earnings + Settings**: Data pages + account settings
+
+## Worker Assignments
+
+| Stage | Worker | Files | Scope |
+|-------|--------|-------|-------|
+| 1 | Main agent | DashboardLayout.tsx, App.tsx, Overview page | Foundation + routing |
+| 2 | Coder 1 | Bookings page + hooks | Booking management |
+| 3 | Coder 2 | Profile page + Mixes page + hooks | Profile + Mixes |
+| 4 | Coder 3 | Messages page + Analytics + Earnings + Settings | Remaining pages |
+| 5 | Main agent | Integration, fixes, final validation | Merge + test |
+
+## Design Rules
+- Dark theme by default (already the site default)
+- Sidebar: 260px desktop, 72px collapsed, overlay mobile
+- Cards: `bg-black-surface border border-dark-gray rounded-2xl`
+- KPI cards: icon in gold circle, big number, label below
+- Status badges: color-coded (PENDING=yellow, CONFIRMED=green, CANCELLED=red, etc.)
+- No placeholder text, no Lorem ipsum
+- All data from real APIs, no mock data
+- Mobile: collapsible sidebar or hamburger menu

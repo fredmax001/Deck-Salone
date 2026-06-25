@@ -1,0 +1,164 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e10]:
+          - paragraph [ref=e11]: Deck Salone
+          - paragraph [ref=e12]: DJ Studio
+      - generic [ref=e14]:
+        - generic [ref=e16]: DJ
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: DJ Test
+          - paragraph [ref=e19]: DJ Account
+      - navigation [ref=e20]:
+        - link "Overview" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Overview
+        - link "Bookings" [ref=e29] [cursor=pointer]:
+          - /url: /dashboard/bookings
+          - img [ref=e31]
+          - generic [ref=e33]: Bookings
+        - link "Messages" [ref=e34] [cursor=pointer]:
+          - /url: /dashboard/messages
+          - img [ref=e36]
+          - generic [ref=e38]: Messages
+        - link "Mixes" [ref=e39] [cursor=pointer]:
+          - /url: /dashboard/mixes
+          - img [ref=e41]
+          - generic [ref=e45]: Mixes
+        - link "Events" [ref=e46] [cursor=pointer]:
+          - /url: /dashboard/events
+          - img [ref=e48]
+          - generic [ref=e50]: Events
+          - img [ref=e51]
+        - link "Analytics" [ref=e53] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e55]
+          - generic [ref=e57]: Analytics
+        - link "Earnings" [ref=e58] [cursor=pointer]:
+          - /url: /dashboard/earnings
+          - img [ref=e60]
+          - generic [ref=e63]: Earnings
+        - link "Profile" [ref=e64] [cursor=pointer]:
+          - /url: /dashboard/profile
+          - img [ref=e66]
+          - generic [ref=e69]: Profile
+        - link "Subscription" [ref=e70] [cursor=pointer]:
+          - /url: /dashboard/subscription
+          - img [ref=e72]
+          - generic [ref=e74]: Subscription
+        - link "Settings" [ref=e75] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e77]
+          - generic [ref=e80]: Settings
+      - button "Logout" [ref=e82] [cursor=pointer]:
+        - img [ref=e83]
+        - generic [ref=e86]: Logout
+  - generic [ref=e87]:
+    - banner [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - link "Home" [ref=e91] [cursor=pointer]:
+            - /url: /
+          - img [ref=e92]
+          - generic [ref=e94]: Dashboard
+          - img [ref=e95]
+          - generic [ref=e97]: events
+        - generic [ref=e99]:
+          - img [ref=e100]
+          - textbox "Search bookings, mixes, messages..." [ref=e103]
+        - generic [ref=e104]:
+          - button [ref=e105] [cursor=pointer]:
+            - img
+          - button "DJ DJ Test" [ref=e106] [cursor=pointer]:
+            - generic [ref=e108]: DJ
+            - generic [ref=e109]: DJ Test
+    - main [ref=e110]:
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - heading "My Events" [level=1] [ref=e115]
+            - paragraph [ref=e116]: Announce your upcoming gigs and share ticket links with fans.
+          - button "Add Event" [active] [ref=e117] [cursor=pointer]:
+            - img
+            - text: Add Event
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - img "Summer Vibes Party" [ref=e121]
+            - generic [ref=e123]: Club Night
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - heading "Summer Vibes Party" [level=4] [ref=e127]
+                - paragraph [ref=e128]: Thu, Jul 16, 4:00 AM
+                - paragraph [ref=e129]:
+                  - img [ref=e130]
+                  - text: Atlantic Hall, Freetown
+              - generic [ref=e133]:
+                - button [ref=e134] [cursor=pointer]:
+                  - img [ref=e135]
+                - button [ref=e137] [cursor=pointer]:
+                  - img [ref=e138]
+            - link "Get Tickets" [ref=e141] [cursor=pointer]:
+              - /url: https://tickets.example.com/summer-vibes
+              - img [ref=e142]
+              - text: Get Tickets
+              - img [ref=e144]
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "Add Event" [level=3] [ref=e151]
+            - button [ref=e152] [cursor=pointer]:
+              - img [ref=e153]
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: Event Title *
+              - textbox "Event Title *" [ref=e159]:
+                - /placeholder: e.g. Freetown Summer Vibes
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - generic [ref=e162]: Type
+                - combobox [ref=e163] [cursor=pointer]:
+                  - generic: Club Night
+                  - img
+                - combobox [ref=e164]
+              - generic [ref=e165]:
+                - generic [ref=e166]: Status
+                - combobox [ref=e167] [cursor=pointer]:
+                  - generic: upcoming
+                  - img
+                - combobox [ref=e168]
+            - generic [ref=e169]:
+              - generic [ref=e170]: Date & Time *
+              - textbox "Date & Time *" [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: Location *
+                - textbox "Location *" [ref=e175]:
+                  - /placeholder: e.g. Freetown
+              - generic [ref=e176]:
+                - generic [ref=e177]: City
+                - textbox "City" [ref=e178]:
+                  - /placeholder: e.g. Freetown
+            - generic [ref=e179]:
+              - generic [ref=e180]: Venue
+              - textbox "Venue" [ref=e181]:
+                - /placeholder: e.g. Atlantic Hall
+            - generic [ref=e182]:
+              - generic [ref=e183]: Ticket Link
+              - textbox "Ticket Link" [ref=e184]:
+                - /placeholder: https://tickets.example.com/my-event
+              - paragraph [ref=e185]: Add a link where fans can buy tickets.
+            - generic [ref=e186]:
+              - generic [ref=e187]: Description
+              - textbox "Description" [ref=e188]:
+                - /placeholder: Tell fans what to expect...
+            - generic [ref=e189]:
+              - generic [ref=e190]: Event Image
+              - button "Click to upload image" [ref=e192] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e197]: Click to upload image
+            - generic [ref=e198]:
+              - button "Cancel" [ref=e199] [cursor=pointer]
+              - button "Create Event" [ref=e200] [cursor=pointer]
