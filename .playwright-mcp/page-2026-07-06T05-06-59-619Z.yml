@@ -1,0 +1,147 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e52]:
+    - complementary [ref=f1e53]:
+      - link "Sound It Sound It Admin Console" [ref=f1e55] [cursor=pointer]:
+        - /url: /
+        - img "Sound It" [ref=f1e56]
+        - generic [ref=f1e57]:
+          - paragraph [ref=f1e58]: Sound It
+          - paragraph [ref=f1e59]: Admin Console
+      - navigation [ref=f1e60]:
+        - button "Dashboard" [ref=f1e61] [cursor=pointer]:
+          - img [ref=f1e62]
+          - generic [ref=f1e67]: Dashboard
+        - button "DJs" [ref=f1e68] [cursor=pointer]:
+          - img [ref=f1e69]
+          - generic [ref=f1e72]: DJs
+        - button "Rankings" [ref=f1e73] [cursor=pointer]:
+          - img [ref=f1e74]
+          - generic [ref=f1e76]: Rankings
+        - button "Mixes" [ref=f1e77] [cursor=pointer]:
+          - img [ref=f1e78]
+          - generic [ref=f1e82]: Mixes
+        - button "Bookings" [ref=f1e83] [cursor=pointer]:
+          - img [ref=f1e84]
+          - generic [ref=f1e87]: Bookings
+        - button "Users" [ref=f1e88] [cursor=pointer]:
+          - img [ref=f1e89]
+          - generic [ref=f1e94]: Users
+        - button "Events" [ref=f1e95] [cursor=pointer]:
+          - img [ref=f1e96]
+          - generic [ref=f1e98]: Events
+        - button "DJ Battles" [ref=f1e99] [cursor=pointer]:
+          - img [ref=f1e100]
+          - generic [ref=f1e106]: DJ Battles
+        - button "Revenue" [ref=f1e107] [cursor=pointer]:
+          - img [ref=f1e108]
+          - generic [ref=f1e110]: Revenue
+        - button "Analytics" [ref=f1e111] [cursor=pointer]:
+          - img [ref=f1e112]
+          - generic [ref=f1e113]: Analytics
+        - button "Subscriptions" [ref=f1e114] [cursor=pointer]:
+          - img [ref=f1e115]
+          - generic [ref=f1e117]: Subscriptions
+        - button "API & Integrations" [ref=f1e118] [cursor=pointer]:
+          - img [ref=f1e119]
+          - generic [ref=f1e122]: API & Integrations
+        - button "Verification" [ref=f1e123] [cursor=pointer]:
+          - img [ref=f1e124]
+          - generic [ref=f1e127]: Verification
+        - button "Notifications" [ref=f1e128] [cursor=pointer]:
+          - img [ref=f1e129]
+          - generic [ref=f1e134]: Notifications
+        - button "Security Logs" [ref=f1e135] [cursor=pointer]:
+          - img [ref=f1e136]
+          - generic [ref=f1e138]: Security Logs
+        - button "Ads Manager" [ref=f1e139] [cursor=pointer]:
+          - img [ref=f1e140]
+          - generic [ref=f1e143]: Ads Manager
+        - button "Roles & Permissions" [ref=f1e144] [cursor=pointer]:
+          - img [ref=f1e145]
+          - generic [ref=f1e147]: Roles & Permissions
+        - button "Settings" [ref=f1e148] [cursor=pointer]:
+          - img [ref=f1e149]
+          - generic [ref=f1e152]: Settings
+      - generic [ref=f1e154]:
+        - img [ref=f1e156]
+        - paragraph [ref=f1e159]: Super Admin
+        - button "Logout" [ref=f1e160] [cursor=pointer]:
+          - img [ref=f1e161]
+    - main [ref=f1e164]:
+      - generic [ref=f1e165]:
+        - generic [ref=f1e166]:
+          - button [ref=f1e167] [cursor=pointer]:
+            - img [ref=f1e168]
+          - generic [ref=f1e169]:
+            - heading "Ads Manager" [level=1] [ref=f1e429]
+            - paragraph [ref=f1e171]: 06/07/2026
+        - generic [ref=f1e172]:
+          - button [ref=f1e173] [cursor=pointer]:
+            - img [ref=f1e174]
+          - button "Switch to light mode" [ref=f1e177] [cursor=pointer]:
+            - img
+          - button [ref=f1e179] [cursor=pointer]:
+            - img [ref=f1e180]
+      - generic [ref=f1e431]:
+        - generic [ref=f1e432]:
+          - generic [ref=f1e433]:
+            - heading "Ads Manager" [level=2] [ref=f1e434]
+            - paragraph [ref=f1e435]: Campaign performance and budget tracking
+          - button "Create Campaign" [active] [ref=f1e436] [cursor=pointer]:
+            - img [ref=f1e437]
+            - text: Create Campaign
+        - generic [ref=f1e438]:
+          - generic [ref=f1e439]:
+            - paragraph [ref=f1e440]: Total Budget
+            - paragraph [ref=f1e441]: SLE 0
+          - generic [ref=f1e442]:
+            - paragraph [ref=f1e443]: Total Spent
+            - paragraph [ref=f1e444]: SLE 0
+          - generic [ref=f1e445]:
+            - paragraph [ref=f1e446]: Active Campaigns
+            - paragraph [ref=f1e447]: "0"
+          - generic [ref=f1e448]:
+            - paragraph [ref=f1e449]: Avg CTR
+            - paragraph [ref=f1e450]: 0%
+        - generic [ref=f1e451]:
+          - table [ref=f1e452]:
+            - rowgroup [ref=f1e453]:
+              - row "Campaign Status Impressions Clicks CTR Budget Spent" [ref=f1e454]:
+                - columnheader "Campaign" [ref=f1e455]
+                - columnheader "Status" [ref=f1e456]
+                - columnheader "Impressions" [ref=f1e457]
+                - columnheader "Clicks" [ref=f1e458]
+                - columnheader "CTR" [ref=f1e459]
+                - columnheader "Budget" [ref=f1e460]
+                - columnheader "Spent" [ref=f1e461]
+            - rowgroup
+          - paragraph [ref=f1e462]: No campaigns found.
+        - generic [ref=f1e464]:
+          - generic [ref=f1e465]:
+            - heading "Create Campaign" [level=3] [ref=f1e466]
+            - button [ref=f1e467] [cursor=pointer]:
+              - img [ref=f1e468]
+          - generic [ref=f1e471]:
+            - generic [ref=f1e472]:
+              - generic [ref=f1e473]: Campaign Name
+              - textbox "e.g. Summer Promo" [ref=f1e474]
+            - generic [ref=f1e475]:
+              - generic [ref=f1e476]: Status
+              - combobox [ref=f1e477]:
+                - option "Draft"
+                - option "Active" [selected]
+                - option "Paused"
+            - generic [ref=f1e478]:
+              - generic [ref=f1e479]: Budget (SLE)
+              - spinbutton "0.00" [ref=f1e480]: "5000"
+            - generic [ref=f1e481]:
+              - generic [ref=f1e482]:
+                - generic [ref=f1e483]: Start Date
+                - textbox [ref=f1e484]: 2026-07-06
+              - generic [ref=f1e485]:
+                - generic [ref=f1e486]: End Date
+                - textbox [ref=f1e487]: 2026-07-30
+            - button "Create Campaign" [disabled] [ref=f1e488]:
+              - img [ref=f1e489]
+              - text: Create Campaign
+  - generic [ref=f1e426]: "0.25"

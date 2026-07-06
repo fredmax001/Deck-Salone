@@ -1,0 +1,133 @@
+- generic [active] [ref=f53e1]:
+  - generic [ref=f53e5]:
+    - complementary [ref=f53e6]:
+      - link "Sound It Sound It Admin Console" [ref=f53e8] [cursor=pointer]:
+        - /url: /
+        - img "Sound It" [ref=f53e9]
+        - generic [ref=f53e10]:
+          - paragraph [ref=f53e11]: Sound It
+          - paragraph [ref=f53e12]: Admin Console
+      - navigation [ref=f53e13]:
+        - button "Dashboard" [ref=f53e14] [cursor=pointer]:
+          - img [ref=f53e15]
+          - generic [ref=f53e20]: Dashboard
+        - button "DJs" [ref=f53e21] [cursor=pointer]:
+          - img [ref=f53e22]
+          - generic [ref=f53e25]: DJs
+        - button "Rankings" [ref=f53e26] [cursor=pointer]:
+          - img [ref=f53e27]
+          - generic [ref=f53e29]: Rankings
+        - button "Mixes" [ref=f53e30] [cursor=pointer]:
+          - img [ref=f53e31]
+          - generic [ref=f53e35]: Mixes
+        - button "Bookings" [ref=f53e36] [cursor=pointer]:
+          - img [ref=f53e37]
+          - generic [ref=f53e40]: Bookings
+        - button "Users" [ref=f53e41] [cursor=pointer]:
+          - img [ref=f53e42]
+          - generic [ref=f53e47]: Users
+        - button "Events" [ref=f53e48] [cursor=pointer]:
+          - img [ref=f53e49]
+          - generic [ref=f53e51]: Events
+        - button "DJ Battles" [ref=f53e52] [cursor=pointer]:
+          - img [ref=f53e53]
+          - generic [ref=f53e59]: DJ Battles
+        - button "Revenue" [ref=f53e60] [cursor=pointer]:
+          - img [ref=f53e61]
+          - generic [ref=f53e63]: Revenue
+        - button "Analytics" [ref=f53e64] [cursor=pointer]:
+          - img [ref=f53e65]
+          - generic [ref=f53e66]: Analytics
+        - button "Subscriptions" [ref=f53e67] [cursor=pointer]:
+          - img [ref=f53e68]
+          - generic [ref=f53e70]: Subscriptions
+        - button "API & Integrations" [ref=f53e71] [cursor=pointer]:
+          - img [ref=f53e72]
+          - generic [ref=f53e75]: API & Integrations
+        - button "Verification" [ref=f53e76] [cursor=pointer]:
+          - img [ref=f53e77]
+          - generic [ref=f53e80]: Verification
+        - button "Notifications" [ref=f53e81] [cursor=pointer]:
+          - img [ref=f53e82]
+          - generic [ref=f53e87]: Notifications
+        - button "Security Logs" [ref=f53e88] [cursor=pointer]:
+          - img [ref=f53e89]
+          - generic [ref=f53e91]: Security Logs
+        - button "Ads Manager" [ref=f53e92] [cursor=pointer]:
+          - img [ref=f53e93]
+          - generic [ref=f53e96]: Ads Manager
+        - button "Roles & Permissions" [ref=f53e97] [cursor=pointer]:
+          - img [ref=f53e98]
+          - generic [ref=f53e100]: Roles & Permissions
+        - button "Settings" [ref=f53e101] [cursor=pointer]:
+          - img [ref=f53e102]
+          - generic [ref=f53e105]: Settings
+      - generic [ref=f53e107]:
+        - img [ref=f53e109]
+        - paragraph [ref=f53e112]: Super Admin
+        - button "Logout" [ref=f53e113] [cursor=pointer]:
+          - img [ref=f53e114]
+    - main [ref=f53e117]:
+      - generic [ref=f53e118]:
+        - generic [ref=f53e119]:
+          - button [ref=f53e120] [cursor=pointer]:
+            - img [ref=f53e121]
+          - generic [ref=f53e122]:
+            - heading "Ads Manager" [level=1] [ref=f53e399]
+            - paragraph [ref=f53e124]: 06/07/2026
+        - generic [ref=f53e125]:
+          - button [ref=f53e126] [cursor=pointer]:
+            - img [ref=f53e127]
+          - button "Switch to light mode" [ref=f53e130] [cursor=pointer]:
+            - img
+          - button [ref=f53e132] [cursor=pointer]:
+            - img [ref=f53e133]
+      - generic [ref=f53e401]:
+        - generic [ref=f53e402]:
+          - generic [ref=f53e403]:
+            - heading "Ads Manager" [level=2] [ref=f53e404]
+            - paragraph [ref=f53e405]: Review, approve, and manage DJ promotion campaigns
+          - button "Create Campaign" [ref=f53e406] [cursor=pointer]:
+            - img [ref=f53e407]
+            - text: Create Campaign
+        - generic [ref=f53e408]:
+          - generic [ref=f53e409]:
+            - paragraph [ref=f53e410]: Total Budget
+            - paragraph [ref=f53e411]: SLE 200
+          - generic [ref=f53e412]:
+            - paragraph [ref=f53e413]: Total Spent
+            - paragraph [ref=f53e414]: SLE 0
+          - generic [ref=f53e415]:
+            - paragraph [ref=f53e416]: Active Campaigns
+            - paragraph [ref=f53e417]: "1"
+          - generic [ref=f53e418]:
+            - paragraph [ref=f53e419]: Pending Approval
+            - paragraph [ref=f53e420]: "0"
+        - table [ref=f53e422]:
+          - rowgroup [ref=f53e423]:
+            - row "Campaign Advertiser Target Status Reach Impr. Clicks Budget Actions" [ref=f53e424]:
+              - columnheader "Campaign" [ref=f53e425]
+              - columnheader "Advertiser" [ref=f53e426]
+              - columnheader "Target" [ref=f53e427]
+              - columnheader "Status" [ref=f53e428]
+              - columnheader "Reach" [ref=f53e429]
+              - columnheader "Impr." [ref=f53e430]
+              - columnheader "Clicks" [ref=f53e431]
+              - columnheader "Budget" [ref=f53e432]
+              - columnheader "Actions" [ref=f53e433]
+          - rowgroup [ref=f53e434]:
+            - row "Test Profile Boost Fred Max profile • cmr8qx Active 2.0 0 0 SLE 200 Change Status" [ref=f53e435]:
+              - cell "Test Profile Boost" [ref=f53e436]:
+                - generic [ref=f53e437]:
+                  - img [ref=f53e439]
+                  - paragraph [ref=f53e443]: Test Profile Boost
+              - cell "Fred Max" [ref=f53e444]
+              - cell "profile • cmr8qx" [ref=f53e445]
+              - cell "Active" [ref=f53e446]
+              - cell "2.0" [ref=f53e447]
+              - cell "0" [ref=f53e448]
+              - cell "0" [ref=f53e449]
+              - cell "SLE 200" [ref=f53e450]
+              - cell "Change Status" [ref=f53e451]:
+                - button "Change Status" [ref=f53e453] [cursor=pointer]
+  - generic [ref=f53e389]: "2"

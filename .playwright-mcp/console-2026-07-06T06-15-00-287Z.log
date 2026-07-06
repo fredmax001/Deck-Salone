@@ -1,0 +1,165 @@
+[      73ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=97a04652:20102
+[   58470ms] [LOG] Firebase send analytics @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:0
+[   58497ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:35060)
+    at oq (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:84564)
+    at ik (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114680)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114525
+    at ib (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114533)
+    at iu (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:110835)
+    at iG (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:133053)
+    at iW (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:131264)
+    at i_ (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:129341)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:124934
+[   58516ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://securepubads.g.doubleclick.net/tag/js/gpt.js:0
+[   58746ms] [LOG] [Aditude] loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/(main)/layout-7b3c92c8897c9f85.js:0
+[   59282ms] [LOG] prebid-load.js loaded successfully. @ https://htlbid.com/v3/audiomack.com/aditude-loader.js:0
+[   59283ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://securepubads.g.doubleclick.net/tag/js/gpt.js:0
+[   59743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://raven-edge.aditude.io/raven/audiomack-main-O2lwI/library.js:0
+[   59831ms] SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://audiomack.com" from accessing a cross-origin frame.
+    at makeStub (<anonymous>:113:11)
+    at <anonymous>:118:7
+    at <anonymous>:273:7
+    at a.createAndAppendScript (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:21)
+    at a.start (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:49)
+    at p (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:78617)
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:174421
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181314
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181317
+[   60297ms] Uncaught TypeError: window.__tcfapi is not a function
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:740)
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:4486)
+[   60543ms] Uncaught TypeError: window.__tcfapi is not a function
+    at e (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:564574)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574865)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574968)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:904)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:915)
+[   61482ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[   61506ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[   69158ms] [ERROR] Audio playback failed: NotSupportedError: Failed to load because no supported source was found. @ http://localhost:3001/src/components/MixPlayer.tsx?t=1783318400769:242
+[   78377ms] [LOG] Firebase send analytics @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:0
+[   78394ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:35060)
+    at oq (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:84564)
+    at ik (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114680)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114525
+    at ib (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114533)
+    at iu (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:110835)
+    at iG (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:133053)
+    at iW (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:131264)
+    at i_ (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:129341)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:124934
+[   78406ms] [LOG] [Aditude] loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[   78406ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://securepubads.g.doubleclick.net/tag/js/gpt.js:0
+[   78413ms] [LOG] prebid-load.js loaded successfully. @ https://htlbid.com/v3/audiomack.com/aditude-loader.js:0
+[   78414ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://securepubads.g.doubleclick.net/tag/js/gpt.js:0
+[   78623ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://raven-edge.aditude.io/raven/audiomack-main-O2lwI/library.js:0
+[   78642ms] SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://audiomack.com" from accessing a cross-origin frame.
+    at makeStub (<anonymous>:113:11)
+    at <anonymous>:118:7
+    at <anonymous>:273:7
+    at a.createAndAppendScript (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:21)
+    at a.start (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:49)
+    at p (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:78617)
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:174421
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181314
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181317
+[   78648ms] Uncaught TypeError: window.__tcfapi is not a function
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:740)
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:4486)
+[   78675ms] Uncaught TypeError: window.__tcfapi is not a function
+    at e (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:564574)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574865)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574968)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:904)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:915)
+[   81381ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[   81404ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[   82375ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://cm.g.doubleclick.net/pixel?google_nid=adswizz_dbm&google_hm=g5SPEM5MHxtbz76Z_213ZP-EvBFVcqKz:0
+[   82863ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://cm.g.doubleclick.net/pixel?google_nid=adswizz_dbm&google_hm=g5SPEM5MHxtbz76Z_213ZP-EvBFVcqKz:0
+[   84110ms] [ERROR] Audio playback failed: NotSupportedError: Failed to load because no supported source was found. @ http://localhost:3001/src/components/MixPlayer.tsx?t=1783318400769:242
+[   94917ms] [ERROR] Audio playback failed: NotSupportedError: Failed to load because no supported source was found. @ http://localhost:3001/src/components/MixPlayer.tsx?t=1783318400769:242
+[  110237ms] [LOG] Firebase send analytics @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:0
+[  110254ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:35060)
+    at oq (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:84564)
+    at ik (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114680)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114525
+    at ib (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114533)
+    at iu (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:110835)
+    at iG (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:133053)
+    at iW (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:131264)
+    at i_ (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:129341)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:124934
+[  110267ms] [LOG] [Aditude] loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[  110268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://securepubads.g.doubleclick.net/tag/js/gpt.js:0
+[  110271ms] [LOG] prebid-load.js loaded successfully. @ https://htlbid.com/v3/audiomack.com/aditude-loader.js:0
+[  110274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://securepubads.g.doubleclick.net/tag/js/gpt.js:0
+[  110487ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://raven-edge.aditude.io/raven/audiomack-main-O2lwI/library.js:0
+[  110490ms] SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://audiomack.com" from accessing a cross-origin frame.
+    at makeStub (<anonymous>:113:11)
+    at <anonymous>:118:7
+    at <anonymous>:273:7
+    at a.createAndAppendScript (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:21)
+    at a.start (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:49)
+    at p (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:78617)
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:174421
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181314
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181317
+[  110505ms] Uncaught TypeError: window.__tcfapi is not a function
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:740)
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:4486)
+[  110509ms] Uncaught TypeError: window.__tcfapi is not a function
+    at e (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:564574)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574865)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574968)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:904)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:915)
+[  113240ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[  113263ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[  188713ms] [LOG] Firebase send analytics @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:0
+[  188731ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:35060)
+    at oq (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:84564)
+    at ik (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114680)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114525
+    at ib (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:114533)
+    at iu (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:110835)
+    at iG (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:133053)
+    at iW (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:131264)
+    at i_ (https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:129341)
+    at https://audiomack.com/_next/static/chunks/f7812ded-357bb0bb612c7b99.js:1:124934
+[  188742ms] [LOG] [Aditude] loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[  188747ms] [LOG] prebid-load.js loaded successfully. @ https://htlbid.com/v3/audiomack.com/aditude-loader.js:0
+[  188748ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://securepubads.g.doubleclick.net/tag/js/gpt.js:0
+[  188970ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://raven-edge.aditude.io/raven/audiomack-main-O2lwI/library.js:0
+[  188973ms] SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://audiomack.com" from accessing a cross-origin frame.
+    at makeStub (<anonymous>:113:11)
+    at <anonymous>:118:7
+    at <anonymous>:273:7
+    at a.createAndAppendScript (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:21)
+    at a.start (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:49)
+    at p (https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:78617)
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:174421
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181314
+    at https://dn0qt3r0xannq.cloudfront.net/audiomack-IKOJVsfn7p/ui_audiomack.com/prebid-wrapper.js:275:181317
+[  188979ms] Uncaught TypeError: window.__tcfapi is not a function
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:740)
+    at <anonymous> (https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/audiomack.com/choice.js?tag_version=V3:52:4486)
+[  188986ms] Uncaught TypeError: window.__tcfapi is not a function
+    at e (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:564574)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574865)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:574968)
+    at n (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:109)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:904)
+    at <anonymous> (https://cmp.inmobi.com/tcfv2/60/cmp2.js?referer=audiomack.com:1:915)
+[  191715ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1
+[  191740ms] [ERROR] CMP not loaded @ https://audiomack.com/_next/static/chunks/app/%5Blocale%5D/layout-bb87ab8f8ee6e890.js:1

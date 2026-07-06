@@ -1,0 +1,230 @@
+- generic [ref=f46e5]:
+  - navigation [ref=f46e6]:
+    - generic [ref=f46e7]:
+      - link "Deck Salone" [ref=f46e8] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f46e9]
+      - generic [ref=f46e10]:
+        - link "Discover" [ref=f46e11] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=f46e12] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=f46e13] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=f46e14] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=f46e15] [cursor=pointer]:
+          - /url: /battles
+      - generic [ref=f46e16]:
+        - button "Search" [ref=f46e17] [cursor=pointer]:
+          - img [ref=f46e18]
+        - button "Switch to light mode" [ref=f46e21] [cursor=pointer]:
+          - img
+        - generic [ref=f46e22]:
+          - link "Fred Max" [ref=f46e23] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=f46e24]
+            - text: Fred Max
+          - button "Logout" [ref=f46e27] [cursor=pointer]
+  - main [ref=f46e28]:
+    - generic [ref=f46e29]:
+      - generic [ref=f46e32]:
+        - generic [ref=f46e33]:
+          - text: MIX HUB
+          - heading "DISCOVER & STREAM THE BEST MIXES" [level=1] [ref=f46e34]
+          - paragraph [ref=f46e35]: From Salone classics to the hottest Afrobeats and Amapiano — stream, download, and share mixes from Sierra Leone's top DJs.
+          - generic [ref=f46e37]:
+            - img [ref=f46e38]
+            - textbox "Search mixes, DJs, or genres..." [ref=f46e41]
+          - link "Upload Your Mix" [ref=f46e43] [cursor=pointer]:
+            - /url: /dashboard/mixes
+            - img [ref=f46e44]
+            - text: Upload Your Mix
+        - generic [ref=f46e48] [cursor=pointer]:
+          - text: NOW TRENDING
+          - generic [ref=f46e49]:
+            - img "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [ref=f46e50]
+            - generic [ref=f46e51]:
+              - heading "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [level=4] [ref=f46e52]
+              - paragraph [ref=f46e53]: Fred Max
+              - paragraph [ref=f46e54]: 3 plays
+      - generic [ref=f46e57]:
+        - button "All" [ref=f46e58] [cursor=pointer]
+        - button "Salone Mix" [ref=f46e59] [cursor=pointer]
+        - button "Throwbacks" [ref=f46e60] [cursor=pointer]
+        - button "Afrobeats" [ref=f46e61] [cursor=pointer]
+        - button "Amapiano" [ref=f46e62] [cursor=pointer]
+        - button "Dancehall" [ref=f46e63] [cursor=pointer]
+        - button "Club Mixes" [ref=f46e64] [cursor=pointer]
+        - button "Wedding Mixes" [ref=f46e65] [cursor=pointer]
+        - button "Gospel" [ref=f46e66] [cursor=pointer]
+      - generic [ref=f46e67]:
+        - generic [ref=f46e69]:
+          - img [ref=f46e70]
+          - generic [ref=f46e72]: TRENDING NOW
+        - generic [ref=f46e73]:
+          - generic [ref=f46e74]:
+            - generic [ref=f46e75]:
+              - img "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [ref=f46e76]
+              - img [ref=f46e80] [cursor=pointer]
+            - heading "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [level=4] [ref=f46e82]
+            - paragraph [ref=f46e83]: Fred Max
+            - generic [ref=f46e84]:
+              - generic [ref=f46e85]: 3 plays
+              - generic [ref=f46e86]: "|"
+              - generic [ref=f46e87]:
+                - img [ref=f46e88]
+                - text: 0:00
+          - generic [ref=f46e91]:
+            - generic [ref=f46e92]:
+              - img "UI Hearthis Test" [ref=f46e93]
+              - img [ref=f46e97] [cursor=pointer]
+            - heading "UI Hearthis Test" [level=4] [ref=f46e99]
+            - paragraph [ref=f46e100]: Fred Max
+            - generic [ref=f46e101]:
+              - generic [ref=f46e102]: 0 plays
+              - generic [ref=f46e103]: "|"
+              - generic [ref=f46e104]:
+                - img [ref=f46e105]
+                - text: 4:40
+      - generic [ref=f46e108]:
+        - generic [ref=f46e110]:
+          - text: FRESH DROPS
+          - heading "LATEST UPLOADS" [level=2] [ref=f46e111]
+        - generic [ref=f46e112]:
+          - generic [ref=f46e114]:
+            - generic [ref=f46e115]:
+              - img "UI Hearthis Test" [ref=f46e116]
+              - img [ref=f46e120] [cursor=pointer]
+              - generic [ref=f46e122]: NEW
+            - generic [ref=f46e123]:
+              - heading "UI Hearthis Test" [level=4] [ref=f46e124]
+              - paragraph [ref=f46e125]: Fred Max
+              - generic [ref=f46e126]:
+                - generic [ref=f46e127]:
+                  - generic [ref=f46e128]: 0 plays
+                  - generic [ref=f46e129]: "|"
+                  - generic [ref=f46e130]:
+                    - img [ref=f46e131]
+                    - text: 4:40
+                - button [ref=f46e134] [cursor=pointer]:
+                  - img [ref=f46e135]
+              - generic [ref=f46e137]: Hip-Hop
+          - generic [ref=f46e139]:
+            - generic [ref=f46e140]:
+              - img "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [ref=f46e141]
+              - img [ref=f46e145] [cursor=pointer]
+              - generic [ref=f46e147]: NEW
+            - generic [ref=f46e148]:
+              - heading "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [level=4] [ref=f46e149]
+              - paragraph [ref=f46e150]: Fred Max
+              - generic [ref=f46e151]:
+                - generic [ref=f46e152]:
+                  - generic [ref=f46e153]: 3 plays
+                  - generic [ref=f46e154]: "|"
+                  - generic [ref=f46e155]:
+                    - img [ref=f46e156]
+                    - text: 0:00
+                - button [ref=f46e159] [cursor=pointer]:
+                  - img [ref=f46e160]
+              - generic [ref=f46e162]: Afrobeats
+      - generic [ref=f46e226]:
+        - generic [ref=f46e227]:
+          - img "UI Hearthis Test" [ref=f46e228]
+          - generic [ref=f46e229]:
+            - paragraph [ref=f46e230]: UI Hearthis Test
+            - paragraph [ref=f46e231]: Fred Max
+          - button [ref=f46e232] [cursor=pointer]:
+            - img [ref=f46e233]
+        - generic [ref=f46e235]:
+          - generic [ref=f46e236]:
+            - button [ref=f46e237] [cursor=pointer]:
+              - img [ref=f46e238]
+            - button [ref=f46e240] [cursor=pointer]:
+              - img [ref=f46e241]
+            - button [ref=f46e244] [cursor=pointer]:
+              - img [ref=f46e245]
+          - generic [ref=f46e247]:
+            - generic [ref=f46e248]: 00:08
+            - slider "Seek" [ref=f46e250] [cursor=pointer]
+            - generic [ref=f46e291]: 04:40
+        - generic [ref=f46e292]:
+          - button [ref=f46e293] [cursor=pointer]:
+            - img [ref=f46e294]
+          - slider [ref=f46e298] [cursor=pointer]: "0.8"
+          - button [ref=f46e299] [cursor=pointer]:
+            - img [ref=f46e300]
+          - button [ref=f46e302] [cursor=pointer]:
+            - img [ref=f46e303]
+          - button [ref=f46e305] [cursor=pointer]:
+            - img [ref=f46e306]
+  - contentinfo [ref=f46e163]:
+    - generic [ref=f46e164]:
+      - generic [ref=f46e165]:
+        - generic [ref=f46e166]:
+          - link "Deck Salone" [ref=f46e167] [cursor=pointer]:
+            - /url: /
+            - img "Deck Salone" [ref=f46e168]
+          - paragraph [ref=f46e169]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=f46e170]:
+            - link "Instagram" [ref=f46e171] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f46e172]
+            - link "Twitter" [ref=f46e175] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f46e176]
+            - link "YouTube" [ref=f46e178] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f46e179]
+            - link "TikTok" [ref=f46e182] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f46e183]
+        - generic [ref=f46e187]:
+          - heading "Platform" [level=4] [ref=f46e188]
+          - list [ref=f46e189]:
+            - listitem [ref=f46e190]:
+              - link "Discover DJs" [ref=f46e191] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=f46e192]:
+              - link "Rankings" [ref=f46e193] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=f46e194]:
+              - link "Mix Hub" [ref=f46e195] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=f46e196]:
+              - link "Events" [ref=f46e197] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f46e198]:
+              - link "Book a DJ" [ref=f46e199] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=f46e200]:
+              - link "Battle Arena" [ref=f46e201] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=f46e202]:
+          - heading "Resources" [level=4] [ref=f46e203]
+          - list [ref=f46e204]:
+            - listitem [ref=f46e205]:
+              - link "Hall of Fame" [ref=f46e206] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=f46e207]:
+              - link "Blog" [ref=f46e208] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f46e209]:
+              - link "Help Center" [ref=f46e210] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=f46e211]:
+              - link "Privacy Policy" [ref=f46e212] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f46e213]:
+              - link "Terms of Service" [ref=f46e214] [cursor=pointer]:
+                - /url: /terms
+        - generic [ref=f46e215]:
+          - heading "Connect" [level=4] [ref=f46e216]
+          - paragraph [ref=f46e217]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=f46e218]:
+            - generic [ref=f46e219]: English
+            - generic [ref=f46e220]: "|"
+            - generic [ref=f46e221]: Krio
+      - generic [ref=f46e222]:
+        - paragraph [ref=f46e223]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=f46e224]: All rights reserved.

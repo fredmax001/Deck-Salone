@@ -1,0 +1,191 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e41]:
+    - complementary [ref=f12e42]:
+      - link "Sound It Sound It Admin Console" [ref=f12e44] [cursor=pointer]:
+        - /url: /
+        - img "Sound It" [ref=f12e45]
+        - generic [ref=f12e46]:
+          - paragraph [ref=f12e47]: Sound It
+          - paragraph [ref=f12e48]: Admin Console
+      - navigation [ref=f12e49]:
+        - button "Dashboard" [ref=f12e50] [cursor=pointer]:
+          - img [ref=f12e51]
+          - generic [ref=f12e56]: Dashboard
+        - button "DJs" [ref=f12e57] [cursor=pointer]:
+          - img [ref=f12e58]
+          - generic [ref=f12e61]: DJs
+        - button "Rankings" [ref=f12e62] [cursor=pointer]:
+          - img [ref=f12e63]
+          - generic [ref=f12e65]: Rankings
+        - button "Mixes" [ref=f12e66] [cursor=pointer]:
+          - img [ref=f12e67]
+          - generic [ref=f12e71]: Mixes
+        - button "Bookings" [ref=f12e72] [cursor=pointer]:
+          - img [ref=f12e73]
+          - generic [ref=f12e76]: Bookings
+        - button "Users" [ref=f12e77] [cursor=pointer]:
+          - img [ref=f12e78]
+          - generic [ref=f12e83]: Users
+        - button "Events" [ref=f12e84] [cursor=pointer]:
+          - img [ref=f12e85]
+          - generic [ref=f12e87]: Events
+        - button "DJ Battles" [ref=f12e88] [cursor=pointer]:
+          - img [ref=f12e89]
+          - generic [ref=f12e95]: DJ Battles
+        - button "Revenue" [ref=f12e96] [cursor=pointer]:
+          - img [ref=f12e97]
+          - generic [ref=f12e99]: Revenue
+        - button "Analytics" [ref=f12e100] [cursor=pointer]:
+          - img [ref=f12e101]
+          - generic [ref=f12e102]: Analytics
+        - button "Subscriptions" [ref=f12e103] [cursor=pointer]:
+          - img [ref=f12e104]
+          - generic [ref=f12e106]: Subscriptions
+        - button "API & Integrations" [ref=f12e107] [cursor=pointer]:
+          - img [ref=f12e108]
+          - generic [ref=f12e111]: API & Integrations
+        - button "Verification" [ref=f12e112] [cursor=pointer]:
+          - img [ref=f12e113]
+          - generic [ref=f12e116]: Verification
+        - button "Notifications" [ref=f12e117] [cursor=pointer]:
+          - img [ref=f12e118]
+          - generic [ref=f12e123]: Notifications
+        - button "Security Logs" [ref=f12e124] [cursor=pointer]:
+          - img [ref=f12e125]
+          - generic [ref=f12e127]: Security Logs
+        - button "Ads Manager" [ref=f12e128] [cursor=pointer]:
+          - img [ref=f12e129]
+          - generic [ref=f12e132]: Ads Manager
+        - button "Roles & Permissions" [ref=f12e133] [cursor=pointer]:
+          - img [ref=f12e134]
+          - generic [ref=f12e136]: Roles & Permissions
+        - button "Settings" [ref=f12e137] [cursor=pointer]:
+          - img [ref=f12e138]
+          - generic [ref=f12e141]: Settings
+      - generic [ref=f12e143]:
+        - img [ref=f12e145]
+        - paragraph [ref=f12e148]: Super Admin
+        - button "Logout" [ref=f12e149] [cursor=pointer]:
+          - img [ref=f12e150]
+    - main [ref=f12e153]:
+      - generic [ref=f12e154]:
+        - generic [ref=f12e155]:
+          - button [ref=f12e156] [cursor=pointer]:
+            - img [ref=f12e157]
+          - generic [ref=f12e158]:
+            - heading "Dashboard" [level=1] [ref=f12e159]
+            - paragraph [ref=f12e160]: 06/07/2026
+        - generic [ref=f12e161]:
+          - button [ref=f12e162] [cursor=pointer]:
+            - img [ref=f12e163]
+          - button "Switch to light mode" [ref=f12e166] [cursor=pointer]:
+            - img
+          - button [ref=f12e168] [cursor=pointer]:
+            - img [ref=f12e169]
+      - generic [ref=f12e175]:
+        - generic [ref=f12e176]:
+          - generic [ref=f12e177]:
+            - generic:
+              - generic [ref=f12e178]:
+                - paragraph [ref=f12e179]: Total DJs
+                - paragraph [ref=f12e180]: "1"
+              - img [ref=f12e182]
+          - generic [ref=f12e185]:
+            - generic:
+              - generic [ref=f12e186]:
+                - paragraph [ref=f12e187]: Pending Verifications
+                - paragraph [ref=f12e188]: "0"
+              - img [ref=f12e190]
+          - generic [ref=f12e193]:
+            - generic:
+              - generic [ref=f12e194]:
+                - paragraph [ref=f12e195]: Total Users
+                - paragraph [ref=f12e196]: "2"
+              - img [ref=f12e198]
+          - generic [ref=f12e203]:
+            - generic:
+              - generic [ref=f12e204]:
+                - paragraph [ref=f12e205]: Total Mixes
+                - paragraph [ref=f12e206]: "0"
+              - img [ref=f12e208]
+          - generic [ref=f12e212]:
+            - generic:
+              - generic [ref=f12e213]:
+                - paragraph [ref=f12e214]: Total Streams
+                - paragraph [ref=f12e215]: "0"
+              - img [ref=f12e217]
+          - generic [ref=f12e219]:
+            - generic:
+              - generic [ref=f12e220]:
+                - paragraph [ref=f12e221]: Total Bookings
+                - paragraph [ref=f12e222]: "0"
+              - img [ref=f12e224]
+          - generic [ref=f12e227]:
+            - generic:
+              - generic [ref=f12e228]:
+                - paragraph [ref=f12e229]: Revenue This Month
+                - paragraph [ref=f12e230]: SLE 0
+              - img [ref=f12e232]
+          - generic [ref=f12e234]:
+            - generic:
+              - generic [ref=f12e235]:
+                - paragraph [ref=f12e236]: Active Events
+                - paragraph [ref=f12e237]: "0"
+              - img [ref=f12e239]
+        - generic [ref=f12e241]:
+          - generic [ref=f12e242]:
+            - paragraph [ref=f12e243]: Monthly Mix Uploads
+            - img [ref=f12e247]:
+              - generic [ref=f12e249]:
+                - generic [ref=f12e251]: "0"
+                - generic [ref=f12e253]: "1"
+                - generic [ref=f12e255]: "2"
+                - generic [ref=f12e257]: "3"
+                - generic [ref=f12e259]: "4"
+          - generic [ref=f12e260]:
+            - paragraph [ref=f12e261]: New DJs per Month
+            - img [ref=f12e265]:
+              - generic [ref=f12e267]:
+                - generic [ref=f12e269]: "0"
+                - generic [ref=f12e271]: "0.25"
+                - generic [ref=f12e273]: "0.5"
+                - generic [ref=f12e275]: "0.75"
+                - generic [ref=f12e277]: "1"
+        - generic [ref=f12e278]:
+          - generic [ref=f12e279]:
+            - paragraph [ref=f12e280]: Booking Trends
+            - img [ref=f12e284]:
+              - generic [ref=f12e286]:
+                - generic [ref=f12e288]: "0"
+                - generic [ref=f12e290]: "1"
+                - generic [ref=f12e292]: "2"
+                - generic [ref=f12e294]: "3"
+                - generic [ref=f12e296]: "4"
+          - generic [ref=f12e297]:
+            - paragraph [ref=f12e298]: Revenue Growth
+            - img [ref=f12e302]:
+              - generic [ref=f12e304]:
+                - generic [ref=f12e306]: "0"
+                - generic [ref=f12e308]: "1"
+                - generic [ref=f12e310]: "2"
+                - generic [ref=f12e312]: "3"
+                - generic [ref=f12e314]: "4"
+        - generic [ref=f12e315]:
+          - generic [ref=f12e316]:
+            - paragraph [ref=f12e317]: Top Cities
+            - generic [ref=f12e319]:
+              - generic [ref=f12e320]: Freetown
+              - generic [ref=f12e321]: 1 DJs
+          - generic [ref=f12e322]:
+            - paragraph [ref=f12e323]: Top Genres
+            - generic [ref=f12e324]:
+              - generic [ref=f12e325]:
+                - generic [ref=f12e326]: Afrobeats
+                - generic [ref=f12e327]: 1 DJs
+              - generic [ref=f12e328]:
+                - generic [ref=f12e329]: Salone Mix
+                - generic [ref=f12e330]: 1 DJs
+              - generic [ref=f12e331]:
+                - generic [ref=f12e332]: Amapiano
+                - generic [ref=f12e333]: 1 DJs
+  - generic [ref=f12e334]: "0.25"

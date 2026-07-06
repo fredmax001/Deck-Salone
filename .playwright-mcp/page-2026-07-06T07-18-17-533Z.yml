@@ -1,0 +1,128 @@
+- generic [ref=f55e5]:
+  - complementary [ref=f55e6]:
+    - generic [ref=f55e7]:
+      - link "Deck Salone DJ Studio" [ref=f55e8] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f55e9]
+        - paragraph [ref=f55e11]: DJ Studio
+      - generic [ref=f55e13]:
+        - img "Fred Max" [ref=f55e15]
+        - generic [ref=f55e16]:
+          - paragraph [ref=f55e17]: Fred Max
+          - paragraph [ref=f55e18]: DJ Account
+      - navigation [ref=f55e19]:
+        - link "Overview" [ref=f55e20] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=f55e22]
+          - generic [ref=f55e27]: Overview
+        - link "Bookings" [ref=f55e28] [cursor=pointer]:
+          - /url: /dashboard/bookings
+          - img [ref=f55e30]
+          - generic [ref=f55e32]: Bookings
+        - link "Messages" [ref=f55e33] [cursor=pointer]:
+          - /url: /dashboard/messages
+          - img [ref=f55e35]
+          - generic [ref=f55e37]: Messages
+        - link "Mixes" [ref=f55e38] [cursor=pointer]:
+          - /url: /dashboard/mixes
+          - img [ref=f55e40]
+          - generic [ref=f55e44]: Mixes
+        - link "Events" [ref=f55e45] [cursor=pointer]:
+          - /url: /dashboard/events
+          - img [ref=f55e47]
+          - generic [ref=f55e49]: Events
+        - link "Analytics" [ref=f55e50] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=f55e52]
+          - generic [ref=f55e54]: Analytics
+        - link "Earnings" [ref=f55e55] [cursor=pointer]:
+          - /url: /dashboard/earnings
+          - img [ref=f55e57]
+          - generic [ref=f55e60]: Earnings
+        - link "Profile" [ref=f55e61] [cursor=pointer]:
+          - /url: /dashboard/profile
+          - img [ref=f55e63]
+          - generic [ref=f55e66]: Profile
+          - img [ref=f55e67]
+        - link "Subscription" [ref=f55e69] [cursor=pointer]:
+          - /url: /dashboard/subscription
+          - img [ref=f55e71]
+          - generic [ref=f55e73]: Subscription
+        - link "Promotions" [ref=f55e74] [cursor=pointer]:
+          - /url: /dashboard/campaigns
+          - img [ref=f55e76]
+          - generic [ref=f55e79]: Promotions
+        - link "Settings" [ref=f55e80] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=f55e82]
+          - generic [ref=f55e85]: Settings
+      - button "Logout" [ref=f55e87] [cursor=pointer]:
+        - img [ref=f55e88]
+        - generic [ref=f55e91]: Logout
+  - generic [ref=f55e92]:
+    - banner [ref=f55e93]:
+      - generic [ref=f55e94]:
+        - generic [ref=f55e95]:
+          - link "Home" [ref=f55e96] [cursor=pointer]:
+            - /url: /
+          - img [ref=f55e97]
+          - generic [ref=f55e99]: Dashboard
+          - img [ref=f55e100]
+          - generic [ref=f55e102]: profile
+        - generic [ref=f55e104]:
+          - img [ref=f55e105]
+          - textbox "Search bookings, mixes, messages..." [ref=f55e108]
+        - generic [ref=f55e109]:
+          - button [ref=f55e110] [cursor=pointer]:
+            - img
+          - button "Fred Max" [ref=f55e111] [cursor=pointer]:
+            - img [ref=f55e113]
+            - generic [ref=f55e114]: Fred Max
+    - main [ref=f55e115]:
+      - generic [ref=f55e117]:
+        - generic [ref=f55e118]:
+          - generic [ref=f55e119]:
+            - heading "Profile" [level=1] [ref=f55e120]
+            - paragraph [ref=f55e121]: Edit your public DJ profile. This is what clients see when they visit your page.
+          - button "Save Changes" [ref=f55e123] [cursor=pointer]:
+            - img
+            - text: Save Changes
+        - generic [ref=f55e124]:
+          - tablist [ref=f55e125]:
+            - tab "Basic Info" [selected] [ref=f55e126] [cursor=pointer]
+            - tab "Photos" [ref=f55e127] [cursor=pointer]
+            - tab "Genres & Skills" [ref=f55e128] [cursor=pointer]
+            - tab "Pricing" [ref=f55e129] [cursor=pointer]
+            - tab "Social & Links" [ref=f55e130] [cursor=pointer]
+            - tab "Verification" [ref=f55e131] [cursor=pointer]
+          - tabpanel "Basic Info" [ref=f55e132]:
+            - generic [ref=f55e134]:
+              - generic [ref=f55e135]:
+                - generic [ref=f55e136]:
+                  - generic [ref=f55e137]: Stage Name
+                  - textbox [ref=f55e138]: Fred Max
+                - generic [ref=f55e139]:
+                  - generic [ref=f55e140]: Full Name
+                  - textbox [ref=f55e141]: Frederick
+              - generic [ref=f55e142]:
+                - generic [ref=f55e143]: Bio
+                - textbox [ref=f55e144]: Legacy DJ
+                - paragraph [ref=f55e145]: 9/2000 characters
+              - generic [ref=f55e146]:
+                - generic [ref=f55e147]:
+                  - generic [ref=f55e148]: Years Active
+                  - spinbutton [ref=f55e149]: "15"
+                - generic [ref=f55e150]:
+                  - generic [ref=f55e151]: City
+                  - combobox [ref=f55e152] [cursor=pointer]:
+                    - generic: Freetown
+                    - img
+                - generic [ref=f55e153]:
+                  - generic [ref=f55e154]: Languages
+                  - generic [ref=f55e155]:
+                    - button "English" [ref=f55e156] [cursor=pointer]
+                    - button "Krio" [ref=f55e157] [cursor=pointer]
+                    - button "Mende" [ref=f55e158] [cursor=pointer]
+                    - button "Temne" [ref=f55e159] [cursor=pointer]
+                    - button "Limba" [ref=f55e160] [cursor=pointer]
+                    - button "Other" [ref=f55e161] [cursor=pointer]

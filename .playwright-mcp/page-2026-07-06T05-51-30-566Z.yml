@@ -1,0 +1,211 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e52]:
+    - complementary [ref=f17e53]:
+      - link "Sound It Sound It Admin Console" [ref=f17e55] [cursor=pointer]:
+        - /url: /
+        - img "Sound It" [ref=f17e56]
+        - generic [ref=f17e57]:
+          - paragraph [ref=f17e58]: Sound It
+          - paragraph [ref=f17e59]: Admin Console
+      - navigation [ref=f17e60]:
+        - button "Dashboard" [ref=f17e61] [cursor=pointer]:
+          - img [ref=f17e62]
+          - generic [ref=f17e67]: Dashboard
+        - button "DJs" [ref=f17e68] [cursor=pointer]:
+          - img [ref=f17e69]
+          - generic [ref=f17e72]: DJs
+        - button "Rankings" [ref=f17e73] [cursor=pointer]:
+          - img [ref=f17e74]
+          - generic [ref=f17e76]: Rankings
+        - button "Mixes" [ref=f17e77] [cursor=pointer]:
+          - img [ref=f17e78]
+          - generic [ref=f17e82]: Mixes
+        - button "Bookings" [ref=f17e83] [cursor=pointer]:
+          - img [ref=f17e84]
+          - generic [ref=f17e87]: Bookings
+        - button "Users" [ref=f17e88] [cursor=pointer]:
+          - img [ref=f17e89]
+          - generic [ref=f17e94]: Users
+        - button "Events" [ref=f17e95] [cursor=pointer]:
+          - img [ref=f17e96]
+          - generic [ref=f17e98]: Events
+        - button "DJ Battles" [ref=f17e99] [cursor=pointer]:
+          - img [ref=f17e100]
+          - generic [ref=f17e106]: DJ Battles
+        - button "Revenue" [ref=f17e107] [cursor=pointer]:
+          - img [ref=f17e108]
+          - generic [ref=f17e110]: Revenue
+        - button "Analytics" [ref=f17e111] [cursor=pointer]:
+          - img [ref=f17e112]
+          - generic [ref=f17e113]: Analytics
+        - button "Subscriptions" [ref=f17e114] [cursor=pointer]:
+          - img [ref=f17e115]
+          - generic [ref=f17e117]: Subscriptions
+        - button "API & Integrations" [ref=f17e118] [cursor=pointer]:
+          - img [ref=f17e119]
+          - generic [ref=f17e122]: API & Integrations
+        - button "Verification" [ref=f17e123] [cursor=pointer]:
+          - img [ref=f17e124]
+          - generic [ref=f17e127]: Verification
+        - button "Notifications" [ref=f17e128] [cursor=pointer]:
+          - img [ref=f17e129]
+          - generic [ref=f17e134]: Notifications
+        - button "Security Logs" [ref=f17e135] [cursor=pointer]:
+          - img [ref=f17e136]
+          - generic [ref=f17e138]: Security Logs
+        - button "Ads Manager" [ref=f17e139] [cursor=pointer]:
+          - img [ref=f17e140]
+          - generic [ref=f17e143]: Ads Manager
+        - button "Roles & Permissions" [ref=f17e144] [cursor=pointer]:
+          - img [ref=f17e145]
+          - generic [ref=f17e147]: Roles & Permissions
+        - button "Settings" [ref=f17e148] [cursor=pointer]:
+          - img [ref=f17e149]
+          - generic [ref=f17e152]: Settings
+      - generic [ref=f17e154]:
+        - img [ref=f17e156]
+        - paragraph [ref=f17e159]: Super Admin
+        - button "Logout" [ref=f17e160] [cursor=pointer]:
+          - img [ref=f17e161]
+    - main [ref=f17e164]:
+      - generic [ref=f17e165]:
+        - generic [ref=f17e166]:
+          - button [ref=f17e167] [cursor=pointer]:
+            - img [ref=f17e168]
+          - generic [ref=f17e169]:
+            - heading "Dashboard" [level=1] [ref=f17e170]
+            - paragraph [ref=f17e171]: 06/07/2026
+        - generic [ref=f17e172]:
+          - button [ref=f17e173] [cursor=pointer]:
+            - img [ref=f17e174]
+          - button "Switch to light mode" [ref=f17e177] [cursor=pointer]:
+            - img
+          - button [ref=f17e179] [cursor=pointer]:
+            - img [ref=f17e180]
+      - generic [ref=f17e186]:
+        - generic [ref=f17e187]:
+          - generic [ref=f17e189]:
+            - generic [ref=f17e190]:
+              - paragraph [ref=f17e191]: Total DJs
+              - paragraph [ref=f17e192]: "1"
+            - img [ref=f17e194]
+          - generic [ref=f17e198]:
+            - generic [ref=f17e199]:
+              - paragraph [ref=f17e200]: Pending Verifications
+              - paragraph [ref=f17e201]: "0"
+            - img [ref=f17e203]
+          - generic [ref=f17e207]:
+            - generic [ref=f17e208]:
+              - paragraph [ref=f17e209]: Total Users
+              - paragraph [ref=f17e210]: "2"
+            - img [ref=f17e212]
+          - generic [ref=f17e218]:
+            - generic [ref=f17e219]:
+              - paragraph [ref=f17e220]: Total Mixes
+              - paragraph [ref=f17e221]: "0"
+            - img [ref=f17e223]
+          - generic [ref=f17e228]:
+            - generic [ref=f17e229]:
+              - paragraph [ref=f17e230]: Total Streams
+              - paragraph [ref=f17e231]: "0"
+            - img [ref=f17e233]
+          - generic [ref=f17e236]:
+            - generic [ref=f17e237]:
+              - paragraph [ref=f17e238]: Total Bookings
+              - paragraph [ref=f17e239]: "0"
+            - img [ref=f17e241]
+          - generic [ref=f17e245]:
+            - generic [ref=f17e246]:
+              - paragraph [ref=f17e247]: Revenue This Month
+              - paragraph [ref=f17e248]: SLE 0
+            - img [ref=f17e250]
+          - generic [ref=f17e253]:
+            - generic [ref=f17e254]:
+              - paragraph [ref=f17e255]: Active Events
+              - paragraph [ref=f17e256]: "0"
+            - img [ref=f17e258]
+        - generic [ref=f17e260]:
+          - generic [ref=f17e261]:
+            - paragraph [ref=f17e262]: Monthly Mix Uploads
+            - img [ref=f17e266]:
+              - generic [ref=f17e271]:
+                - generic [ref=f17e273]: Feb
+                - generic [ref=f17e275]: Mar
+                - generic [ref=f17e277]: Apr
+                - generic [ref=f17e279]: May
+                - generic [ref=f17e281]: Jun
+                - generic [ref=f17e283]: Jul
+              - generic [ref=f17e285]:
+                - generic [ref=f17e287]: "0"
+                - generic [ref=f17e289]: "1"
+                - generic [ref=f17e291]: "2"
+                - generic [ref=f17e293]: "3"
+                - generic [ref=f17e295]: "4"
+          - generic [ref=f17e296]:
+            - paragraph [ref=f17e297]: New DJs per Month
+            - img [ref=f17e301]:
+              - generic [ref=f17e306]:
+                - generic [ref=f17e308]: Feb
+                - generic [ref=f17e310]: Mar
+                - generic [ref=f17e312]: Apr
+                - generic [ref=f17e314]: May
+                - generic [ref=f17e316]: Jun
+                - generic [ref=f17e318]: Jul
+              - generic [ref=f17e320]:
+                - generic [ref=f17e322]: "0"
+                - generic [ref=f17e324]: "0.25"
+                - generic [ref=f17e326]: "0.5"
+                - generic [ref=f17e328]: "0.75"
+                - generic [ref=f17e330]: "1"
+        - generic [ref=f17e336]:
+          - generic [ref=f17e337]:
+            - paragraph [ref=f17e338]: Booking Trends
+            - img [ref=f17e342]:
+              - generic [ref=f17e347]:
+                - generic [ref=f17e349]: Feb
+                - generic [ref=f17e351]: Mar
+                - generic [ref=f17e353]: Apr
+                - generic [ref=f17e355]: May
+                - generic [ref=f17e357]: Jun
+                - generic [ref=f17e359]: Jul
+              - generic [ref=f17e361]:
+                - generic [ref=f17e363]: "0"
+                - generic [ref=f17e365]: "1"
+                - generic [ref=f17e367]: "2"
+                - generic [ref=f17e369]: "3"
+                - generic [ref=f17e371]: "4"
+          - generic [ref=f17e372]:
+            - paragraph [ref=f17e373]: Revenue Growth
+            - img [ref=f17e377]:
+              - generic [ref=f17e382]:
+                - generic [ref=f17e384]: Feb
+                - generic [ref=f17e386]: Mar
+                - generic [ref=f17e388]: Apr
+                - generic [ref=f17e390]: May
+                - generic [ref=f17e392]: Jun
+                - generic [ref=f17e394]: Jul
+              - generic [ref=f17e396]:
+                - generic [ref=f17e398]: "0"
+                - generic [ref=f17e400]: "1"
+                - generic [ref=f17e402]: "2"
+                - generic [ref=f17e404]: "3"
+                - generic [ref=f17e406]: "4"
+        - generic [ref=f17e407]:
+          - generic [ref=f17e408]:
+            - paragraph [ref=f17e409]: Top Cities
+            - generic [ref=f17e411]:
+              - generic [ref=f17e412]: Freetown
+              - generic [ref=f17e413]: 1 DJs
+          - generic [ref=f17e414]:
+            - paragraph [ref=f17e415]: Top Genres
+            - generic [ref=f17e416]:
+              - generic [ref=f17e417]:
+                - generic [ref=f17e418]: Afrobeats
+                - generic [ref=f17e419]: 1 DJs
+              - generic [ref=f17e420]:
+                - generic [ref=f17e421]: Salone Mix
+                - generic [ref=f17e422]: 1 DJs
+              - generic [ref=f17e423]:
+                - generic [ref=f17e424]: Amapiano
+                - generic [ref=f17e425]: 1 DJs
+  - generic [ref=f17e426]: "0.25"

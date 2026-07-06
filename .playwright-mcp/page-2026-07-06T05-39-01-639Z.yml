@@ -1,0 +1,198 @@
+- generic:
+  - generic:
+    - generic:
+      - navigation:
+        - generic:
+          - link:
+            - /url: /
+            - img
+          - generic:
+            - button:
+              - img
+            - generic:
+              - button [expanded]:
+                - generic:
+                  - generic: DJ
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: DISCOVER
+              - generic:
+                - heading [level=1]: FIND YOUR PERFECT DJ
+              - generic:
+                - paragraph: Browse verified DJs across Sierra Leone. Filter by genre, city, budget, and availability.
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                    - textbox:
+                      - /placeholder: Search by DJ name, genre, or city...
+                    - button: Search
+              - generic:
+                - generic:
+                  - button: All
+                  - button: Afrobeats
+                  - button: Amapiano
+                  - button: Salone Mix
+              - generic:
+                - generic:
+                  - button:
+                    - img
+                    - text: Advanced Filters
+                    - img
+          - generic:
+            - generic:
+              - generic:
+                - button:
+                  - text: "Sort: Rank (Default)"
+                  - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - heading [level=3]: NO DJS FOUND
+                - paragraph: Try adjusting your filters or search for something different.
+                - button: Clear All Filters
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=2]: ARE YOU A DJ?
+                  - generic:
+                    - paragraph: Join the platform and get discovered by promoters, fans, and event organizers across Sierra Leone.
+                  - generic:
+                    - list:
+                      - listitem:
+                        - img
+                        - text: Create your verified professional profile
+                      - listitem:
+                        - img
+                        - text: Upload and showcase your mixes
+                      - listitem:
+                        - img
+                        - text: Track performance with real analytics
+                      - listitem:
+                        - img
+                        - text: Get booked directly through the platform
+                      - listitem:
+                        - img
+                        - text: Compete in weekly DJ battles
+                  - generic:
+                    - link:
+                      - /url: /login
+                      - text: Create Free Profile
+                      - img
+      - contentinfo:
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /
+                - img
+              - paragraph: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+              - generic:
+                - link:
+                  - /url: "#"
+                  - img
+                - link:
+                  - /url: "#"
+                  - img
+                - link:
+                  - /url: "#"
+                  - img
+                - link:
+                  - /url: "#"
+                  - img
+            - generic:
+              - heading [level=4]: Platform
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /discover
+                    - text: Discover DJs
+                - listitem:
+                  - link:
+                    - /url: /rankings
+                    - text: Rankings
+                - listitem:
+                  - link:
+                    - /url: /mixes
+                    - text: Mix Hub
+                - listitem:
+                  - link:
+                    - /url: /events
+                    - text: Events
+                - listitem:
+                  - link:
+                    - /url: /booking
+                    - text: Book a DJ
+                - listitem:
+                  - link:
+                    - /url: /battles
+                    - text: Battle Arena
+            - generic:
+              - heading [level=4]: Resources
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /hall-of-fame
+                    - text: Hall of Fame
+                - listitem:
+                  - link:
+                    - /url: /blog
+                    - text: Blog
+                - listitem:
+                  - link:
+                    - /url: /help
+                    - text: Help Center
+                - listitem:
+                  - link:
+                    - /url: /privacy
+                    - text: Privacy Policy
+                - listitem:
+                  - link:
+                    - /url: /terms
+                    - text: Terms of Service
+            - generic:
+              - heading [level=4]: Connect
+              - paragraph: Follow us for updates, featured DJs, and exclusive content.
+              - generic:
+                - generic: English
+                - generic: "|"
+                - generic: Krio
+          - generic:
+            - paragraph: © 2025 Deck Salone. A Sound It Entertainment platform.
+            - paragraph: All rights reserved.
+      - navigation:
+        - generic:
+          - link:
+            - /url: /
+            - img
+            - generic: Home
+          - link:
+            - /url: /discover
+            - img
+            - generic: Discover
+          - link:
+            - /url: /mixes
+            - img
+            - generic: Mixes
+          - link:
+            - /url: /battles
+            - img
+            - generic: Battles
+          - button:
+            - img
+            - generic: More
+  - menu "DJ" [active] [ref=f13e226]:
+    - menuitem "Profile" [ref=f13e227] [cursor=pointer]
+    - menuitem "Dashboard" [ref=f13e228] [cursor=pointer]
+    - menuitem "Settings" [ref=f13e229] [cursor=pointer]
+    - separator [ref=f13e230]
+    - menuitem "Logout" [ref=f13e231] [cursor=pointer]:
+      - img
+      - text: Logout

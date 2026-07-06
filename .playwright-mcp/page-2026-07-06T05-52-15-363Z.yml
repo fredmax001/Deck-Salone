@@ -1,0 +1,207 @@
+- generic [ref=f18e52]:
+  - complementary [ref=f18e53]:
+    - generic [ref=f18e54]:
+      - link "Deck Salone DJ Studio" [ref=f18e55] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f18e56]
+        - paragraph [ref=f18e58]: DJ Studio
+      - generic [ref=f18e60]:
+        - generic [ref=f18e62]: DJ
+        - generic [ref=f18e63]:
+          - paragraph [ref=f18e64]: djfredmax221
+          - paragraph [ref=f18e65]: DJ Account
+      - navigation [ref=f18e66]:
+        - link "Overview" [ref=f18e67] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=f18e69]
+          - generic [ref=f18e74]: Overview
+          - img [ref=f18e75]
+        - link "Bookings" [ref=f18e77] [cursor=pointer]:
+          - /url: /dashboard/bookings
+          - img [ref=f18e79]
+          - generic [ref=f18e81]: Bookings
+        - link "Messages" [ref=f18e82] [cursor=pointer]:
+          - /url: /dashboard/messages
+          - img [ref=f18e84]
+          - generic [ref=f18e86]: Messages
+        - link "Mixes" [ref=f18e87] [cursor=pointer]:
+          - /url: /dashboard/mixes
+          - img [ref=f18e89]
+          - generic [ref=f18e93]: Mixes
+        - link "Events" [ref=f18e94] [cursor=pointer]:
+          - /url: /dashboard/events
+          - img [ref=f18e96]
+          - generic [ref=f18e98]: Events
+        - link "Analytics" [ref=f18e99] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=f18e101]
+          - generic [ref=f18e103]: Analytics
+        - link "Earnings" [ref=f18e104] [cursor=pointer]:
+          - /url: /dashboard/earnings
+          - img [ref=f18e106]
+          - generic [ref=f18e109]: Earnings
+        - link "Profile" [ref=f18e110] [cursor=pointer]:
+          - /url: /dashboard/profile
+          - img [ref=f18e112]
+          - generic [ref=f18e115]: Profile
+        - link "Subscription" [ref=f18e116] [cursor=pointer]:
+          - /url: /dashboard/subscription
+          - img [ref=f18e118]
+          - generic [ref=f18e120]: Subscription
+        - link "Settings" [ref=f18e121] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=f18e123]
+          - generic [ref=f18e126]: Settings
+      - button "Logout" [ref=f18e128] [cursor=pointer]:
+        - img [ref=f18e129]
+        - generic [ref=f18e132]: Logout
+  - generic [ref=f18e133]:
+    - banner [ref=f18e134]:
+      - generic [ref=f18e135]:
+        - generic [ref=f18e136]:
+          - link "Home" [ref=f18e137] [cursor=pointer]:
+            - /url: /
+          - img [ref=f18e138]
+          - generic [ref=f18e140]: Dashboard
+        - generic [ref=f18e142]:
+          - img [ref=f18e143]
+          - textbox "Search bookings, mixes, messages..." [ref=f18e146]
+        - generic [ref=f18e147]:
+          - button [ref=f18e148] [cursor=pointer]:
+            - img
+          - button "DJ djfredmax221" [ref=f18e149] [cursor=pointer]:
+            - generic [ref=f18e151]: DJ
+            - generic [ref=f18e152]: djfredmax221
+    - main [ref=f18e153]:
+      - generic [ref=f18e155]:
+        - generic [ref=f18e156]:
+          - generic [ref=f18e157]:
+            - heading "Overview" [level=1] [ref=f18e158]
+            - paragraph [ref=f18e159]: Welcome back, DJ. Here's how you're performing.
+          - generic [ref=f18e160]:
+            - link "Manage Bookings" [ref=f18e161] [cursor=pointer]:
+              - /url: /dashboard/bookings
+              - button "Manage Bookings" [ref=f18e162]:
+                - img
+                - text: Manage Bookings
+            - link "Upload Mix" [ref=f18e163] [cursor=pointer]:
+              - /url: /dashboard/mixes
+              - button "Upload Mix" [ref=f18e164]:
+                - img
+                - text: Upload Mix
+        - generic [ref=f18e165]:
+          - generic [ref=f18e168]:
+            - img [ref=f18e171]
+            - paragraph [ref=f18e174]: "0"
+            - paragraph [ref=f18e175]: Total Bookings
+          - generic [ref=f18e178]:
+            - img [ref=f18e181]
+            - paragraph [ref=f18e187]: "#-"
+            - paragraph [ref=f18e188]: Ranking Position
+          - generic [ref=f18e191]:
+            - img [ref=f18e194]
+            - paragraph [ref=f18e196]: "0"
+            - paragraph [ref=f18e197]: Total Streams
+          - generic [ref=f18e200]:
+            - img [ref=f18e203]
+            - paragraph [ref=f18e208]: "0"
+            - paragraph [ref=f18e209]: Total Followers
+          - generic [ref=f18e212]:
+            - img [ref=f18e215]
+            - paragraph [ref=f18e218]: SLE 0
+            - paragraph [ref=f18e219]: Earnings
+        - generic [ref=f18e220]:
+          - generic [ref=f18e221]:
+            - generic [ref=f18e222]:
+              - generic [ref=f18e223]: Ranking History
+              - generic [ref=f18e224]: "#- · 0.0 pts"
+            - img [ref=f18e229]
+          - generic [ref=f18e233]:
+            - generic [ref=f18e235]: Rank Snapshot
+            - generic [ref=f18e236]:
+              - generic [ref=f18e237]:
+                - img [ref=f18e239]
+                - generic [ref=f18e245]:
+                  - paragraph [ref=f18e246]: "#-"
+                  - paragraph [ref=f18e247]: Current rank
+              - generic [ref=f18e248]:
+                - generic [ref=f18e249]:
+                  - generic [ref=f18e250]: Score
+                  - generic [ref=f18e251]: "0.0"
+                - generic [ref=f18e252]:
+                  - generic [ref=f18e253]: Reviews
+                  - generic [ref=f18e254]: "0"
+                - generic [ref=f18e255]:
+                  - generic [ref=f18e256]: Rating
+                  - generic [ref=f18e257]: 0.0 ★
+              - link "View Analytics" [ref=f18e258] [cursor=pointer]:
+                - /url: /dashboard/analytics
+                - button "View Analytics" [ref=f18e259]:
+                  - text: View Analytics
+                  - img
+        - generic [ref=f18e260]:
+          - generic [ref=f18e261]:
+            - generic [ref=f18e262]:
+              - generic [ref=f18e263]: Recent Bookings
+              - link "View All" [ref=f18e264] [cursor=pointer]:
+                - /url: /dashboard/bookings
+                - button "View All" [ref=f18e265]:
+                  - text: View All
+                  - img
+            - generic [ref=f18e267]:
+              - img [ref=f18e268]
+              - paragraph [ref=f18e270]: No bookings yet
+              - link "Promote Your Profile" [ref=f18e271] [cursor=pointer]:
+                - /url: /discover
+                - button "Promote Your Profile" [ref=f18e272]
+          - generic [ref=f18e273]:
+            - generic [ref=f18e274]:
+              - generic [ref=f18e275]: Top Mixes
+              - link "View All" [ref=f18e276] [cursor=pointer]:
+                - /url: /dashboard/mixes
+                - button "View All" [ref=f18e277]:
+                  - text: View All
+                  - img
+            - generic [ref=f18e279]:
+              - img [ref=f18e280]
+              - paragraph [ref=f18e284]: No mixes uploaded yet
+              - link "Upload Your First Mix" [ref=f18e285] [cursor=pointer]:
+                - /url: /dashboard/mixes
+                - button "Upload Your First Mix" [ref=f18e286]
+        - generic [ref=f18e287]:
+          - generic [ref=f18e288]:
+            - generic [ref=f18e290]: Upcoming Events
+            - generic [ref=f18e292]:
+              - img [ref=f18e293]
+              - paragraph [ref=f18e295]: No upcoming events
+          - generic [ref=f18e296]:
+            - generic [ref=f18e298]: Quick Actions
+            - generic [ref=f18e300]:
+              - link "Edit Profile Update bio, photos, pricing" [ref=f18e301] [cursor=pointer]:
+                - /url: /dashboard/profile
+                - generic [ref=f18e302]:
+                  - img [ref=f18e304]
+                  - generic [ref=f18e307]:
+                    - paragraph [ref=f18e308]: Edit Profile
+                    - paragraph [ref=f18e309]: Update bio, photos, pricing
+              - link "Check Bookings No pending requests" [ref=f18e310] [cursor=pointer]:
+                - /url: /dashboard/bookings
+                - generic [ref=f18e311]:
+                  - img [ref=f18e313]
+                  - generic [ref=f18e316]:
+                    - paragraph [ref=f18e317]: Check Bookings
+                    - paragraph [ref=f18e318]: No pending requests
+              - link "Messages Chat with clients" [ref=f18e319] [cursor=pointer]:
+                - /url: /dashboard/messages
+                - generic [ref=f18e320]:
+                  - img [ref=f18e322]
+                  - generic [ref=f18e324]:
+                    - paragraph [ref=f18e325]: Messages
+                    - paragraph [ref=f18e326]: Chat with clients
+              - link "View Analytics Track performance" [ref=f18e327] [cursor=pointer]:
+                - /url: /dashboard/analytics
+                - generic [ref=f18e328]:
+                  - img [ref=f18e330]
+                  - generic [ref=f18e333]:
+                    - paragraph [ref=f18e334]: View Analytics
+                    - paragraph [ref=f18e335]: Track performance
