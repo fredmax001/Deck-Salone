@@ -1,0 +1,5 @@
+[   10524ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4173/api/mixes/hearthis-test/play:0
+[  127804ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:4173/api/mixes?page=1&limit=12&genre=Afrobeats&sortBy=newest:0
+[  128806ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:4173/api/mixes?page=1&limit=12&genre=Afrobeats&sortBy=newest:0
+[  130837ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:4173/api/mixes?page=1&limit=12&genre=Salone+Mix&sortBy=newest:0
+[  131838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:4173/api/mixes?page=1&limit=12&genre=Salone+Mix&sortBy=newest:0

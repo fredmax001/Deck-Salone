@@ -1,0 +1,177 @@
+- generic [ref=f3e5]:
+  - navigation [ref=f3e6]:
+    - generic [ref=f3e7]:
+      - link "Deck Salone" [ref=f3e8] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f3e9]
+      - generic [ref=f3e10]:
+        - link "Discover" [ref=f3e11] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=f3e12] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=f3e13] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=f3e14] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=f3e15] [cursor=pointer]:
+          - /url: /battles
+        - link "Request DJ" [ref=f3e16] [cursor=pointer]:
+          - /url: /request-dj
+      - generic [ref=f3e17]:
+        - button "Search" [ref=f3e18] [cursor=pointer]:
+          - img [ref=f3e19]
+        - button "Switch to dark mode" [active] [ref=f3e206] [cursor=pointer]:
+          - img
+        - link "Join as DJ" [ref=f3e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=f3e24]:
+    - generic [ref=f3e25]:
+      - generic [ref=f3e27]:
+        - paragraph [ref=f3e29]: DISCOVER
+        - heading "FIND YOUR PERFECT DJ" [level=1] [ref=f3e31]
+        - paragraph [ref=f3e33]: Browse verified DJs across Sierra Leone. Filter by genre, city, budget, and availability.
+        - generic [ref=f3e36]:
+          - img
+          - textbox "Search by DJ name, genre, or city..." [ref=f3e37]
+          - button "Search" [ref=f3e38] [cursor=pointer]
+        - generic [ref=f3e40]:
+          - button "All" [ref=f3e41] [cursor=pointer]
+          - button "Afrobeats" [ref=f3e42] [cursor=pointer]
+          - button "Amapiano" [ref=f3e43] [cursor=pointer]
+          - button "Dancehall" [ref=f3e44] [cursor=pointer]
+          - button "Reggae" [ref=f3e45] [cursor=pointer]
+          - button "Salone Mix" [ref=f3e46] [cursor=pointer]
+        - button "Advanced Filters" [ref=f3e49] [cursor=pointer]:
+          - img [ref=f3e50]
+          - text: Advanced Filters
+          - img [ref=f3e51]
+      - generic [ref=f3e54]:
+        - generic [ref=f3e55]: Showing 1 of 1 DJs
+        - 'button "Sort: Rank (Default)" [ref=f3e57] [cursor=pointer]':
+          - text: "Sort: Rank (Default)"
+          - img [ref=f3e58]
+      - generic [ref=f3e63]:
+        - generic [ref=f3e64]:
+          - img "Fred Max" [ref=f3e65]
+          - generic [ref=f3e68]: "0"
+          - img [ref=f3e70]
+        - generic [ref=f3e73]:
+          - generic [ref=f3e74]:
+            - generic [ref=f3e75]: Afrobeats
+            - generic [ref=f3e76]: Salone Mix
+          - heading "Fred Max" [level=3] [ref=f3e77]
+          - generic [ref=f3e78]:
+            - img [ref=f3e79]
+            - generic [ref=f3e82]: Freetown
+          - generic [ref=f3e83]:
+            - generic [ref=f3e84]:
+              - img [ref=f3e86]
+              - text: "0"
+            - generic [ref=f3e91]:
+              - img [ref=f3e93]
+              - text: "2"
+            - generic [ref=f3e96]:
+              - img [ref=f3e98]
+              - text: "0.0"
+          - generic [ref=f3e100]:
+            - generic [ref=f3e101]: From
+            - generic [ref=f3e102]: SLE 5,000 - 50,000
+          - link "View Profile" [ref=f3e103] [cursor=pointer]:
+            - /url: /dj/dj_fredmax
+      - generic [ref=f3e106]:
+        - generic [ref=f3e107]:
+          - heading "ARE YOU A DJ?" [level=2] [ref=f3e109]
+          - paragraph [ref=f3e111]: Join the platform and get discovered by promoters, fans, and event organizers across Sierra Leone.
+          - list [ref=f3e113]:
+            - listitem [ref=f3e114]:
+              - img [ref=f3e115]
+              - text: Create your verified professional profile
+            - listitem [ref=f3e118]:
+              - img [ref=f3e119]
+              - text: Upload and showcase your mixes
+            - listitem [ref=f3e122]:
+              - img [ref=f3e123]
+              - text: Track performance with real analytics
+            - listitem [ref=f3e126]:
+              - img [ref=f3e127]
+              - text: Get booked directly through the platform
+            - listitem [ref=f3e130]:
+              - img [ref=f3e131]
+              - text: Compete in weekly DJ battles
+          - link "Create Free Profile" [ref=f3e135] [cursor=pointer]:
+            - /url: /login
+            - text: Create Free Profile
+            - img [ref=f3e136]
+        - generic [ref=f3e141]:
+          - img "DJ performing" [ref=f3e142]
+          - img "DJ at club" [ref=f3e143]
+  - contentinfo [ref=f3e144]:
+    - generic [ref=f3e145]:
+      - generic [ref=f3e146]:
+        - generic [ref=f3e147]:
+          - link "Deck Salone" [ref=f3e148] [cursor=pointer]:
+            - /url: /
+            - img "Deck Salone" [ref=f3e149]
+          - paragraph [ref=f3e150]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=f3e151]:
+            - link "Instagram" [ref=f3e152] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f3e153]
+            - link "Twitter" [ref=f3e156] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f3e157]
+            - link "YouTube" [ref=f3e159] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f3e160]
+            - link "TikTok" [ref=f3e163] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f3e164]
+        - generic [ref=f3e168]:
+          - heading "Platform" [level=4] [ref=f3e169]
+          - list [ref=f3e170]:
+            - listitem [ref=f3e171]:
+              - link "Discover DJs" [ref=f3e172] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=f3e173]:
+              - link "Rankings" [ref=f3e174] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=f3e175]:
+              - link "Mix Hub" [ref=f3e176] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=f3e177]:
+              - link "Events" [ref=f3e178] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f3e179]:
+              - link "Book a DJ" [ref=f3e180] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=f3e181]:
+              - link "Battle Arena" [ref=f3e182] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=f3e183]:
+          - heading "Resources" [level=4] [ref=f3e184]
+          - list [ref=f3e185]:
+            - listitem [ref=f3e186]:
+              - link "Hall of Fame" [ref=f3e187] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=f3e188]:
+              - link "Blog" [ref=f3e189] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f3e190]:
+              - link "Help Center" [ref=f3e191] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=f3e192]:
+              - link "Privacy Policy" [ref=f3e193] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f3e194]:
+              - link "Terms of Service" [ref=f3e195] [cursor=pointer]:
+                - /url: /terms
+        - generic [ref=f3e196]:
+          - heading "Connect" [level=4] [ref=f3e197]
+          - paragraph [ref=f3e198]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=f3e199]:
+            - generic [ref=f3e200]: English
+            - generic [ref=f3e201]: "|"
+            - generic [ref=f3e202]: Krio
+      - generic [ref=f3e203]:
+        - paragraph [ref=f3e204]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=f3e205]: All rights reserved.

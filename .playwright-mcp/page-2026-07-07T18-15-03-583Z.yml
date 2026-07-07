@@ -1,0 +1,468 @@
+- generic [ref=e5]:
+  - navigation [ref=e6]:
+    - generic [ref=e7]:
+      - link "Deck Salone" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=e9]
+      - generic [ref=e10]:
+        - link "Discover" [ref=e11] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=e12] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=e13] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=e14] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=e15] [cursor=pointer]:
+          - /url: /battles
+        - link "Request DJ" [ref=e16] [cursor=pointer]:
+          - /url: /request-dj
+      - generic [ref=e17]:
+        - button "Search" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Switch to dark mode" [ref=e22] [cursor=pointer]:
+          - img
+        - link "Join as DJ" [ref=e23] [cursor=pointer]:
+          - /url: /login
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - text: MIX HUB
+          - heading "DISCOVER & STREAM THE BEST MIXES" [level=1] [ref=e30]
+          - paragraph [ref=e31]: From Salone classics to the hottest Afrobeats and Amapiano — stream, download, and share mixes from Sierra Leone's top DJs.
+          - generic [ref=e33]:
+            - img [ref=e34]
+            - textbox "Search mixes, DJs, or genres..." [ref=e37]
+        - generic [ref=e39] [cursor=pointer]:
+          - text: NOW TRENDING
+          - generic [ref=e40]:
+            - img "SALONE MIX XV" [ref=e41]
+            - generic [ref=e42]:
+              - heading "SALONE MIX XV" [level=4] [ref=e43]
+              - paragraph [ref=e44]: Fred Max
+              - paragraph [ref=e45]: 9 plays
+      - generic [ref=e48]:
+        - generic [ref=e49]: Genre
+        - button "All Genres" [ref=e50] [cursor=pointer]
+        - button "Afrobeats" [ref=e51] [cursor=pointer]
+        - button "Salone Mix" [ref=e52] [cursor=pointer]
+      - generic [ref=e53]:
+        - generic [ref=e55]:
+          - img [ref=e56]
+          - generic [ref=e58]: TRENDING NOW
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - img "SALONE MIX XV" [ref=e62]
+              - img [ref=e66] [cursor=pointer]
+            - heading "SALONE MIX XV" [level=4] [ref=e68]
+            - paragraph [ref=e69]: Fred Max
+            - generic [ref=e70]:
+              - generic [ref=e71]: 9 plays
+              - generic [ref=e72]: "|"
+              - generic [ref=e73]:
+                - img [ref=e74]
+                - text: 1:17:37
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - img "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [ref=e79]
+              - img [ref=e83] [cursor=pointer]
+            - heading "SALONE MIX 2025 (Sierra Leone Hit Songs 2025)" [level=4] [ref=e85]
+            - paragraph [ref=e86]: Fred Max
+            - generic [ref=e87]:
+              - generic [ref=e88]: 7 plays
+              - generic [ref=e89]: "|"
+              - generic [ref=e90]:
+                - img [ref=e91]
+                - text: 0:00
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - img "SALONE MIX VOL.XI (THROWBACK V2)" [ref=e96]
+              - img [ref=e100] [cursor=pointer]
+            - heading "SALONE MIX VOL.XI (THROWBACK V2)" [level=4] [ref=e102]
+            - paragraph [ref=e103]: Fred Max
+            - generic [ref=e104]:
+              - generic [ref=e105]: 2 plays
+              - generic [ref=e106]: "|"
+              - generic [ref=e107]:
+                - img [ref=e108]
+                - text: 1:11:17
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - img "SOUND OF SALONE (SALONE MIX VOL XI)" [ref=e113]
+              - img [ref=e117] [cursor=pointer]
+            - heading "SOUND OF SALONE (SALONE MIX VOL XI)" [level=4] [ref=e119]
+            - paragraph [ref=e120]: Fred Max
+            - generic [ref=e121]:
+              - generic [ref=e122]: 1 plays
+              - generic [ref=e123]: "|"
+              - generic [ref=e124]:
+                - img [ref=e125]
+                - text: 57:29
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - img "01 SALONE MIX VOL.10" [ref=e130]
+              - img [ref=e134] [cursor=pointer]
+            - heading "01 SALONE MIX VOL.10" [level=4] [ref=e136]
+            - paragraph [ref=e137]: Fred Max
+            - generic [ref=e138]:
+              - generic [ref=e139]: 1 plays
+              - generic [ref=e140]: "|"
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - text: 1:03:51
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - img "SOUND OF SALONE (Independence Culture Mix VOL III)" [ref=e147]
+              - img [ref=e151] [cursor=pointer]
+            - heading "SOUND OF SALONE (Independence Culture Mix VOL III)" [level=4] [ref=e153]
+            - paragraph [ref=e154]: Fred Max
+            - generic [ref=e155]:
+              - generic [ref=e156]: 0 plays
+              - generic [ref=e157]: "|"
+              - generic [ref=e158]:
+                - img [ref=e159]
+                - text: 1:15:42
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - img "INDEPENDENCE CULTURE MIX VOL.2" [ref=e164]
+              - img [ref=e168] [cursor=pointer]
+            - heading "INDEPENDENCE CULTURE MIX VOL.2" [level=4] [ref=e170]
+            - paragraph [ref=e171]: Fred Max
+            - generic [ref=e172]:
+              - generic [ref=e173]: 0 plays
+              - generic [ref=e174]: "|"
+              - generic [ref=e175]:
+                - img [ref=e176]
+                - text: 1:58:47
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - img "SALONE MIX 2025 Vol. XIII" [ref=e181]
+              - img [ref=e185] [cursor=pointer]
+            - heading "SALONE MIX 2025 Vol. XIII" [level=4] [ref=e187]
+            - paragraph [ref=e188]: Fred Max
+            - generic [ref=e189]:
+              - generic [ref=e190]: 0 plays
+              - generic [ref=e191]: "|"
+              - generic [ref=e192]:
+                - img [ref=e193]
+                - text: 59:53
+      - generic [ref=e196]:
+        - generic [ref=e198]:
+          - text: FRESH DROPS
+          - heading "LATEST UPLOADS" [level=2] [ref=e199]
+        - generic [ref=e200]:
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - img "SALONE MIX V10 BONUS (HIP HOP MIX)" [ref=e204]
+              - img [ref=e208] [cursor=pointer]
+              - generic [ref=e210]: NEW
+            - generic [ref=e211]:
+              - heading "SALONE MIX V10 BONUS (HIP HOP MIX)" [level=4] [ref=e212]
+              - paragraph [ref=e213]: Fred Max
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - generic [ref=e216]: 0 plays
+                  - generic [ref=e217]: "|"
+                  - generic [ref=e218]:
+                    - img [ref=e219]
+                    - text: 47:21
+                - button [ref=e222] [cursor=pointer]:
+                  - img [ref=e223]
+              - generic [ref=e225]: Salone Mix
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - img "SOUND OF SALONE (SALONE MIX VOL XI)" [ref=e229]
+              - img [ref=e233] [cursor=pointer]
+              - generic [ref=e235]: NEW
+            - generic [ref=e236]:
+              - heading "SOUND OF SALONE (SALONE MIX VOL XI)" [level=4] [ref=e237]
+              - paragraph [ref=e238]: Fred Max
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e241]: 1 plays
+                  - generic [ref=e242]: "|"
+                  - generic [ref=e243]:
+                    - img [ref=e244]
+                    - text: 57:29
+                - button [ref=e247] [cursor=pointer]:
+                  - img [ref=e248]
+              - generic [ref=e250]: Salone Mix
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - img "01 SALONE MIX VOL.10" [ref=e254]
+              - img [ref=e258] [cursor=pointer]
+              - generic [ref=e260]: NEW
+            - generic [ref=e261]:
+              - heading "01 SALONE MIX VOL.10" [level=4] [ref=e262]
+              - paragraph [ref=e263]: Fred Max
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]: 1 plays
+                  - generic [ref=e267]: "|"
+                  - generic [ref=e268]:
+                    - img [ref=e269]
+                    - text: 1:03:51
+                - button [ref=e272] [cursor=pointer]:
+                  - img [ref=e273]
+              - generic [ref=e275]: Salone Mix
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - img "SALONE MIX VOL.9." [ref=e279]
+              - img [ref=e283] [cursor=pointer]
+            - generic [ref=e285]:
+              - heading "SALONE MIX VOL.9." [level=4] [ref=e286]
+              - paragraph [ref=e287]: Fred Max
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - generic [ref=e290]: 0 plays
+                  - generic [ref=e291]: "|"
+                  - generic [ref=e292]:
+                    - img [ref=e293]
+                    - text: 1:05:36
+                - button [ref=e296] [cursor=pointer]:
+                  - img [ref=e297]
+              - generic [ref=e299]: Salone Mix
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - img "SALONE MIX VOL.8.." [ref=e303]
+              - img [ref=e307] [cursor=pointer]
+            - generic [ref=e309]:
+              - heading "SALONE MIX VOL.8.." [level=4] [ref=e310]
+              - paragraph [ref=e311]: Fred Max
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: 0 plays
+                  - generic [ref=e315]: "|"
+                  - generic [ref=e316]:
+                    - img [ref=e317]
+                    - text: 1:18:58
+                - button [ref=e320] [cursor=pointer]:
+                  - img [ref=e321]
+              - generic [ref=e323]: Salone Mix
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - img "SL Mixtape VOL.7.mp3" [ref=e327]
+              - img [ref=e331] [cursor=pointer]
+            - generic [ref=e333]:
+              - heading "SL Mixtape VOL.7.mp3" [level=4] [ref=e334]
+              - paragraph [ref=e335]: Fred Max
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - generic [ref=e338]: 0 plays
+                  - generic [ref=e339]: "|"
+                  - generic [ref=e340]:
+                    - img [ref=e341]
+                    - text: 1:11:25
+                - button [ref=e344] [cursor=pointer]:
+                  - img [ref=e345]
+              - generic [ref=e347]: Salone Mix
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - img "SL Mixtape VOL.5" [ref=e351]
+              - img [ref=e355] [cursor=pointer]
+            - generic [ref=e357]:
+              - heading "SL Mixtape VOL.5" [level=4] [ref=e358]
+              - paragraph [ref=e359]: Fred Max
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]: 0 plays
+                  - generic [ref=e363]: "|"
+                  - generic [ref=e364]:
+                    - img [ref=e365]
+                    - text: 1:32:18
+                - button [ref=e368] [cursor=pointer]:
+                  - img [ref=e369]
+              - generic [ref=e371]: Salone Mix
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - img "SL Mixtape VOL.6.mp3" [ref=e375]
+              - img [ref=e379] [cursor=pointer]
+            - generic [ref=e381]:
+              - heading "SL Mixtape VOL.6.mp3" [level=4] [ref=e382]
+              - paragraph [ref=e383]: Fred Max
+              - generic [ref=e384]:
+                - generic [ref=e385]:
+                  - generic [ref=e386]: 0 plays
+                  - generic [ref=e387]: "|"
+                  - generic [ref=e388]:
+                    - img [ref=e389]
+                    - text: 1:04:57
+                - button [ref=e392] [cursor=pointer]:
+                  - img [ref=e393]
+              - generic [ref=e395]: Salone Mix
+          - generic [ref=e397]:
+            - generic [ref=e398]:
+              - img "S.L Mixtape VOL. 4" [ref=e399]
+              - img [ref=e403] [cursor=pointer]
+            - generic [ref=e405]:
+              - heading "S.L Mixtape VOL. 4" [level=4] [ref=e406]
+              - paragraph [ref=e407]: Fred Max
+              - generic [ref=e408]:
+                - generic [ref=e409]:
+                  - generic [ref=e410]: 0 plays
+                  - generic [ref=e411]: "|"
+                  - generic [ref=e412]:
+                    - img [ref=e413]
+                    - text: 44:11
+                - button [ref=e416] [cursor=pointer]:
+                  - img [ref=e417]
+              - generic [ref=e419]: Salone Mix
+          - generic [ref=e421]:
+            - generic [ref=e422]:
+              - img "S.L Mixtape VOL.3.mp3" [ref=e423]
+              - img [ref=e427] [cursor=pointer]
+            - generic [ref=e429]:
+              - heading "S.L Mixtape VOL.3.mp3" [level=4] [ref=e430]
+              - paragraph [ref=e431]: Fred Max
+              - generic [ref=e432]:
+                - generic [ref=e433]:
+                  - generic [ref=e434]: 0 plays
+                  - generic [ref=e435]: "|"
+                  - generic [ref=e436]:
+                    - img [ref=e437]
+                    - text: 45:37
+                - button [ref=e440] [cursor=pointer]:
+                  - img [ref=e441]
+              - generic [ref=e443]: Salone Mix
+          - generic [ref=e445]:
+            - generic [ref=e446]:
+              - img "S.L Mix VOL. 2" [ref=e447]
+              - img [ref=e451] [cursor=pointer]
+            - generic [ref=e453]:
+              - heading "S.L Mix VOL. 2" [level=4] [ref=e454]
+              - paragraph [ref=e455]: Fred Max
+              - generic [ref=e456]:
+                - generic [ref=e457]:
+                  - generic [ref=e458]: 0 plays
+                  - generic [ref=e459]: "|"
+                  - generic [ref=e460]:
+                    - img [ref=e461]
+                    - text: 1:00:22
+                - button [ref=e464] [cursor=pointer]:
+                  - img [ref=e465]
+              - generic [ref=e467]: Salone Mix
+          - generic [ref=e469]:
+            - generic [ref=e470]:
+              - img "SOUND OF SALONE (Independence Culture Mix VOL III)" [ref=e471]
+              - img [ref=e475] [cursor=pointer]
+            - generic [ref=e477]:
+              - heading "SOUND OF SALONE (Independence Culture Mix VOL III)" [level=4] [ref=e478]
+              - paragraph [ref=e479]: Fred Max
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - generic [ref=e482]: 0 plays
+                  - generic [ref=e483]: "|"
+                  - generic [ref=e484]:
+                    - img [ref=e485]
+                    - text: 1:15:42
+                - button [ref=e488] [cursor=pointer]:
+                  - img [ref=e489]
+              - generic [ref=e491]: Salone Mix
+        - button "Load More" [ref=e493] [cursor=pointer]
+  - contentinfo [ref=e494]:
+    - generic [ref=e495]:
+      - generic [ref=e496]:
+        - generic [ref=e497]:
+          - link "Deck Salone" [ref=e498] [cursor=pointer]:
+            - /url: /
+            - img "Deck Salone" [ref=e499]
+          - paragraph [ref=e500]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=e501]:
+            - link "Instagram" [ref=e502] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e503]
+            - link "Twitter" [ref=e506] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e507]
+            - link "YouTube" [ref=e509] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e510]
+            - link "TikTok" [ref=e513] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e514]
+        - generic [ref=e518]:
+          - heading "Platform" [level=4] [ref=e519]
+          - list [ref=e520]:
+            - listitem [ref=e521]:
+              - link "Discover DJs" [ref=e522] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=e523]:
+              - link "Rankings" [ref=e524] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=e525]:
+              - link "Mix Hub" [ref=e526] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=e527]:
+              - link "Events" [ref=e528] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e529]:
+              - link "Book a DJ" [ref=e530] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=e531]:
+              - link "Battle Arena" [ref=e532] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=e533]:
+          - heading "Resources" [level=4] [ref=e534]
+          - list [ref=e535]:
+            - listitem [ref=e536]:
+              - link "About" [ref=e537] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e538]:
+              - link "Hall of Fame" [ref=e539] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=e540]:
+              - link "Blog" [ref=e541] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e542]:
+              - link "Help Center" [ref=e543] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=e544]:
+              - link "Privacy Policy" [ref=e545] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e546]:
+              - link "Terms of Service" [ref=e547] [cursor=pointer]:
+                - /url: /terms
+        - generic [ref=e548]:
+          - heading "Connect" [level=4] [ref=e549]
+          - paragraph [ref=e550]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=e551]:
+            - generic [ref=e552]: English
+            - generic [ref=e553]: "|"
+            - generic [ref=e554]: Krio
+      - generic [ref=e555]:
+        - paragraph [ref=e556]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=e557]: All rights reserved.
+  - generic [ref=e561]:
+    - generic [ref=e562]:
+      - img "Shawne Test" [ref=e564]
+      - generic [ref=e565]:
+        - paragraph [ref=e566]: Shawne Test
+        - paragraph [ref=e567]: Shawne
+      - button [ref=e568] [cursor=pointer]:
+        - img [ref=e569]
+    - generic [ref=e572]:
+      - generic [ref=e573]:
+        - button [ref=e574] [cursor=pointer]:
+          - img [ref=e575]
+        - button [ref=e581] [cursor=pointer]:
+          - img [ref=e582]
+        - button [ref=e584] [cursor=pointer]:
+          - img [ref=e622]
+        - button [ref=e587] [cursor=pointer]:
+          - img [ref=e588]
+        - button [ref=e590] [cursor=pointer]:
+          - img [ref=e591]
+      - generic [ref=e597]:
+        - generic [ref=e598]: 0:13
+        - generic [ref=e600]: 179:41
+    - generic [ref=e601]:
+      - generic [ref=e602]:
+        - button [ref=e603] [cursor=pointer]:
+          - img [ref=e604]
+        - slider [ref=e610] [cursor=pointer]: "0.8"
+      - button [ref=e611] [cursor=pointer]:
+        - img [ref=e612]
+      - button [ref=e617] [cursor=pointer]:
+        - img [ref=e618]
