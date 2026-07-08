@@ -1,0 +1,282 @@
+- generic [ref=f8e5]:
+  - navigation [ref=f8e6]:
+    - generic [ref=f8e7]:
+      - link "Deck Salone" [ref=f8e8] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f8e9]
+      - generic [ref=f8e10]:
+        - button "Search" [ref=f8e11] [cursor=pointer]:
+          - img [ref=f8e12]
+        - button "Fred Max" [ref=f8e16] [cursor=pointer]:
+          - img "Fred Max" [ref=f8e18]
+  - main [ref=f8e19]:
+    - generic [ref=f8e20]:
+      - generic [ref=f8e22]:
+        - text: Book a DJ
+        - heading "Find the Perfect DJ for Your Event" [level=1] [ref=f8e23]
+        - paragraph [ref=f8e24]: From intimate weddings to stadium festivals — browse verified DJs, compare prices, and book securely in minutes.
+        - generic [ref=f8e25]:
+          - generic [ref=f8e26]:
+            - img [ref=f8e27]
+            - generic [ref=f8e29]: Secure Payments
+          - generic [ref=f8e30]:
+            - img [ref=f8e31]
+            - generic [ref=f8e33]: Verified DJs
+          - generic [ref=f8e34]:
+            - img [ref=f8e35]
+            - generic [ref=f8e38]: Instant Confirmation
+          - generic [ref=f8e39]:
+            - img [ref=f8e40]
+            - generic [ref=f8e42]: Direct Communication
+      - generic [ref=f8e45]:
+        - generic [ref=f8e46]:
+          - generic [ref=f8e47]:
+            - img [ref=f8e48]
+            - textbox "What type of DJ?" [ref=f8e51]
+          - generic [ref=f8e52]:
+            - img [ref=f8e53]
+            - combobox [ref=f8e56]:
+              - option "City or Venue" [selected]
+              - option "Freetown"
+          - generic [ref=f8e57]:
+            - img [ref=f8e58]
+            - textbox [ref=f8e60]
+          - button "Search DJs" [ref=f8e61] [cursor=pointer]:
+            - img [ref=f8e62]
+            - text: Search DJs
+        - button "Filters" [ref=f8e65] [cursor=pointer]:
+          - img [ref=f8e66]
+          - text: Filters
+          - img [ref=f8e67]
+      - generic [ref=f8e70]:
+        - generic [ref=f8e71]:
+          - heading "1 DJs found" [level=3] [ref=f8e72]
+          - generic [ref=f8e73]:
+            - generic [ref=f8e74]: "Sort by:"
+            - combobox [ref=f8e75]:
+              - option "Recommended" [selected]
+              - 'option "Price: Low to High"'
+              - 'option "Price: High to Low"'
+              - option "Highest Rated"
+              - option "Most Experienced"
+        - generic [ref=f8e78]:
+          - generic [ref=f8e80]:
+            - img "Fred Max" [ref=f8e81]
+            - generic [ref=f8e83]:
+              - paragraph [ref=f8e84]: SLE 5,000
+              - paragraph [ref=f8e85]: per event
+          - generic [ref=f8e86]:
+            - generic [ref=f8e87]:
+              - generic [ref=f8e88]:
+                - heading "Fred Max" [level=4] [ref=f8e89]
+                - img [ref=f8e91]
+              - generic [ref=f8e93]:
+                - img [ref=f8e94]
+                - generic [ref=f8e96]: "0"
+            - generic [ref=f8e97]:
+              - img [ref=f8e98]
+              - text: Freetown
+            - generic [ref=f8e101]:
+              - generic [ref=f8e102]: Afrobeats
+              - generic [ref=f8e103]: Salone Mix
+              - generic [ref=f8e104]: Amapiano
+              - generic [ref=f8e105]: Dancehall
+              - generic [ref=f8e106]: Reggae
+            - paragraph [ref=f8e107]: Active Since '09'
+            - generic [ref=f8e108]:
+              - generic [ref=f8e112]: Available on your date
+              - generic [ref=f8e113]: · 24h response
+            - generic [ref=f8e114]:
+              - button "View Profile" [ref=f8e115] [cursor=pointer]
+              - button "Request Booking" [ref=f8e116] [cursor=pointer]
+      - generic [ref=f8e118]:
+        - generic [ref=f8e119]:
+          - text: Simple Process
+          - heading "How Booking Works" [level=2] [ref=f8e120]
+        - generic [ref=f8e121]:
+          - generic [ref=f8e122]:
+            - text: "01"
+            - img [ref=f8e124]
+            - heading "Search" [level=3] [ref=f8e127]
+            - paragraph [ref=f8e128]: Browse DJs by genre, location, budget, and availability. Filter until you find your match.
+          - generic [ref=f8e129]:
+            - text: "02"
+            - img [ref=f8e131]
+            - heading "Request" [level=3] [ref=f8e134]
+            - paragraph [ref=f8e135]: Send a booking request with your event details. The DJ reviews and responds within 24 hours.
+          - generic [ref=f8e136]:
+            - text: "03"
+            - img [ref=f8e138]
+            - heading "Confirm" [level=3] [ref=f8e141]
+            - paragraph [ref=f8e142]: Once accepted, pay a deposit to secure the booking. Full payment after the event.
+          - generic [ref=f8e143]:
+            - text: "04"
+            - img [ref=f8e145]
+            - heading "Enjoy" [level=3] [ref=f8e149]
+            - paragraph [ref=f8e150]: Your DJ arrives, sets up, and delivers an unforgettable performance. Leave a review after!
+      - generic [ref=f8e152]:
+        - generic [ref=f8e153]:
+          - text: Pricing
+          - heading "Typical Price Ranges" [level=2] [ref=f8e154]
+          - paragraph [ref=f8e155]: Prices vary by DJ experience, event type, and duration. These are average ranges.
+        - generic [ref=f8e156]:
+          - generic [ref=f8e157]:
+            - img [ref=f8e158]
+            - heading "Wedding" [level=4] [ref=f8e160]
+            - paragraph [ref=f8e161]: SLE 5,000 – 25,000
+            - paragraph [ref=f8e162]: per event
+            - list [ref=f8e164]:
+              - listitem [ref=f8e165]:
+                - img [ref=f8e166]
+                - generic [ref=f8e168]: 4-6 hour set
+              - listitem [ref=f8e169]:
+                - img [ref=f8e170]
+                - generic [ref=f8e172]: Consultation
+              - listitem [ref=f8e173]:
+                - img [ref=f8e174]
+                - generic [ref=f8e176]: Ceremony + reception music
+              - listitem [ref=f8e177]:
+                - img [ref=f8e178]
+                - generic [ref=f8e180]: MC services
+            - button "Browse DJs" [ref=f8e181] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=f8e182]
+          - generic [ref=f8e184]:
+            - img [ref=f8e185]
+            - heading "Club Night" [level=4] [ref=f8e188]
+            - paragraph [ref=f8e189]: SLE 3,000 – 15,000
+            - paragraph [ref=f8e190]: per event
+            - list [ref=f8e192]:
+              - listitem [ref=f8e193]:
+                - img [ref=f8e194]
+                - generic [ref=f8e196]: 3-5 hour set
+              - listitem [ref=f8e197]:
+                - img [ref=f8e198]
+                - generic [ref=f8e200]: Club sound system
+              - listitem [ref=f8e201]:
+                - img [ref=f8e202]
+                - generic [ref=f8e204]: Mix integration
+              - listitem [ref=f8e205]:
+                - img [ref=f8e206]
+                - generic [ref=f8e208]: Crowd reading
+            - button "Browse DJs" [ref=f8e209] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=f8e210]
+          - generic [ref=f8e212]:
+            - img [ref=f8e213]
+            - heading "Corporate" [level=4] [ref=f8e216]
+            - paragraph [ref=f8e217]: SLE 8,000 – 30,000
+            - paragraph [ref=f8e218]: per event
+            - list [ref=f8e220]:
+              - listitem [ref=f8e221]:
+                - img [ref=f8e222]
+                - generic [ref=f8e224]: Background music
+              - listitem [ref=f8e225]:
+                - img [ref=f8e226]
+                - generic [ref=f8e228]: MC services
+              - listitem [ref=f8e229]:
+                - img [ref=f8e230]
+                - generic [ref=f8e232]: Professional setup
+              - listitem [ref=f8e233]:
+                - img [ref=f8e234]
+                - generic [ref=f8e236]: Branded presentation
+            - button "Browse DJs" [ref=f8e237] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=f8e238]
+          - generic [ref=f8e240]:
+            - img [ref=f8e241]
+            - heading "Festival" [level=4] [ref=f8e244]
+            - paragraph [ref=f8e245]: SLE 15,000 – 100,000+
+            - paragraph [ref=f8e246]: per event
+            - list [ref=f8e248]:
+              - listitem [ref=f8e249]:
+                - img [ref=f8e250]
+                - generic [ref=f8e252]: 1-2 hour set
+              - listitem [ref=f8e253]:
+                - img [ref=f8e254]
+                - generic [ref=f8e256]: Festival-grade equipment
+              - listitem [ref=f8e257]:
+                - img [ref=f8e258]
+                - generic [ref=f8e260]: Travel included
+              - listitem [ref=f8e261]:
+                - img [ref=f8e262]
+                - generic [ref=f8e264]: Sound check
+            - button "Browse DJs" [ref=f8e265] [cursor=pointer]:
+              - text: Browse DJs
+              - img [ref=f8e266]
+      - generic [ref=f8e269]:
+        - generic [ref=f8e270]:
+          - text: Trust & Safety
+          - heading "Why Book Through Sound It?" [level=2] [ref=f8e271]
+        - generic [ref=f8e272]:
+          - generic [ref=f8e273]:
+            - img [ref=f8e275]
+            - generic [ref=f8e277]:
+              - heading "Verified DJs Only" [level=4] [ref=f8e278]
+              - paragraph [ref=f8e279]: Every DJ on our platform is identity-verified. No fake profiles, no surprises.
+          - generic [ref=f8e280]:
+            - img [ref=f8e282]
+            - generic [ref=f8e285]:
+              - heading "Secure Payments" [level=4] [ref=f8e286]
+              - paragraph [ref=f8e287]: Your deposit is held securely. Released to the DJ only after your event is confirmed complete.
+          - generic [ref=f8e288]:
+            - img [ref=f8e290]
+            - generic [ref=f8e293]:
+              - heading "Transparent Pricing" [level=4] [ref=f8e294]
+              - paragraph [ref=f8e295]: See exact pricing upfront. No hidden fees, no last-minute price changes.
+          - generic [ref=f8e296]:
+            - img [ref=f8e298]
+            - generic [ref=f8e300]:
+              - heading "Dispute Protection" [level=4] [ref=f8e301]
+              - paragraph [ref=f8e302]: If something goes wrong, our support team mediates and ensures fair resolution.
+        - generic [ref=f8e303]:
+          - heading "Frequently Asked Questions" [level=3] [ref=f8e304]
+          - generic [ref=f8e305]:
+            - group [ref=f8e307]:
+              - generic "How do I book a DJ through Sound It?" [ref=f8e308] [cursor=pointer]:
+                - generic [ref=f8e309]: How do I book a DJ through Sound It?
+                - img [ref=f8e310]
+            - group [ref=f8e313]:
+              - generic "What payment methods are accepted?" [ref=f8e314] [cursor=pointer]:
+                - generic [ref=f8e315]: What payment methods are accepted?
+                - img [ref=f8e316]
+            - group [ref=f8e319]:
+              - generic "Can I cancel or reschedule my booking?" [ref=f8e320] [cursor=pointer]:
+                - generic [ref=f8e321]: Can I cancel or reschedule my booking?
+                - img [ref=f8e322]
+            - group [ref=f8e325]:
+              - generic "What happens if the DJ cancels?" [ref=f8e326] [cursor=pointer]:
+                - generic [ref=f8e327]: What happens if the DJ cancels?
+                - img [ref=f8e328]
+            - group [ref=f8e331]:
+              - generic "Do DJs bring their own equipment?" [ref=f8e332] [cursor=pointer]:
+                - generic [ref=f8e333]: Do DJs bring their own equipment?
+                - img [ref=f8e334]
+        - generic [ref=f8e336]:
+          - heading "Ready to book?" [level=3] [ref=f8e337]
+          - button "Browse 1 Verified DJs" [ref=f8e338] [cursor=pointer]:
+            - img [ref=f8e339]
+            - text: Browse 1 Verified DJs
+  - contentinfo [ref=f8e342]:
+    - paragraph [ref=f8e344]: © 2025 Deck Salone
+  - navigation [ref=f8e345]:
+    - generic [ref=f8e346]:
+      - link "Home" [ref=f8e347] [cursor=pointer]:
+        - /url: /
+        - img [ref=f8e348]
+        - generic [ref=f8e351]: Home
+      - link "Discover" [ref=f8e352] [cursor=pointer]:
+        - /url: /discover
+        - img [ref=f8e353]
+        - generic [ref=f8e356]: Discover
+      - link "Mixes" [ref=f8e357] [cursor=pointer]:
+        - /url: /mixes
+        - img [ref=f8e358]
+        - generic [ref=f8e363]: Mixes
+      - link "Battles" [ref=f8e364] [cursor=pointer]:
+        - /url: /battles
+        - img [ref=f8e365]
+        - generic [ref=f8e371]: Battles
+      - button "More" [ref=f8e372] [cursor=pointer]:
+        - img [ref=f8e373]
+        - generic [ref=f8e374]: More

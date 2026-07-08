@@ -1,0 +1,118 @@
+- generic [ref=f5e5]:
+  - navigation [ref=f5e6]:
+    - generic [ref=f5e7]:
+      - link "Deck Salone" [ref=f5e8] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f5e9]
+      - generic [ref=f5e10]:
+        - button "Search" [ref=f5e11] [cursor=pointer]:
+          - img [ref=f5e12]
+        - button "Fred Max" [ref=f5e16] [cursor=pointer]:
+          - img "Fred Max" [ref=f5e18]
+  - main [ref=f5e19]:
+    - generic [ref=f5e20]:
+      - generic [ref=f5e22]:
+        - paragraph [ref=f5e24]: LIVE RANKINGS
+        - heading "SIERRA LEONE DJ RANKINGS" [level=1] [ref=f5e26]
+        - paragraph [ref=f5e28]: Transparent, data-driven rankings updated weekly. See exactly how scores are calculated.
+        - generic [ref=f5e30]:
+          - img [ref=f5e31]
+          - generic [ref=f5e36]: "Last updated: 7/8/2026"
+        - generic [ref=f5e38]:
+          - paragraph [ref=f5e39]: HOW SCORES ARE CALCULATED
+          - generic [ref=f5e40]:
+            - generic [ref=f5e41]:
+              - text: ~45%
+              - paragraph [ref=f5e42]: Digital Score
+              - list [ref=f5e43]:
+                - listitem [ref=f5e44]: Streams & Followers
+                - listitem [ref=f5e45]: Mix Uploads & Plays
+                - listitem [ref=f5e46]: Platform Engagement
+            - generic [ref=f5e47]:
+              - text: ~35%
+              - paragraph [ref=f5e48]: Industry Score
+              - list [ref=f5e49]:
+                - listitem [ref=f5e50]: Booking Count
+                - listitem [ref=f5e51]: Events Played
+                - listitem [ref=f5e52]: Battle Performance
+            - generic [ref=f5e53]:
+              - text: ~20%
+              - paragraph [ref=f5e54]: Community Score
+              - list [ref=f5e55]:
+                - listitem [ref=f5e56]: User Ratings
+                - listitem [ref=f5e57]: Reviews & Feedback
+                - listitem [ref=f5e58]: Verified Reviews
+      - generic [ref=f5e60]:
+        - generic [ref=f5e62]:
+          - button "Global" [ref=f5e63] [cursor=pointer]
+          - button "By City" [ref=f5e64] [cursor=pointer]
+          - button "By Genre" [ref=f5e65] [cursor=pointer]
+          - button "Fastest Rising" [ref=f5e66] [cursor=pointer]
+          - button "Most Booked" [ref=f5e67] [cursor=pointer]
+          - button "Most Streamed" [ref=f5e68] [cursor=pointer]
+        - generic [ref=f5e69]:
+          - generic [ref=f5e70]:
+            - paragraph [ref=f5e71]: GLOBAL TOP 50
+            - generic [ref=f5e72]:
+              - img [ref=f5e73]
+              - generic [ref=f5e76]: All Cities
+          - generic [ref=f5e78] [cursor=pointer]:
+            - generic [ref=f5e80]:
+              - img [ref=f5e81]
+              - generic [ref=f5e87]: "1"
+            - img "Fred Max" [ref=f5e89]
+            - generic [ref=f5e90]:
+              - generic [ref=f5e91]:
+                - generic [ref=f5e92]: Fred Max
+                - img [ref=f5e93]
+              - generic [ref=f5e96]:
+                - generic [ref=f5e97]: Afrobeats
+                - generic [ref=f5e98]: Salone Mix
+                - generic [ref=f5e99]: Amapiano
+                - generic [ref=f5e100]:
+                  - img [ref=f5e101]
+                  - text: Freetown
+            - generic [ref=f5e104]:
+              - img [ref=f5e105]
+              - generic [ref=f5e108]: 0%
+      - generic [ref=f5e111]:
+        - generic [ref=f5e112]:
+          - img [ref=f5e113]
+          - paragraph [ref=f5e116]: MOST STREAMED
+        - generic [ref=f5e119]:
+          - generic [ref=f5e120]: "1"
+          - img "Fred Max" [ref=f5e121]
+          - generic [ref=f5e122]: Fred Max
+          - generic [ref=f5e124]: "0"
+      - generic [ref=f5e127]:
+        - generic [ref=f5e128]:
+          - img [ref=f5e129]
+          - paragraph [ref=f5e132]: MOST BOOKED
+        - generic [ref=f5e135]:
+          - generic [ref=f5e136]: "1"
+          - img "Fred Max" [ref=f5e137]
+          - generic [ref=f5e138]: Fred Max
+          - generic [ref=f5e140]: "0"
+  - contentinfo [ref=f5e141]:
+    - paragraph [ref=f5e143]: © 2025 Deck Salone
+  - navigation [ref=f5e144]:
+    - generic [ref=f5e145]:
+      - link "Home" [ref=f5e146] [cursor=pointer]:
+        - /url: /
+        - img [ref=f5e147]
+        - generic [ref=f5e150]: Home
+      - link "Discover" [ref=f5e151] [cursor=pointer]:
+        - /url: /discover
+        - img [ref=f5e152]
+        - generic [ref=f5e155]: Discover
+      - link "Mixes" [ref=f5e156] [cursor=pointer]:
+        - /url: /mixes
+        - img [ref=f5e157]
+        - generic [ref=f5e162]: Mixes
+      - link "Battles" [ref=f5e163] [cursor=pointer]:
+        - /url: /battles
+        - img [ref=f5e164]
+        - generic [ref=f5e170]: Battles
+      - button "More" [ref=f5e171] [cursor=pointer]:
+        - img [ref=f5e172]
+        - generic [ref=f5e173]: More

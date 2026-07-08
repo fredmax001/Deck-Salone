@@ -1,0 +1,88 @@
+- generic [ref=f4e5]:
+  - navigation [ref=f4e6]:
+    - generic [ref=f4e7]:
+      - link "Deck Salone" [ref=f4e8] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f4e9]
+      - generic [ref=f4e10]:
+        - button "Search" [ref=f4e11] [cursor=pointer]:
+          - img [ref=f4e12]
+        - button "Fred Max" [ref=f4e16] [cursor=pointer]:
+          - img "Fred Max" [ref=f4e18]
+  - main [ref=f4e19]:
+    - generic [ref=f4e20]:
+      - generic [ref=f4e23]:
+        - generic [ref=f4e24]:
+          - text: EVENTS
+          - heading "WHAT'S HAPPENING IN SIERRA LEONE" [level=1] [ref=f4e25]
+          - paragraph [ref=f4e26]: Discover upcoming events, festivals, and club nights. DJs — find open slots and apply to perform.
+        - generic [ref=f4e28]:
+          - img [ref=f4e30]
+          - generic [ref=f4e34]: UPCOMING
+      - generic [ref=f4e37]:
+        - generic [ref=f4e38]:
+          - button "All Types" [ref=f4e39] [cursor=pointer]
+          - button "Club Night" [ref=f4e40] [cursor=pointer]
+          - button "Festival" [ref=f4e41] [cursor=pointer]
+          - button "Private Party" [ref=f4e42] [cursor=pointer]
+          - button "Wedding" [ref=f4e43] [cursor=pointer]
+          - button "Corporate Event" [ref=f4e44] [cursor=pointer]
+          - button "Open DJ Slot" [ref=f4e45] [cursor=pointer]
+        - combobox [ref=f4e46] [cursor=pointer]:
+          - option "All Cities" [selected]
+          - option "Freetown"
+          - option "Bo"
+          - option "Kenema"
+          - option "Makeni"
+          - option "Koidu Town"
+          - option "Port Loko"
+          - option "Lunsar"
+          - option "Waterloo"
+          - option "Kabala"
+          - option "Magburaka"
+          - option "Kailahun"
+          - option "Moyamba"
+          - option "Pujehun"
+          - option "Bonthe"
+          - option "Kambia"
+        - combobox [ref=f4e47] [cursor=pointer]:
+          - option "Soonest" [selected]
+          - option "Alphabetical"
+        - button "Calendar" [ref=f4e48] [cursor=pointer]:
+          - img [ref=f4e49]
+          - text: Calendar
+      - generic [ref=f4e52]:
+        - heading "UPCOMING EVENTS" [level=2] [ref=f4e53]
+        - generic [ref=f4e54]:
+          - button [ref=f4e55] [cursor=pointer]:
+            - img [ref=f4e56]
+          - button [ref=f4e57] [cursor=pointer]:
+            - img [ref=f4e58]
+      - generic [ref=f4e66]:
+        - generic [ref=f4e67]:
+          - img [ref=f4e68]
+          - generic [ref=f4e72]: OPEN DJ SLOTS
+        - heading "DJs WANTED" [level=2] [ref=f4e73]
+  - contentinfo [ref=f4e74]:
+    - paragraph [ref=f4e76]: © 2025 Deck Salone
+  - navigation [ref=f4e77]:
+    - generic [ref=f4e78]:
+      - link "Home" [ref=f4e79] [cursor=pointer]:
+        - /url: /
+        - img [ref=f4e80]
+        - generic [ref=f4e83]: Home
+      - link "Discover" [ref=f4e84] [cursor=pointer]:
+        - /url: /discover
+        - img [ref=f4e85]
+        - generic [ref=f4e88]: Discover
+      - link "Mixes" [ref=f4e89] [cursor=pointer]:
+        - /url: /mixes
+        - img [ref=f4e90]
+        - generic [ref=f4e95]: Mixes
+      - link "Battles" [ref=f4e96] [cursor=pointer]:
+        - /url: /battles
+        - img [ref=f4e97]
+        - generic [ref=f4e103]: Battles
+      - button "More" [ref=f4e104] [cursor=pointer]:
+        - img [ref=f4e105]
+        - generic [ref=f4e106]: More
