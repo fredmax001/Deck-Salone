@@ -1,0 +1,196 @@
+- generic [ref=f3e156]:
+  - complementary [ref=f3e157]:
+    - generic [ref=f3e158]:
+      - link "Deck Salone" [ref=f3e159] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f3e160]
+      - generic [ref=f3e165]: TE
+      - navigation [ref=f3e166]:
+        - link [ref=f3e167] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=f3e169]
+        - link [ref=f3e174] [cursor=pointer]:
+          - /url: /dashboard/bookings
+          - img [ref=f3e176]
+        - link [ref=f3e178] [cursor=pointer]:
+          - /url: /dashboard/messages
+          - img [ref=f3e180]
+        - link [ref=f3e182] [cursor=pointer]:
+          - /url: /dashboard/mixes
+          - img [ref=f3e184]
+        - link [ref=f3e188] [cursor=pointer]:
+          - /url: /dashboard/photos
+          - img [ref=f3e190]
+        - link [ref=f3e193] [cursor=pointer]:
+          - /url: /dashboard/events
+          - img [ref=f3e195]
+        - link [ref=f3e197] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=f3e199]
+        - link [ref=f3e201] [cursor=pointer]:
+          - /url: /dashboard/earnings
+          - img [ref=f3e203]
+        - link [ref=f3e206] [cursor=pointer]:
+          - /url: /dashboard/profile
+          - img [ref=f3e208]
+        - link [ref=f3e211] [cursor=pointer]:
+          - /url: /dashboard/subscription
+          - img [ref=f3e213]
+        - link [ref=f3e215] [cursor=pointer]:
+          - /url: /dashboard/campaigns
+          - img [ref=f3e217]
+        - link [ref=f3e220] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=f3e222]
+      - button [ref=f3e226] [cursor=pointer]:
+        - img [ref=f3e227]
+  - generic [ref=f3e230]:
+    - banner [ref=f3e231]:
+      - generic [ref=f3e232]:
+        - generic [ref=f3e233]:
+          - link "Home" [ref=f3e234] [cursor=pointer]:
+            - /url: /
+          - img [ref=f3e235]
+          - generic [ref=f3e237]: Dashboard
+        - generic [ref=f3e239]:
+          - img [ref=f3e240]
+          - textbox "Search bookings, mixes, messages..." [ref=f3e243]
+        - generic [ref=f3e244]:
+          - button [ref=f3e245] [cursor=pointer]:
+            - img
+          - button "TE Test DJ" [ref=f3e246] [cursor=pointer]:
+            - generic [ref=f3e248]: TE
+            - generic [ref=f3e249]: Test DJ
+    - main [ref=f3e250]:
+      - generic [ref=f3e252]:
+        - generic [ref=f3e253]:
+          - generic [ref=f3e254]:
+            - heading "Overview" [level=1] [ref=f3e255]
+            - paragraph [ref=f3e256]: Welcome back, Test DJ. Here's how you're performing.
+          - generic [ref=f3e257]:
+            - link "Manage Bookings" [ref=f3e258] [cursor=pointer]:
+              - /url: /dashboard/bookings
+              - button "Manage Bookings" [ref=f3e259]:
+                - img
+                - text: Manage Bookings
+            - link "Upload Mix" [ref=f3e260] [cursor=pointer]:
+              - /url: /dashboard/mixes
+              - button "Upload Mix" [ref=f3e261]:
+                - img
+                - text: Upload Mix
+        - generic [ref=f3e262]:
+          - generic [ref=f3e265]:
+            - img [ref=f3e268]
+            - paragraph [ref=f3e271]: "0"
+            - paragraph [ref=f3e272]: Total Bookings
+          - generic [ref=f3e275]:
+            - img [ref=f3e278]
+            - paragraph [ref=f3e284]: "#-"
+            - paragraph [ref=f3e285]: Ranking Position
+          - generic [ref=f3e288]:
+            - img [ref=f3e291]
+            - paragraph [ref=f3e293]: "0"
+            - paragraph [ref=f3e294]: Total Streams
+          - generic [ref=f3e297]:
+            - img [ref=f3e300]
+            - paragraph [ref=f3e305]: "0"
+            - paragraph [ref=f3e306]: Total Followers
+          - generic [ref=f3e309]:
+            - img [ref=f3e312]
+            - paragraph [ref=f3e315]: SLE 0
+            - paragraph [ref=f3e316]: Earnings
+        - generic [ref=f3e317]:
+          - generic [ref=f3e318]:
+            - generic [ref=f3e319]:
+              - generic [ref=f3e320]: Ranking History
+              - generic [ref=f3e321]: "#- · 0.0 pts"
+            - img [ref=f3e326]
+          - generic [ref=f3e330]:
+            - generic [ref=f3e332]: Rank Snapshot
+            - generic [ref=f3e333]:
+              - generic [ref=f3e334]:
+                - img [ref=f3e336]
+                - generic [ref=f3e342]:
+                  - paragraph [ref=f3e343]: "#-"
+                  - paragraph [ref=f3e344]: Current rank
+              - generic [ref=f3e345]:
+                - generic [ref=f3e346]:
+                  - generic [ref=f3e347]: Score
+                  - generic [ref=f3e348]: "0.0"
+                - generic [ref=f3e349]:
+                  - generic [ref=f3e350]: Reviews
+                  - generic [ref=f3e351]: "0"
+                - generic [ref=f3e352]:
+                  - generic [ref=f3e353]: Rating
+                  - generic [ref=f3e354]: 0.0 ★
+              - link "View Analytics" [ref=f3e355] [cursor=pointer]:
+                - /url: /dashboard/analytics
+                - button "View Analytics" [ref=f3e356]:
+                  - text: View Analytics
+                  - img
+        - generic [ref=f3e357]:
+          - generic [ref=f3e358]:
+            - generic [ref=f3e359]:
+              - generic [ref=f3e360]: Recent Bookings
+              - link "View All" [ref=f3e361] [cursor=pointer]:
+                - /url: /dashboard/bookings
+                - button "View All" [ref=f3e362]:
+                  - text: View All
+                  - img
+            - generic [ref=f3e364]:
+              - img [ref=f3e365]
+              - paragraph [ref=f3e367]: No bookings yet
+              - link "Promote Your Profile" [ref=f3e368] [cursor=pointer]:
+                - /url: /discover
+                - button "Promote Your Profile" [ref=f3e369]
+          - generic [ref=f3e370]:
+            - generic [ref=f3e371]:
+              - generic [ref=f3e372]: Top Mixes
+              - link "View All" [ref=f3e373] [cursor=pointer]:
+                - /url: /dashboard/mixes
+                - button "View All" [ref=f3e374]:
+                  - text: View All
+                  - img
+            - generic [ref=f3e376]:
+              - img [ref=f3e377]
+              - paragraph [ref=f3e381]: No mixes uploaded yet
+              - link "Upload Your First Mix" [ref=f3e382] [cursor=pointer]:
+                - /url: /dashboard/mixes
+                - button "Upload Your First Mix" [ref=f3e383]
+        - generic [ref=f3e384]:
+          - generic [ref=f3e385]:
+            - generic [ref=f3e387]: Upcoming Events
+            - generic [ref=f3e389]:
+              - img [ref=f3e390]
+              - paragraph [ref=f3e392]: No upcoming events
+          - generic [ref=f3e393]:
+            - generic [ref=f3e395]: Quick Actions
+            - generic [ref=f3e397]:
+              - link "Edit Profile Update bio, photos, pricing" [ref=f3e398] [cursor=pointer]:
+                - /url: /dashboard/profile
+                - generic [ref=f3e399]:
+                  - img [ref=f3e401]
+                  - generic [ref=f3e404]:
+                    - paragraph [ref=f3e405]: Edit Profile
+                    - paragraph [ref=f3e406]: Update bio, photos, pricing
+              - link "Check Bookings No pending requests" [ref=f3e407] [cursor=pointer]:
+                - /url: /dashboard/bookings
+                - generic [ref=f3e408]:
+                  - img [ref=f3e410]
+                  - generic [ref=f3e413]:
+                    - paragraph [ref=f3e414]: Check Bookings
+                    - paragraph [ref=f3e415]: No pending requests
+              - link "Messages Chat with clients" [ref=f3e416] [cursor=pointer]:
+                - /url: /dashboard/messages
+                - generic [ref=f3e417]:
+                  - img [ref=f3e419]
+                  - generic [ref=f3e421]:
+                    - paragraph [ref=f3e422]: Messages
+                    - paragraph [ref=f3e423]: Chat with clients
+              - link "View Analytics Track performance" [ref=f3e424] [cursor=pointer]:
+                - /url: /dashboard/analytics
+                - generic [ref=f3e425]:
+                  - img [ref=f3e427]
+                  - generic [ref=f3e430]:
+                    - paragraph [ref=f3e431]: View Analytics
+                    - paragraph [ref=f3e432]: Track performance

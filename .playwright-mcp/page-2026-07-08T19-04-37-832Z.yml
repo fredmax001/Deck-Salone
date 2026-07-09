@@ -1,0 +1,86 @@
+- generic [ref=f2e5]:
+  - generic [ref=f2e6]:
+    - link "Deck Salone" [ref=f2e8] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f2e9]
+    - paragraph [ref=f2e11]: Your stage is waiting. Create your profile and let the world hear your sound.
+    - generic [ref=f2e12]:
+      - generic [ref=f2e13]: © 2025 Deck Salone by Sound It Entertainment
+      - generic [ref=f2e14]: "|"
+      - link "Terms" [ref=f2e15] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f2e16]: "|"
+      - link "Privacy" [ref=f2e17] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f2e20]:
+    - generic [ref=f2e21]:
+      - heading "Join Deck Salone" [level=1] [ref=f2e22]
+      - paragraph [ref=f2e23]: Create your account to get started
+    - generic [ref=f2e25]:
+      - generic [ref=f2e26]: Step 1 of 2
+      - generic [ref=f2e27]: Account
+    - generic [ref=f2e30]:
+      - generic [ref=f2e31]:
+        - generic [ref=f2e32]: Stage Name / DJ Name
+        - generic [ref=f2e33]:
+          - img
+          - textbox "DJ YourName" [active] [ref=f2e34]: Test DJ
+        - paragraph [ref=f2e89]: Stage name must be at least 2 characters
+      - generic [ref=f2e35]:
+        - generic [ref=f2e36]: Full Name
+        - generic [ref=f2e37]:
+          - img
+          - textbox "Your full legal name" [ref=f2e38]: Test User
+        - paragraph [ref=f2e90]: Full name must be at least 2 characters
+      - generic [ref=f2e39]:
+        - generic [ref=f2e40]: Email
+        - generic [ref=f2e41]:
+          - img
+          - textbox "dj@example.com" [ref=f2e42]: testuser98765@example.com
+        - paragraph [ref=f2e91]: Email is required
+      - generic [ref=f2e43]:
+        - generic [ref=f2e44]: Phone Number (optional)
+        - textbox "+232 XX XXX XXXX" [ref=f2e45]
+      - generic [ref=f2e46]:
+        - generic [ref=f2e47]: Password
+        - generic [ref=f2e48]:
+          - img
+          - textbox "••••••••" [ref=f2e49]: Test12345!
+          - button [ref=f2e50] [cursor=pointer]:
+            - img [ref=f2e51]
+        - paragraph [ref=f2e92]: Password must be at least 8 characters
+      - generic [ref=f2e60]:
+        - generic [ref=f2e61]: Confirm Password
+        - generic [ref=f2e62]:
+          - img
+          - textbox "••••••••" [ref=f2e63]: Test12345!
+          - button [ref=f2e64] [cursor=pointer]:
+            - img [ref=f2e65]
+        - paragraph [ref=f2e93]: Please confirm your password
+      - generic [ref=f2e68]:
+        - generic [ref=f2e69]: "I am a:"
+        - generic [ref=f2e70]:
+          - generic [ref=f2e71] [cursor=pointer]:
+            - radio "DJ" [checked] [ref=f2e72]
+            - generic [ref=f2e73]: DJ
+          - generic [ref=f2e74] [cursor=pointer]:
+            - radio "Promoter / Fan" [ref=f2e75]
+            - generic [ref=f2e76]: Promoter / Fan
+      - generic [ref=f2e77]:
+        - generic [ref=f2e78] [cursor=pointer]:
+          - checkbox "I agree to the Terms of Service and Privacy Policy" [checked] [ref=f2e79]
+          - generic [ref=f2e80]:
+            - text: I agree to the
+            - link "Terms of Service" [ref=f2e81]:
+              - /url: "#"
+            - text: and
+            - link "Privacy Policy" [ref=f2e82]:
+              - /url: "#"
+        - paragraph [ref=f2e94]: Invalid input
+      - button "Continue" [ref=f2e84] [cursor=pointer]:
+        - text: Continue
+        - img [ref=f2e85]
+      - paragraph [ref=f2e87]:
+        - text: Already have an account?
+        - link "Sign in" [ref=f2e88] [cursor=pointer]:
+          - /url: /login

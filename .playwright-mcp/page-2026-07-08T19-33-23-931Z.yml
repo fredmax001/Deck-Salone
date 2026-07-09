@@ -1,0 +1,99 @@
+- generic [active] [ref=f10e1]:
+  - link "Skip to main content" [ref=f10e3] [cursor=pointer]:
+    - /url: "#app-dashboard"
+  - banner [ref=f10e4]:
+    - generic [ref=f10e5]:
+      - link "Go to Dashboard" [ref=f10e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Applications menu" [ref=f10e8]:
+        - list "Apps" [ref=f10e9]:
+          - listitem [ref=f10e10]:
+            - link "Dashboard" [ref=f10e11] [cursor=pointer]:
+              - /url: /apps/dashboard/
+              - img [ref=f10e12]
+              - generic [ref=f10e13]: Dashboard
+          - listitem [ref=f10e14]:
+            - link "Files" [ref=f10e15] [cursor=pointer]:
+              - /url: /apps/files/
+              - img [ref=f10e16]
+              - generic [ref=f10e17]: Files
+          - listitem [ref=f10e18]:
+            - link "Photos" [ref=f10e19] [cursor=pointer]:
+              - /url: /apps/photos/
+              - img [ref=f10e20]
+              - generic [ref=f10e21]: Photos
+          - listitem [ref=f10e22]:
+            - link "Activity" [ref=f10e23] [cursor=pointer]:
+              - /url: /apps/activity/
+              - img [ref=f10e24]
+              - generic [ref=f10e25]: Activity
+    - generic [ref=f10e26]:
+      - button "Unified search" [ref=f10e29] [cursor=pointer]:
+        - img [ref=f10e32]:
+          - img [ref=f10e33]
+      - generic "Notifications" [ref=f10e36]:
+        - button "Notifications" [ref=f10e37] [cursor=pointer]:
+          - img [ref=f10e40]:
+            - img [ref=f10e41]
+      - button "Search contacts" [ref=f10e44] [cursor=pointer]:
+        - img [ref=f10e47]:
+          - img [ref=f10e48]
+      - navigation "Settings menu" [ref=f10e50]:
+        - button "Settings menu" [ref=f10e51] [cursor=pointer]:
+          - img [ref=f10e55]:
+            - img [ref=f10e56]
+        - generic [ref=f10e58]: Avatar of admin — Online
+  - generic [ref=f10e59]:
+    - heading "Dashboard" [level=1] [ref=f10e60]
+    - main [ref=f10e61]:
+      - heading "Hello" [level=2] [ref=f10e62]
+      - generic [ref=f10e64]:
+        - heading "Recommended files" [level=2] [ref=f10e66]: Recommended files
+        - list [ref=f10e80]:
+          - listitem [ref=f10e81]:
+            - generic "/LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/PNG/spotify-podcast-badge-wht-grn-165x40.png" [ref=f10e82] [cursor=pointer]:
+              - generic [ref=f10e84]:
+                - generic [ref=f10e85]: spotify-podcast-badge-wht-grn-165x40.png
+                - generic [ref=f10e86]: Last updated February 2106
+                - generic [ref=f10e87]: Path name /LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/PNG/spotify-podcast-badge-wht-grn-165x40.png
+          - listitem [ref=f10e88]:
+            - generic "/LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/EPS/spotify-podcast-badge-wht-grn-330x80.eps" [ref=f10e89] [cursor=pointer]:
+              - generic [ref=f10e91]:
+                - generic [ref=f10e92]: spotify-podcast-badge-wht-grn-330x80.eps
+                - generic [ref=f10e93]: Last updated October 2103
+                - generic [ref=f10e94]: Path name /LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/EPS/spotify-podcast-badge-wht-grn-330x80.eps
+          - listitem [ref=f10e95]:
+            - generic "/LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/SVG/spotify-podcast-badge-blk-grn-660x160.svg" [ref=f10e96] [cursor=pointer]:
+              - generic [ref=f10e98]:
+                - generic [ref=f10e99]: spotify-podcast-badge-blk-grn-660x160.svg
+                - generic [ref=f10e100]: Last updated June 2100
+                - generic [ref=f10e101]: Path name /LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/SVG/spotify-podcast-badge-blk-grn-660x160.svg
+          - listitem [ref=f10e102]:
+            - generic "/LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/PNG/spotify-podcast-badge-blk-grn-165x40.png" [ref=f10e103] [cursor=pointer]:
+              - generic [ref=f10e105]:
+                - generic [ref=f10e106]: spotify-podcast-badge-blk-grn-165x40.png
+                - generic [ref=f10e107]: Last updated April 2096
+                - generic [ref=f10e108]: Path name /LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/PNG/spotify-podcast-badge-blk-grn-165x40.png
+          - listitem [ref=f10e109]:
+            - generic "/LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/EPS/spotify-podcast-badge-blk-grn-330x80.eps" [ref=f10e110] [cursor=pointer]:
+              - generic [ref=f10e112]:
+                - generic [ref=f10e113]: spotify-podcast-badge-blk-grn-330x80.eps
+                - generic [ref=f10e114]: Last updated November 2095
+                - generic [ref=f10e115]: Path name /LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/EPS/spotify-podcast-badge-blk-grn-330x80.eps
+          - listitem [ref=f10e116]:
+            - generic "/LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/PNG/spotify-podcast-badge-wht-blk-660x160.png" [ref=f10e117] [cursor=pointer]:
+              - generic [ref=f10e119]:
+                - generic [ref=f10e120]: spotify-podcast-badge-wht-blk-660x160.png
+                - generic [ref=f10e121]: Last updated October 2095
+                - generic [ref=f10e122]: Path name /LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/PNG/spotify-podcast-badge-wht-blk-660x160.png
+          - listitem [ref=f10e123]:
+            - generic "/LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/SVG/spotify-podcast-badge-blk-wht-660x160.svg" [ref=f10e124] [cursor=pointer]:
+              - generic [ref=f10e126]:
+                - generic [ref=f10e127]: spotify-podcast-badge-blk-wht-660x160.svg
+                - generic [ref=f10e128]: Last updated June 2094
+                - generic [ref=f10e129]: Path name /LaCie/MAX FILES/GRAPHICAL/MAXX/spotify-podcast-badges/SVG/spotify-podcast-badge-blk-wht-660x160.svg
+      - button "Customize" [ref=f10e73] [cursor=pointer]:
+        - generic [ref=f10e74]:
+          - img [ref=f10e76]:
+            - img [ref=f10e77]
+          - generic [ref=f10e79]: Customize

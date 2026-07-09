@@ -1,0 +1,19 @@
+- generic [ref=f7e5]:
+  - generic [ref=f7e6]:
+    - link "Deck Salone" [ref=f7e8] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f7e9]
+    - paragraph [ref=f7e11]: Your stage is waiting. Create your profile and let the world hear your sound.
+    - generic [ref=f7e12]:
+      - generic [ref=f7e13]: © 2025 Deck Salone by Sound It Entertainment
+      - generic [ref=f7e14]: "|"
+      - link "Terms" [ref=f7e15] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f7e16]: "|"
+      - link "Privacy" [ref=f7e17] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f7e20]:
+    - heading "Invalid Link" [level=2] [ref=f7e21]
+    - paragraph [ref=f7e22]: This password reset link is invalid or has expired.
+    - link "Request New Link" [ref=f7e23] [cursor=pointer]:
+      - /url: /forgot-password

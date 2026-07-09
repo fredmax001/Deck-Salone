@@ -1,0 +1,2 @@
+[   11512ms] [WARNING] [WARN] @nextcloud/vue: You need to fill either the text or the ariaLabel props in the button component. {uid: admin, app: @nextcloud/vue, level: 2, text: undefined, ariaLabel: null} @ http://192.168.2.184:8080/dist/core-common.js?v=01dcab86-0:0
+[   11531ms] [WARNING] [WARN] @nextcloud/vue: You need to fill either the text or the ariaLabel props in the button component. {uid: admin, app: @nextcloud/vue, level: 2, text: undefined, ariaLabel: null} @ http://192.168.2.184:8080/dist/core-common.js?v=01dcab86-0:0

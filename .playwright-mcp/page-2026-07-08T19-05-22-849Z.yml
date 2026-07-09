@@ -1,0 +1,85 @@
+- generic [ref=f3e5]:
+  - generic [ref=f3e6]:
+    - link "Deck Salone" [ref=f3e8] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f3e9]
+    - paragraph [ref=f3e11]: Your stage is waiting. Create your profile and let the world hear your sound.
+    - generic [ref=f3e12]:
+      - generic [ref=f3e13]: © 2025 Deck Salone by Sound It Entertainment
+      - generic [ref=f3e14]: "|"
+      - link "Terms" [ref=f3e15] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f3e16]: "|"
+      - link "Privacy" [ref=f3e17] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f3e20]:
+    - generic [ref=f3e21]:
+      - heading "Complete Your Profile" [level=1] [ref=f3e94]
+      - paragraph [ref=f3e23]: Tell us about your DJ style
+    - generic [ref=f3e25]:
+      - generic [ref=f3e26]: Step 2 of 2
+      - generic [ref=f3e27]: Profile
+    - generic [ref=f3e95]:
+      - generic [ref=f3e96]:
+        - generic [ref=f3e97]: City
+        - generic [ref=f3e98]:
+          - img
+          - combobox [ref=f3e99] [cursor=pointer]:
+            - option "Select your city"
+            - option "Freetown" [selected]
+            - option "Bo"
+            - option "Kenema"
+            - option "Makeni"
+            - option "Koidu Town"
+            - option "Port Loko"
+            - option "Lunsar"
+            - option "Waterloo"
+            - option "Kabala"
+            - option "Magburaka"
+            - option "Kailahun"
+            - option "Moyamba"
+            - option "Pujehun"
+            - option "Bonthe"
+            - option "Kambia"
+            - option "Other"
+      - generic [ref=f3e100]:
+        - generic [ref=f3e101]: Primary Genres (max 3)
+        - generic [ref=f3e102]:
+          - button "Afrobeats" [ref=f3e103] [cursor=pointer]:
+            - generic [ref=f3e104]: Afrobeats
+          - button "Amapiano" [ref=f3e105] [cursor=pointer]:
+            - generic [ref=f3e106]: Amapiano
+          - button "Dancehall" [ref=f3e107] [cursor=pointer]:
+            - generic [ref=f3e108]: Dancehall
+          - button "Hip Hop" [ref=f3e109] [cursor=pointer]:
+            - generic [ref=f3e110]: Hip Hop
+          - button "Gospel" [ref=f3e111] [cursor=pointer]:
+            - generic [ref=f3e112]: Gospel
+          - button "Salone Mix" [ref=f3e113] [cursor=pointer]:
+            - generic [ref=f3e114]: Salone Mix
+          - button "Club Mix" [ref=f3e115] [cursor=pointer]:
+            - generic [ref=f3e116]: Club Mix
+          - button "Throwback" [ref=f3e117] [cursor=pointer]:
+            - generic [ref=f3e118]: Throwback
+          - button "Reggae" [ref=f3e119] [cursor=pointer]:
+            - generic [ref=f3e120]: Reggae
+          - button "R&B" [ref=f3e121] [cursor=pointer]:
+            - generic [ref=f3e122]: R&B
+      - generic [ref=f3e123]:
+        - generic [ref=f3e124]: Year Started DJing
+        - generic [ref=f3e125]:
+          - img
+          - spinbutton "e.g. 2015" [ref=f3e126]
+      - generic [ref=f3e127]:
+        - generic [ref=f3e128]: Bio (optional)
+        - textbox "Tell us about yourself and your style..." [ref=f3e129]
+        - paragraph [ref=f3e130]: 0/500
+      - generic [ref=f3e131]:
+        - generic [ref=f3e132]: Profile Photo
+        - generic [ref=f3e133] [cursor=pointer]:
+          - img [ref=f3e134]
+          - paragraph [ref=f3e137]: Click to upload photo
+          - paragraph [ref=f3e138]: JPG, PNG (max 5MB)
+      - generic [ref=f3e139]:
+        - button "Create Profile" [ref=f3e140] [cursor=pointer]
+        - button "Back" [ref=f3e141] [cursor=pointer]

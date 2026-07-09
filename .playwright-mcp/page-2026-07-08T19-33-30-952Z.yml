@@ -1,0 +1,624 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e4]:
+    - generic [ref=f11e5]: Keyboard navigation help
+    - generic [ref=f11e6]:
+      - button "Skip to app navigation" [ref=f11e7] [cursor=pointer]:
+        - generic [ref=f11e9]: Skip to app navigation
+      - button "Skip to main content" [ref=f11e10] [cursor=pointer]:
+        - generic [ref=f11e12]: Skip to main content
+    - img [ref=f11e13]:
+      - img [ref=f11e15]
+  - banner [ref=f11e36]:
+    - generic [ref=f11e37]:
+      - link "Go to Dashboard" [ref=f11e38] [cursor=pointer]:
+        - /url: /
+      - navigation "Applications menu" [ref=f11e40]:
+        - list "Apps" [ref=f11e41]:
+          - listitem [ref=f11e42]:
+            - link "Dashboard" [ref=f11e43] [cursor=pointer]:
+              - /url: /apps/dashboard/
+              - img [ref=f11e44]
+              - generic [ref=f11e45]: Dashboard
+          - listitem [ref=f11e46]:
+            - link "Files" [ref=f11e47] [cursor=pointer]:
+              - /url: /apps/files/
+              - img [ref=f11e48]
+              - generic [ref=f11e49]: Files
+          - listitem [ref=f11e50]:
+            - link "Photos" [ref=f11e51] [cursor=pointer]:
+              - /url: /apps/photos/
+              - img [ref=f11e52]
+              - generic [ref=f11e53]: Photos
+          - listitem [ref=f11e54]:
+            - link "Activity" [ref=f11e55] [cursor=pointer]:
+              - /url: /apps/activity/
+              - img [ref=f11e56]
+              - generic [ref=f11e57]: Activity
+    - generic [ref=f11e58]:
+      - button "Unified search" [ref=f11e61] [cursor=pointer]:
+        - img [ref=f11e64]:
+          - img [ref=f11e65]
+      - generic "Notifications" [ref=f11e68]:
+        - button "Notifications" [ref=f11e69] [cursor=pointer]:
+          - img [ref=f11e72]:
+            - img [ref=f11e73]
+      - button "Search contacts" [ref=f11e76] [cursor=pointer]:
+        - img [ref=f11e79]:
+          - img [ref=f11e80]
+      - navigation "Settings menu" [ref=f11e82]:
+        - button "Settings menu" [ref=f11e83] [cursor=pointer]:
+          - img [ref=f11e87]:
+            - img [ref=f11e88]
+        - generic [ref=f11e90]: Avatar of admin — Online
+  - generic [ref=f11e91]:
+    - generic [ref=f11e92]:
+      - navigation "Files" [ref=f11e93]:
+        - generic [ref=f11e95]:
+          - generic [ref=f11e97]:
+            - searchbox "Search here …" [ref=f11e98] [cursor=pointer]
+            - button "Clear search" [ref=f11e99] [cursor=pointer]:
+              - img [ref=f11e102]:
+                - img [ref=f11e103]
+          - button "Search scope options" [ref=f11e108] [cursor=pointer]:
+            - img [ref=f11e111]:
+              - img [ref=f11e112]
+        - list "Views" [ref=f11e115]:
+          - listitem [ref=f11e116]:
+            - link "All files" [ref=f11e118] [cursor=pointer]:
+              - /url: /apps/files/files
+              - img [ref=f11e120]:
+                - img [ref=f11e122]
+              - generic [ref=f11e124]: All files
+          - listitem [ref=f11e125]:
+            - link "Personal files" [ref=f11e127] [cursor=pointer]:
+              - /url: /apps/files/personal
+              - img [ref=f11e129]:
+                - img [ref=f11e131]
+              - generic [ref=f11e133]: Personal files
+          - listitem [ref=f11e134]:
+            - link "Recent" [ref=f11e136] [cursor=pointer]:
+              - /url: /apps/files/recent
+              - img [ref=f11e138]:
+                - img [ref=f11e140]
+              - generic [ref=f11e142]: Recent
+          - listitem [ref=f11e143]:
+            - generic [ref=f11e144]:
+              - link "Favorites" [ref=f11e145] [cursor=pointer]:
+                - /url: /apps/files/favorites
+                - img [ref=f11e147]:
+                  - img [ref=f11e149]
+                - generic [ref=f11e151]: Favorites
+              - button "Open menu" [ref=f11e152] [cursor=pointer]:
+                - img [ref=f11e155]:
+                  - img [ref=f11e156]
+          - listitem [ref=f11e158]:
+            - generic [ref=f11e159]:
+              - link "Shares" [ref=f11e160] [cursor=pointer]:
+                - /url: /apps/files/shareoverview
+                - img [ref=f11e162]:
+                  - img [ref=f11e164]
+                - generic [ref=f11e166]: Shares
+              - button "Open menu" [ref=f11e167] [cursor=pointer]:
+                - img [ref=f11e170]:
+                  - img [ref=f11e171]
+          - listitem [ref=f11e173]:
+            - link "Tags" [ref=f11e175] [cursor=pointer]:
+              - /url: /apps/files/tags
+              - img [ref=f11e177]:
+                - img [ref=f11e179]
+              - generic [ref=f11e181]: Tags
+          - listitem [ref=f11e182]:
+            - link "External storage" [ref=f11e184] [cursor=pointer]:
+              - /url: /apps/files/extstoragemounts
+              - img [ref=f11e186]:
+                - img [ref=f11e188]
+              - generic [ref=f11e190]: External storage
+          - listitem [ref=f11e191]:
+            - generic [ref=f11e192]:
+              - link "Folder tree" [ref=f11e193] [cursor=pointer]:
+                - /url: /apps/files/folders
+                - img [ref=f11e195]:
+                  - img [ref=f11e197]
+                - generic [ref=f11e199]: Folder tree
+              - button "Open menu" [ref=f11e200] [cursor=pointer]:
+                - img [ref=f11e203]:
+                  - img [ref=f11e204]
+          - listitem [ref=f11e206]:
+            - link "Deleted files" [ref=f11e208] [cursor=pointer]:
+              - /url: /apps/files/trashbin
+              - img [ref=f11e210]:
+                - img [ref=f11e212]
+              - generic [ref=f11e214]: Deleted files
+        - list [ref=f11e215]:
+          - listitem [ref=f11e216]:
+            - link "18.6 GB used" [ref=f11e218] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f11e220]:
+                - img [ref=f11e221]
+              - generic [ref=f11e223]: 18.6 GB used
+          - listitem [ref=f11e224]:
+            - link "Files settings" [ref=f11e226] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f11e228]:
+                - img [ref=f11e229]
+              - generic [ref=f11e231]: Files settings
+      - button "Close navigation" [expanded] [ref=f11e233] [cursor=pointer]:
+        - img [ref=f11e236]:
+          - img [ref=f11e237]
+    - main [ref=f11e239]:
+      - heading "All files" [level=1] [ref=f11e240]
+      - generic [ref=f11e241]:
+        - generic [ref=f11e243]:
+          - button "New" [ref=f11e246] [cursor=pointer]:
+            - generic [ref=f11e247]:
+              - img [ref=f11e249]:
+                - img [ref=f11e250]
+              - generic [ref=f11e252]: New
+          - button "Choose File" [ref=f11e253] [cursor=pointer]
+        - navigation "Current directory path" [ref=f11e255]:
+          - list [ref=f11e256]:
+            - listitem [ref=f11e257]:
+              - generic "Reload current directory" [ref=f11e258]:
+                - button "All files" [ref=f11e260] [cursor=pointer]:
+                  - generic [ref=f11e261]:
+                    - img [ref=f11e263]:
+                      - img [ref=f11e264]
+                    - generic [ref=f11e266]: All files
+        - button "Filters" [ref=f11e269] [cursor=pointer]:
+          - img [ref=f11e272]:
+            - img [ref=f11e273]
+        - button "Switch to grid view" [ref=f11e275] [cursor=pointer]:
+          - img [ref=f11e278]:
+            - img [ref=f11e279]
+      - generic [ref=f11e281]:
+        - textbox [ref=f11e287]:
+          - heading "Welcome to Nextcloud! ☁️" [level=1] [ref=f11e288]:
+            - link [ref=f11e289] [cursor=pointer]:
+              - /url: "#h-welcome-to-nextcloud"
+              - text: "#"
+            - text: Welcome to Nextcloud! ☁️
+          - paragraph [ref=f11e290]: Here you can add a description or any other info relevant for the folder. It will show as a "Readme.md" and in the web interface also embedded nicely up at the top.
+          - paragraph [ref=f11e291]
+        - table "List of your files and folders. Column headers with buttons are sortable. This list is not fully rendered for performance reasons. The files will be rendered as you navigate through the list." [ref=f11e292]:
+          - caption [ref=f11e293]: List of your files and folders. Column headers with buttons are sortable. This list is not fully rendered for performance reasons. The files will be rendered as you navigate through the list.
+          - rowgroup [ref=f11e294]:
+            - row "Toggle selection for all files and folders Name Actions Size Modified" [ref=f11e295]:
+              - columnheader "Toggle selection for all files and folders" [ref=f11e296]:
+                - generic [ref=f11e297]:
+                  - checkbox "Toggle selection for all files and folders" [ref=f11e298] [cursor=pointer]
+                  - img [ref=f11e301] [cursor=pointer]:
+                    - img [ref=f11e302]
+              - columnheader "Name" [ref=f11e304] [cursor=pointer]:
+                - button "Name" [ref=f11e306]:
+                  - generic [ref=f11e307]:
+                    - img [ref=f11e309]:
+                      - img [ref=f11e310]
+                    - generic [ref=f11e312]: Name
+              - columnheader "Actions":
+                - generic [ref=f11e313]: Actions
+              - columnheader "Size" [ref=f11e314] [cursor=pointer]:
+                - button "Size" [ref=f11e315]:
+                  - generic [ref=f11e316]:
+                    - img [ref=f11e318]:
+                      - img [ref=f11e319]
+                    - generic [ref=f11e321]: Size
+              - columnheader "Modified" [ref=f11e322] [cursor=pointer]:
+                - button "Modified" [ref=f11e323]:
+                  - generic [ref=f11e324]:
+                    - img [ref=f11e326]:
+                      - img [ref=f11e327]
+                    - generic [ref=f11e329]: Modified
+          - rowgroup [ref=f11e330]:
+            - row "Toggle selection for folder \"PROJECTSMAX\" Favorite Open folder PROJECTSMAX Actions Pending 5 days ago" [ref=f11e331]:
+              - cell "Toggle selection for folder \"PROJECTSMAX\"" [ref=f11e332]:
+                - generic [ref=f11e333]:
+                  - checkbox "Toggle selection for folder \"PROJECTSMAX\"" [ref=f11e334] [cursor=pointer]
+                  - img [ref=f11e337] [cursor=pointer]:
+                    - img [ref=f11e338]
+              - cell "Favorite Open folder PROJECTSMAX" [ref=f11e340]:
+                - generic [ref=f11e341]:
+                  - img [ref=f11e342] [cursor=pointer]:
+                    - img [ref=f11e343]
+                  - img [ref=f11e345] [cursor=pointer]:
+                    - img [ref=f11e346]
+                  - img "Favorite" [ref=f11e349] [cursor=pointer]:
+                    - img [ref=f11e351]
+                - button "Open folder PROJECTSMAX" [ref=f11e353] [cursor=pointer]:
+                  - generic [ref=f11e355]: PROJECTSMAX
+              - cell "Actions" [ref=f11e356]:
+                - button "Actions" [ref=f11e359] [cursor=pointer]:
+                  - img [ref=f11e362]:
+                    - img [ref=f11e363]
+              - cell "Pending" [ref=f11e365]:
+                - generic [ref=f11e366]: Pending
+              - cell "5 days ago" [ref=f11e367]:
+                - generic "7/4/26, 10:13:08 AM" [ref=f11e368]: 5 days ago
+            - row "Toggle selection for folder \"Applications\" Open folder Applications Sharing options Actions 14.1 GB 2 weeks ago" [ref=f11e369]:
+              - cell "Toggle selection for folder \"Applications\"" [ref=f11e370]:
+                - generic [ref=f11e371]:
+                  - checkbox "Toggle selection for folder \"Applications\"" [ref=f11e372] [cursor=pointer]
+                  - img [ref=f11e375] [cursor=pointer]:
+                    - img [ref=f11e376]
+              - cell "Open folder Applications" [ref=f11e378]:
+                - img [ref=f11e380] [cursor=pointer]:
+                  - img [ref=f11e381]
+                - button "Open folder Applications" [ref=f11e383] [cursor=pointer]:
+                  - generic [ref=f11e385]: Applications
+              - cell "Sharing options Actions" [ref=f11e386]:
+                - generic [ref=f11e387]:
+                  - button "Sharing options" [ref=f11e388] [cursor=pointer]:
+                    - img [ref=f11e391]:
+                      - img [ref=f11e393]
+                  - button "Actions" [ref=f11e397] [cursor=pointer]:
+                    - img [ref=f11e400]:
+                      - img [ref=f11e401]
+              - cell "14.1 GB" [ref=f11e403]:
+                - generic [ref=f11e404]: 14.1 GB
+              - cell "2 weeks ago" [ref=f11e405]:
+                - generic "6/24/26, 7:22:57 PM" [ref=f11e406]: 2 weeks ago
+            - row "Toggle selection for folder \"Buxton CHurch Website\" Open folder Buxton CHurch Website Sharing options Actions 3 KB 2 weeks ago" [ref=f11e407]:
+              - cell "Toggle selection for folder \"Buxton CHurch Website\"" [ref=f11e408]:
+                - generic [ref=f11e409]:
+                  - checkbox "Toggle selection for folder \"Buxton CHurch Website\"" [ref=f11e410] [cursor=pointer]
+                  - img [ref=f11e413] [cursor=pointer]:
+                    - img [ref=f11e414]
+              - cell "Open folder Buxton CHurch Website" [ref=f11e416]:
+                - img [ref=f11e418] [cursor=pointer]:
+                  - img [ref=f11e419]
+                - button "Open folder Buxton CHurch Website" [ref=f11e421] [cursor=pointer]:
+                  - generic [ref=f11e423]: Buxton CHurch Website
+              - cell "Sharing options Actions" [ref=f11e424]:
+                - generic [ref=f11e425]:
+                  - button "Sharing options" [ref=f11e426] [cursor=pointer]:
+                    - img [ref=f11e429]:
+                      - img [ref=f11e431]
+                  - button "Actions" [ref=f11e435] [cursor=pointer]:
+                    - img [ref=f11e438]:
+                      - img [ref=f11e439]
+              - cell "3 KB" [ref=f11e441]:
+                - generic [ref=f11e442]: 3 KB
+              - cell "2 weeks ago" [ref=f11e443]:
+                - generic "6/25/26, 11:18:39 PM" [ref=f11e444]: 2 weeks ago
+            - row "Toggle selection for folder \"Documents\" Open folder Documents Sharing options Actions 1.1 MB 2 weeks ago" [ref=f11e445]:
+              - cell "Toggle selection for folder \"Documents\"" [ref=f11e446]:
+                - generic [ref=f11e447]:
+                  - checkbox "Toggle selection for folder \"Documents\"" [ref=f11e448] [cursor=pointer]
+                  - img [ref=f11e451] [cursor=pointer]:
+                    - img [ref=f11e452]
+              - cell "Open folder Documents" [ref=f11e454]:
+                - img [ref=f11e456] [cursor=pointer]:
+                  - img [ref=f11e457]
+                - button "Open folder Documents" [ref=f11e459] [cursor=pointer]:
+                  - generic [ref=f11e461]: Documents
+              - cell "Sharing options Actions" [ref=f11e462]:
+                - generic [ref=f11e463]:
+                  - button "Sharing options" [ref=f11e464] [cursor=pointer]:
+                    - img [ref=f11e467]:
+                      - img [ref=f11e469]
+                  - button "Actions" [ref=f11e473] [cursor=pointer]:
+                    - img [ref=f11e476]:
+                      - img [ref=f11e477]
+              - cell "1.1 MB" [ref=f11e479]:
+                - generic [ref=f11e480]: 1.1 MB
+              - cell "2 weeks ago" [ref=f11e481]:
+                - generic "6/22/26, 11:07:56 PM" [ref=f11e482]: 2 weeks ago
+            - row "Toggle selection for folder \"LaCie\" Open folder LaCie Actions 926.6 GB 2 weeks ago" [ref=f11e483]:
+              - cell "Toggle selection for folder \"LaCie\"" [ref=f11e484]:
+                - generic [ref=f11e485]:
+                  - checkbox "Toggle selection for folder \"LaCie\"" [ref=f11e486] [cursor=pointer]
+                  - img [ref=f11e489] [cursor=pointer]:
+                    - img [ref=f11e490]
+              - cell "Open folder LaCie" [ref=f11e492]:
+                - generic [ref=f11e493]:
+                  - img [ref=f11e494] [cursor=pointer]:
+                    - img [ref=f11e495]
+                  - img [ref=f11e497] [cursor=pointer]:
+                    - img [ref=f11e498]
+                - button "Open folder LaCie" [ref=f11e500] [cursor=pointer]:
+                  - generic [ref=f11e502]: LaCie
+              - cell "Actions" [ref=f11e503]:
+                - button "Actions" [ref=f11e506] [cursor=pointer]:
+                  - img [ref=f11e509]:
+                    - img [ref=f11e510]
+              - cell "926.6 GB" [ref=f11e512]:
+                - generic [ref=f11e513]: 926.6 GB
+              - cell "2 weeks ago" [ref=f11e514]:
+                - generic "6/25/26, 4:07:24 AM" [ref=f11e515]: 2 weeks ago
+            - row "Toggle selection for folder \"MAX MUSIC\" MAX MUSIC 0 KB a few seconds ago" [ref=f11e516]:
+              - cell "Toggle selection for folder \"MAX MUSIC\"" [ref=f11e518]:
+                - generic [ref=f11e519]:
+                  - checkbox "Toggle selection for folder \"MAX MUSIC\"" [ref=f11e520] [cursor=pointer]
+                  - img [ref=f11e523] [cursor=pointer]:
+                    - img [ref=f11e524]
+              - cell "MAX MUSIC" [ref=f11e526]:
+                - generic [ref=f11e527]:
+                  - img [ref=f11e528] [cursor=pointer]:
+                    - img [ref=f11e529]
+                  - img [ref=f11e531] [cursor=pointer]:
+                    - img [ref=f11e532]
+                - generic "This node is unavailable" [ref=f11e534]:
+                  - generic [ref=f11e536]: MAX MUSIC
+              - cell
+              - cell "0 KB" [ref=f11e537]:
+                - generic [ref=f11e538]: 0 KB
+              - cell "a few seconds ago" [ref=f11e539]:
+                - generic "7/9/26, 3:33:30 AM" [ref=f11e540]: a few seconds ago
+            - row "Toggle selection for folder \"Photos\" Open folder Photos Sharing options Actions 18.5 GB 2 weeks ago" [ref=f11e541]:
+              - cell "Toggle selection for folder \"Photos\"" [ref=f11e542]:
+                - generic [ref=f11e543]:
+                  - checkbox "Toggle selection for folder \"Photos\"" [ref=f11e544] [cursor=pointer]
+                  - img [ref=f11e547] [cursor=pointer]:
+                    - img [ref=f11e548]
+              - cell "Open folder Photos" [ref=f11e550]:
+                - img [ref=f11e552] [cursor=pointer]:
+                  - img [ref=f11e553]
+                - button "Open folder Photos" [ref=f11e555] [cursor=pointer]:
+                  - generic [ref=f11e557]: Photos
+              - cell "Sharing options Actions" [ref=f11e558]:
+                - generic [ref=f11e559]:
+                  - button "Sharing options" [ref=f11e560] [cursor=pointer]:
+                    - img [ref=f11e563]:
+                      - img [ref=f11e565]
+                  - button "Actions" [ref=f11e569] [cursor=pointer]:
+                    - img [ref=f11e572]:
+                      - img [ref=f11e573]
+              - cell "18.5 GB" [ref=f11e575]:
+                - generic [ref=f11e576]: 18.5 GB
+              - cell "2 weeks ago" [ref=f11e577]:
+                - generic "6/25/26, 6:12:24 PM" [ref=f11e578]: 2 weeks ago
+            - row "Toggle selection for folder \"SOUNDITMUZIK\" SOUNDITMUZIK 0 KB a few seconds ago" [ref=f11e579]:
+              - cell "Toggle selection for folder \"SOUNDITMUZIK\"" [ref=f11e581]:
+                - generic [ref=f11e582]:
+                  - checkbox "Toggle selection for folder \"SOUNDITMUZIK\"" [ref=f11e583] [cursor=pointer]
+                  - img [ref=f11e586] [cursor=pointer]:
+                    - img [ref=f11e587]
+              - cell "SOUNDITMUZIK" [ref=f11e589]:
+                - generic [ref=f11e590]:
+                  - img [ref=f11e591] [cursor=pointer]:
+                    - img [ref=f11e592]
+                  - img [ref=f11e594] [cursor=pointer]:
+                    - img [ref=f11e595]
+                - generic "This node is unavailable" [ref=f11e597]:
+                  - generic [ref=f11e599]: SOUNDITMUZIK
+              - cell
+              - cell "0 KB" [ref=f11e600]:
+                - generic [ref=f11e601]: 0 KB
+              - cell "a few seconds ago" [ref=f11e602]:
+                - generic "7/9/26, 3:33:30 AM" [ref=f11e603]: a few seconds ago
+            - row "Toggle selection for folder \"Templates\" Open folder Templates Sharing options Actions 22.4 MB 2 weeks ago" [ref=f11e604]:
+              - cell "Toggle selection for folder \"Templates\"" [ref=f11e605]:
+                - generic [ref=f11e606]:
+                  - checkbox "Toggle selection for folder \"Templates\"" [ref=f11e607] [cursor=pointer]
+                  - img [ref=f11e610] [cursor=pointer]:
+                    - img [ref=f11e611]
+              - cell "Open folder Templates" [ref=f11e613]:
+                - img [ref=f11e615] [cursor=pointer]:
+                  - img [ref=f11e616]
+                - button "Open folder Templates" [ref=f11e618] [cursor=pointer]:
+                  - generic [ref=f11e620]: Templates
+              - cell "Sharing options Actions" [ref=f11e621]:
+                - generic [ref=f11e622]:
+                  - button "Sharing options" [ref=f11e623] [cursor=pointer]:
+                    - img [ref=f11e626]:
+                      - img [ref=f11e628]
+                  - button "Actions" [ref=f11e632] [cursor=pointer]:
+                    - img [ref=f11e635]:
+                      - img [ref=f11e636]
+              - cell "22.4 MB" [ref=f11e638]:
+                - generic [ref=f11e639]: 22.4 MB
+              - cell "2 weeks ago" [ref=f11e640]:
+                - generic "6/22/26, 11:07:56 PM" [ref=f11e641]: 2 weeks ago
+            - row "Toggle selection for folder \"Windows SHARE\" Open folder Windows SHARE Actions 117.4 GB 2 weeks ago" [ref=f11e642]:
+              - cell "Toggle selection for folder \"Windows SHARE\"" [ref=f11e643]:
+                - generic [ref=f11e644]:
+                  - checkbox "Toggle selection for folder \"Windows SHARE\"" [ref=f11e645] [cursor=pointer]
+                  - img [ref=f11e648] [cursor=pointer]:
+                    - img [ref=f11e649]
+              - cell "Open folder Windows SHARE" [ref=f11e651]:
+                - generic [ref=f11e652]:
+                  - img [ref=f11e653] [cursor=pointer]:
+                    - img [ref=f11e654]
+                  - img [ref=f11e656] [cursor=pointer]:
+                    - img [ref=f11e657]
+                - button "Open folder Windows SHARE" [ref=f11e659] [cursor=pointer]:
+                  - generic [ref=f11e661]: Windows SHARE
+              - cell "Actions" [ref=f11e662]:
+                - button "Actions" [ref=f11e665] [cursor=pointer]:
+                  - img [ref=f11e668]:
+                    - img [ref=f11e669]
+              - cell "117.4 GB" [ref=f11e671]:
+                - generic [ref=f11e672]: 117.4 GB
+              - cell "2 weeks ago" [ref=f11e673]:
+                - generic "6/26/26, 12:22:21 AM" [ref=f11e674]: 2 weeks ago
+            - row "Toggle selection for folder \"Windows Users\" Open folder Windows Users Actions 117.4 GB last week" [ref=f11e675]:
+              - cell "Toggle selection for folder \"Windows Users\"" [ref=f11e676]:
+                - generic [ref=f11e677]:
+                  - checkbox "Toggle selection for folder \"Windows Users\"" [ref=f11e678] [cursor=pointer]
+                  - img [ref=f11e681] [cursor=pointer]:
+                    - img [ref=f11e682]
+              - cell "Open folder Windows Users" [ref=f11e684]:
+                - generic [ref=f11e685]:
+                  - img [ref=f11e686] [cursor=pointer]:
+                    - img [ref=f11e687]
+                  - img [ref=f11e689] [cursor=pointer]:
+                    - img [ref=f11e690]
+                - button "Open folder Windows Users" [ref=f11e692] [cursor=pointer]:
+                  - generic [ref=f11e694]: Windows Users
+              - cell "Actions" [ref=f11e695]:
+                - button "Actions" [ref=f11e698] [cursor=pointer]:
+                  - img [ref=f11e701]:
+                    - img [ref=f11e702]
+              - cell "117.4 GB" [ref=f11e704]:
+                - generic [ref=f11e705]: 117.4 GB
+              - cell "last week" [ref=f11e706]:
+                - generic "6/29/26, 3:55:33 PM" [ref=f11e707]: last week
+            - row "Toggle selection for folder \"xlj\" Open folder xlj Actions 0 KB Unknown date" [ref=f11e708]:
+              - cell "Toggle selection for folder \"xlj\"" [ref=f11e709]:
+                - generic [ref=f11e710]:
+                  - checkbox "Toggle selection for folder \"xlj\"" [ref=f11e711] [cursor=pointer]
+                  - img [ref=f11e714] [cursor=pointer]:
+                    - img [ref=f11e715]
+              - cell "Open folder xlj" [ref=f11e717]:
+                - generic [ref=f11e718]:
+                  - img [ref=f11e719] [cursor=pointer]:
+                    - img [ref=f11e720]
+                  - img [ref=f11e722] [cursor=pointer]:
+                    - img [ref=f11e723]
+                - button "Open folder xlj" [ref=f11e725] [cursor=pointer]:
+                  - generic [ref=f11e727]: xlj
+              - cell "Actions" [ref=f11e728]:
+                - button "Actions" [ref=f11e731] [cursor=pointer]:
+                  - img [ref=f11e734]:
+                    - img [ref=f11e735]
+              - cell "0 KB" [ref=f11e737]:
+                - generic [ref=f11e738]: 0 KB
+              - cell "Unknown date" [ref=f11e739]:
+                - generic [ref=f11e740]: Unknown date
+            - row "Toggle selection for file \"Nextcloud.png\" View Sharing options Actions 49 KB 2 weeks ago" [ref=f11e741]:
+              - cell "Toggle selection for file \"Nextcloud.png\"" [ref=f11e742]:
+                - generic [ref=f11e743]:
+                  - checkbox "Toggle selection for file \"Nextcloud.png\"" [ref=f11e744] [cursor=pointer]
+                  - img [ref=f11e747] [cursor=pointer]:
+                    - img [ref=f11e748]
+              - cell "View" [ref=f11e750]:
+                - button "View" [ref=f11e754] [cursor=pointer]:
+                  - generic [ref=f11e755]:
+                    - generic [ref=f11e756]: Nextcloud
+                    - generic [ref=f11e757]: .png
+              - cell "Sharing options Actions" [ref=f11e758]:
+                - generic [ref=f11e759]:
+                  - button "Sharing options" [ref=f11e760] [cursor=pointer]:
+                    - img [ref=f11e763]:
+                      - img [ref=f11e765]
+                  - button "Actions" [ref=f11e769] [cursor=pointer]:
+                    - img [ref=f11e772]:
+                      - img [ref=f11e773]
+              - cell "49 KB" [ref=f11e775]:
+                - generic [ref=f11e776]: 49 KB
+              - cell "2 weeks ago" [ref=f11e777]:
+                - generic "6/22/26, 11:07:57 PM" [ref=f11e778]: 2 weeks ago
+            - row "Toggle selection for file \"Nextcloud intro.mp4\" View Sharing options Actions 3.8 MB 2 weeks ago" [ref=f11e779]:
+              - cell "Toggle selection for file \"Nextcloud intro.mp4\"" [ref=f11e780]:
+                - generic [ref=f11e781]:
+                  - checkbox "Toggle selection for file \"Nextcloud intro.mp4\"" [ref=f11e782] [cursor=pointer]
+                  - img [ref=f11e785] [cursor=pointer]:
+                    - img [ref=f11e786]
+              - cell "View" [ref=f11e788]:
+                - button "View" [ref=f11e791] [cursor=pointer]:
+                  - generic [ref=f11e792]:
+                    - generic [ref=f11e793]: Nextcloud intro
+                    - generic [ref=f11e794]: .mp4
+              - cell "Sharing options Actions" [ref=f11e795]:
+                - generic [ref=f11e796]:
+                  - button "Sharing options" [ref=f11e797] [cursor=pointer]:
+                    - img [ref=f11e800]:
+                      - img [ref=f11e802]
+                  - button "Actions" [ref=f11e806] [cursor=pointer]:
+                    - img [ref=f11e809]:
+                      - img [ref=f11e810]
+              - cell "3.8 MB" [ref=f11e812]:
+                - generic [ref=f11e813]: 3.8 MB
+              - cell "2 weeks ago" [ref=f11e814]:
+                - generic "6/22/26, 11:07:57 PM" [ref=f11e815]: 2 weeks ago
+            - row "Toggle selection for file \"Nextcloud Manual.pdf\" View Sharing options Actions 26 MB 2 weeks ago" [ref=f11e816]:
+              - cell "Toggle selection for file \"Nextcloud Manual.pdf\"" [ref=f11e817]:
+                - generic [ref=f11e818]:
+                  - checkbox "Toggle selection for file \"Nextcloud Manual.pdf\"" [ref=f11e819] [cursor=pointer]
+                  - img [ref=f11e822] [cursor=pointer]:
+                    - img [ref=f11e823]
+              - cell "View" [ref=f11e825]:
+                - button "View" [ref=f11e828] [cursor=pointer]:
+                  - generic [ref=f11e829]:
+                    - generic [ref=f11e830]: Nextcloud Manual
+                    - generic [ref=f11e831]: .pdf
+              - cell "Sharing options Actions" [ref=f11e832]:
+                - generic [ref=f11e833]:
+                  - button "Sharing options" [ref=f11e834] [cursor=pointer]:
+                    - img [ref=f11e837]:
+                      - img [ref=f11e839]
+                  - button "Actions" [ref=f11e843] [cursor=pointer]:
+                    - img [ref=f11e846]:
+                      - img [ref=f11e847]
+              - cell "26 MB" [ref=f11e849]:
+                - generic [ref=f11e850]: 26 MB
+              - cell "2 weeks ago" [ref=f11e851]:
+                - generic "6/22/26, 11:07:57 PM" [ref=f11e852]: 2 weeks ago
+            - row "Toggle selection for file \"Readme.md\" View Sharing options Actions < 1 KB 2 weeks ago" [ref=f11e853]:
+              - cell "Toggle selection for file \"Readme.md\"" [ref=f11e854]:
+                - generic [ref=f11e855]:
+                  - checkbox "Toggle selection for file \"Readme.md\"" [ref=f11e856] [cursor=pointer]
+                  - img [ref=f11e859] [cursor=pointer]:
+                    - img [ref=f11e860]
+              - cell "View" [ref=f11e862]:
+                - button "View" [ref=f11e865] [cursor=pointer]:
+                  - generic [ref=f11e866]:
+                    - generic [ref=f11e867]: Readme
+                    - generic [ref=f11e868]: .md
+              - cell "Sharing options Actions" [ref=f11e869]:
+                - generic [ref=f11e870]:
+                  - button "Sharing options" [ref=f11e871] [cursor=pointer]:
+                    - img [ref=f11e874]:
+                      - img [ref=f11e876]
+                  - button "Actions" [ref=f11e880] [cursor=pointer]:
+                    - img [ref=f11e883]:
+                      - img [ref=f11e884]
+              - cell "< 1 KB" [ref=f11e886]:
+                - generic [ref=f11e887]: < 1 KB
+              - cell "2 weeks ago" [ref=f11e888]:
+                - generic "6/22/26, 11:07:56 PM" [ref=f11e889]: 2 weeks ago
+            - row "Toggle selection for file \"Reasons to use Nextcloud.pdf\" View Sharing options Actions 954 KB 2 weeks ago" [ref=f11e890]:
+              - cell "Toggle selection for file \"Reasons to use Nextcloud.pdf\"" [ref=f11e891]:
+                - generic [ref=f11e892]:
+                  - checkbox "Toggle selection for file \"Reasons to use Nextcloud.pdf\"" [ref=f11e893] [cursor=pointer]
+                  - img [ref=f11e896] [cursor=pointer]:
+                    - img [ref=f11e897]
+              - cell "View" [ref=f11e899]:
+                - button "View" [ref=f11e902] [cursor=pointer]:
+                  - generic [ref=f11e903]:
+                    - generic [ref=f11e904]: Reasons to use Nextcloud
+                    - generic [ref=f11e905]: .pdf
+              - cell "Sharing options Actions" [ref=f11e906]:
+                - generic [ref=f11e907]:
+                  - button "Sharing options" [ref=f11e908] [cursor=pointer]:
+                    - img [ref=f11e911]:
+                      - img [ref=f11e913]
+                  - button "Actions" [ref=f11e917] [cursor=pointer]:
+                    - img [ref=f11e920]:
+                      - img [ref=f11e921]
+              - cell "954 KB" [ref=f11e923]:
+                - generic [ref=f11e924]: 954 KB
+              - cell "2 weeks ago" [ref=f11e925]:
+                - generic "6/22/26, 11:07:57 PM" [ref=f11e926]: 2 weeks ago
+            - row "Toggle selection for file \"Templates credits.md\" View Sharing options Actions 3 KB 2 weeks ago" [ref=f11e927]:
+              - cell "Toggle selection for file \"Templates credits.md\"" [ref=f11e928]:
+                - generic [ref=f11e929]:
+                  - checkbox "Toggle selection for file \"Templates credits.md\"" [ref=f11e930] [cursor=pointer]
+                  - img [ref=f11e933] [cursor=pointer]:
+                    - img [ref=f11e934]
+              - cell "View" [ref=f11e936]:
+                - button "View" [ref=f11e939] [cursor=pointer]:
+                  - generic [ref=f11e940]:
+                    - generic [ref=f11e941]: Templates credits
+                    - generic [ref=f11e942]: .md
+              - cell "Sharing options Actions" [ref=f11e943]:
+                - generic [ref=f11e944]:
+                  - button "Sharing options" [ref=f11e945] [cursor=pointer]:
+                    - img [ref=f11e948]:
+                      - img [ref=f11e950]
+                  - button "Actions" [ref=f11e954] [cursor=pointer]:
+                    - img [ref=f11e957]:
+                      - img [ref=f11e958]
+              - cell "3 KB" [ref=f11e960]:
+                - generic [ref=f11e961]: 3 KB
+              - cell "2 weeks ago" [ref=f11e962]:
+                - generic "6/22/26, 11:07:56 PM" [ref=f11e963]: 2 weeks ago
+          - rowgroup [ref=f11e964]:
+            - row "Total rows summary 6 files · 12 folders · 3 hidden 1.2 TB" [ref=f11e965]:
+              - rowheader "Total rows summary" [ref=f11e966]:
+                - generic [ref=f11e967]: Total rows summary
+              - cell "6 files · 12 folders · 3 hidden" [ref=f11e968]:
+                - generic [ref=f11e970]: 6 files · 12 folders · 3 hidden
+              - cell
+              - cell "1.2 TB" [ref=f11e971]:
+                - generic [ref=f11e972]: 1.2 TB
+              - cell [ref=f11e973]

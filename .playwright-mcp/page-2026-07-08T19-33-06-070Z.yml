@@ -1,0 +1,39 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e3]:
+    - banner [ref=f9e4]
+    - generic [ref=f9e7]:
+      - heading "Nextcloud" [level=1] [ref=f9e8]
+      - generic [ref=f9e11]:
+        - group [ref=f9e13]:
+          - heading "Log in to Nextcloud" [level=2] [ref=f9e14]
+          - generic [ref=f9e16]:
+            - textbox "Account name or email" [active] [ref=f9e17]:
+              - /placeholder: ""
+            - generic: Account name or email
+          - generic [ref=f9e19]:
+            - textbox "Password" [ref=f9e20] [cursor=pointer]:
+              - /placeholder: ""
+            - generic: Password
+            - button "Show password" [ref=f9e21] [cursor=pointer]:
+              - img [ref=f9e24]:
+                - img [ref=f9e25]
+          - generic [ref=f9e27]:
+            - checkbox "Remember me" [checked] [ref=f9e28] [cursor=pointer]
+            - generic [ref=f9e29] [cursor=pointer]:
+              - img [ref=f9e31]:
+                - img [ref=f9e32]
+              - generic [ref=f9e34]: Remember me
+          - button "Log in" [ref=f9e35] [cursor=pointer]:
+            - generic [ref=f9e36]:
+              - img [ref=f9e38]:
+                - img [ref=f9e39]
+              - generic [ref=f9e41]: Log in
+        - button "Log in with a device" [ref=f9e42] [cursor=pointer]:
+          - generic [ref=f9e44]: Log in with a device
+        - button "Forgot password?" [ref=f9e45] [cursor=pointer]:
+          - generic [ref=f9e47]: Forgot password?
+  - contentinfo [ref=f9e48]:
+    - paragraph [ref=f9e49]:
+      - link "Nextcloud" [ref=f9e50] [cursor=pointer]:
+        - /url: https://nextcloud.com
+      - text: – a safe home for all your data

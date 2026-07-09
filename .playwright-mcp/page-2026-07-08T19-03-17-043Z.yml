@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]
+    - generic [ref=e7]:
+      - heading "Nextcloud" [level=1] [ref=e8]
+      - generic [ref=e9]:
+        - heading "Page not found" [level=2] [ref=e11]
+        - paragraph [ref=e12]: The page could not be found on the server or you may not be allowed to view it.
+        - paragraph [ref=e13]:
+          - link "Back to Nextcloud" [ref=e14] [cursor=pointer]:
+            - /url: /
+  - contentinfo [ref=e15]:
+    - paragraph [ref=e16]:
+      - link "Nextcloud" [ref=e17] [cursor=pointer]:
+        - /url: https://nextcloud.com
+      - text: – a safe home for all your data

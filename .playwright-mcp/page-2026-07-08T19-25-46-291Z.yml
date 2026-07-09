@@ -1,0 +1,105 @@
+- generic [ref=f8e3]:
+  - navigation [ref=f8e4]:
+    - generic [ref=f8e5]:
+      - link "Deck Salone" [ref=f8e6] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=f8e7]
+      - generic [ref=f8e8]:
+        - link "Discover" [ref=f8e9] [cursor=pointer]:
+          - /url: /discover
+        - link "Rankings" [ref=f8e10] [cursor=pointer]:
+          - /url: /rankings
+        - link "Mixes" [ref=f8e11] [cursor=pointer]:
+          - /url: /mixes
+        - link "Events" [ref=f8e12] [cursor=pointer]:
+          - /url: /events
+        - link "Battles" [ref=f8e13] [cursor=pointer]:
+          - /url: /battles
+        - link "Request DJ" [ref=f8e14] [cursor=pointer]:
+          - /url: /request-dj
+      - generic [ref=f8e15]:
+        - button "Search" [ref=f8e16] [cursor=pointer]:
+          - img [ref=f8e17]
+        - button "Switch to light mode" [ref=f8e20] [cursor=pointer]:
+          - img
+        - generic [ref=f8e21]:
+          - link "testuser77777" [ref=f8e22] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=f8e23]
+            - text: testuser77777
+          - button "Logout" [ref=f8e26] [cursor=pointer]
+  - main [ref=f8e27]:
+    - img [ref=f8e29]
+  - contentinfo [ref=f8e31]:
+    - generic [ref=f8e32]:
+      - generic [ref=f8e33]:
+        - generic [ref=f8e34]:
+          - link "Deck Salone" [ref=f8e35] [cursor=pointer]:
+            - /url: /
+            - img "Deck Salone" [ref=f8e36]
+          - paragraph [ref=f8e37]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+          - generic [ref=f8e38]:
+            - link "Instagram" [ref=f8e39] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f8e40]
+            - link "Twitter" [ref=f8e43] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f8e44]
+            - link "YouTube" [ref=f8e46] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f8e47]
+            - link "TikTok" [ref=f8e50] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f8e51]
+        - generic [ref=f8e55]:
+          - heading "Platform" [level=4] [ref=f8e56]
+          - list [ref=f8e57]:
+            - listitem [ref=f8e58]:
+              - link "Discover DJs" [ref=f8e59] [cursor=pointer]:
+                - /url: /discover
+            - listitem [ref=f8e60]:
+              - link "Rankings" [ref=f8e61] [cursor=pointer]:
+                - /url: /rankings
+            - listitem [ref=f8e62]:
+              - link "Mix Hub" [ref=f8e63] [cursor=pointer]:
+                - /url: /mixes
+            - listitem [ref=f8e64]:
+              - link "Events" [ref=f8e65] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f8e66]:
+              - link "Book a DJ" [ref=f8e67] [cursor=pointer]:
+                - /url: /booking
+            - listitem [ref=f8e68]:
+              - link "Battle Arena" [ref=f8e69] [cursor=pointer]:
+                - /url: /battles
+        - generic [ref=f8e70]:
+          - heading "Resources" [level=4] [ref=f8e71]
+          - list [ref=f8e72]:
+            - listitem [ref=f8e73]:
+              - link "About" [ref=f8e74] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f8e75]:
+              - link "Hall of Fame" [ref=f8e76] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - listitem [ref=f8e77]:
+              - link "Blog" [ref=f8e78] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f8e79]:
+              - link "Help Center" [ref=f8e80] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=f8e81]:
+              - link "Privacy Policy" [ref=f8e82] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f8e83]:
+              - link "Terms of Service" [ref=f8e84] [cursor=pointer]:
+                - /url: /terms
+        - generic [ref=f8e85]:
+          - heading "Connect" [level=4] [ref=f8e86]
+          - paragraph [ref=f8e87]: Follow us for updates, featured DJs, and exclusive content.
+          - generic [ref=f8e88]:
+            - generic [ref=f8e89]: English
+            - generic [ref=f8e90]: "|"
+            - generic [ref=f8e91]: Krio
+      - generic [ref=f8e92]:
+        - paragraph [ref=f8e93]: © 2025 Deck Salone. A Sound It Entertainment platform.
+        - paragraph [ref=f8e94]: All rights reserved.

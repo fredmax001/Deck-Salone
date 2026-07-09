@@ -1,0 +1,60 @@
+- generic [active] [ref=f10e1]:
+  - link "Skip to main content" [ref=f10e3] [cursor=pointer]:
+    - /url: "#app-dashboard"
+  - banner [ref=f10e4]:
+    - generic [ref=f10e5]:
+      - link "Go to Dashboard" [ref=f10e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Applications menu" [ref=f10e8]:
+        - list "Apps" [ref=f10e9]:
+          - listitem [ref=f10e10]:
+            - link "Dashboard" [ref=f10e11] [cursor=pointer]:
+              - /url: /apps/dashboard/
+              - img [ref=f10e12]
+              - generic [ref=f10e13]: Dashboard
+          - listitem [ref=f10e14]:
+            - link "Files" [ref=f10e15] [cursor=pointer]:
+              - /url: /apps/files/
+              - img [ref=f10e16]
+              - generic [ref=f10e17]: Files
+          - listitem [ref=f10e18]:
+            - link "Photos" [ref=f10e19] [cursor=pointer]:
+              - /url: /apps/photos/
+              - img [ref=f10e20]
+              - generic [ref=f10e21]: Photos
+          - listitem [ref=f10e22]:
+            - link "Activity" [ref=f10e23] [cursor=pointer]:
+              - /url: /apps/activity/
+              - img [ref=f10e24]
+              - generic [ref=f10e25]: Activity
+    - generic [ref=f10e26]:
+      - button "Unified search" [ref=f10e29] [cursor=pointer]:
+        - img [ref=f10e32]:
+          - img [ref=f10e33]
+      - generic "Notifications" [ref=f10e36]:
+        - button "Notifications" [ref=f10e37] [cursor=pointer]:
+          - img [ref=f10e40]:
+            - img [ref=f10e41]
+      - button "Search contacts" [ref=f10e44] [cursor=pointer]:
+        - img [ref=f10e47]:
+          - img [ref=f10e48]
+      - navigation "Settings menu" [ref=f10e50]:
+        - button "Settings menu" [ref=f10e51] [cursor=pointer]:
+          - img [ref=f10e55]:
+            - img [ref=f10e56]
+        - generic [ref=f10e58]: Avatar of admin — Online
+  - generic [ref=f10e59]:
+    - heading "Dashboard" [level=1] [ref=f10e60]
+    - main [ref=f10e61]:
+      - heading "Hello" [level=2] [ref=f10e62]
+      - generic [ref=f10e64]:
+        - heading "Recommended files" [level=2] [ref=f10e66]: Recommended files
+        - generic [ref=f10e69]:
+          - list
+          - note [ref=f10e70]:
+            - paragraph [ref=f10e71]: No recommendations yet
+      - button "Customize" [ref=f10e73] [cursor=pointer]:
+        - generic [ref=f10e74]:
+          - img [ref=f10e76]:
+            - img [ref=f10e77]
+          - generic [ref=f10e79]: Customize

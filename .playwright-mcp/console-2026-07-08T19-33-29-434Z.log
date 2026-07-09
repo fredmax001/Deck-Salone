@@ -1,0 +1,48 @@
+[     600ms] [WARNING] [WARN] viewer: Some mimes were ignored because they are not enabled in the server previews config {app: viewer, uid: admin, level: 2, ignoredMimes: Array(4)} @ http://192.168.2.184:8080/apps/viewer/js/previewUtils-Dqoyaeqv.chunk.mjs:4
+[    1048ms] [WARNING] [WARN] @nextcloud/vue: You need to fill either the text or the ariaLabel props in the button component. {uid: admin, app: @nextcloud/vue, level: 2, text: undefined, ariaLabel: null} @ http://192.168.2.184:8080/dist/core-common.js?v=01dcab86-0:0
+[    1058ms] [WARNING] [WARN] @nextcloud/vue: You need to fill either the text or the ariaLabel props in the button component. {uid: admin, app: @nextcloud/vue, level: 2, text: undefined, ariaLabel: null} @ http://192.168.2.184:8080/dist/core-common.js?v=01dcab86-0:0
+[    1985ms] [ERROR] Error: [tiptap error]: The editor view is not available. Cannot access view['dom']. The editor may not be mounted yet.
+    at Object.get (http://192.168.2.184:8080/apps/text/js/Wrapper-C2B5w5m4.chunk.mjs:84:4296)
+    at s.beforeDestroy (http://192.168.2.184:8080/apps/text/js/Wrapper-C2B5w5m4.chunk.mjs:1101:165164)
+    at le (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:24047)
+    at ee (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:32581)
+    at e.$destroy (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:30506)
+    at destroy (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:36171)
+    at X (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:54578)
+    at X (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:54677)
+    at s.__patch__ (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:57381)
+    at e.$destroy (http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:1:30709) @ http://192.168.2.184:8080/apps/text/js/vue.runtime.esm-CbNPNm8f.chunk.mjs:0
+[12391313ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://192.168.2.184:8080/apps/text/session/50/sync:0
+[12391316ms] [ERROR] [ERROR] text: Failed to fetch steps due to unavailable service {app: text, uid: admin, level: 2, error: AxiosError: Request failed with status code 502
+    at Tt (http://192.168.2.184:8080/apps/text/js/i…} @ http://192.168.2.184:8080/apps/text/js/index-DtbbSwig.chunk.mjs:3
+[19735460ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[19735462ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[23392653ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[23392654ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[23421936ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/user_status/api/v1/heartbeat?format=json:0
+[23421938ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/user_status/api/v1/heartbeat?format=json failed because of a CSRF mismatch. Fetching a new token. @ http://192.168.2.184:8080/dist/index-D46XzEB-.chunk.mjs:8
+[27050243ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[27050244ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[29341731ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[29341732ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[34364086ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[34364087ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[34423278ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/user_status/api/v1/heartbeat?format=json:0
+[34423279ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/user_status/api/v1/heartbeat?format=json failed because of a CSRF mismatch. Fetching a new token. @ http://192.168.2.184:8080/dist/index-D46XzEB-.chunk.mjs:8
+[38035863ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[38035865ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[41692284ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[41692284ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[43752104ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications:0
+[43752105ms] [WARNING] Request to http://192.168.2.184:8080/ocs/v2.php/apps/notifications/api/v2/notifications failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/notifications/js/_plugin-vue_export-helper-Uwmn7rgs.chunk.mjs:8
+[43753000ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://192.168.2.184:8080/apps/text/session/50/sync:0
+[43753001ms] [ERROR] [ERROR] text: Failed to fetch steps due to unavailable service {app: text, uid: admin, level: 2, error: AxiosError: Request failed with status code 502
+    at Tt (http://192.168.2.184:8080/apps/text/js/i…} @ http://192.168.2.184:8080/apps/text/js/index-DtbbSwig.chunk.mjs:3
+[43758140ms] [ERROR] Failed to load resource: the server responded with a status of 412 (Precondition failed) @ http://192.168.2.184:8080/apps/text/session/50/sync:0
+[43758149ms] [WARNING] Request to http://192.168.2.184:8080/apps/text/session/50/sync failed because of a CSRF mismatch. Fetching a new token @ http://192.168.2.184:8080/apps/text/js/index-rAVENfJq.chunk.mjs:9
+[43794617ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://192.168.2.184:8080/apps/text/session/50/sync:0
+[43794618ms] [ERROR] [ERROR] text: Failed to fetch steps due to unavailable service {app: text, uid: admin, level: 2, error: AxiosError: Request failed with status code 502
+    at Tt (http://192.168.2.184:8080/apps/text/js/i…} @ http://192.168.2.184:8080/apps/text/js/index-DtbbSwig.chunk.mjs:3
+[44052982ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://192.168.2.184:8080/apps/text/session/50/sync:0
+[44052983ms] [ERROR] [ERROR] text: Failed to fetch steps due to unavailable service {app: text, uid: admin, level: 2, error: AxiosError: Request failed with status code 502
+    at Tt (http://192.168.2.184:8080/apps/text/js/i…} @ http://192.168.2.184:8080/apps/text/js/index-DtbbSwig.chunk.mjs:3
