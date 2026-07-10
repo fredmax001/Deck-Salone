@@ -1,0 +1,33 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "jsx": "react-jsx", // Essential for React 17+ JSX transform
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "paths": {
+            "@features/*": [
+                "features/*"
+            ],
+            "@shared/*": [
+                "shared/*"
+            ]
+        },
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    "include": [
+        "src"
+    ]
+}
