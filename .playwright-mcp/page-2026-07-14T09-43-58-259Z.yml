@@ -1,0 +1,147 @@
+- generic [ref=f6e5]:
+  - complementary [ref=f6e6]:
+    - link [ref=f6e7] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f6e8]
+    - navigation [ref=f6e9]:
+      - generic [ref=f6e10]:
+        - paragraph [ref=f6e11]: Browse
+        - generic [ref=f6e12]:
+          - link "Discover" [ref=f6e13] [cursor=pointer]:
+            - /url: /discover
+          - link "Ranking" [ref=f6e16] [cursor=pointer]:
+            - /url: /rankings
+          - link "Mix Hub" [ref=f6e19] [cursor=pointer]:
+            - /url: /mixes
+          - link "Events" [ref=f6e22] [cursor=pointer]:
+            - /url: /events
+          - link "Battles" [ref=f6e25] [cursor=pointer]:
+            - /url: /battles
+          - link "Request DJ" [ref=f6e32] [cursor=pointer]:
+            - /url: /request-dj
+  - generic [ref=f6e38]:
+    - banner [ref=f6e39]:
+      - generic [ref=f6e40]:
+        - searchbox "Search DJs, mixes, genres" [ref=f6e45]
+        - link "Login" [ref=f6e46] [cursor=pointer]:
+          - /url: /login
+    - main [ref=f6e47]:
+      - generic [ref=f6e48]:
+        - generic [ref=f6e51]:
+          - generic [ref=f6e52]:
+            - text: EVENTS
+            - heading "WHAT'S HAPPENING IN SIERRA LEONE" [level=1] [ref=f6e53]
+          - generic [ref=f6e54]: UPCOMING
+        - generic [ref=f6e64]:
+          - generic [ref=f6e65]:
+            - button "All Types" [ref=f6e66] [cursor=pointer]
+            - button "Club Night" [ref=f6e67] [cursor=pointer]
+            - button "Festival" [ref=f6e68] [cursor=pointer]
+            - button "Private Party" [ref=f6e69] [cursor=pointer]
+            - button "Wedding" [ref=f6e70] [cursor=pointer]
+            - button "Corporate Event" [ref=f6e71] [cursor=pointer]
+            - button "Open DJ Slot" [ref=f6e72] [cursor=pointer]
+          - combobox [ref=f6e74] [cursor=pointer]:
+            - option "All Cities" [selected]
+            - option "Freetown"
+            - option "Bo"
+            - option "Kenema"
+            - option "Makeni"
+            - option "Koidu Town"
+            - option "Port Loko"
+            - option "Lunsar"
+            - option "Waterloo"
+            - option "Kabala"
+            - option "Magburaka"
+            - option "Kailahun"
+            - option "Moyamba"
+            - option "Pujehun"
+            - option "Bonthe"
+            - option "Kambia"
+          - combobox [ref=f6e75] [cursor=pointer]:
+            - option "Soonest" [selected]
+            - option "Alphabetical"
+          - button "Calendar" [ref=f6e76] [cursor=pointer]
+        - generic [ref=f6e80]:
+          - heading "UPCOMING EVENTS" [level=2] [ref=f6e81]
+          - generic [ref=f6e82]:
+            - button [ref=f6e83] [cursor=pointer]
+            - button [ref=f6e85] [cursor=pointer]
+        - generic [ref=f6e94]:
+          - generic [ref=f6e95]: OPEN DJ SLOTS
+          - heading "DJs WANTED" [level=2] [ref=f6e101]
+    - contentinfo [ref=f6e103]:
+      - generic [ref=f6e104]:
+        - generic [ref=f6e105]:
+          - generic [ref=f6e106]:
+            - link [ref=f6e107] [cursor=pointer]:
+              - /url: /
+              - img "Deck Salone" [ref=f6e108]
+            - paragraph [ref=f6e109]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+            - generic [ref=f6e110]:
+              - link "Instagram" [ref=f6e111] [cursor=pointer]:
+                - /url: "#"
+              - link "Twitter" [ref=f6e115] [cursor=pointer]:
+                - /url: "#"
+              - link "YouTube" [ref=f6e118] [cursor=pointer]:
+                - /url: "#"
+              - link "TikTok" [ref=f6e122] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f6e127]:
+            - heading "Platform" [level=4] [ref=f6e128]
+            - list [ref=f6e129]:
+              - listitem [ref=f6e130]:
+                - link "Discover DJs" [ref=f6e131] [cursor=pointer]:
+                  - /url: /discover
+              - listitem [ref=f6e132]:
+                - link "Rankings" [ref=f6e133] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=f6e134]:
+                - link "Mix Hub" [ref=f6e135] [cursor=pointer]:
+                  - /url: /mixes
+              - listitem [ref=f6e136]:
+                - link "Events" [ref=f6e137] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f6e138]:
+                - link "Book a DJ" [ref=f6e139] [cursor=pointer]:
+                  - /url: /booking
+              - listitem [ref=f6e140]:
+                - link "Battle Arena" [ref=f6e141] [cursor=pointer]:
+                  - /url: /battles
+          - generic [ref=f6e142]:
+            - heading "Resources" [level=4] [ref=f6e143]
+            - list [ref=f6e144]:
+              - listitem [ref=f6e145]:
+                - link "About" [ref=f6e146] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f6e147]:
+                - link "Hall of Fame" [ref=f6e148] [cursor=pointer]:
+                  - /url: /hall-of-fame
+              - listitem [ref=f6e149]:
+                - link "Blog" [ref=f6e150] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f6e151]:
+                - link "Help Center" [ref=f6e152] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=f6e153]:
+                - link "Privacy Policy" [ref=f6e154] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=f6e155]:
+                - link "Terms of Service" [ref=f6e156] [cursor=pointer]:
+                  - /url: /terms
+          - generic [ref=f6e157]:
+            - heading "Connect" [level=4] [ref=f6e158]
+            - list [ref=f6e159]:
+              - listitem [ref=f6e160]:
+                - link "+232 72 011 156" [ref=f6e163] [cursor=pointer]:
+                  - /url: https://wa.me/23272011156
+              - listitem [ref=f6e164]:
+                - link "support@decksalone.com" [ref=f6e168] [cursor=pointer]:
+                  - /url: mailto:support@decksalone.com
+            - generic [ref=f6e169]:
+              - generic [ref=f6e170]: English
+              - generic [ref=f6e171]: "|"
+              - generic [ref=f6e172]: Krio
+        - generic [ref=f6e173]:
+          - paragraph [ref=f6e174]: © 2025 Deck Salone. A Sound It Entertainment platform.
+          - paragraph [ref=f6e175]: All rights reserved.

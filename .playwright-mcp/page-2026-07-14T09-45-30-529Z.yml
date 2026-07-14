@@ -1,0 +1,203 @@
+- generic [ref=f11e5]:
+  - complementary [ref=f11e162]:
+    - link [ref=f11e163] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f11e164]
+    - navigation [ref=f11e165]:
+      - generic [ref=f11e166]:
+        - paragraph [ref=f11e167]: Browse
+        - generic [ref=f11e168]:
+          - link "Discover" [ref=f11e169] [cursor=pointer]:
+            - /url: /discover
+          - link "Ranking" [ref=f11e172] [cursor=pointer]:
+            - /url: /rankings
+          - link "Mix Hub" [ref=f11e175] [cursor=pointer]:
+            - /url: /mixes
+          - link "Events" [ref=f11e178] [cursor=pointer]:
+            - /url: /events
+          - link "Battles" [ref=f11e181] [cursor=pointer]:
+            - /url: /battles
+          - link "Request DJ" [ref=f11e188] [cursor=pointer]:
+            - /url: /request-dj
+  - generic [ref=f11e6]:
+    - banner [ref=f11e7]:
+      - generic [ref=f11e8]:
+        - searchbox "Search DJs, mixes, genres" [ref=f11e198]
+        - link "Login" [ref=f11e199] [cursor=pointer]:
+          - /url: /login
+    - main [ref=f11e13]:
+      - generic [ref=f11e15]:
+        - generic [ref=f11e16]:
+          - text: DJ Marketplace
+          - heading "Request a DJ" [level=1] [ref=f11e17]
+        - generic [ref=f11e21]:
+          - generic [ref=f11e22]:
+            - generic [ref=f11e23]:
+              - generic [ref=f11e24]: Event Type *
+              - combobox [ref=f11e25]:
+                - option "Select event type" [selected]
+                - option "Wedding"
+                - option "Birthday"
+                - option "Festival"
+                - option "Club"
+                - option "Corporate"
+                - option "Private Party"
+                - option "House Party"
+                - option "Beach Party"
+                - option "Religious Event"
+                - option "School Event"
+                - option "Graduation"
+            - generic [ref=f11e26]:
+              - generic [ref=f11e27]: Event Date *
+              - textbox [ref=f11e31]
+          - generic [ref=f11e32]:
+            - generic [ref=f11e33]:
+              - generic [ref=f11e34]: Start Time
+              - textbox [ref=f11e39]
+            - generic [ref=f11e40]:
+              - generic [ref=f11e41]: Duration (hours)
+              - spinbutton "4" [ref=f11e42]
+            - generic [ref=f11e43]:
+              - generic [ref=f11e44]: City
+              - combobox [ref=f11e45]:
+                - option "Select city" [selected]
+                - option "Freetown"
+                - option "Bo"
+                - option "Kenema"
+                - option "Makeni"
+                - option "Koidu Town"
+                - option "Port Loko"
+                - option "Lunsar"
+                - option "Waterloo"
+                - option "Kabala"
+                - option "Magburaka"
+                - option "Kailahun"
+                - option "Moyamba"
+                - option "Pujehun"
+                - option "Bonthe"
+                - option "Kambia"
+          - generic [ref=f11e46]:
+            - generic [ref=f11e47]: Event Location *
+            - textbox "Venue or address" [ref=f11e52]
+          - generic [ref=f11e53]:
+            - generic [ref=f11e54]:
+              - generic [ref=f11e55]: Budget Min (SLE)
+              - spinbutton "2500" [ref=f11e58]
+            - generic [ref=f11e59]:
+              - generic [ref=f11e60]: Budget Max (SLE)
+              - spinbutton "5000" [ref=f11e61]
+          - generic [ref=f11e62]:
+            - generic [ref=f11e63]: Music Styles
+            - generic [ref=f11e68]:
+              - button "Afrobeats" [ref=f11e69] [cursor=pointer]
+              - button "Amapiano" [ref=f11e70] [cursor=pointer]
+              - button "Dancehall" [ref=f11e71] [cursor=pointer]
+              - button "Hip Hop" [ref=f11e72] [cursor=pointer]
+              - button "R&B" [ref=f11e73] [cursor=pointer]
+              - button "House" [ref=f11e74] [cursor=pointer]
+              - button "Reggae" [ref=f11e75] [cursor=pointer]
+              - button "Salone Mix" [ref=f11e76] [cursor=pointer]
+              - button "Throwbacks" [ref=f11e77] [cursor=pointer]
+              - button "Gospel" [ref=f11e78] [cursor=pointer]
+              - button "Club Mixes" [ref=f11e79] [cursor=pointer]
+              - button "Wedding Mixes" [ref=f11e80] [cursor=pointer]
+          - generic [ref=f11e81]:
+            - generic [ref=f11e82]: Equipment Needed
+            - generic [ref=f11e83]:
+              - button "DJ Only" [ref=f11e84] [cursor=pointer]
+              - button "Speakers" [ref=f11e85] [cursor=pointer]
+              - button "Lighting" [ref=f11e86] [cursor=pointer]
+              - button "Microphone" [ref=f11e87] [cursor=pointer]
+              - button "MC" [ref=f11e88] [cursor=pointer]
+              - button "Full Setup" [ref=f11e89] [cursor=pointer]
+          - generic [ref=f11e90]:
+            - generic [ref=f11e91]: Additional Notes
+            - textbox "Tell DJs more about your event, preferred vibe, special requests..." [ref=f11e92]
+          - generic [ref=f11e93]:
+            - heading "Contact Details" [level=3] [ref=f11e94]
+            - generic [ref=f11e95]:
+              - generic [ref=f11e96]:
+                - generic [ref=f11e97]: Your Name
+                - textbox "John Doe" [ref=f11e98]
+              - generic [ref=f11e99]:
+                - generic [ref=f11e100]: Email
+                - textbox "you@example.com" [ref=f11e101]
+              - generic [ref=f11e102]:
+                - generic [ref=f11e103]: Phone
+                - textbox "+232..." [ref=f11e104]
+          - button "Find Me a DJ" [ref=f11e105] [cursor=pointer]
+    - contentinfo [ref=f11e107]:
+      - generic [ref=f11e200]:
+        - generic [ref=f11e201]:
+          - generic [ref=f11e202]:
+            - link [ref=f11e203] [cursor=pointer]:
+              - /url: /
+              - img "Deck Salone" [ref=f11e204]
+            - paragraph [ref=f11e205]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+            - generic [ref=f11e206]:
+              - link "Instagram" [ref=f11e207] [cursor=pointer]:
+                - /url: "#"
+              - link "Twitter" [ref=f11e211] [cursor=pointer]:
+                - /url: "#"
+              - link "YouTube" [ref=f11e214] [cursor=pointer]:
+                - /url: "#"
+              - link "TikTok" [ref=f11e218] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f11e223]:
+            - heading "Platform" [level=4] [ref=f11e224]
+            - list [ref=f11e225]:
+              - listitem [ref=f11e226]:
+                - link "Discover DJs" [ref=f11e227] [cursor=pointer]:
+                  - /url: /discover
+              - listitem [ref=f11e228]:
+                - link "Rankings" [ref=f11e229] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=f11e230]:
+                - link "Mix Hub" [ref=f11e231] [cursor=pointer]:
+                  - /url: /mixes
+              - listitem [ref=f11e232]:
+                - link "Events" [ref=f11e233] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f11e234]:
+                - link "Book a DJ" [ref=f11e235] [cursor=pointer]:
+                  - /url: /booking
+              - listitem [ref=f11e236]:
+                - link "Battle Arena" [ref=f11e237] [cursor=pointer]:
+                  - /url: /battles
+          - generic [ref=f11e238]:
+            - heading "Resources" [level=4] [ref=f11e239]
+            - list [ref=f11e240]:
+              - listitem [ref=f11e241]:
+                - link "About" [ref=f11e242] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f11e243]:
+                - link "Hall of Fame" [ref=f11e244] [cursor=pointer]:
+                  - /url: /hall-of-fame
+              - listitem [ref=f11e245]:
+                - link "Blog" [ref=f11e246] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f11e247]:
+                - link "Help Center" [ref=f11e248] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=f11e249]:
+                - link "Privacy Policy" [ref=f11e250] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=f11e251]:
+                - link "Terms of Service" [ref=f11e252] [cursor=pointer]:
+                  - /url: /terms
+          - generic [ref=f11e253]:
+            - heading "Connect" [level=4] [ref=f11e254]
+            - list [ref=f11e255]:
+              - listitem [ref=f11e256]:
+                - link "+232 72 011 156" [ref=f11e259] [cursor=pointer]:
+                  - /url: https://wa.me/23272011156
+              - listitem [ref=f11e260]:
+                - link "support@decksalone.com" [ref=f11e264] [cursor=pointer]:
+                  - /url: mailto:support@decksalone.com
+            - generic [ref=f11e265]:
+              - generic [ref=f11e266]: English
+              - generic [ref=f11e267]: "|"
+              - generic [ref=f11e268]: Krio
+        - generic [ref=f11e269]:
+          - paragraph [ref=f11e270]: © 2025 Deck Salone. A Sound It Entertainment platform.
+          - paragraph [ref=f11e271]: All rights reserved.

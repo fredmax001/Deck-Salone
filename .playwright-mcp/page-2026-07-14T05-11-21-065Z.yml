@@ -1,0 +1,128 @@
+- generic [ref=f8e5]:
+  - complementary [ref=f8e6]:
+    - link [ref=f8e7] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f8e8]
+    - navigation [ref=f8e9]:
+      - generic [ref=f8e10]:
+        - paragraph [ref=f8e11]: Browse
+        - generic [ref=f8e12]:
+          - link "Discover" [ref=f8e13] [cursor=pointer]:
+            - /url: /discover
+          - link "Ranking" [ref=f8e16] [cursor=pointer]:
+            - /url: /rankings
+          - link "Mix Hub" [ref=f8e19] [cursor=pointer]:
+            - /url: /mixes
+          - link "Events" [ref=f8e22] [cursor=pointer]:
+            - /url: /events
+          - link "Battles" [ref=f8e25] [cursor=pointer]:
+            - /url: /battles
+          - link "Request DJ" [ref=f8e32] [cursor=pointer]:
+            - /url: /request-dj
+  - generic [ref=f8e38]:
+    - banner [ref=f8e39]:
+      - generic [ref=f8e40]:
+        - searchbox "Search DJs, mixes, genres" [ref=f8e45]
+        - link "Login" [ref=f8e46] [cursor=pointer]:
+          - /url: /login
+    - main [ref=f8e47]:
+      - generic [ref=f8e49]:
+        - img "SALONE MIX V10 BONUS (HIP HOP MIX)" [ref=f8e51]
+        - generic [ref=f8e53]:
+          - link "Back to Mixes" [ref=f8e54] [cursor=pointer]:
+            - /url: /mixes
+          - generic [ref=f8e57]:
+            - generic [ref=f8e58]:
+              - img "SALONE MIX V10 BONUS (HIP HOP MIX)" [ref=f8e59]
+              - button [ref=f8e60] [cursor=pointer]
+            - generic [ref=f8e64]:
+              - heading "SALONE MIX V10 BONUS (HIP HOP MIX)" [level=1] [ref=f8e65]
+              - link "Fred Max Fred Max" [ref=f8e66] [cursor=pointer]:
+                - /url: /dj/djfredmax221
+                - img "Fred Max" [ref=f8e67]
+                - generic [ref=f8e68]: Fred Max
+              - generic [ref=f8e69]:
+                - generic [ref=f8e70]: Salone Mix
+                - generic [ref=f8e75]: 47:21
+                - generic [ref=f8e79]: 0 plays
+                - generic [ref=f8e80]: 0 likes
+              - paragraph [ref=f8e81]: Imported from Hearthis.at
+              - generic [ref=f8e82]:
+                - button "Play Mix" [ref=f8e83] [cursor=pointer]
+                - button "Like" [ref=f8e86] [cursor=pointer]
+                - button "Share" [active] [ref=f8e90] [cursor=pointer]
+    - contentinfo [ref=f8e98]:
+      - generic [ref=f8e99]:
+        - generic [ref=f8e100]:
+          - generic [ref=f8e101]:
+            - link [ref=f8e102] [cursor=pointer]:
+              - /url: /
+              - img "Deck Salone" [ref=f8e103]
+            - paragraph [ref=f8e104]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+            - generic [ref=f8e105]:
+              - link "Instagram" [ref=f8e106] [cursor=pointer]:
+                - /url: "#"
+              - link "Twitter" [ref=f8e110] [cursor=pointer]:
+                - /url: "#"
+              - link "YouTube" [ref=f8e113] [cursor=pointer]:
+                - /url: "#"
+              - link "TikTok" [ref=f8e117] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f8e122]:
+            - heading "Platform" [level=4] [ref=f8e123]
+            - list [ref=f8e124]:
+              - listitem [ref=f8e125]:
+                - link "Discover DJs" [ref=f8e126] [cursor=pointer]:
+                  - /url: /discover
+              - listitem [ref=f8e127]:
+                - link "Rankings" [ref=f8e128] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=f8e129]:
+                - link "Mix Hub" [ref=f8e130] [cursor=pointer]:
+                  - /url: /mixes
+              - listitem [ref=f8e131]:
+                - link "Events" [ref=f8e132] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f8e133]:
+                - link "Book a DJ" [ref=f8e134] [cursor=pointer]:
+                  - /url: /booking
+              - listitem [ref=f8e135]:
+                - link "Battle Arena" [ref=f8e136] [cursor=pointer]:
+                  - /url: /battles
+          - generic [ref=f8e137]:
+            - heading "Resources" [level=4] [ref=f8e138]
+            - list [ref=f8e139]:
+              - listitem [ref=f8e140]:
+                - link "About" [ref=f8e141] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f8e142]:
+                - link "Hall of Fame" [ref=f8e143] [cursor=pointer]:
+                  - /url: /hall-of-fame
+              - listitem [ref=f8e144]:
+                - link "Blog" [ref=f8e145] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f8e146]:
+                - link "Help Center" [ref=f8e147] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=f8e148]:
+                - link "Privacy Policy" [ref=f8e149] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=f8e150]:
+                - link "Terms of Service" [ref=f8e151] [cursor=pointer]:
+                  - /url: /terms
+          - generic [ref=f8e152]:
+            - heading "Connect" [level=4] [ref=f8e153]
+            - list [ref=f8e154]:
+              - listitem [ref=f8e155]:
+                - link "+232 72 011 156" [ref=f8e158] [cursor=pointer]:
+                  - /url: https://wa.me/23272011156
+              - listitem [ref=f8e159]:
+                - link "support@decksalone.com" [ref=f8e163] [cursor=pointer]:
+                  - /url: mailto:support@decksalone.com
+            - generic [ref=f8e164]:
+              - generic [ref=f8e165]: English
+              - generic [ref=f8e166]: "|"
+              - generic [ref=f8e167]: Krio
+        - generic [ref=f8e168]:
+          - paragraph [ref=f8e169]: © 2025 Deck Salone. A Sound It Entertainment platform.
+          - paragraph [ref=f8e170]: All rights reserved.

@@ -1,0 +1,209 @@
+- generic [ref=f7e5]:
+  - generic [ref=f7e6]:
+    - banner [ref=f7e7]:
+      - generic [ref=f7e8]:
+        - link [ref=f7e9] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f7e10]
+        - button [ref=f7e11] [cursor=pointer]
+        - button [ref=f7e12] [cursor=pointer]
+    - main [ref=f7e13]:
+      - generic [ref=f7e14]:
+        - generic [ref=f7e16]:
+          - paragraph [ref=f7e18]: LIVE RANKINGS
+          - heading "SIERRA LEONE DJ RANKINGS" [level=1] [ref=f7e20]
+          - generic [ref=f7e21]: "Last updated: 7/14/2026"
+          - generic [ref=f7e30]:
+            - paragraph [ref=f7e31]: HOW SCORES ARE CALCULATED
+            - generic [ref=f7e32]:
+              - generic [ref=f7e33]:
+                - text: ~45%
+                - paragraph [ref=f7e34]: Digital Score
+                - list [ref=f7e35]:
+                  - listitem [ref=f7e36]: Streams & Followers
+                  - listitem [ref=f7e37]: Mix Uploads & Plays
+                  - listitem [ref=f7e38]: Platform Engagement
+              - generic [ref=f7e39]:
+                - text: ~35%
+                - paragraph [ref=f7e40]: Industry Score
+                - list [ref=f7e41]:
+                  - listitem [ref=f7e42]: Booking Count
+                  - listitem [ref=f7e43]: Events Played
+                  - listitem [ref=f7e44]: Battle Performance
+              - generic [ref=f7e45]:
+                - text: ~20%
+                - paragraph [ref=f7e46]: Community Score
+                - list [ref=f7e47]:
+                  - listitem [ref=f7e48]: User Ratings
+                  - listitem [ref=f7e49]: Reviews & Feedback
+                  - listitem [ref=f7e50]: Verified Reviews
+        - generic [ref=f7e52]:
+          - generic [ref=f7e54]:
+            - button "Global" [ref=f7e55] [cursor=pointer]
+            - button "By City" [ref=f7e56] [cursor=pointer]
+            - button "By Genre" [ref=f7e57] [cursor=pointer]
+            - button "Fastest Rising" [ref=f7e58] [cursor=pointer]
+            - button "Most Booked" [ref=f7e59] [cursor=pointer]
+            - button "Most Streamed" [ref=f7e60] [cursor=pointer]
+          - generic [ref=f7e61]:
+            - generic [ref=f7e62]:
+              - paragraph [ref=f7e63]: GLOBAL TOP 50
+              - generic [ref=f7e64]: All Cities
+            - generic [ref=f7e69]:
+              - generic [ref=f7e70] [cursor=pointer]:
+                - generic [ref=f7e71]: "1"
+                - img "Fred Max" [ref=f7e81]
+                - generic [ref=f7e82]:
+                  - generic [ref=f7e83]: Fred Max
+                  - generic [ref=f7e88]:
+                    - generic [ref=f7e89]: Afrobeats
+                    - generic [ref=f7e90]: Salone Mix
+                    - generic [ref=f7e91]: Reggae
+                    - generic [ref=f7e92]: Freetown
+                - generic [ref=f7e96]: "-7.1%"
+              - generic [ref=f7e101] [cursor=pointer]:
+                - generic [ref=f7e102]: "2"
+                - img "Dito Freaky" [ref=f7e112]
+                - generic [ref=f7e113]:
+                  - generic [ref=f7e114]: Dito Freaky
+                  - generic [ref=f7e119]:
+                    - generic [ref=f7e120]: Afrobeats
+                    - generic [ref=f7e121]: Amapiano
+                    - generic [ref=f7e122]: Dancehall
+                    - generic [ref=f7e123]: Freetown
+                - generic [ref=f7e127]: "-8.7%"
+              - generic [ref=f7e132] [cursor=pointer]:
+                - generic [ref=f7e133]: "3"
+                - img "Yo Tunji" [ref=f7e143]
+                - generic [ref=f7e144]:
+                  - generic [ref=f7e145]: Yo Tunji
+                  - generic [ref=f7e150]:
+                    - generic [ref=f7e151]: Afrobeats
+                    - generic [ref=f7e152]: Club Mix
+                    - generic [ref=f7e153]: Salone Mix
+                    - generic [ref=f7e154]: Freetown
+                - generic [ref=f7e158]: "-7.3%"
+              - generic [ref=f7e163] [cursor=pointer]:
+                - generic [ref=f7e164]: "4"
+                - img "DJ MIN -1" [ref=f7e166]
+                - generic [ref=f7e167]:
+                  - generic [ref=f7e168]: DJ MIN -1
+                  - generic [ref=f7e173]:
+                    - generic [ref=f7e174]: Salone Mix
+                    - generic [ref=f7e175]: Dancehall
+                    - generic [ref=f7e176]: Afrobeats
+                    - generic [ref=f7e177]: Freetown
+                - generic [ref=f7e181]: "-8.7%"
+              - generic [ref=f7e186] [cursor=pointer]:
+                - generic [ref=f7e187]: "5"
+                - img "Official Dj Ces" [ref=f7e189]
+                - generic [ref=f7e190]:
+                  - generic [ref=f7e191]: Official Dj Ces
+                  - generic [ref=f7e196]:
+                    - generic [ref=f7e197]: Club Mix
+                    - generic [ref=f7e198]: Freetown
+                - generic [ref=f7e202]: "-5.8%"
+              - generic [ref=f7e207] [cursor=pointer]:
+                - generic [ref=f7e208]: "6"
+                - img "Kishh MixTrender" [ref=f7e210]
+                - generic [ref=f7e211]:
+                  - generic [ref=f7e212]: Kishh MixTrender
+                  - generic [ref=f7e217]:
+                    - generic [ref=f7e218]: Afrobeats
+                    - generic [ref=f7e219]: Club Mix
+                    - generic [ref=f7e220]: Salone Mix
+                    - generic [ref=f7e221]: Freetown
+                - generic [ref=f7e225]: "-8.7%"
+        - generic [ref=f7e232]:
+          - paragraph [ref=f7e237]: MOST STREAMED
+          - generic [ref=f7e238]:
+            - generic [ref=f7e240]:
+              - generic [ref=f7e241]: "1"
+              - img "Fred Max" [ref=f7e242]
+              - generic [ref=f7e243]: Fred Max
+              - generic [ref=f7e245]: "0"
+            - generic [ref=f7e247]:
+              - generic [ref=f7e248]: "2"
+              - img "Dito Freaky" [ref=f7e249]
+              - generic [ref=f7e250]: Dito Freaky
+              - generic [ref=f7e252]: "0"
+            - generic [ref=f7e254]:
+              - generic [ref=f7e255]: "3"
+              - img "Yo Tunji" [ref=f7e256]
+              - generic [ref=f7e257]: Yo Tunji
+              - generic [ref=f7e259]: "0"
+            - generic [ref=f7e261]:
+              - generic [ref=f7e262]: "4"
+              - img "DJ MIN -1" [ref=f7e263]
+              - generic [ref=f7e264]: DJ MIN -1
+              - generic [ref=f7e266]: "0"
+            - generic [ref=f7e268]:
+              - generic [ref=f7e269]: "5"
+              - img "Official Dj Ces" [ref=f7e270]
+              - generic [ref=f7e271]: Official Dj Ces
+              - generic [ref=f7e273]: "0"
+            - generic [ref=f7e275]:
+              - generic [ref=f7e276]: "6"
+              - img "Kishh MixTrender" [ref=f7e277]
+              - generic [ref=f7e278]: Kishh MixTrender
+              - generic [ref=f7e280]: "0"
+        - generic [ref=f7e283]:
+          - paragraph [ref=f7e288]: MOST BOOKED
+          - generic [ref=f7e289]:
+            - generic [ref=f7e291]:
+              - generic [ref=f7e292]: "1"
+              - img "Fred Max" [ref=f7e293]
+              - generic [ref=f7e294]: Fred Max
+              - generic [ref=f7e296]: "1"
+            - generic [ref=f7e298]:
+              - generic [ref=f7e299]: "2"
+              - img "Dito Freaky" [ref=f7e300]
+              - generic [ref=f7e301]: Dito Freaky
+              - generic [ref=f7e303]: "0"
+            - generic [ref=f7e305]:
+              - generic [ref=f7e306]: "3"
+              - img "Yo Tunji" [ref=f7e307]
+              - generic [ref=f7e308]: Yo Tunji
+              - generic [ref=f7e310]: "0"
+            - generic [ref=f7e312]:
+              - generic [ref=f7e313]: "4"
+              - img "DJ MIN -1" [ref=f7e314]
+              - generic [ref=f7e315]: DJ MIN -1
+              - generic [ref=f7e317]: "0"
+            - generic [ref=f7e319]:
+              - generic [ref=f7e320]: "5"
+              - img "Official Dj Ces" [ref=f7e321]
+              - generic [ref=f7e322]: Official Dj Ces
+              - generic [ref=f7e324]: "0"
+            - generic [ref=f7e326]:
+              - generic [ref=f7e327]: "6"
+              - img "Kishh MixTrender" [ref=f7e328]
+              - generic [ref=f7e329]: Kishh MixTrender
+              - generic [ref=f7e331]: "0"
+    - contentinfo [ref=f7e333]:
+      - generic [ref=f7e335]:
+        - link [ref=f7e336] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f7e337]
+        - generic [ref=f7e338]:
+          - link "Instagram" [ref=f7e339] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f7e343] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=f7e346] [cursor=pointer]:
+            - /url: "#"
+          - link "TikTok" [ref=f7e350] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=f7e355]: © 2025 Deck Salone. A Sound It Entertainment platform.
+  - navigation [ref=f7e356]:
+    - generic [ref=f7e357]:
+      - link "Home" [ref=f7e358] [cursor=pointer]:
+        - /url: /
+      - link "Discover" [ref=f7e363] [cursor=pointer]:
+        - /url: /discover
+      - link "Mixes" [ref=f7e368] [cursor=pointer]:
+        - /url: /mixes
+      - link "Battles" [ref=f7e375] [cursor=pointer]:
+        - /url: /battles
+      - link "Sign Up" [ref=f7e383] [cursor=pointer]:
+        - /url: /register

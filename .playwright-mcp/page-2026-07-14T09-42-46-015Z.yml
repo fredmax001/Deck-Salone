@@ -1,0 +1,62 @@
+- generic [ref=f3e5]:
+  - generic [ref=f3e6]:
+    - banner [ref=f3e7]:
+      - generic [ref=f3e8]:
+        - link [ref=f3e9] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f3e10]
+        - button [ref=f3e11] [cursor=pointer]
+        - button [ref=f3e12] [cursor=pointer]
+    - main [ref=f3e13]:
+      - generic [ref=f3e15]:
+        - img "SALONE MIX V10 BONUS (HIP HOP MIX)" [ref=f3e17]
+        - generic [ref=f3e19]:
+          - link "Back to Mixes" [ref=f3e20] [cursor=pointer]:
+            - /url: /mixes
+          - generic [ref=f3e23]:
+            - generic [ref=f3e24]:
+              - img "SALONE MIX V10 BONUS (HIP HOP MIX)" [ref=f3e25]
+              - button [ref=f3e26] [cursor=pointer]
+            - generic [ref=f3e30]:
+              - heading "SALONE MIX V10 BONUS (HIP HOP MIX)" [level=1] [ref=f3e31]
+              - link "Fred Max Fred Max" [ref=f3e32] [cursor=pointer]:
+                - /url: /dj/djfredmax221
+                - img "Fred Max" [ref=f3e33]
+                - generic [ref=f3e34]: Fred Max
+              - generic [ref=f3e35]:
+                - generic [ref=f3e36]: Salone Mix
+                - generic [ref=f3e41]: 47:21
+                - generic [ref=f3e45]: 0 plays
+                - generic [ref=f3e46]: 0 likes
+              - paragraph [ref=f3e47]: Imported from Hearthis.at
+              - generic [ref=f3e48]:
+                - button "Play Mix" [ref=f3e49] [cursor=pointer]
+                - button "Like" [ref=f3e52] [cursor=pointer]
+                - button "Share" [ref=f3e56] [cursor=pointer]
+    - contentinfo [ref=f3e64]:
+      - generic [ref=f3e66]:
+        - link [ref=f3e67] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f3e68]
+        - generic [ref=f3e69]:
+          - link "Instagram" [ref=f3e70] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f3e74] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=f3e77] [cursor=pointer]:
+            - /url: "#"
+          - link "TikTok" [ref=f3e81] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=f3e86]: © 2025 Deck Salone. A Sound It Entertainment platform.
+  - navigation [ref=f3e87]:
+    - generic [ref=f3e88]:
+      - link "Home" [ref=f3e89] [cursor=pointer]:
+        - /url: /
+      - link "Discover" [ref=f3e94] [cursor=pointer]:
+        - /url: /discover
+      - link "Mixes" [ref=f3e99] [cursor=pointer]:
+        - /url: /mixes
+      - link "Battles" [ref=f3e106] [cursor=pointer]:
+        - /url: /battles
+      - link "Sign Up" [ref=f3e114] [cursor=pointer]:
+        - /url: /register

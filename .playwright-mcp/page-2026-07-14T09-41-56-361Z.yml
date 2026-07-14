@@ -1,0 +1,203 @@
+- generic [ref=f1e5]:
+  - generic [ref=f1e6]:
+    - banner [ref=f1e7]:
+      - generic [ref=f1e8]:
+        - link [ref=f1e9] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f1e10]
+        - button [ref=f1e11] [cursor=pointer]
+        - button [ref=f1e12] [cursor=pointer]
+    - main [ref=f1e13]:
+      - generic [ref=f1e14]:
+        - generic [ref=f1e16]:
+          - paragraph [ref=f1e18]: DISCOVER
+          - heading "FIND YOUR PERFECT DJ" [level=1] [ref=f1e20]
+          - generic [ref=f1e23]:
+            - textbox "Search by DJ name, genre, or city..." [ref=f1e24]
+            - button "Search" [ref=f1e25] [cursor=pointer]
+          - generic [ref=f1e27]:
+            - button "All" [ref=f1e28] [cursor=pointer]
+            - button "Afrobeats" [ref=f1e29] [cursor=pointer]
+            - button "Amapiano" [ref=f1e30] [cursor=pointer]
+            - button "Club Mix" [ref=f1e31] [cursor=pointer]
+            - button "Dancehall" [ref=f1e32] [cursor=pointer]
+            - button "Open Format" [ref=f1e33] [cursor=pointer]
+            - button "Reggae" [ref=f1e34] [cursor=pointer]
+            - button "Salone Mix" [ref=f1e35] [cursor=pointer]
+          - button "Advanced Filters" [ref=f1e38] [cursor=pointer]
+        - 'button "Sort: Rank (Default)" [ref=f1e45] [cursor=pointer]'
+        - generic [ref=f1e50]:
+          - generic [ref=f1e51]:
+            - generic [ref=f1e52]:
+              - img "DJ MIN -1" [ref=f1e53]
+              - generic [ref=f1e55]: "4"
+            - generic [ref=f1e61]:
+              - generic [ref=f1e62]:
+                - generic [ref=f1e63]: Salone Mix
+                - generic [ref=f1e64]: Dancehall
+              - link [ref=f1e65] [cursor=pointer]:
+                - /url: /dj/djmin1muzik
+                - heading "DJ MIN -1" [level=3] [ref=f1e66]
+              - generic [ref=f1e67]: Freetown
+              - generic [ref=f1e72]:
+                - generic [ref=f1e73]: "1"
+                - generic [ref=f1e80]: "0"
+                - generic [ref=f1e85]: "0.0"
+              - generic [ref=f1e89]:
+                - generic [ref=f1e90]: From
+                - generic [ref=f1e91]: SLE 5,000 - 30,000
+              - generic [ref=f1e92]:
+                - link "View Profile" [ref=f1e93] [cursor=pointer]:
+                  - /url: /dj/djmin1muzik
+                - button "Share" [ref=f1e95] [cursor=pointer]
+          - generic [ref=f1e102]:
+            - generic [ref=f1e103]:
+              - img "Official Dj Ces" [ref=f1e104]
+              - generic [ref=f1e106]: "6"
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]: Club Mix
+              - link [ref=f1e115] [cursor=pointer]:
+                - /url: /dj/cecilthomas831
+                - heading "Official Dj Ces" [level=3] [ref=f1e116]
+              - generic [ref=f1e117]: Freetown
+              - generic [ref=f1e122]:
+                - generic [ref=f1e123]: "1"
+                - generic [ref=f1e130]: "0"
+                - generic [ref=f1e135]: "0.0"
+              - generic [ref=f1e139]:
+                - generic [ref=f1e140]: From
+                - generic [ref=f1e141]: SLE 0+
+              - generic [ref=f1e142]:
+                - link "View Profile" [ref=f1e143] [cursor=pointer]:
+                  - /url: /dj/cecilthomas831
+                - button "Share" [ref=f1e145] [cursor=pointer]
+          - generic [ref=f1e152]:
+            - generic [ref=f1e153]:
+              - img "Yo Tunji" [ref=f1e154]
+              - generic [ref=f1e156]: "5"
+            - generic [ref=f1e162]:
+              - generic [ref=f1e163]:
+                - generic [ref=f1e164]: Afrobeats
+                - generic [ref=f1e165]: Club Mix
+              - link [ref=f1e166] [cursor=pointer]:
+                - /url: /dj/samueldawodu1998
+                - heading "Yo Tunji" [level=3] [ref=f1e167]
+              - generic [ref=f1e168]: Freetown
+              - generic [ref=f1e173]:
+                - generic [ref=f1e174]: "1"
+                - generic [ref=f1e181]: "0"
+                - generic [ref=f1e186]: "0.0"
+              - generic [ref=f1e190]:
+                - generic [ref=f1e191]: From
+                - generic [ref=f1e192]: SLE 5,000 - 50,000
+              - generic [ref=f1e193]:
+                - link "View Profile" [ref=f1e194] [cursor=pointer]:
+                  - /url: /dj/samueldawodu1998
+                - button "Share" [ref=f1e196] [cursor=pointer]
+          - generic [ref=f1e203]:
+            - generic [ref=f1e204]:
+              - img "Kishh MixTrender" [ref=f1e205]
+              - generic [ref=f1e207]: "3"
+            - generic [ref=f1e213]:
+              - generic [ref=f1e214]:
+                - generic [ref=f1e215]: Afrobeats
+                - generic [ref=f1e216]: Club Mix
+              - link [ref=f1e217] [cursor=pointer]:
+                - /url: /dj/kishhmixtrender
+                - heading "Kishh MixTrender" [level=3] [ref=f1e218]
+              - generic [ref=f1e219]: Freetown
+              - generic [ref=f1e224]:
+                - generic [ref=f1e225]: "1"
+                - generic [ref=f1e232]: "0"
+                - generic [ref=f1e237]: "0.0"
+              - generic [ref=f1e241]:
+                - generic [ref=f1e242]: From
+                - generic [ref=f1e243]: SLE 0+
+              - generic [ref=f1e244]:
+                - link "View Profile" [ref=f1e245] [cursor=pointer]:
+                  - /url: /dj/kishhmixtrender
+                - button "Share" [ref=f1e247] [cursor=pointer]
+          - generic [ref=f1e254]:
+            - generic [ref=f1e255]:
+              - img "Dito Freaky" [ref=f1e256]
+              - generic [ref=f1e258]: "2"
+            - generic [ref=f1e264]:
+              - generic [ref=f1e265]:
+                - generic [ref=f1e266]: Afrobeats
+                - generic [ref=f1e267]: Amapiano
+              - link [ref=f1e268] [cursor=pointer]:
+                - /url: /dj/ditofreaky1994
+                - heading "Dito Freaky" [level=3] [ref=f1e269]
+              - generic [ref=f1e270]: Freetown
+              - generic [ref=f1e275]:
+                - generic [ref=f1e276]: "1"
+                - generic [ref=f1e283]: "0"
+                - generic [ref=f1e288]: "0.0"
+              - generic [ref=f1e292]:
+                - generic [ref=f1e293]: From
+                - generic [ref=f1e294]: SLE 0+
+              - generic [ref=f1e295]:
+                - link "View Profile" [ref=f1e296] [cursor=pointer]:
+                  - /url: /dj/ditofreaky1994
+                - button "Share" [ref=f1e298] [cursor=pointer]
+          - generic [ref=f1e305]:
+            - generic [ref=f1e306]:
+              - img "Fred Max" [ref=f1e307]
+              - generic [ref=f1e309]: "1"
+            - generic [ref=f1e315]:
+              - generic [ref=f1e316]:
+                - generic [ref=f1e317]: Afrobeats
+                - generic [ref=f1e318]: Salone Mix
+              - link [ref=f1e319] [cursor=pointer]:
+                - /url: /dj/djfredmax221
+                - heading "Fred Max" [level=3] [ref=f1e320]
+              - generic [ref=f1e321]: Freetown
+              - generic [ref=f1e326]:
+                - generic [ref=f1e327]: "0"
+                - generic [ref=f1e334]: "20"
+                - generic [ref=f1e339]: "0.0"
+              - generic [ref=f1e343]:
+                - generic [ref=f1e344]: From
+                - generic [ref=f1e345]: SLE 5,000 - 80,000
+              - generic [ref=f1e346]:
+                - link "View Profile" [ref=f1e347] [cursor=pointer]:
+                  - /url: /dj/djfredmax221
+                - button "Share" [ref=f1e349] [cursor=pointer]
+        - generic [ref=f1e359]:
+          - heading "ARE YOU A DJ?" [level=2] [ref=f1e361]
+          - paragraph [ref=f1e363]: Join the platform and get discovered by promoters, fans, and event organizers across Sierra Leone.
+          - list [ref=f1e365]:
+            - listitem [ref=f1e366]: Create your verified professional profile
+            - listitem [ref=f1e370]: Upload and showcase your mixes
+            - listitem [ref=f1e374]: Track performance with real analytics
+            - listitem [ref=f1e378]: Get booked directly through the platform
+            - listitem [ref=f1e382]: Compete in weekly DJ battles
+          - link "Create Free Profile" [ref=f1e387] [cursor=pointer]:
+            - /url: /login
+    - contentinfo [ref=f1e392]:
+      - generic [ref=f1e394]:
+        - link [ref=f1e395] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f1e396]
+        - generic [ref=f1e397]:
+          - link "Instagram" [ref=f1e398] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f1e402] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=f1e405] [cursor=pointer]:
+            - /url: "#"
+          - link "TikTok" [ref=f1e409] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=f1e414]: © 2025 Deck Salone. A Sound It Entertainment platform.
+  - navigation [ref=f1e415]:
+    - generic [ref=f1e416]:
+      - link "Home" [ref=f1e417] [cursor=pointer]:
+        - /url: /
+      - link "Discover" [ref=f1e422] [cursor=pointer]:
+        - /url: /discover
+      - link "Mixes" [ref=f1e428] [cursor=pointer]:
+        - /url: /mixes
+      - link "Battles" [ref=f1e435] [cursor=pointer]:
+        - /url: /battles
+      - link "Sign Up" [ref=f1e443] [cursor=pointer]:
+        - /url: /register

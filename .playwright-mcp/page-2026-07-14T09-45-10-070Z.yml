@@ -1,0 +1,30 @@
+- generic [ref=f10e5]:
+  - link [ref=f10e6] [cursor=pointer]:
+    - /url: /
+    - img "Deck Salone" [ref=f10e7]
+  - generic [ref=f10e8]:
+    - generic [ref=f10e9]:
+      - heading "Welcome Back" [level=1] [ref=f10e10]
+      - paragraph [ref=f10e11]: Sign in to your account
+    - generic [ref=f10e12]:
+      - generic [ref=f10e13]:
+        - generic [ref=f10e14]: Email
+        - textbox "Email" [ref=f10e16]:
+          - /placeholder: dj@example.com
+      - generic [ref=f10e17]:
+        - generic [ref=f10e18]: Password
+        - generic [ref=f10e19]:
+          - textbox "Password" [ref=f10e20]:
+            - /placeholder: ••••••••
+          - button [ref=f10e21] [cursor=pointer]
+      - link "Forgot Password?" [ref=f10e26] [cursor=pointer]:
+        - /url: /forgot-password
+      - button "Sign In" [ref=f10e28] [cursor=pointer]
+      - generic [ref=f10e29]: OR
+      - link "Continue with Google" [ref=f10e34] [cursor=pointer]:
+        - /url: /api/v1/auth/google
+      - button "Continue with Phone" [ref=f10e41] [cursor=pointer]
+      - paragraph [ref=f10e44]:
+        - text: Don't have an account?
+        - link "Join as DJ" [ref=f10e45] [cursor=pointer]:
+          - /url: /register

@@ -1,0 +1,120 @@
+- generic [ref=f8e5]:
+  - generic [ref=f8e38]:
+    - banner [ref=f8e39]:
+      - generic [ref=f8e40]:
+        - link [ref=f8e313] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f8e314]
+        - button [ref=f8e315] [cursor=pointer]
+        - button [ref=f8e316] [cursor=pointer]
+    - main [ref=f8e47]:
+      - generic [ref=f8e48]:
+        - generic [ref=f8e49]:
+          - img "Battle arena" [ref=f8e51]
+          - generic [ref=f8e53]:
+            - generic [ref=f8e54]: Weekly Competition
+            - heading "Battle Arena" [level=1] [ref=f8e55]
+            - generic [ref=f8e56]: VS
+            - paragraph [ref=f8e57]: DJs go head-to-head. Fans vote. One winner rises.
+            - generic [ref=f8e58]: Voting Open
+            - generic [ref=f8e63]:
+              - text: Ends in
+              - generic [ref=f8e64]: 01d23h59m45s
+        - generic [ref=f8e66]:
+          - generic [ref=f8e67]:
+            - generic [ref=f8e68]: This Week's Battle
+            - heading "Afrobeats vs Amapiano" [level=2] [ref=f8e70]
+            - paragraph [ref=f8e72]: Two genres. Two DJs. One winner.
+          - generic [ref=f8e74]:
+            - heading "No Active Battle" [level=3] [ref=f8e81]
+            - paragraph [ref=f8e82]: There isn't a battle running right now. Check back soon or browse the leaderboard and past battles.
+        - generic [ref=f8e84]:
+          - generic [ref=f8e85]:
+            - generic [ref=f8e86]: The Rules
+            - heading "How Battles Work" [level=2] [ref=f8e88]
+          - generic [ref=f8e89]:
+            - generic [ref=f8e91]:
+              - generic [ref=f8e96]: "1"
+              - heading "DJs Submit Mixes" [level=4] [ref=f8e97]
+              - paragraph [ref=f8e98]: A new battle theme is announced every Monday. Two DJs are selected or volunteer to compete.
+            - generic [ref=f8e101]:
+              - generic [ref=f8e106]: "2"
+              - heading "Upload Your Mix" [level=4] [ref=f8e107]
+              - paragraph [ref=f8e108]: Each DJ has until Friday midnight to upload their best mix fitting the battle theme.
+            - generic [ref=f8e111]:
+              - generic [ref=f8e118]: "3"
+              - heading "Community Votes" [level=4] [ref=f8e119]
+              - paragraph [ref=f8e120]: Fans listen to both mixes and vote for their favorite. Voting is open 48 hours.
+            - generic [ref=f8e123]:
+              - generic [ref=f8e127]: "4"
+              - heading "Winner Advances" [level=4] [ref=f8e128]
+              - paragraph [ref=f8e129]: The DJ with the most votes wins. Winners earn points on the battle leaderboard.
+        - generic [ref=f8e131]:
+          - generic [ref=f8e133]:
+            - generic [ref=f8e134]: Battle Leaderboard
+            - heading "All-Time Champions" [level=2] [ref=f8e143]
+          - paragraph [ref=f8e146]: No battle history yet.
+        - generic [ref=f8e148]:
+          - generic [ref=f8e149]:
+            - generic [ref=f8e150]: Archive
+            - heading "Past Battles" [level=2] [ref=f8e152]
+          - paragraph [ref=f8e155]: No past battles yet. The first winner will be shown here soon.
+        - generic [ref=f8e158]:
+          - generic [ref=f8e159]:
+            - generic [ref=f8e160]: For DJs
+            - heading "Want to Battle?" [level=2] [ref=f8e162]
+            - paragraph [ref=f8e164]: Think you have what it takes? Join the Battle Arena and prove your skills against Sierra Leone's best.
+            - generic [ref=f8e165]:
+              - generic [ref=f8e166]: Verified DJ profile
+              - generic [ref=f8e172]: Minimum 5 mixes uploaded
+              - generic [ref=f8e178]: Active in last 30 days
+              - generic [ref=f8e184]: No strikes for fake engagement
+            - link "Apply to Join" [ref=f8e191] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f8e194]: VS
+        - generic [ref=f8e205]:
+          - generic [ref=f8e206]:
+            - generic [ref=f8e207]: For Fans
+            - heading "Your Vote Matters" [level=2] [ref=f8e209]
+          - generic [ref=f8e210]:
+            - generic [ref=f8e212]:
+              - heading "Voting Power" [level=4] [ref=f8e216]
+              - paragraph [ref=f8e217]: Every vote counts equally. Listen to both mixes before voting — quality over loyalty.
+              - paragraph [ref=f8e218]: 1 vote per account per battle
+            - generic [ref=f8e220]:
+              - heading "Voter Streaks" [level=4] [ref=f8e223]
+              - paragraph [ref=f8e224]: Vote in 3 consecutive battles to start a streak. Streak holders get a special badge and early access.
+              - paragraph [ref=f8e225]: "Current record: 12-week streak"
+            - generic [ref=f8e227]:
+              - heading "Community Rewards" [level=4] [ref=f8e231]
+              - paragraph [ref=f8e232]: Top voters each month win exclusive merch, free event tickets, and shoutouts from battling DJs.
+              - paragraph [ref=f8e233]: "This month: Freetown Vibes Festival tickets"
+          - link "Sign Up to Start Voting" [ref=f8e236] [cursor=pointer]:
+            - /url: /register
+    - contentinfo [ref=f8e240]:
+      - generic [ref=f8e318]:
+        - link [ref=f8e319] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f8e320]
+        - generic [ref=f8e321]:
+          - link "Instagram" [ref=f8e322] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f8e326] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=f8e329] [cursor=pointer]:
+            - /url: "#"
+          - link "TikTok" [ref=f8e333] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=f8e338]: © 2025 Deck Salone. A Sound It Entertainment platform.
+  - navigation [ref=f8e339]:
+    - generic [ref=f8e340]:
+      - link "Home" [ref=f8e341] [cursor=pointer]:
+        - /url: /
+      - link "Discover" [ref=f8e346] [cursor=pointer]:
+        - /url: /discover
+      - link "Mixes" [ref=f8e351] [cursor=pointer]:
+        - /url: /mixes
+      - link "Battles" [ref=f8e358] [cursor=pointer]:
+        - /url: /battles
+      - link "Sign Up" [ref=f8e367] [cursor=pointer]:
+        - /url: /register

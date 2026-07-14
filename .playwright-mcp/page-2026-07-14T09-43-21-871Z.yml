@@ -1,0 +1,183 @@
+- generic [ref=f4e5]:
+  - generic [ref=f4e38]:
+    - banner [ref=f4e39]:
+      - generic [ref=f4e40]:
+        - link [ref=f4e317] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f4e318]
+        - button [ref=f4e319] [cursor=pointer]
+        - button [ref=f4e320] [cursor=pointer]
+    - main [ref=f4e47]:
+      - generic [ref=f4e48]:
+        - img "Dito Freaky cover" [ref=f4e50]
+        - generic [ref=f4e52]:
+          - generic [ref=f4e53]:
+            - img "Dito Freaky" [ref=f4e56]
+            - generic [ref=f4e60]:
+              - heading "Dito Freaky" [level=1] [ref=f4e62]
+              - paragraph [ref=f4e63]: Cleotun Hanciles
+              - generic [ref=f4e64]:
+                - generic [ref=f4e65]:
+                  - generic [ref=f4e66]: Afrobeats
+                  - generic [ref=f4e67]: Amapiano
+                  - generic [ref=f4e68]: Dancehall
+                - generic [ref=f4e70]: Freetown, Sierra Leone
+                - generic [ref=f4e75]: Active Since '07'
+            - generic [ref=f4e76]:
+              - button "Book Now" [ref=f4e77] [cursor=pointer]
+              - generic [ref=f4e80]:
+                - button [ref=f4e321] [cursor=pointer]
+                - button "Share" [ref=f4e86] [cursor=pointer]
+          - generic [ref=f4e93]:
+            - generic [ref=f4e94]:
+              - paragraph [ref=f4e95]: "#2"
+              - paragraph [ref=f4e96]: NATIONAL RANK
+            - generic [ref=f4e97]:
+              - paragraph [ref=f4e98]: "8.8"
+              - paragraph [ref=f4e99]: RANKING SCORE
+            - generic [ref=f4e100]:
+              - paragraph [ref=f4e101]: "1"
+              - paragraph [ref=f4e102]: FOLLOWERS
+            - generic [ref=f4e103]:
+              - paragraph [ref=f4e104]: "0"
+              - paragraph [ref=f4e105]: MIXES
+            - generic [ref=f4e106]:
+              - paragraph [ref=f4e107]: "0.0"
+              - paragraph [ref=f4e110]: RATING
+        - generic [ref=f4e113]:
+          - button "Overview" [ref=f4e114] [cursor=pointer]
+          - button "Mixes 0" [ref=f4e117] [cursor=pointer]:
+            - generic [ref=f4e118]:
+              - text: Mixes
+              - generic [ref=f4e119]: "0"
+          - button "Photos 0" [ref=f4e120] [cursor=pointer]:
+            - generic [ref=f4e121]:
+              - text: Photos
+              - generic [ref=f4e122]: "0"
+          - button "Stats" [ref=f4e123] [cursor=pointer]
+          - button "Reviews 0" [ref=f4e125] [cursor=pointer]:
+            - generic [ref=f4e126]:
+              - text: Reviews
+              - generic [ref=f4e127]: "0"
+          - button "Events" [ref=f4e128] [cursor=pointer]
+        - generic [ref=f4e132]:
+          - generic [ref=f4e133]:
+            - generic [ref=f4e134]:
+              - text: About
+              - paragraph [ref=f4e136]: Crowd control
+            - generic [ref=f4e137]:
+              - text: Genres
+              - generic [ref=f4e138]:
+                - generic [ref=f4e139]: Afrobeats
+                - generic [ref=f4e140]: Amapiano
+                - generic [ref=f4e141]: Dancehall
+            - generic [ref=f4e142]:
+              - text: Languages
+              - paragraph [ref=f4e143]: English
+          - generic [ref=f4e144]:
+            - generic [ref=f4e145]:
+              - text: Booking Information
+              - generic [ref=f4e146]:
+                - paragraph [ref=f4e147]: SLE null - null
+                - paragraph [ref=f4e148]: per event
+              - generic [ref=f4e149]: Available for bookings
+              - paragraph [ref=f4e154]: Typically responds within 24 hours
+            - generic [ref=f4e155]: Contact
+        - generic [ref=f4e161]:
+          - generic [ref=f4e162]:
+            - text: You Might Also Like
+            - heading "Similar DJs" [level=2] [ref=f4e163]
+          - generic [ref=f4e164]:
+            - link "DJ MIN -1 4 DJ MIN -1 Freetown, Sierra Leone Salone Mix Dancehall Afrobeats 1 Followers 0 Mixes 0.0 Rating" [ref=f4e165] [cursor=pointer]:
+              - /url: /dj/djmin1muzik
+              - generic [ref=f4e166]:
+                - img "DJ MIN -1" [ref=f4e167]
+                - generic [ref=f4e169]: "4"
+              - generic [ref=f4e171]:
+                - heading "DJ MIN -1" [level=4] [ref=f4e172]
+                - paragraph [ref=f4e173]: Freetown, Sierra Leone
+                - generic [ref=f4e177]:
+                  - generic [ref=f4e178]: Salone Mix
+                  - generic [ref=f4e179]: Dancehall
+                  - generic [ref=f4e180]: Afrobeats
+                - generic [ref=f4e181]:
+                  - generic [ref=f4e182]:
+                    - paragraph [ref=f4e183]: "1"
+                    - paragraph [ref=f4e184]: Followers
+                  - generic [ref=f4e185]:
+                    - paragraph [ref=f4e186]: "0"
+                    - paragraph [ref=f4e187]: Mixes
+                  - generic [ref=f4e188]:
+                    - paragraph [ref=f4e189]: "0.0"
+                    - paragraph [ref=f4e190]: Rating
+            - link "Yo Tunji 5 Yo Tunji Freetown, Sierra Leone Afrobeats Club Mix Salone Mix 1 Followers 0 Mixes 0.0 Rating" [ref=f4e191] [cursor=pointer]:
+              - /url: /dj/samueldawodu1998
+              - generic [ref=f4e192]:
+                - img "Yo Tunji" [ref=f4e193]
+                - generic [ref=f4e195]: "5"
+              - generic [ref=f4e197]:
+                - heading "Yo Tunji" [level=4] [ref=f4e198]
+                - paragraph [ref=f4e199]: Freetown, Sierra Leone
+                - generic [ref=f4e203]:
+                  - generic [ref=f4e204]: Afrobeats
+                  - generic [ref=f4e205]: Club Mix
+                  - generic [ref=f4e206]: Salone Mix
+                - generic [ref=f4e207]:
+                  - generic [ref=f4e208]:
+                    - paragraph [ref=f4e209]: "1"
+                    - paragraph [ref=f4e210]: Followers
+                  - generic [ref=f4e211]:
+                    - paragraph [ref=f4e212]: "0"
+                    - paragraph [ref=f4e213]: Mixes
+                  - generic [ref=f4e214]:
+                    - paragraph [ref=f4e215]: "0.0"
+                    - paragraph [ref=f4e216]: Rating
+            - link "Kishh MixTrender 3 Kishh MixTrender Freetown, Sierra Leone Afrobeats Club Mix Salone Mix 1 Followers 0 Mixes 0.0 Rating" [ref=f4e217] [cursor=pointer]:
+              - /url: /dj/kishhmixtrender
+              - generic [ref=f4e218]:
+                - img "Kishh MixTrender" [ref=f4e219]
+                - generic [ref=f4e221]: "3"
+              - generic [ref=f4e223]:
+                - heading "Kishh MixTrender" [level=4] [ref=f4e224]
+                - paragraph [ref=f4e225]: Freetown, Sierra Leone
+                - generic [ref=f4e229]:
+                  - generic [ref=f4e230]: Afrobeats
+                  - generic [ref=f4e231]: Club Mix
+                  - generic [ref=f4e232]: Salone Mix
+                - generic [ref=f4e233]:
+                  - generic [ref=f4e234]:
+                    - paragraph [ref=f4e235]: "1"
+                    - paragraph [ref=f4e236]: Followers
+                  - generic [ref=f4e237]:
+                    - paragraph [ref=f4e238]: "0"
+                    - paragraph [ref=f4e239]: Mixes
+                  - generic [ref=f4e240]:
+                    - paragraph [ref=f4e241]: "0.0"
+                    - paragraph [ref=f4e242]: Rating
+    - contentinfo [ref=f4e244]:
+      - generic [ref=f4e323]:
+        - link [ref=f4e324] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f4e325]
+        - generic [ref=f4e326]:
+          - link "Instagram" [ref=f4e327] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f4e331] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=f4e334] [cursor=pointer]:
+            - /url: "#"
+          - link "TikTok" [ref=f4e338] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=f4e343]: © 2025 Deck Salone. A Sound It Entertainment platform.
+  - navigation [ref=f4e344]:
+    - generic [ref=f4e345]:
+      - link "Home" [ref=f4e346] [cursor=pointer]:
+        - /url: /
+      - link "Discover" [ref=f4e351] [cursor=pointer]:
+        - /url: /discover
+      - link "Mixes" [ref=f4e356] [cursor=pointer]:
+        - /url: /mixes
+      - link "Battles" [ref=f4e363] [cursor=pointer]:
+        - /url: /battles
+      - link "Sign Up" [ref=f4e371] [cursor=pointer]:
+        - /url: /register

@@ -209,7 +209,7 @@ export default function DashboardLayout() {
                 {user?.djProfile?.subscriptionTier === 'legend' && (
                   <span className="flex items-center gap-0.5 px-1.5 py-[1px] rounded bg-yellow-400/20 text-yellow-400 text-[9px] font-bold uppercase tracking-wider border border-yellow-400/30">
                     <Crown className="w-2.5 h-2.5" />
-                    Legend
+                    Pro+
                   </span>
                 )}
                 {user?.djProfile?.subscriptionTier === 'pro' && (

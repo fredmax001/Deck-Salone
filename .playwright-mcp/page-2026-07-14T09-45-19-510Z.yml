@@ -1,0 +1,137 @@
+- generic [ref=f11e5]:
+  - generic [ref=f11e6]:
+    - banner [ref=f11e7]:
+      - generic [ref=f11e8]:
+        - link [ref=f11e9] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f11e10]
+        - button [ref=f11e11] [cursor=pointer]
+        - button [ref=f11e12] [cursor=pointer]
+    - main [ref=f11e13]:
+      - generic [ref=f11e15]:
+        - generic [ref=f11e16]:
+          - text: DJ Marketplace
+          - heading "Request a DJ" [level=1] [ref=f11e17]
+        - generic [ref=f11e21]:
+          - generic [ref=f11e22]:
+            - generic [ref=f11e23]:
+              - generic [ref=f11e24]: Event Type *
+              - combobox [ref=f11e25]:
+                - option "Select event type" [selected]
+                - option "Wedding"
+                - option "Birthday"
+                - option "Festival"
+                - option "Club"
+                - option "Corporate"
+                - option "Private Party"
+                - option "House Party"
+                - option "Beach Party"
+                - option "Religious Event"
+                - option "School Event"
+                - option "Graduation"
+            - generic [ref=f11e26]:
+              - generic [ref=f11e27]: Event Date *
+              - textbox [ref=f11e31]
+          - generic [ref=f11e32]:
+            - generic [ref=f11e33]:
+              - generic [ref=f11e34]: Start Time
+              - textbox [ref=f11e39]
+            - generic [ref=f11e40]:
+              - generic [ref=f11e41]: Duration (hours)
+              - spinbutton "4" [ref=f11e42]
+            - generic [ref=f11e43]:
+              - generic [ref=f11e44]: City
+              - combobox [ref=f11e45]:
+                - option "Select city" [selected]
+                - option "Freetown"
+                - option "Bo"
+                - option "Kenema"
+                - option "Makeni"
+                - option "Koidu Town"
+                - option "Port Loko"
+                - option "Lunsar"
+                - option "Waterloo"
+                - option "Kabala"
+                - option "Magburaka"
+                - option "Kailahun"
+                - option "Moyamba"
+                - option "Pujehun"
+                - option "Bonthe"
+                - option "Kambia"
+          - generic [ref=f11e46]:
+            - generic [ref=f11e47]: Event Location *
+            - textbox "Venue or address" [ref=f11e52]
+          - generic [ref=f11e53]:
+            - generic [ref=f11e54]:
+              - generic [ref=f11e55]: Budget Min (SLE)
+              - spinbutton "2500" [ref=f11e58]
+            - generic [ref=f11e59]:
+              - generic [ref=f11e60]: Budget Max (SLE)
+              - spinbutton "5000" [ref=f11e61]
+          - generic [ref=f11e62]:
+            - generic [ref=f11e63]: Music Styles
+            - generic [ref=f11e68]:
+              - button "Afrobeats" [ref=f11e69] [cursor=pointer]
+              - button "Amapiano" [ref=f11e70] [cursor=pointer]
+              - button "Dancehall" [ref=f11e71] [cursor=pointer]
+              - button "Hip Hop" [ref=f11e72] [cursor=pointer]
+              - button "R&B" [ref=f11e73] [cursor=pointer]
+              - button "House" [ref=f11e74] [cursor=pointer]
+              - button "Reggae" [ref=f11e75] [cursor=pointer]
+              - button "Salone Mix" [ref=f11e76] [cursor=pointer]
+              - button "Throwbacks" [ref=f11e77] [cursor=pointer]
+              - button "Gospel" [ref=f11e78] [cursor=pointer]
+              - button "Club Mixes" [ref=f11e79] [cursor=pointer]
+              - button "Wedding Mixes" [ref=f11e80] [cursor=pointer]
+          - generic [ref=f11e81]:
+            - generic [ref=f11e82]: Equipment Needed
+            - generic [ref=f11e83]:
+              - button "DJ Only" [ref=f11e84] [cursor=pointer]
+              - button "Speakers" [ref=f11e85] [cursor=pointer]
+              - button "Lighting" [ref=f11e86] [cursor=pointer]
+              - button "Microphone" [ref=f11e87] [cursor=pointer]
+              - button "MC" [ref=f11e88] [cursor=pointer]
+              - button "Full Setup" [ref=f11e89] [cursor=pointer]
+          - generic [ref=f11e90]:
+            - generic [ref=f11e91]: Additional Notes
+            - textbox "Tell DJs more about your event, preferred vibe, special requests..." [ref=f11e92]
+          - generic [ref=f11e93]:
+            - heading "Contact Details" [level=3] [ref=f11e94]
+            - generic [ref=f11e95]:
+              - generic [ref=f11e96]:
+                - generic [ref=f11e97]: Your Name
+                - textbox "John Doe" [ref=f11e98]
+              - generic [ref=f11e99]:
+                - generic [ref=f11e100]: Email
+                - textbox "you@example.com" [ref=f11e101]
+              - generic [ref=f11e102]:
+                - generic [ref=f11e103]: Phone
+                - textbox "+232..." [ref=f11e104]
+          - button "Find Me a DJ" [ref=f11e105] [cursor=pointer]
+    - contentinfo [ref=f11e107]:
+      - generic [ref=f11e109]:
+        - link [ref=f11e110] [cursor=pointer]:
+          - /url: /
+          - img "Deck Salone" [ref=f11e111]
+        - generic [ref=f11e112]:
+          - link "Instagram" [ref=f11e113] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f11e117] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=f11e120] [cursor=pointer]:
+            - /url: "#"
+          - link "TikTok" [ref=f11e124] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=f11e129]: © 2025 Deck Salone. A Sound It Entertainment platform.
+  - navigation [ref=f11e130]:
+    - generic [ref=f11e131]:
+      - link "Home" [ref=f11e132] [cursor=pointer]:
+        - /url: /
+      - link "Discover" [ref=f11e137] [cursor=pointer]:
+        - /url: /discover
+      - link "Mixes" [ref=f11e142] [cursor=pointer]:
+        - /url: /mixes
+      - link "Battles" [ref=f11e149] [cursor=pointer]:
+        - /url: /battles
+      - link "Sign Up" [ref=f11e157] [cursor=pointer]:
+        - /url: /register

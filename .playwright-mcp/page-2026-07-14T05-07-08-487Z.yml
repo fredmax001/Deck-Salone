@@ -1,0 +1,42 @@
+- generic [ref=f4e3]:
+  - generic [ref=f4e4]:
+    - link [ref=f4e6] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f4e7]
+    - generic [ref=f4e8]:
+      - paragraph [ref=f4e9]: Join verified DJs shaping the sound of Sierra Leone.
+      - paragraph [ref=f4e10]: Upload mixes, get booked, grow your audience
+    - generic [ref=f4e11]:
+      - generic [ref=f4e12]: © 2025 Deck Salone by Sound It Entertainment
+      - generic [ref=f4e13]: "|"
+      - link "Terms" [ref=f4e14] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f4e15]: "|"
+      - link "Privacy" [ref=f4e16] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f4e19]:
+    - generic [ref=f4e20]:
+      - heading "Welcome Back" [level=1] [ref=f4e21]
+      - paragraph [ref=f4e22]: Sign in to your account
+    - generic [ref=f4e23]:
+      - generic [ref=f4e24]:
+        - generic [ref=f4e25]: Email
+        - textbox "Email" [ref=f4e27]:
+          - /placeholder: dj@example.com
+      - generic [ref=f4e28]:
+        - generic [ref=f4e29]: Password
+        - generic [ref=f4e30]:
+          - textbox "Password" [ref=f4e31]:
+            - /placeholder: ••••••••
+          - button [ref=f4e32] [cursor=pointer]
+      - link "Forgot Password?" [ref=f4e37] [cursor=pointer]:
+        - /url: /forgot-password
+      - button "Sign In" [ref=f4e39] [cursor=pointer]
+      - generic [ref=f4e40]: OR
+      - link "Continue with Google" [ref=f4e45] [cursor=pointer]:
+        - /url: /api/v1/auth/google
+      - button "Continue with Phone" [ref=f4e52] [cursor=pointer]
+      - paragraph [ref=f4e55]:
+        - text: Don't have an account?
+        - link "Join as DJ" [ref=f4e56] [cursor=pointer]:
+          - /url: /register

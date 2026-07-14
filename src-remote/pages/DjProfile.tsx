@@ -1810,7 +1810,7 @@ export default function DjProfile() {
               {dj.subscriptionTier === 'legend' && (
                 <span className="flex items-center gap-1.5 px-3 py-1.5 rounded bg-gradient-to-r from-yellow-400/20 to-amber-500/20 text-yellow-400 text-xs font-black uppercase tracking-widest border border-yellow-400/50 shadow-[0_0_15px_rgba(250,204,21,0.2)]">
                   <Crown className="w-4 h-4" />
-                  Legend
+                  Pro+
                 </span>
               )}
               {dj.subscriptionTier === 'pro' && (
