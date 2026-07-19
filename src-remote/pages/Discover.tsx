@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -291,6 +291,8 @@ export default function Discover() {
   const [sortBy, setSortBy] = useState<SortValue>('ranking');
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOpen, setSortOpen] = useState(false);
+  const [genreDropdownOpen, setGenreDropdownOpen] = useState(false);
+  const genreDropdownRef = useRef<HTMLDivElement>(null);
   const ITEMS_PER_PAGE = 12;
 
   /* ── Data ── */
@@ -399,6 +401,17 @@ export default function Discover() {
     setCurrentPage(1);
   };
 
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (genreDropdownRef.current && !genreDropdownRef.current.contains(event.target as Node)) {
+        setGenreDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
     setCurrentPage(1);
@@ -444,9 +457,9 @@ export default function Discover() {
             </div>
           </FadeIn>
 
-          {/* Genre Filter Pills */}
+          {/* Genre Filter Pills — Desktop */}
           <FadeIn delay={0.5}>
-            <div className="mt-5 flex flex-wrap justify-center gap-2">
+            <div className="hidden md:flex flex-wrap justify-center gap-2 mt-5">
               {genreOptions.map((genre, i) => (
                 <motion.button
                   key={genre}
@@ -463,6 +476,59 @@ export default function Discover() {
                   {genre}
                 </motion.button>
               ))}
+            </div>
+          </FadeIn>
+
+          {/* Genre Filter Dropdown — Mobile */}
+          <FadeIn delay={0.5}>
+            <div className="md:hidden mt-5" ref={genreDropdownRef}>
+              <button
+                type="button"
+                onClick={() => setGenreDropdownOpen((open) => !open)}
+                className={`w-full flex items-center justify-between px-4 py-3 text-sm font-semibold uppercase tracking-wide rounded-full border transition-all duration-200 ${
+                  activeGenre !== 'All'
+                    ? 'bg-gold-gradient text-black border-gold'
+                    : 'bg-transparent border-white/20 text-text-secondary'
+                }`}
+              >
+                <span>Genre: {activeGenre}</span>
+                <ChevronDown
+                  className={`w-4 h-4 transition-transform duration-200 ${
+                    genreDropdownOpen ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              <AnimatePresence>
+                {genreDropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -5, height: 0 }}
+                    animate={{ opacity: 1, y: 0, height: 'auto' }}
+                    exit={{ opacity: 0, y: -5, height: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="overflow-hidden"
+                  >
+                    <div className="mt-2 bg-black-surface border border-dark-gray rounded-xl py-2 max-h-64 overflow-y-auto">
+                      {genreOptions.map((genre) => (
+                        <button
+                          key={genre}
+                          type="button"
+                          onClick={() => {
+                            handleGenreClick(genre);
+                            setGenreDropdownOpen(false);
+                          }}
+                          className={`block w-full text-left px-4 py-2.5 text-sm transition-colors ${
+                            activeGenre === genre
+                              ? 'text-gold bg-gold/10'
+                              : 'text-text-secondary hover:text-text-primary hover:bg-black-elevated'
+                          }`}
+                        >
+                          {genre}
+                        </button>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </FadeIn>
 

@@ -120,6 +120,7 @@ interface DJ {
   coverBanner?: string;
   bio?: string;
   city: string;
+  community?: string;
   country: string;
   genres: string[];
   equipment: string[];
@@ -194,6 +195,10 @@ function formatFee(min: number, max: number, currency: string): string {
   const fmt = (n: number) =>
     n >= 1000 ? `${(n / 1000).toFixed(n % 1000 === 0 ? 0 : 1)}K` : String(n);
   return `${currency} ${fmt(min)} - ${fmt(max)}`;
+}
+
+function formatDjLocation(city?: string, community?: string): string {
+  return [community, city].filter(Boolean).join(', ');
 }
 
 function getInitials(email: string): string {
@@ -1556,7 +1561,7 @@ function SimilarDJsSection({ currentDj }: { currentDj: DJ }) {
               </h4>
               <p className="mt-1 text-xs text-text-muted flex items-center gap-1">
                 <MapPin size={11} />
-                {djItem.city}, {djItem.country}
+                {formatDjLocation(djItem.city, djItem.community)}
               </p>
               <div className="mt-2 flex flex-wrap gap-1">
                 {djItem.genres.slice(0, 3).map((genre) => (
@@ -1865,7 +1870,7 @@ export default function DjProfile() {
               <span className="hidden sm:inline text-text-muted">·</span>
               <span className="flex items-center gap-1">
                 <MapPin size={13} />
-                {dj.city}, {dj.country}
+                {formatDjLocation(dj.city, dj.community)}
               </span>
               <span className="hidden sm:inline text-text-muted">·</span>
               <span>Active Since {dj.startYear ? `'${dj.startYear.toString().slice(-2)}'` : ''}</span>

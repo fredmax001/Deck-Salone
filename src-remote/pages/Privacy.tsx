@@ -31,7 +31,7 @@ const sections = [
   {
     icon: Mail,
     title: 'Contact Us',
-    content: `If you have any questions about this Privacy Policy, please contact us at privacy@decksalone.com or through our Help Center.`,
+    content: `If you have any questions about this Privacy Policy, please contact us at support@decksalone.com or through our Help Center.`,
   },
 ];
 
