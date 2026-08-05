@@ -1,0 +1,61 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install Dependencies
+        run: |
+          cd app
+          npm ci
+
+      - name: Prisma Generate
+        run: |
+          cd app/api
+          npx prisma generate
+
+      - name: Build Backend & Frontend
+        run: |
+          cd app
+          npm run build
+
+      - name: Run Tests (if applicable)
+        run: |
+          cd app
+          # npm test
+
+  docker-build:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build Production Image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: false # Set to true and configure registry credentials for real deployments
+          tags: decksalone-app:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

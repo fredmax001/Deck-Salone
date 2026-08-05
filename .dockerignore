@@ -1,0 +1,39 @@
+# Secrets / env files
+**/.env
+**/.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# Node modules (installed inside image)
+**/node_modules
+
+# Build outputs (built inside image)
+**/dist
+
+# Logs
+*.log
+logs/
+
+# Uploads (mounted at runtime)
+uploads/
+
+# Playwright / test artifacts
+.playwright-mcp/
+Screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation (not needed in image)
+*.md
+research/
