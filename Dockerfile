@@ -44,13 +44,12 @@ ENV NODE_ENV=production
 ENV PORT=5000
 
 # We need Prisma CLI in production to run migrations before startup
-COPY --from=builder /app/app/node_modules ./app/node_modules
-COPY app/dist ./app/dist
-COPY --from=builder /app/app/api/dist ./app/api/dist
-
-COPY --from=builder /app/app/api/prisma ./app/api/prisma
-COPY --from=builder /app/app/package.json ./app/package.json
-COPY --from=builder /app/app/api/tsconfig.json ./app/api/tsconfig.json
+COPY --from=builder /app/app/node_modules /app/app/node_modules
+COPY --from=builder /app/app/dist /app/app/dist
+COPY --from=builder /app/app/api/dist /app/app/api/dist
+COPY --from=builder /app/app/api/prisma /app/app/api/prisma
+COPY --from=builder /app/app/package.json /app/app/package.json
+COPY --from=builder /app/app/api/tsconfig.json /app/app/api/tsconfig.json
 
 WORKDIR /app/app/api
 

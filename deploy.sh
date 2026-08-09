@@ -16,25 +16,15 @@
 set -e
 
 SERVER="${DECK_SALONE_SERVER:-root@31.97.116.21}"
-SSH_KEY="${DECK_SALONE_SSH_KEY:-}"
-SSH_PASS="${DECK_SALONE_SSH_PASS:-Jul1@n/221/cloudhost}"
+SSH_KEY="${DECK_SALONE_SSH_KEY:-$HOME/.ssh/deck_deploy_key}"
+SSH_PASS="${DECK_SALONE_SSH_PASS:-}"
 HOST_PROJECT="${DECK_SALONE_HOST_PROJECT:-/opt/deck-salone-v2}"
 
 HOST_APP="${DECK_SALONE_HOST_APP:-/opt/deck-salone-v2/app}"
 
-# Build SSH/SCP base arguments
-SSH_OPTS="-o StrictHostKeyChecking=no -o PreferredAuthentications=password -o PubkeyAuthentication=no"
-SCP_OPTS="-o StrictHostKeyChecking=no -o PreferredAuthentications=password -o PubkeyAuthentication=no"
-RSYNC_SSH_OPTS="-o StrictHostKeyChecking=no -o PreferredAuthentications=password -o PubkeyAuthentication=no"
-if [ -n "$SSH_PASS" ]; then
-  SSH_OPTS="$SSH_OPTS -o BatchMode=no"
-  SCP_OPTS="$SCP_OPTS -o BatchMode=no"
-  RSYNC_SSH_OPTS="$RSYNC_SSH_OPTS -o BatchMode=no"
-else
-  SSH_OPTS="$SSH_OPTS -o BatchMode=yes"
-  SCP_OPTS="$SCP_OPTS -o BatchMode=yes"
-  RSYNC_SSH_OPTS="$RSYNC_SSH_OPTS -o BatchMode=yes"
-fi
+SSH_OPTS="-o StrictHostKeyChecking=no"
+SCP_OPTS="-o StrictHostKeyChecking=no"
+RSYNC_SSH_OPTS="-o StrictHostKeyChecking=no"
 
 if [ -n "$SSH_KEY" ]; then
   SSH_OPTS="$SSH_OPTS -i $SSH_KEY"
@@ -43,13 +33,13 @@ if [ -n "$SSH_KEY" ]; then
 fi
 
 REMOTE_BASE=""
-if [ -n "$SSH_PASS" ]; then
+if [ -n "$SSH_KEY" ] && [ -f "$SSH_KEY" ]; then
+  REMOTE_BASE="ssh $SSH_OPTS"
+  COPY_BASE="scp $SCP_OPTS"
+elif [ -n "$SSH_PASS" ]; then
   export SSHPASS="$SSH_PASS"
   REMOTE_BASE="sshpass -e ssh $SSH_OPTS"
   COPY_BASE="sshpass -e scp $SCP_OPTS"
-elif [ -n "$SSH_KEY" ]; then
-  REMOTE_BASE="ssh $SSH_OPTS"
-  COPY_BASE="scp $SCP_OPTS"
 else
   echo "❌ Error: Set DECK_SALONE_SSH_KEY or DECK_SALONE_SSH_PASS" >&2
   exit 1
@@ -63,20 +53,23 @@ copy_to_remote() {
   local src="$1"
   local dest="$2"
   if [ -d "$src" ]; then
-    $COPY_BASE -r "$src" "$SERVER:$dest"
+    run_remote "mkdir -p $dest"
+    tar -czf - -C "$src" . | sshpass -e ssh $SSH_OPTS "$SERVER" "tar -xzf - -C $dest"
   else
-    $COPY_BASE "$src" "$SERVER:$dest"
+    run_remote "mkdir -p \$(dirname $dest)"
+    sshpass -e ssh $SSH_OPTS "$SERVER" "cat > $dest" < "$src"
   fi
 }
 
 sync_to_remote() {
   local src="$1"
   local dest="$2"
-  if [ -n "$SSH_PASS" ]; then
-    export SSHPASS="$SSH_PASS"
-    sshpass -e scp $SCP_OPTS -r "$src"* "$SERVER:$dest"
-  else
+  run_remote "mkdir -p $dest"
+  if [ -n "$SSH_KEY" ] && [ -f "$SSH_KEY" ]; then
     rsync -avz --delete -e "ssh $RSYNC_SSH_OPTS" "$src" "$SERVER:$dest"
+  elif [ -n "$SSH_PASS" ]; then
+    export SSHPASS="$SSH_PASS"
+    tar -czf - -C "$src" . | sshpass -e ssh $SSH_OPTS "$SERVER" "tar -xzf - -C $dest"
   fi
 }
 
@@ -105,12 +98,16 @@ sync_to_remote "/Users/djfredmax/Desktop/Deck Salone/app/api/routes/" "$HOST_APP
 sync_to_remote "/Users/djfredmax/Desktop/Deck Salone/app/api/utils/" "$HOST_APP/api/utils/"
 
 echo ""
-echo "🔨 Step 3/4 — Rebuilding Docker image without cache and restarting deck-salone-api container..."
+echo "� Step 3/5 — Saving current API image as :previous for rollback..."
+run_remote "cd $HOST_PROJECT && if docker image inspect deck-salone-api:latest >/dev/null 2>&1; then docker tag deck-salone-api:latest deck-salone-api:previous || true; fi"
+
+echo ""
+echo "🔨 Step 4/5 — Rebuilding Docker image without cache and restarting deck-salone-api container..."
 run_remote "cd $HOST_PROJECT && docker compose -f docker-compose.prod.yml build --no-cache deck-salone-api && docker compose -f docker-compose.prod.yml up -d deck-salone-api"
 
 echo ""
-echo "🗄️ Step 4/5 — Applying database migrations safely via Prisma Migrate..."
-run_remote "docker exec deck-salone-api npx prisma db push --accept-data-loss"
+echo "🗄️ Step 5/5 — Applying database migrations safely via Prisma Migrate..."
+run_remote "docker exec deck-salone-api npx prisma migrate deploy"
 
 
 echo ""
@@ -129,7 +126,7 @@ done
 
 echo ""
 echo "🔁 Step 6/6 — Restarting web proxy so it picks up the new API container IP..."
-run_remote "cd $HOST_PROJECT && docker compose -f docker-compose.prod.yml restart deck-salone-web"
+run_remote "cd $HOST_PROJECT && docker compose -f docker-compose.prod.yml restart deck-salone-web && docker restart sounditdj-frontend"
 echo "✅ Web proxy restarted — no more 502 from stale container IPs"
 
 echo ""

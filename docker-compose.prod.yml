@@ -12,6 +12,8 @@ services:
       - NODE_ENV=production
       - REDIS_URL=redis://deck-salone-redis:6379
       - UPLOADS_DIR=/app/uploads
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     env_file:
       - ./app/.env
     # We do NOT expose port 5000 to the host because the internal deck-salone-web (nginx) handles it.
@@ -20,7 +22,7 @@ services:
       - /opt/deck-salone/uploads:/app/app/api/uploads
       - /opt/deck-salone/logs:/app/logs
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://localhost:5000/api/health"]
+      test: ["CMD", "wget", "-qO-", "http://localhost:5000/health"]
       interval: 15s
       timeout: 5s
       retries: 3
@@ -30,6 +32,7 @@ services:
         condition: service_started
     networks:
       - deck-salone-network
+      - sounditdj-network
 
   redis:
     image: redis:7-alpine

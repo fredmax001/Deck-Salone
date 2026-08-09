@@ -1,67 +1,41 @@
-# Fix Plan — 6 Issues Diagnosed
+# Fix Plan: Moderator Mix Access + Performance Crash + Avatar Issues
 
-## Issue 1: Follow Button Not Working
-**Root Cause:** The `DjFollowButton` component exists but may be hidden or the mutation fails silently.
-**Fix:** Verify the button is rendered in the correct location and visible. Check that `follow.mutate()` and `unfollow.mutate()` actually call the backend.
+## Issue 1: Moderator Can't Access All Mixes (CRITICAL - User Reported)
+**Root Cause**: `GET /api/mixes` only filters `isPublic: true`. Moderators see the same limited set as guests.
+**Fix**: Add a `GET /api/mixes/all` endpoint (or query param `?includePrivate=true`) that bypasses the `isPublic` filter for ADMIN/MODERATOR roles. Update the frontend playlist "add mix" modal to use this endpoint for staff.
 
-## Issue 2: DJs Not Showing on Discover
-**Root Cause:** The `useDJs` hook might be hitting an error. The Discover page shows "FAILED TO LOAD DJS" when `djsQuery.error` is truthy.
-**Fix:** The backend `/djs` route with `sortBy: 'ranking'` might fail if `rankingScore` field is missing or the Prisma query fails. Debug the API response.
+## Issue 2: Platform Crashes at ~100 Concurrent Users (CRITICAL - User Reported)
+**Root Causes Identified**:
+1. **Prisma NO connection pool limit** — uses default (very low). DATABASE_URL needs `connection_limit=20&pool_timeout=10`.
+2. **Nginx worker_connections = 1024** — too low. Should be 4096+ with `worker_processes auto`.
+3. **SSR meta injection hits DB on EVERY page load** — `serveAppWithMeta()` runs Prisma queries for every non-API request. This is the #1 bottleneck.
+4. **Rate limiter uses in-memory store** — not shared across containers. Should use Redis store.
+5. **Prisma query logging enabled in production** — adds overhead.
+6. **In-memory cache only** — not shared across instances, lost on restart.
+7. **No container resource limits** in docker-compose.
 
-## Issue 3: Discover City Filter
-**Status:** UI already exists (lines 469-480). The filter panel has city checkboxes.
-**Fix:** Verify the city filter works correctly after fixing Issue 2.
+**Fixes**:
+- Add `connection_limit` to DATABASE_URL in docker-compose
+- Tune nginx: worker_processes auto, worker_connections 4096, worker_rlimit_nofile 8192, keepalive to upstream
+- Cache SSR meta tags aggressively (Redis or in-memory with TTL)
+- Disable Prisma query logging in production
+- Add Redis-backed rate limit store
+- Add container memory/CPU limits
 
-## Issue 4: "Failed to Load" on User Dashboard Pages
-**Root Cause:** Backend routes in `app/api/routes/users.ts` exist but the RUNNING server hasn't been restarted. The `/api/users/activity` endpoint returns "Route not found".
-**Fix:** Restart the backend. Also add missing endpoints.
+## Issue 3: Avatar Not Perfectly Circular / Not Showing Everywhere
+**Fix**: Ensure all avatar containers use `rounded-full` with explicit `w-` and `h-` of the same size, and `object-cover`. Check `UserCard`, `UserListRow`, `DJCard`, and `FollowerCard`.
 
-## Issue 5: User Avatar Upload Not Working
-**Root Cause:** The frontend calls `PUT /users/avatar` but this endpoint doesn't exist in the backend.
-**Fix:** Create `PUT /api/users/avatar` endpoint that handles multipart upload using the existing upload utility.
+## File Changes Required
+### Backend
+- `/app/api/routes/mixes.ts` — add moderator-accessible endpoint
+- `/app/api/utils/prisma.ts` — disable query logging in prod, add connection pool hints
+- `/app/api/utils/rateLimiter.ts` — add Redis store option
+- `/app/api/server.ts` — cache SSR meta injection
+- `/docker-compose.yml` — add connection_limit, container limits
+- `/nginx.conf` — tune workers and connections
 
-## Issue 6: Profile Changes Don't Save
-**Root Cause:** The frontend calls `PUT /users/profile` and `PUT /users/password` but these endpoints don't exist.
-**Fix:** Create endpoints:
-- `GET /api/users/profile` — returns user's profile data
-- `PUT /api/users/profile` — updates user profile (username, name, bio, location, favoriteGenres, social)
-- `PUT /api/users/avatar` — handles avatar upload
-- `PUT /api/users/password` — changes password (requires current password)
-- `GET /api/users/following` — returns DJs the user follows (with details)
-- `PUT /api/users/notifications/:id/read` — mark notification as read
-- `PUT /api/users/notifications/read-all` — mark all as read
-
-## Worker Assignments
-
-### Worker A: Backend Fix
-1. Add missing endpoints to `app/api/routes/users.ts`:
-   - `GET /profile` — return user profile with extended fields
-   - `PUT /profile` — update user profile
-   - `PUT /avatar` — handle avatar upload (multipart, use existing upload utility)
-   - `PUT /password` — change password with current password validation
-   - `GET /following` — return followed DJs with latest mix/event
-   - `PUT /notifications/:id/read` — mark read
-   - `PUT /notifications/read-all` — mark all read
-2. Restart the backend
-3. Verify all endpoints work with curl
-
-### Worker B: Frontend User Profile Fix
-1. Fix `app/src/pages/user/UserProfile.tsx`:
-   - Ensure avatar upload calls the correct endpoint and handles response
-   - Ensure save calls the correct endpoint
-   - Add proper error handling and success feedback
-2. Fix `app/src/pages/user/UserSettings.tsx`:
-   - Ensure password change calls the correct endpoint
-
-### Worker C: Discover + Follow Button Fix
-1. Fix `app/src/pages/Discover.tsx`:
-   - Debug why DJs are not showing (check API response structure, error handling)
-   - Ensure the city filter UI works correctly
-2. Fix `app/src/pages/DjProfile.tsx`:
-   - Ensure the Follow button is visible and positioned correctly
-   - Add error feedback if follow/unfollow fails
-
-### Worker D: Verify and Build
-1. Run `npm run build` and fix any TypeScript errors
-2. Test all endpoints with curl
-3. Report which issues are resolved
+### Frontend
+- `/app/src/pages/Discover.tsx` — UserCard/UserListRow avatar fix
+- `/app/src/pages/dashboard/Followers.tsx` — FollowerCard avatar fix
+- DJ Card avatar fix
+- Add moderator mix selector component
