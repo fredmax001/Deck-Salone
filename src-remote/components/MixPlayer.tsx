@@ -109,9 +109,9 @@ const ModernProgressBar = memo(function ModernProgressBar({
                 style={{
                   height: `${height * 24}px`,
                   backgroundColor: isPlayed
-                    ? '#D4A24A'
+                    ? '#f4e059'
                     : isHover
-                    ? 'rgba(212,162,74,0.4)'
+                    ? 'rgba(244, 224, 89,0.4)'
                     : 'rgba(255,255,255,0.08)',
                   opacity: isPlayed ? 1 : 0.5,
                 }}
@@ -128,7 +128,7 @@ const ModernProgressBar = memo(function ModernProgressBar({
             />
             {/* Thumb */}
             <div
-              className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-gold rounded-full shadow-[0_0_8px_rgba(212,162,74,0.6)] transition-all duration-100 group-hover:scale-125"
+              className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-gold rounded-full shadow-[0_0_8px_rgba(244, 224, 89,0.6)] transition-all duration-100 group-hover:scale-125"
               style={{ left: `${progress * 100}%`, transform: `translate(-50%, -50%)` }}
             />
           </div>
@@ -219,7 +219,7 @@ const ExpandedWaveform = memo(function ExpandedWaveform({
             className="flex-1 rounded-full"
             style={{
               height: `${h}px`,
-              backgroundColor: isPlayed ? '#D4A24A' : 'rgba(255,255,255,0.10)',
+              backgroundColor: isPlayed ? '#f4e059' : 'rgba(255,255,255,0.10)',
               opacity: isPlayed ? 1 : 0.45,
               transition: isPlaying ? 'height 80ms ease, background-color 75ms' : 'none',
             }}
@@ -587,7 +587,7 @@ export default function MixPlayer() {
                       </button>
                       <button
                         onClick={togglePlayHandler}
-                        className="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gold flex items-center justify-center hover:scale-105 active:scale-95 transition-transform shadow-[0_0_12px_rgba(212,162,74,0.3)]"
+                        className="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gold flex items-center justify-center hover:scale-105 active:scale-95 transition-transform shadow-[0_0_12px_rgba(244, 224, 89,0.3)]"
                       >
                         {isPlaying ? (
                           <Pause size={14} className="text-black" />
@@ -716,7 +716,7 @@ export default function MixPlayer() {
                 {/* Track Album Art / CD Spinner */}
                 <div className="flex flex-col items-center justify-center my-6">
                   <motion.div
-                    className="w-56 h-56 sm:w-72 sm:h-72 rounded-full overflow-hidden shadow-[0_0_80px_rgba(212,162,74,0.15)] border-4 border-white/5 relative"
+                    className="w-56 h-56 sm:w-72 sm:h-72 rounded-full overflow-hidden shadow-[0_0_80px_rgba(244, 224, 89,0.15)] border-4 border-white/5 relative"
                     animate={isPlaying ? { rotate: 360 } : {}}
                     transition={isPlaying ? { duration: 18, repeat: Infinity, ease: 'linear' } : {}}
                   >
@@ -787,7 +787,7 @@ export default function MixPlayer() {
                         </button>
                         <button
                           onClick={togglePlayHandler}
-                          className="w-14 h-14 rounded-full bg-gold flex items-center justify-center hover:scale-105 active:scale-95 transition-all shadow-[0_0_24px_rgba(212,162,74,0.4)]"
+                          className="w-14 h-14 rounded-full bg-gold flex items-center justify-center hover:scale-105 active:scale-95 transition-all shadow-[0_0_24px_rgba(244, 224, 89,0.4)]"
                         >
                           {isPlaying ? (
                             <Pause size={24} className="text-black" />

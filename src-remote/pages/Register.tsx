@@ -113,7 +113,7 @@ const fadeUpItem = {
 };
 
 const inputCls = (hasErr?: boolean) =>
-  `w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)] ${hasErr ? 'border-red' : 'border-medium-gray'}`;
+  `w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)] ${hasErr ? 'border-red' : 'border-medium-gray'}`;
 
 const iconCls = 'absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-text-muted pointer-events-none';
 
@@ -471,7 +471,7 @@ export default function Register() {
                   type="tel"
                   placeholder="+232 XX XXX XXXX"
                   {...regUser('phone')}
-                  className="w-full h-[48px] bg-black-surface border border-medium-gray rounded-lg pl-11 pr-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)]"
+                  className="w-full h-[48px] bg-black-surface border border-medium-gray rounded-lg pl-11 pr-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)]"
                 />
               </div>
             </motion.div>
@@ -485,7 +485,7 @@ export default function Register() {
                   type={showPassword ? 'text' : 'password'}
                   placeholder="••••••••"
                   {...regUser('password')}
-                  className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)] ${errUser.password ? 'border-red' : 'border-medium-gray'}`}
+                  className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)] ${errUser.password ? 'border-red' : 'border-medium-gray'}`}
                 />
                 <button
                   type="button"
@@ -513,7 +513,7 @@ export default function Register() {
                   type={showConfirmPassword ? 'text' : 'password'}
                   placeholder="••••••••"
                   {...regUser('confirmPassword')}
-                  className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)] ${errUser.confirmPassword ? 'border-red' : 'border-medium-gray'}`}
+                  className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)] ${errUser.confirmPassword ? 'border-red' : 'border-medium-gray'}`}
                 />
                 <button
                   type="button"
@@ -709,7 +709,7 @@ export default function Register() {
                     type="tel"
                     placeholder="+232 XX XXX XXXX"
                     {...regDj1('phone')}
-                    className="w-full h-[48px] bg-black-surface border border-medium-gray rounded-lg pl-11 pr-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)]"
+                    className="w-full h-[48px] bg-black-surface border border-medium-gray rounded-lg pl-11 pr-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)]"
                   />
                 </div>
               </motion.div>
@@ -723,7 +723,7 @@ export default function Register() {
                     type={showPassword ? 'text' : 'password'}
                     placeholder="••••••••"
                     {...regDj1('password')}
-                    className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)] ${errDj1.password ? 'border-red' : 'border-medium-gray'}`}
+                    className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)] ${errDj1.password ? 'border-red' : 'border-medium-gray'}`}
                   />
                   <button
                     type="button"
@@ -751,7 +751,7 @@ export default function Register() {
                     type={showConfirmPassword ? 'text' : 'password'}
                     placeholder="••••••••"
                     {...regDj1('confirmPassword')}
-                    className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)] ${errDj1.confirmPassword ? 'border-red' : 'border-medium-gray'}`}
+                    className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-11 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)] ${errDj1.confirmPassword ? 'border-red' : 'border-medium-gray'}`}
                   />
                   <button
                     type="button"
@@ -833,7 +833,7 @@ export default function Register() {
                   <MapPin className={iconCls} />
                   <select
                     {...regDj2('city')}
-                    className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-4 text-sm text-text-primary outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)] appearance-none cursor-pointer ${errDj2.city ? 'border-red' : 'border-medium-gray'}`}
+                    className={`w-full h-[48px] bg-black-surface border rounded-lg pl-11 pr-4 text-sm text-text-primary outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)] appearance-none cursor-pointer ${errDj2.city ? 'border-red' : 'border-medium-gray'}`}
                   >
                     <option value="" className="bg-black-surface">Select your city</option>
                     {CITIES.map((city) => (
@@ -919,7 +919,7 @@ export default function Register() {
                     regDj2('bio').onChange(e);
                     setBioLength(e.target.value.length);
                   }}
-                  className="w-full bg-black-surface border border-medium-gray rounded-lg p-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,162,74,0.1)] resize-none"
+                  className="w-full bg-black-surface border border-medium-gray rounded-lg p-4 text-sm text-text-primary placeholder:text-text-muted outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_3px_rgba(244, 224, 89,0.1)] resize-none"
                 />
                 <p className="mt-1 text-xs text-text-muted text-right">{bioLength}/500</p>
               </motion.div>

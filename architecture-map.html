@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deck Salone — Architecture Map</title>
+<style>
+:root {
+  --bg: #000000;
+  --panel: #0a0a0c;
+  --panel-2: #141417;
+  --border: #222226;
+  --text: #f4f5f8;
+  --muted: #8e95a5;
+  --client: #38bdf8;
+  --route: #4ade80;
+  --service: #c084fc;
+  --db: #ceb100;
+  --external: #f472b6;
+  --critical: #ef4444;
+  --accent: #f4e059;
+  --accent-2: #ceb100;
+  --brand-yellow: #f4e059;
+  --brand-black: #000000;
+  --brand-dark-yellow: #ceb100;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+#topbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+#topbar .title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 12px;
+  letter-spacing: .02em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.chip {
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 500;
+  transition: all .15s ease;
+  user-select: none;
+}
+.chip:hover { border-color: var(--accent); color: var(--text); }
+.chip.active {
+  background: var(--accent);
+  color: #000000;
+  border-color: var(--accent);
+  font-weight: 700;
+}
+#zoom-controls {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+}
+.zbtn {
+  width: 30px;
+  height: 30px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .15s;
+}
+.zbtn:hover { background: var(--border); border-color: var(--accent); color: var(--accent); }
+
+#canvas-wrap {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+#svg-area {
+  flex: 1;
+  overflow: hidden;
+  cursor: grab;
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, #101114 0%, #000000 100%);
+}
+#svg-area:active { cursor: grabbing; }
+svg#graph {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#sidebar {
+  width: 360px;
+  min-width: 360px;
+  background: var(--panel);
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 20px 18px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: -4px 0 24px rgba(0,0,0,0.7);
+  z-index: 5;
+}
+.sb-section { display: flex; flex-direction: column; gap: 6px; }
+.sb-label { font-size: 10px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: 2px; font-weight: 700; }
+.sb-title { font-size: 16px; font-weight: 700; color: var(--text); line-height: 1.3; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.sb-sub { font-size: 12px; color: var(--accent); font-weight: 600; }
+.sb-role { font-size: 12px; color: #d0d0d0; border-left: 3px solid var(--accent); padding-left: 10px; line-height: 1.5; }
+.sb-plain { font-size: 12px; color: var(--text); line-height: 1.55; background: var(--panel-2); padding: 12px; border-radius: 8px; border: 1px solid var(--border); }
+.sb-path { font-size: 11px; color: var(--client); background: rgba(56,189,248,.08); padding: 5px 8px; border-radius: 4px; word-break: break-all; font-family: monospace; }
+.sb-notes { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.sb-notes li { font-size: 11.5px; color: #bbb; padding-left: 16px; position: relative; line-height: 1.45; }
+.sb-notes li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
+.sb-divider { border: none; border-top: 1px solid var(--border); margin: 6px 0; }
+.edge-pill { display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 10.5px; margin: 2px 2px 2px 0; font-weight: 500; font-family: monospace; }
+.ep-critical { background: rgba(239,68,68,.15); color: var(--critical); border: 1px solid rgba(239,68,68,0.3); }
+.ep-api { background: rgba(206,177,0,.15); color: var(--accent); border: 1px solid rgba(206,177,0,0.35); }
+.ep-db { background: rgba(206,177,0,.15); color: var(--accent); border: 1px solid rgba(206,177,0,0.35); }
+.ep-mount { background: rgba(56,189,248,.15); color: var(--client); border: 1px solid rgba(56,189,248,0.3); }
+.ep-normal { background: rgba(139,146,160,.15); color: var(--muted); border: 1px solid rgba(139,146,160,0.3); }
+.findings { background: rgba(244,224,89,.05); border: 1px solid rgba(244,224,89,.3); border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+.findings-title { color: var(--accent); font-weight: 700; font-size: 13px; display: flex; align-items: center; gap: 6px; }
+.finding-item { font-size: 11.5px; color: var(--text); line-height: 1.5; padding-left: 16px; position: relative; }
+.finding-item::before { content: "⚠️"; position: absolute; left: 0; font-size: 10px; top: 1px; }
+.badge-bug { display: inline-block; background: var(--critical); color: #fff; border-radius: 50%; width: 16px; height: 16px; font-size: 9px; text-align: center; line-height: 16px; font-weight: 700; }
+.badge-resolved { display: inline-block; background: #10b981; color: #fff; border-radius: 50%; width: 16px; height: 16px; font-size: 9px; text-align: center; line-height: 16px; font-weight: 700; }
+.crit-badge { display: inline-block; background: rgba(239,68,68,.2); color: var(--critical); border: 1px solid rgba(239,68,68,.5); border-radius: 4px; font-size: 9px; padding: 2px 6px; font-weight: 700; letter-spacing: 0.04em; }
+.resolved-badge { display: inline-block; background: rgba(16,185,129,.2); color: #10b981; border: 1px solid rgba(16,185,129,.5); border-radius: 4px; font-size: 9px; padding: 2px 6px; font-weight: 700; letter-spacing: 0.04em; }
+.dead-badge { display: inline-block; background: rgba(255,255,255,0.08); color: #888; border: 1px solid #444; border-radius: 4px; font-size: 9px; padding: 2px 6px; font-weight: 700; }
+.legend { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+.legend-item { display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--muted); }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+.node-group { cursor: pointer; }
+.node-body { transition: all .15s ease; }
+.node-group:hover .node-body { filter: brightness(1.25); stroke-width: 2px; }
+.node-group.selected .node-body { filter: brightness(1.35) drop-shadow(0 0 12px rgba(244,224,89,.65)); stroke-width: 2.5px !important; stroke: var(--accent) !important; }
+.node-group.dimmed .node-body { opacity: .18; }
+.node-group.dimmed text { opacity: .18; }
+.node-group.dimmed circle { opacity: .18; }
+.edge-path { transition: opacity .15s ease; }
+.edge-path.dimmed { opacity: .04; }
+@media(max-width:960px){ #sidebar { display: none; } }
+
+</style>
+</head>
+<body>
+<div id="topbar">
+  <span class="title">🎧 Deck Salone &mdash; Architecture Map</span>
+  <div id="chips"></div>
+  <div id="zoom-controls">
+    <button class="zbtn" id="btn-fit" title="Fit to screen">⊡</button>
+    <button class="zbtn" id="btn-plus" title="Zoom In">+</button>
+    <button class="zbtn" id="btn-minus" title="Zoom Out">&minus;</button>
+  </div>
+</div>
+<div id="canvas-wrap">
+  <div id="svg-area"><svg id="graph" xmlns="http://www.w3.org/2000/svg"></svg></div>
+  <div id="sidebar"><div id="sb-content"></div></div>
+</div>
+<script>
+const clusters=[
+  {id:"client",label:"1. Client Layer (React/Vite)",x:20,y:20,w:200,h:1080,color:"#38bdf8"},
+  {id:"entry",label:"2. Server Entry (Express 5)",x:245,y:20,w:180,h:1080,color:"#4ade80"},
+  {id:"routes",label:"3. API Route Endpoints",x:450,y:20,w:190,h:1080,color:"#4ade80"},
+  {id:"svc",label:"4. Services & Algorithms",x:665,y:20,w:195,h:1080,color:"#c084fc"},
+  {id:"data",label:"5. Data Layer (Prisma/Redis)",x:885,y:20,w:180,h:1080,color:"#ceb100"},
+  {id:"ext",label:"6. External Infra & APIs",x:1090,y:20,w:170,h:1080,color:"#f472b6"}
+];
+const N=(id,cl,lbl,sub,x,y,w,h,col,o={})=>({id,cluster:cl,label:lbl,sub,x,y,w,h,color:col,...o});
+const nodes=[
+  N("main","client","main.tsx","App Entry Point",35,40,170,44,"client",{role:"React 19 entry point. Initializes QueryClientProvider, Sonner toaster, and mounts the root App router.",plain:"The very first file the browser runs. Sets up React so UI components can render on screen.",path:"app/src/main.tsx",notes:["React 19 + Vite 7","Capacitor shell wraps this for Android APK builds","Wraps React Query client for frontend server-state caching"],tag:["overview","auth","all"],critical:true}),
+  N("app","client","App.tsx","Router & Layouts",35,100,170,44,"client",{role:"Defines 55 React Router routes, lazy loads page modules, wraps ProtectedRoute guards, and handles role-based redirects.",plain:"The traffic controller — every URL is registered here and it decides which view to render.",path:"app/src/App.tsx",notes:["RequireLegendRoute gates ticket scanning features to Legend-tier DJs","VisitTracker fires analytics on every route change","55 lazy-loaded route components"],tag:["overview","auth","all"],critical:true}),
+  N("authstore","client","authStore.ts","Zustand Auth State",35,160,170,44,"client",{role:"Zustand persist store: JWT token, user state, login/register/fetchMe actions. Persists to localStorage.",plain:"Keeps you logged in — stores the session token in the browser and reloads your profile on refresh.",path:"app/src/stores/authStore.ts",notes:["localStorage key updated to decksalone-auth (auto-migrated from legacy soundit-auth)","fetchMe hits /auth/me on every app startup","Invokes playerStore.clearSession() upon logout"],tag:["overview","auth","all"],critical:true}),
+  N("apiclient","client","api.ts","Axios HTTP Client",35,220,170,44,"client",{role:"Configured Axios client: automatic platform base URL resolution, JWT token injection, and global 401 redirect.",plain:"The telephone line between frontend and backend — attaches your login token to every API request.",path:"app/src/lib/api.ts",notes:["Capacitor.isNativePlatform() switches to live app.decksalone.com domain","Reads bearer token from decksalone-auth / soundit-auth localStorage","Global 401 interceptor forces redirect to /login"],tag:["overview","auth","all"],critical:true}),
+  N("playerstore","client","playerStore.ts","Global Audio State",35,280,170,44,"client",{role:"Zustand audio player store managing active track, queue, waveform position, and playback state.",plain:"Keeps music playing across page navigation — bottom player tray state.",path:"app/src/stores/playerStore.ts",notes:["WaveSurfer.js 7.x integration","Synchronized with authStore session cleanup","Persists track history in local state"],tag:["overview","mixes","all"]}),
+  N("mixplayer","client","MixPlayer.tsx","Persistent Player UI",35,340,170,44,"client",{role:"Global floating waveform audio player overlay rendered in App.tsx layout.",plain:"The music player bar at the bottom of the screen with waveform scrub controls.",path:"app/src/components/MixPlayer.tsx",notes:["wavesurfer.js ^7.12.8","Mounted outside React Router outlet to persist across navigation","39 kB component bundle size"],tag:["overview","mixes","all"]}),
+  N("home","client","Home.tsx","Landing / Hero",35,400,170,44,"client",{role:"Public landing page: featured DJs, top mixes, ranking leaderboard preview, and booking CTA.",plain:"Homepage visitors see first: highlights top Sierra Leone DJs, mixes, and hire links.",path:"app/src/pages/Home.tsx",notes:["33 kB page bundle","Queries /api/djs, /api/mixes/featured, and /api/rankings","Framer Motion hero animations"],tag:["overview","all"],critical:true}),
+  N("discover","client","Discover.tsx","DJ / Mix Discovery",35,460,170,44,"client",{role:"Search & discovery page: filtering mixes and DJs by genre, city, and subscription tier.",plain:"The search catalog — filter DJs and mixes by genre, location, and rating.",path:"app/src/pages/Discover.tsx",notes:["58 kB bundle size","Calls /api/discover with algorithmic relevance weighting","Multi-facet genre and city search filters"],tag:["overview","all"]}),
+  N("djprofile","client","DjProfile.tsx","Public DJ Profile",35,520,170,44,"client",{role:"Public DJ profile view: bio, catalog of mixes, upcoming gigs, review list, and booking widget.",plain:"A DJ profile hub — listen to their mixes, check reviews, and hire them for an event.",path:"app/src/pages/DjProfile.tsx",notes:["82 kB — largest public page component","Contains inline booking and payment flow","Queries /api/djs/:id, /api/mixes, and /api/bookings"],tag:["overview","bookings","all"],critical:true}),
+  N("booking_page","client","Booking.tsx","Booking Wizard",35,580,170,44,"client",{role:"Multi-step booking request wizard: event type, budget, date, and DJ selection.",plain:"The customer booking form for hiring a DJ for parties, weddings, and concerts.",path:"app/src/pages/Booking.tsx",notes:["57 kB wizard component","Submits to POST /api/bookings","Guest booking mode supported (no upfront registration needed)"],tag:["overview","bookings","all"],critical:true}),
+  N("battles","client","Battles.tsx","DJ Battle Arena",35,640,170,44,"client",{role:"Live DJ battle arena: vote for contestants, view real-time leaderboards, and battle history.",plain:"A competitive arena where DJs battle head-to-head and fans vote for winners.",path:"app/src/pages/Battles.tsx",notes:["50 kB page bundle","Votes directly feed rankingAlgorithm.ts (15% weight)","Lacks client-side vote debounce"],tag:["battles","all"]}),
+  N("rankings","client","Rankings.tsx","Official Leaderboard",35,700,170,44,"client",{role:"Official DJ leaderboard page: displays pre-calculated score, rank delta, and tier badges.",plain:"The official ranking table for Sierra Leone DJs based on streams, gigs, and fan votes.",path:"app/src/pages/Rankings.tsx",notes:["Queries GET /api/rankings","Ranking score is precomputed in PostgreSQL (not live on request)","Updated via admin trigger or scheduled algorithm run"],tag:["overview","all"]}),
+  N("events_page","client","Events.tsx","Events & Gigs",35,760,170,44,"client",{role:"Public events listing with location filtering and ticket purchasing integration.",plain:"Shows upcoming DJ events, party flyers, and ticket buying options.",path:"app/src/pages/Events.tsx",notes:["Queries GET /api/events","Integrates with EventTicketing for QR pass checkout","Displays RSVP counters"],tag:["events","all"]}),
+  N("admin_dash","client","AdminDashboard.tsx","Admin Superpanel",35,820,170,44,"client",{role:"Mega administrative dashboard: users, DJ verifications, bookings, Orange Money subscriptions, system config.",plain:"The admin control center — manage DJs, verify profiles, approve payments, and edit platform fees.",path:"app/src/pages/AdminDashboard.tsx",notes:["304 kB — LARGEST file in the entire codebase (4x nearest component!)","Lacks sub-route code splitting; entire dashboard bundle loads monolithically","Requires ADMIN or SUPER_ADMIN role"],tag:["admin","all"]}),
+  N("featurelock","client","FeatureLock.tsx","Paywall Gatekeeper",35,880,170,44,"client",{role:"Component wrapper checking DJ subscription tier; renders upgrade modal on insufficient tier.",plain:"The paywall — locks premium features (mix analytics, QR scanner) behind Pro/Legend subscriptions.",path:"app/src/components/FeatureLock.tsx",notes:["8 kB wrapper","Inspects authStore user.djProfile.subscriptionTier","Triggers upgradeModalStore"],tag:["subscriptions","all"]}),
+  N("protectedroute","client","ProtectedRoute.tsx","Route Auth Guard",35,940,170,44,"client",{role:"React Router outlet wrapper validating authentication and allowed/excluded user roles.",plain:"The bouncer for private routes — redirects unauthorized users to login or 403.",path:"app/src/components/ProtectedRoute.tsx",notes:["Supports allowedRoles and excludeRoles arrays","Reads authStore isAuthenticated and user.role","Redirects to /login preserving target URL state"],tag:["overview","auth","all"],critical:true}),
+
+  N("server","entry","server.ts","Express 5 Bootstrap",255,40,160,44,"route",{role:"Express 5 app entry: mounts 29 route modules, Helmet/CORS/compression, Prometheus metrics, SSR OG meta tags, and graceful shutdown.",plain:"The main backend server — every API request enters here and gets routed to the right controller.",path:"app/api/server.ts",notes:["Prometheus HTTP request duration histogram","serveAppWithMeta generates SSR Open Graph tags for social share crawlers","In-memory LRU meta cache (200 entries, 30s TTL)","6-hour recurring interval for trial expiry checks"],tag:["overview","auth","all"],critical:true}),
+  N("cluster","entry","cluster.ts","Cluster Forker",255,100,160,44,"route",{role:"Node.js cluster manager forking worker processes across all available CPU cores for production throughput.",plain:"Runs multiple copies of the server in parallel to utilize multi-core server hardware.",path:"app/api/cluster.ts",notes:["Production use via PM2 ecosystem.config.cjs","Auto-restarts crashed worker instances","Dev mode runs server.ts directly via ts-node"],tag:["overview","all"]}),
+  N("auth_mw","entry","middleware/auth.ts","JWT Middleware",255,160,160,44,"route",{role:"authMiddleware: verifies Bearer JWT and fetches user from DB. softAuthMiddleware: non-blocking user attachment.",plain:"Validates login tokens on every private API call — rejects invalid or expired tokens.",path:"app/api/middleware/auth.ts",notes:["Cached in Redis (auth_user:${userId}, 300s TTL) with instant invalidation","softAuthMiddleware used for optional personalization","requireRole() factory generates role guard middleware"],tag:["overview","auth","all"],critical:true}),
+  N("passport","entry","utils/passport.ts","Google OAuth",255,220,160,44,"route",{role:"Passport.js Google OAuth2.0 strategy: account provisioning, email account linking, and welcome notification dispatch.",plain:"Handles Sign in with Google — links Google IDs to user accounts automatically.",path:"app/api/utils/passport.ts",notes:["Callback URL: /api/v1/auth/google/callback","Auto-merges existing email users with Google OAuth","Uses shared utils/username.ts for username validation"],tag:["auth","all"]}),
+  N("ratelimiter","entry","utils/rateLimiter.ts","Rate Limiters",255,280,160,44,"route",{role:"express-rate-limit instances: general API, auth login, bookings, search, and mix play increments.",plain:"Prevents DDoS and bot spam by capping requests per IP address.",path:"app/api/utils/rateLimiter.ts",notes:["generalLimiter applied across /api prefix","authLimiter guards login/registration endpoints","playLimiter prevents artificial stream manipulation"],tag:["overview","all"]}),
+  N("prisma_util","entry","utils/prisma.ts","Prisma Singleton",255,340,160,44,"route",{role:"Singleton PrismaClient instance shared across all route handlers and background utilities.",plain:"The single database connection pipeline used across the entire backend.",path:"app/api/utils/prisma.ts",notes:["Singleton pattern prevents Postgres connection pool exhaustion","Disconnects gracefully on SIGINT and SIGTERM"],tag:["overview","all"],critical:true}),
+  N("logger","entry","utils/logger.ts","Winston Logger",255,400,160,44,"route",{role:"Winston JSON structured logger for console and file output.",plain:"Records server activity and error stacks in a structured format.",path:"app/api/utils/logger.ts",notes:["Used via logger.info/warn/error","Separate from Prometheus metrics pipeline"],tag:["overview","all"]}),
+  N("bugReport","entry","utils/bugReport.ts","Crash Reporter",255,460,160,44,"route",{role:"Persists 500 error traces to SystemErrorLog table and sends daily HTML summary emails to admin.",plain:"Catches server crashes, saves error logs to DB, and sends daily digest emails.",path:"app/api/utils/bugReport.ts",notes:["Invoked from global Express error handler (server.ts:442)","Daily digest cron runs every 24 hours","Emails sent via nodemailer SMTP"],tag:["admin","all"]}),
+
+  N("r_auth","routes","routes/auth.ts","Auth Routes",460,40,170,44,"route",{role:"Registration, email/password login, Google OAuth callbacks, JWT refresh, password reset, and phone OTP verification.",plain:"Handles signups, logins, password resets, and session issuance.",path:"app/api/routes/auth.ts",notes:["Zod schema validates password strength","Uses shared utils/username.ts helper","Phone OTP hash stored in user.phoneOtp column"],tag:["overview","auth","all"],critical:true}),
+  N("r_mixes","routes","routes/mixes.ts","Mixes API",460,100,170,44,"route",{role:"Mix upload, CRUD, stream play logging, like/comment, Hearthis.at batch import, and audio resolution.",plain:"Controls everything related to music mixes — uploads, streaming counts, and external audio fetching.",path:"app/api/routes/mixes.ts",notes:["858 lines — 2nd largest route file","requirePro middleware gates direct file uploads","playLimiter prevents fake playcount inflation","Calls audioResolver.ts for 7 streaming platforms"],tag:["overview","mixes","all"],critical:true}),
+  N("r_djs","routes","routes/djs.ts","DJ Profile Routes",460,160,170,44,"route",{role:"DJ profile CRUD, follower actions, external streaming account linking, verification requests.",plain:"Manages DJ public bio data, follower counts, and verified status.",path:"app/api/routes/djs.ts",notes:["37 kB route module","Aggregates streaming platform stats for ranking algorithm","Follow creates in-app notification"],tag:["overview","all"]}),
+  N("r_bookings","routes","routes/bookings.ts","Bookings API",460,220,170,44,"route",{role:"Full booking lifecycle: creation (authenticated or guest), DJ negotiation, deposit, and status transitions.",plain:"Handles hiring DJs — requests, pricing negotiation, deposit tracking, and completion.",path:"app/api/routes/bookings.ts",notes:["494 lines","Status enum: PENDING -> NEGOTIATING -> CONFIRMED -> DEPOSIT_PAID -> COMPLETED","Guest booking supported without prior registration","Sends in-app notifications on every status change"],tag:["overview","bookings","all"],critical:true}),
+  N("r_payments","routes","routes/payments.ts","Payments API",460,280,170,44,"route",{role:"Orange Money manual subscription requests, proof-of-payment image uploads, admin approval queues.",plain:"Processes DJ subscriptions and gig payments via local Orange Money mobile payments.",path:"app/api/routes/payments.ts",notes:["Manual Orange Money verification workflow (no Stripe/PayPal gateway)","Proof-of-payment receipts uploaded to S3/disk","Reads pricing from SystemConfig table"],tag:["overview","subscriptions","all"],critical:true}),
+  N("r_events","routes","routes/events.ts","Events API",460,340,170,44,"route",{role:"Event CRUD, RSVP management, gig applications, and ticketing route integration.",plain:"Manages DJ concerts and events, attendance RSVPs, and gig applications.",path:"app/api/routes/events.ts",notes:["21 kB route file","EventApplication model lets DJs apply for gigs","QR code door validation restricted to Legend-tier DJs"],tag:["events","all"]}),
+  N("r_tickets","routes","routes/eventTicketing.ts","Ticketing & QR",460,400,170,44,"route",{role:"Ticket purchases, seat allocation, crypto-signed QR code generation, and door scanner validation.",plain:"Issues event tickets with unique QR codes for event check-in.",path:"app/api/routes/eventTicketing.ts",notes:["44 kB ticketing engine","QR generated with ticketQr.ts (crypto HMAC signature)","Door scanning gated to Legend-tier DJs"],tag:["events","all"]}),
+  N("r_rankings","routes","routes/rankings.ts","Rankings API",460,460,170,44,"route",{role:"Returns ranked DJ lists from cached DB fields; admin endpoint triggers recalculation.",plain:"Serves the DJ leaderboard table. Scores are precomputed in the database.",path:"app/api/routes/rankings.ts",notes:["Reads precalculated rankingScore / rankingPosition from DjProfile","Admin POST /api/rankings/recalculate invokes unified rankingAlgorithm.ts"],tag:["overview","all"]}),
+  N("r_battles","routes","routes/battles.ts","Battles API",460,520,170,44,"route",{role:"DJ battle contests, participant entries, fan vote recording, and winner calculation.",plain:"Manages DJ competitions, accepts fan votes, and tallies winners.",path:"app/api/routes/battles.ts",notes:["Protected with voteLimiter (20 votes / 15 min)","Votes processed inside atomic Prisma $transaction","Battle score represents 15% of ranking algorithm"],tag:["battles","all"]}),
+  N("r_admin","routes","routes/admin.ts","Admin Super-routes",460,580,170,44,"route",{role:"Comprehensive admin REST API: user management, DJ approvals, subscription verification, system configs.",plain:"The backend engine for the admin dashboard — controls everything across the system.",path:"app/api/routes/admin.ts",notes:["100 kB — largest single route file in the codebase","Logs actions to AuditLog model","Manages SystemConfig dynamic pricing keys"],tag:["admin","all"]}),
+  N("r_discover","routes","routes/discover.ts","Discovery API",460,640,170,44,"route",{role:"Discovery feed combining mixes and DJs ranked by mixDiscovery algorithm and boosted by active ad campaigns.",plain:"Returns the personalized discovery feed with sponsored DJ mixes pinned to the top.",path:"app/api/routes/discover.ts",notes:["13 kB route handler","Calls mixDiscovery.ts algorithm","campaignBoost.ts injects sponsored items","Results cached in Redis"],tag:["overview","all"]}),
+  N("r_notifications","routes","routes/notifications.ts","Notifications API",460,700,170,44,"route",{role:"In-app notification CRUD: unread counts, mark as read, delete, and preference checking.",plain:"Powers the user notification bell for booking updates and followers.",path:"app/api/routes/notifications.ts",notes:["Reads JSON notification preferences per user","Client polls endpoint on focus (no WebSocket push)","Fallback to email via notifications util"],tag:["all"]}),
+  N("r_moderator","routes","routes/moderator.ts","Moderator API",460,760,170,44,"route",{role:"Moderator tools: mix flagging, official playlist curation, DJ profile reviews, audit log inspection.",plain:"The moderation dashboard backend — flag inappropriate mixes and review submissions.",path:"app/api/routes/moderator.ts",notes:["29 kB route file","Sets Mix.flaggedForReview flag","Writes to AuditLog on moderation actions"],tag:["admin","all"]}),
+  N("r_analytics","routes","routes/analytics.ts","Analytics API",460,820,170,44,"route",{role:"Basic page visit event recording for platform traffic stats.",plain:"Records anonymous page view counts to monitor feature usage.",path:"app/api/routes/analytics.ts",notes:["1.6 kB minimal endpoint","Triggered by VisitTracker component on route change"],tag:["admin","all"]}),
+  N("r_messages","routes","routes/messages.ts","Direct Messages",460,880,170,44,"route",{role:"User-to-user direct messaging CRUD operations with authentication checks.",plain:"Private chat inbox between users on the platform.",path:"app/api/routes/messages.ts",notes:["7.8 kB module","Uses SentMessages and ReceivedMessages relational links in DB","Polled by client on view open"],tag:["all"]}),
+  N("r_campaigns","routes","routes/campaigns.ts","Ad Campaigns API",460,940,170,44,"route",{role:"DJ advertising campaign CRUD: budget, target type, reach score, and promotion status.",plain:"Allows DJs to purchase boosted promotion in the discovery catalog.",path:"app/api/routes/campaigns.ts",notes:["12 kB route module","AdCampaign models injected into discovery results via campaignBoost.ts"],tag:["all"]}),
+
+  N("mixdiscovery","svc","mixDiscovery.ts","Mix Ranking Engine",675,40,175,44,"service",{role:"Calculates discovery score: Metadata Quality (30%), Audio (20%), Engagement (35%), DJ Reputation (15%).",plain:"The mix discovery algorithm — computes a composite score to sort the best mixes to the top.",path:"app/api/utils/mixDiscovery.ts",notes:["DISCOVERY_WEIGHTS constant dictates score","Engagement incorporates recency decay bonus for new uploads","campaignBoost runs after scoring to inject sponsored mixes"],tag:["overview","all"],critical:true}),
+  N("rankingAlgo","svc","rankingAlgorithm.ts","DJ Ranking Algorithm v2",675,100,175,44,"service",{role:"Composite DJ ranking v2: Followers (20%) + Ratings (20%) + Mix Engagement (25%) + Bookings (20%) + Battles (15%).",plain:"The official DJ leaderboard formula — computes overall ranking score for all DJs.",path:"app/api/utils/rankingAlgorithm.ts",notes:["Unified single source of truth for all ranking calculations in Deck Salone","Admin recalculate triggers full DB batch update and writes RankingHistory"],tag:["overview","all"],critical:true}),
+  N("audioResolver","svc","audioResolver.ts","Audio Stream Resolver",675,160,175,44,"service",{role:"Extracts direct audio stream URLs from Audiomack, Hearthis.at, SoundCloud, YouTube, Mixcloud, or direct uploads.",plain:"Resolves real playable audio stream URLs from external music platform links.",path:"app/api/utils/audioResolver.ts",notes:["RapidAPI used for SoundCloud/Audiomack audio resolution","Supports 7 platforms: audiomack, hearthis, soundcloud, youtube, mixcloud, upload, direct","Returns resolved stream URL, duration, and cover image"],tag:["mixes","all"]}),
+  N("campaignBoost","svc","campaignBoost.ts","Ad Campaign Injector",675,220,175,44,"service",{role:"Fetches active AdCampaigns and injects sponsored mixes/DJs at the top of discovery feeds.",plain:"Inserts paid promoted DJs and mixes into the discovery feed by reach score.",path:"app/api/utils/campaignBoost.ts",notes:["applyCampaignBoost() merges sponsored items ahead of organic results","Missing impression/click tracking enforcement"],tag:["all"]}),
+  N("notif_util","svc","utils/notifications.ts","Notification Dispatcher",675,280,175,44,"service",{role:"createNotification() inserts DB record and optionally triggers email based on user preference JSON.",plain:"Dispatches in-app notifications and email alerts for bookings and follows.",path:"app/api/utils/notifications.ts",notes:["Performs DB SELECT on every call to verify user notification preferences","cleanupOldNotifications(30) scheduled in server.ts on 24h cron"],tag:["all"]}),
+  N("email_util","svc","utils/email.ts","Nodemailer Mailer",675,340,175,44,"service",{role:"Nodemailer SMTP transport with HTML templates for welcome, OTP, password reset, booking, and birthdays.",plain:"Sends transactional emails — welcome notes, OTP login codes, and booking receipts.",path:"app/api/utils/email.ts",notes:["Enhanced with Winston logger warnings for missing SMTP environment variables","675 lines containing embedded HTML email templates","lastBirthdayEmailSentAt prevents duplicate birthday messages"],tag:["auth","all"]}),
+  N("trial_util","svc","utils/trial.ts","14-Day Trial Guard",675,400,175,44,"service",{role:"Computes 14-day free trial status from user.createdAt. requireTrialOrSubscription middleware blocks expired users.",plain:"Enforces the 14-day free trial — requires DJs to subscribe after 14 days to upload mixes or manage gigs.",path:"app/api/utils/trial.ts",notes:["Trial calculated strictly from user.createdAt (not from first mix upload!)","checkAndSendTrialNotifications() runs every 6 hours via server.ts"],tag:["subscriptions","all"],critical:true}),
+  N("subscriptionConfig","svc","utils/subscriptionConfig.ts","Subscription Config",675,460,175,44,"service",{role:"Reads and writes subscription prices and payment accounts from the SystemConfig DB table.",plain:"Stores subscription pricing and Orange Money payment numbers dynamically.",path:"app/api/utils/subscriptionConfig.ts",notes:["Defaults: Pro=200 SLE, Legend=350 SLE","Admins can change prices in DB without redeploying backend code"],tag:["subscriptions","all"]}),
+  N("redis_util","svc","utils/redis.ts","Redis Cache Layer",675,520,175,44,"service",{role:"ioredis client wrapper with automatic fallback if REDIS_URL is unconfigured.",plain:"In-memory caching system that stores hot queries to keep the database fast.",path:"app/api/utils/redis.ts",notes:["Gracefully falls back to direct DB fetch if Redis is down/missing","withCache(key, ttl, fetcher) is standard pattern across services"],tag:["overview","all"]}),
+  N("storage_util","svc","utils/storage.ts","S3 / Local Storage",675,580,175,44,"service",{role:"uploadBuffer() writes files to S3-compatible cloud storage (R2/AWS) or falls back to local disk.",plain:"Saves uploaded mix covers, profile photos, and payment receipts to cloud or disk.",path:"app/api/utils/storage.ts",notes:["isS3Enabled flag switches between S3 and uploads/ local folder","Compatible with Cloudflare R2, AWS S3, MinIO"],tag:["overview","all"]}),
+  N("ranking_v1","svc","utils/ranking.ts","Ranking Compatibility",675,640,175,44,"service",{role:"Backward-compatibility adapter forwarding calls to rankingAlgorithm.ts.",plain:"Compatibility re-export layer preventing legacy import breakage.",path:"app/api/utils/ranking.ts",notes:["Refactored to re-export unified functions from rankingAlgorithm.ts","No duplicate logic or naming collisions"],tag:["all"]}),
+  N("dj_service","svc","services/dj.service.ts","DjService (Cache Layer)",675,700,175,44,"service",{role:"Class-based DjService providing Redis-cached lookup methods for DJ entities.",plain:"A helper service for DJ profile data with Redis caching.",path:"app/api/services/dj.service.ts",notes:["Provides getDjByStageName, getDjMixCount, getTopDjs","Backed by unit tests in __tests__/dj.service.test.ts"],tag:["all"]}),
+  N("user_service","svc","services/user.service.ts","UserService (Verified)",675,760,175,44,"service",{role:"Class-based UserService with robust isProUser() verification and Redis caching.",plain:"Helper service for user and DJ subscription checks.",path:"app/api/services/user.service.ts",notes:["isProUser() checks djProfile.isPro and subscriptionTier with Redis caching","Fixed invalid enum reference"],tag:["all"]}),
+
+  N("schema","data","schema.prisma","Prisma DB Schema",895,40,160,44,"db",{role:"PostgreSQL Prisma schema defining 40+ relational models: User, DjProfile, Mix, Booking, Payment, Event, etc.",plain:"The master database schema blueprint — defines all tables, columns, and relationships.",path:"app/api/prisma/schema.prisma",notes:["1,203 lines defining 40+ relational tables","Extensive composite index coverage","DjProfile contains 15+ boolean feature flags"],tag:["overview","all"],critical:true}),
+  N("user_model","data","User Model","users Table",895,100,160,44,"db",{role:"Core user table: email, password hash, googleId, role enum, status, referral code, JSON preference blobs.",plain:"Stores user accounts, login credentials, roles, and settings.",path:"app/api/prisma/schema.prisma:11",notes:["Unique username (VarChar 30)","Untyped JSON column for notificationPreferences","Roles: USER, DJ, ADMIN, MODERATOR, SUPER_ADMIN, etc."],tag:["auth","all"],critical:true}),
+  N("djprofile_model","data","DjProfile Model","dj_profiles Table",895,160,160,44,"db",{role:"DJ profile entity: stage name, ranking score, subscription tier, verification, streaming links.",plain:"Stores DJ details: stage names, ranking positions, and subscription status.",path:"app/api/prisma/schema.prisma:119",notes:["subscriptionTier handles Pro/Legend status","Precomputed rankingScore stored here"],tag:["overview","subscriptions","all"],critical:true}),
+  N("mix_model","data","Mix Model","mixes Table",895,220,160,44,"db",{role:"Mix entity: title, genre, category, audio/cover URLs, play/like/download counts, moderation flags.",plain:"Stores uploaded DJ mixes, audio file references, and play statistics.",path:"app/api/prisma/schema.prisma:258",notes:["Aggregated play counter updated per play event","flaggedForReview flag for moderator triage","MixPlay relational table stores individual stream logs"],tag:["mixes","all"]}),
+  N("booking_model","data","Booking Model","bookings Table",895,280,160,44,"db",{role:"Booking entity: clientId, djId, status enum, pricing, deposit, event date, guest fields.",plain:"Tracks DJ booking requests from initial inquiry to completed gig.",path:"app/api/prisma/schema.prisma",notes:["Status: PENDING -> NEGOTIATING -> CONFIRMED -> DEPOSIT_PAID -> COMPLETED","Nullable guestName/guestEmail for guest booking flow","Linked to Payment records"],tag:["bookings","all"],critical:true}),
+  N("event_model","data","Event Model","events Table",895,340,160,44,"db",{role:"Event entity: venue, city, flyer image, ticket tiers, RSVP relations, and performing DJs.",plain:"Stores gig details, venue locations, ticket tiers, and attendance RSVPs.",path:"app/api/prisma/schema.prisma",notes:["EventTicket links ticket buyers to events","EventRSVP tracks free attendance","EventApplication handles DJ gig submissions"],tag:["events","all"]}),
+  N("sysconfig_model","data","SystemConfig Model","system_configs Table",895,400,160,44,"db",{role:"Key-value configuration table for dynamic platform settings like subscription pricing and payment details.",plain:"Database settings table for changing platform fees without code changes.",path:"app/api/prisma/schema.prisma",notes:["Keys: subscription.paymentMethod, subscription.proPrice, etc.","Fallback default values defined in subscriptionConfig.ts"],tag:["subscriptions","admin","all"]}),
+  N("redis","data","Redis Cache","In-Memory Store",895,460,160,44,"db",{role:"Redis key-value store caching DJ profiles, discovery feeds, and leaderboards.",plain:"High-speed memory cache preventing repetitive PostgreSQL database queries.",path:"app/api/utils/redis.ts",notes:["Optional: server runs seamlessly even if Redis is unavailable","TTL ranges: 300s for user sessions, 900s for profiles, 3600s for top DJ lists"],tag:["overview","all"]}),
+
+  N("postgres","ext","PostgreSQL","Primary Database",1100,40,150,44,"external",{role:"Primary PostgreSQL relational database, accessed exclusively via Prisma ORM.",plain:"The permanent database storing all users, mixes, bookings, and payments.",path:"docker-compose.yml",notes:["Runs on port 5432","Accessed exclusively through Prisma ORM","Protected from git exposure via repository root .gitignore"],tag:["overview","all"],critical:true}),
+  N("google_oauth","ext","Google OAuth 2.0","OAuth Provider",1100,100,150,44,"external",{role:"Google Identity OAuth2.0 authentication service.",plain:"Allows users to sign in with their existing Google accounts.",path:"app/api/utils/passport.ts:57",notes:["Requires GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET env vars","Callback URL: /api/v1/auth/google/callback"],tag:["auth","all"]}),
+  N("s3_store","ext","S3 / Cloudflare R2","Object Storage",1100,160,150,44,"external",{role:"S3-compatible object store for audio files, mix artwork, avatars, and payment receipts.",plain:"Cloud bucket storage for photos, artwork, and payment screenshot uploads.",path:"app/api/utils/storage.ts:16",notes:["Configured via S3_ENDPOINT, S3_BUCKET, S3_ACCESS_KEY","Public CDN URL prefix configurable via CDN_URL"],tag:["overview","all"]}),
+  N("smtp","ext","SMTP Email","Nodemailer Server",1100,220,150,44,"external",{role:"External SMTP email server for OTP codes, password resets, and booking alerts.",plain:"Sends outgoing transactional emails to platform users.",path:"app/api/utils/email.ts:39",notes:["Outputs structured Winston warnings if environment credentials are unconfigured"],tag:["auth","all"]}),
+  N("rapidapi","ext","RapidAPI","Streaming Resolver",1100,280,150,44,"external",{role:"Third-party audio extraction API for SoundCloud, Audiomack, and YouTube stream resolution.",plain:"Third-party API that gets the real audio stream from external music platforms.",path:"app/api/utils/audioResolver.ts:3",notes:["Requires RAPIDAPI_KEY env variable","Hearthis.at uses native API directly without RapidAPI"],tag:["mixes","all"]}),
+  N("nginx","ext","Nginx Proxy","Reverse Proxy & SSL",1100,340,150,44,"external",{role:"Nginx reverse proxy: serves static frontend assets and forwards /api requests to Express :5000.",plain:"The server front door — handles HTTPS SSL encryption and static assets.",path:"nginx.conf",notes:["Serves built frontend /dist bundle","Forwards API requests to Express cluster on port 5000"],tag:["overview","all"]}),
+  N("prometheus","ext","Prometheus","Metrics Scraper",1100,400,150,44,"external",{role:"Prometheus metrics endpoint at /metrics exposing HTTP histograms and Node.js process stats.",plain:"Monitors server response speed and memory health.",path:"app/api/server.ts:26",notes:["Exposed on /metrics","Restricted via METRICS_TOKEN authorization bearer token"],tag:["admin","all"]})
+];
+
+const edges=[
+  {from:"main",to:"app",kind:"critical",label:"1. Mount Router",tag:["overview","auth","all"]},
+  {from:"app",to:"authstore",kind:"critical",label:"2. useAuthStore",tag:["overview","auth","all"]},
+  {from:"app",to:"apiclient",kind:"critical",label:"3. Axios Client",tag:["overview","auth","all"]},
+  {from:"authstore",to:"apiclient",kind:"critical",label:"4. POST /auth/login",tag:["overview","auth","all"]},
+  {from:"app",to:"protectedroute",kind:"normal",label:"Wrap Private Routes",tag:["auth","all"]},
+  {from:"app",to:"playerstore",kind:"normal",label:"Mount MixPlayer",tag:["mixes","all"]},
+  {from:"playerstore",to:"mixplayer",kind:"normal",label:"Audio State Flow",tag:["mixes","all"]},
+  {from:"app",to:"featurelock",kind:"normal",label:"Tier Paywall",tag:["subscriptions","all"]},
+  {from:"home",to:"apiclient",kind:"critical",label:"GET /djs, /mixes",tag:["overview","all"]},
+  {from:"djprofile",to:"apiclient",kind:"critical",label:"GET /djs/:id",tag:["overview","bookings","all"]},
+  {from:"booking_page",to:"apiclient",kind:"critical",label:"POST /bookings",tag:["overview","bookings","all"]},
+  {from:"discover",to:"apiclient",kind:"normal",label:"GET /discover",tag:["overview","all"]},
+  {from:"battles",to:"apiclient",kind:"normal",label:"GET/POST /battles",tag:["battles","all"]},
+  {from:"rankings",to:"apiclient",kind:"normal",label:"GET /rankings",tag:["overview","all"]},
+  {from:"events_page",to:"apiclient",kind:"normal",label:"GET /events",tag:["events","all"]},
+  {from:"admin_dash",to:"apiclient",kind:"normal",label:"GET/POST /admin/*",tag:["admin","all"]},
+  {from:"apiclient",to:"server",kind:"critical",label:"HTTP -> Express :5000",tag:["overview","auth","all"]},
+  {from:"nginx",to:"server",kind:"normal",label:"Proxy /api/* to :5000",tag:["overview","all"]},
+  {from:"server",to:"auth_mw",kind:"critical",label:"authMiddleware Guard",tag:["overview","auth","all"]},
+  {from:"server",to:"ratelimiter",kind:"normal",label:"API Rate Limiters",tag:["overview","all"]},
+  {from:"server",to:"prisma_util",kind:"db",label:"Prisma Singleton",tag:["overview","all"]},
+  {from:"server",to:"logger",kind:"normal",label:"Winston Logger",tag:["overview","all"]},
+  {from:"server",to:"bugReport",kind:"normal",label:"500 Error Logging",tag:["admin","all"]},
+  {from:"server",to:"cluster",kind:"normal",label:"Fork Workers (Prod)",tag:["overview","all"]},
+  {from:"server",to:"passport",kind:"normal",label:"Google OAuth Init",tag:["auth","all"]},
+  {from:"server",to:"r_auth",kind:"mount",label:"Mount /api/auth",tag:["overview","auth","all"]},
+  {from:"server",to:"r_mixes",kind:"mount",label:"Mount /api/mixes",tag:["overview","mixes","all"]},
+  {from:"server",to:"r_djs",kind:"mount",label:"Mount /api/djs",tag:["overview","all"]},
+  {from:"server",to:"r_bookings",kind:"mount",label:"Mount /api/bookings",tag:["bookings","all"]},
+  {from:"server",to:"r_payments",kind:"mount",label:"Mount /api/payments",tag:["subscriptions","all"]},
+  {from:"server",to:"r_events",kind:"mount",label:"Mount /api/events",tag:["events","all"]},
+  {from:"server",to:"r_tickets",kind:"mount",label:"Mount /api/events/:id/ticketing",tag:["events","all"]},
+  {from:"server",to:"r_rankings",kind:"mount",label:"Mount /api/rankings",tag:["overview","all"]},
+  {from:"server",to:"r_battles",kind:"mount",label:"Mount /api/battles",tag:["battles","all"]},
+  {from:"server",to:"r_admin",kind:"mount",label:"Mount /api/admin",tag:["admin","all"]},
+  {from:"server",to:"r_discover",kind:"mount",label:"Mount /api/discover",tag:["overview","all"]},
+  {from:"server",to:"r_notifications",kind:"mount",label:"Mount /api/notifications",tag:["all"]},
+  {from:"server",to:"r_moderator",kind:"mount",label:"Mount /api/moderator",tag:["admin","all"]},
+  {from:"server",to:"r_analytics",kind:"mount",label:"Mount /api/analytics",tag:["admin","all"]},
+  {from:"server",to:"r_messages",kind:"mount",label:"Mount /api/messages",tag:["all"]},
+  {from:"server",to:"r_campaigns",kind:"mount",label:"Mount /api/campaigns",tag:["all"]},
+  {from:"server",to:"prometheus",kind:"api",label:"GET /metrics",tag:["admin","all"]},
+  {from:"r_mixes",to:"mixdiscovery",kind:"critical",label:"Score Mixes",tag:["overview","mixes","all"]},
+  {from:"r_mixes",to:"audioResolver",kind:"normal",label:"resolveAudioUrl()",tag:["mixes","all"]},
+  {from:"r_mixes",to:"trial_util",kind:"critical",label:"requireTrialOrSubscription",tag:["subscriptions","mixes","all"]},
+  {from:"r_rankings",to:"rankingAlgo",kind:"critical",label:"updateAllDjRankings()",tag:["overview","all"]},
+  {from:"r_discover",to:"mixdiscovery",kind:"critical",label:"getDiscoveryFeed()",tag:["overview","all"]},
+  {from:"r_discover",to:"campaignBoost",kind:"normal",label:"applyCampaignBoost()",tag:["all"]},
+  {from:"r_bookings",to:"notif_util",kind:"normal",label:"createNotification()",tag:["bookings","all"]},
+  {from:"r_payments",to:"subscriptionConfig",kind:"normal",label:"getSubscriptionConfig()",tag:["subscriptions","all"]},
+  {from:"r_auth",to:"email_util",kind:"normal",label:"sendWelcomeEmail()",tag:["auth","all"]},
+  {from:"notif_util",to:"email_util",kind:"normal",label:"Email Notification",tag:["all"]},
+  {from:"mixdiscovery",to:"schema",kind:"db",label:"Read Mixes/DJs",tag:["overview","mixes","all"]},
+  {from:"rankingAlgo",to:"schema",kind:"db",label:"Write rankingScore",tag:["overview","all"]},
+  {from:"redis_util",to:"redis",kind:"db",label:"Cache GET/SET",tag:["overview","all"]},
+  {from:"storage_util",to:"s3_store",kind:"api",label:"PutObject Uploads",tag:["overview","all"]},
+  {from:"email_util",to:"smtp",kind:"api",label:"SMTP sendMail()",tag:["auth","all"]},
+  {from:"audioResolver",to:"rapidapi",kind:"api",label:"Fetch Audio Stream",tag:["mixes","all"]},
+  {from:"passport",to:"google_oauth",kind:"api",label:"OAuth2 Token Exchange",tag:["auth","all"]},
+  {from:"prisma_util",to:"postgres",kind:"db",label:"Prisma -> PostgreSQL",tag:["overview","all"]},
+  {from:"subscriptionConfig",to:"sysconfig_model",kind:"db",label:"Read/Write Config",tag:["subscriptions","all"]},
+  {from:"schema",to:"user_model",kind:"db",label:"model User",tag:["auth","all"]},
+  {from:"schema",to:"djprofile_model",kind:"db",label:"model DjProfile",tag:["overview","all"]},
+  {from:"schema",to:"mix_model",kind:"db",label:"model Mix",tag:["mixes","all"]},
+  {from:"schema",to:"booking_model",kind:"db",label:"model Booking",tag:["bookings","all"]},
+  {from:"schema",to:"event_model",kind:"db",label:"model Event",tag:["events","all"]},
+  {from:"schema",to:"sysconfig_model",kind:"db",label:"model SystemConfig",tag:["subscriptions","all"]},
+  {from:"schema",to:"redis",kind:"db",label:"Query Caching",tag:["overview","all"]},
+  {from:"postgres",to:"schema",kind:"db",label:"Physical Tables",tag:["overview","all"]}
+];
+
+const KNOWN_BUGS={
+  user_service:[{sev:"high",status:"RESOLVED",ref:"services/user.service.ts:34",t:"Fixed isProUser() logic to check djProfile.isPro and subscriptionTier with 15-minute Redis caching."}],
+  ranking_v1:[{sev:"med",status:"RESOLVED",ref:"utils/ranking.ts",t:"Refactored ranking.ts to cleanly re-export unified v2 functions from rankingAlgorithm.ts."}],
+  passport:[{sev:"low",status:"RESOLVED",ref:"utils/passport.ts:16",t:"Extracted RESERVED_USERNAMES and isValidUsername to shared utils/username.ts helper."}],
+  djprofile_model:[{sev:"med",status:"RESOLVED",ref:"schema.prisma:182",t:"Standardized subscription tier validation in DjService and UserService ensuring consistency between isPro and subscriptionTier."}],
+  auth_mw:[{sev:"low",status:"RESOLVED",ref:"middleware/auth.ts:4",t:"Added Redis session cache (auth_user:${userId}, 300s TTL) with invalidation helper, eliminating 1 redundant DB query per call."}],
+  email_util:[{sev:"med",status:"RESOLVED",ref:"utils/email.ts:35",t:"Added Winston structured logger warnings detailing exact missing SMTP environment variables and transport failure logs."}],
+  notif_util:[{sev:"low",status:"RESOLVED",ref:"utils/notifications.ts:147",t:"cleanupOldNotifications(30) scheduled in server.ts on startup and every 24-hour interval to purge stale notifications."}],
+  postgres:[{sev:"high",status:"RESOLVED",ref:"db_dump.sql",t:"Created root .gitignore and updated app/.gitignore to ignore *.sql, db_dump.sql, .env*, and server logs."}],
+  r_battles:[{sev:"med",status:"RESOLVED",ref:"routes/battles.ts",t:"Added per-user voteLimiter (20 votes / 15 min) and wrapped battle vote recording and score recalculation inside an atomic Prisma interactive transaction."}]
+};
+
+const svg=document.getElementById("graph");
+const CANVAS_W=1280,CANVAS_H=1120;
+let vpX=20,vpY=20,vpS=0.75,isPanning=false,panSX=0,panSY=0,panVX=0,panVY=0,selectedNode=null;
+const root=document.createElementNS("http://www.w3.org/2000/svg","g");
+root.id="root";svg.appendChild(root);
+
+function applyT(){
+  root.setAttribute("transform",`translate(${vpX},${vpY}) scale(${vpS})`);
+}
+
+const defs=document.createElementNS("http://www.w3.org/2000/svg","defs");
+[["arr-critical","#ef4444"],["arr-api","#ceb100"],["arr-db","#ceb100"],["arr-mount","#38bdf8"],["arr-normal","#64748b"]].forEach(([id,c])=>{
+  const m=document.createElementNS("http://www.w3.org/2000/svg","marker");
+  m.setAttribute("id",id);m.setAttribute("markerWidth","8");m.setAttribute("markerHeight","8");
+  m.setAttribute("refX","7");m.setAttribute("refY","3");m.setAttribute("orient","auto");
+  const p=document.createElementNS("http://www.w3.org/2000/svg","path");
+  p.setAttribute("d","M0,0 L0,6 L8,3 z");p.setAttribute("fill",c);m.appendChild(p);defs.appendChild(m);
+});
+svg.appendChild(defs);
+
+clusters.forEach(c=>{
+  const r=document.createElementNS("http://www.w3.org/2000/svg","rect");
+  r.setAttribute("x",c.x);r.setAttribute("y",c.y);r.setAttribute("width",c.w);r.setAttribute("height",c.h);
+  r.setAttribute("rx","10");r.setAttribute("fill",c.color+"0a");r.setAttribute("stroke",c.color+"33");r.setAttribute("stroke-width","1");
+  root.appendChild(r);
+  const t=document.createElementNS("http://www.w3.org/2000/svg","text");
+  t.setAttribute("x",c.x+c.w/2);t.setAttribute("y",c.y+15);t.setAttribute("text-anchor","middle");
+  t.setAttribute("font-size","10");t.setAttribute("font-family","monospace");t.setAttribute("font-weight","700");
+  t.setAttribute("letter-spacing","0.06em");t.setAttribute("fill",c.color+"dd");t.textContent=c.label.toUpperCase();
+  root.appendChild(t);
+});
+
+const hexC={client:"#38bdf8",route:"#4ade80",service:"#c084fc",db:"#ceb100",external:"#f472b6"};
+const edgeCM={critical:"#ef4444",api:"#ceb100",db:"#ceb100",mount:"#38bdf8",normal:"#64748b"};
+
+const edgeEls=[];
+edges.forEach(e=>{
+  const fn=nodes.find(n=>n.id===e.from),tn=nodes.find(n=>n.id===e.to);
+  if(!fn||!tn)return;
+  const x1=fn.x+fn.w,y1=fn.y+fn.h/2,x2=tn.x,y2=tn.y+tn.h/2;
+  const same=fn.cluster===tn.cluster;
+  const cx1=same?x1+40:(x1+x2)/2,cy1=y1,cx2=same?x2-10:(x1+x2)/2,cy2=y2;
+  const color=edgeCM[e.kind]||"#64748b";
+  const g=document.createElementNS("http://www.w3.org/2000/svg","g");
+  g.setAttribute("class","edge-path");
+  g.dataset.from=e.from;g.dataset.to=e.to;g.dataset.tag=JSON.stringify(e.tag);
+  const path=document.createElementNS("http://www.w3.org/2000/svg","path");
+  path.setAttribute("d",`M ${x1} ${y1} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${x2} ${y2}`);
+  path.setAttribute("fill","none");path.setAttribute("stroke",color);
+  path.setAttribute("stroke-width",e.kind==="critical"?"2":"1.2");
+  path.setAttribute("opacity",e.kind==="normal"?"0.35":"0.7");
+  path.setAttribute("marker-end",`url(#arr-${e.kind})`);
+  g.appendChild(path);
+  if(e.kind==="critical"||e.kind==="mount"){
+    const mx=(x1+cx1+cx2+x2)/4,my=(y1+cy1+cy2+y2)/4;
+    const lt=document.createElementNS("http://www.w3.org/2000/svg","text");
+    lt.setAttribute("x",mx);lt.setAttribute("y",my-4);lt.setAttribute("text-anchor","middle");
+    lt.setAttribute("font-size","7.5");lt.setAttribute("fill",color);lt.setAttribute("opacity","0.85");
+    lt.setAttribute("font-family","monospace");lt.textContent=e.label;g.appendChild(lt);
+  }
+  root.appendChild(g);edgeEls.push({el:g,edge:e});
+});
+
+const nodeEls={};
+nodes.forEach(n=>{
+  const c=hexC[n.color]||"#8e95a5",isDead=n.dead===true,isCrit=n.critical===true;
+  const g=document.createElementNS("http://www.w3.org/2000/svg","g");
+  g.setAttribute("class","node-group");g.id=`ng-${n.id}`;
+  g.dataset.id=n.id;g.dataset.tag=JSON.stringify(n.tag||["all"]);
+  const rect=document.createElementNS("http://www.w3.org/2000/svg","rect");
+  rect.setAttribute("class","node-body");rect.setAttribute("x",n.x);rect.setAttribute("y",n.y);
+  rect.setAttribute("width",n.w);rect.setAttribute("height",n.h);rect.setAttribute("rx","6");
+  rect.setAttribute("fill",isDead?"#141416":"#161619");
+  rect.setAttribute("stroke",isDead?"#2c2c34":c);
+  rect.setAttribute("stroke-width",isCrit?"2":isDead?"1":"1.3");
+  if(isDead)rect.setAttribute("stroke-dasharray","3,2");
+  g.appendChild(rect);
+  const bar=document.createElementNS("http://www.w3.org/2000/svg","rect");
+  bar.setAttribute("x",n.x);bar.setAttribute("y",n.y+6);bar.setAttribute("width","3");bar.setAttribute("height",n.h-12);
+  bar.setAttribute("rx","2");bar.setAttribute("fill",isDead?"#444":c);bar.setAttribute("opacity",isDead?"0.3":isCrit?"1":"0.75");
+  g.appendChild(bar);
+  const lbl=document.createElementNS("http://www.w3.org/2000/svg","text");
+  lbl.setAttribute("x",n.x+10);lbl.setAttribute("y",n.y+17);lbl.setAttribute("font-size","10.5");
+  lbl.setAttribute("font-weight","700");lbl.setAttribute("fill",isDead?"#666":"#ffffff");
+  lbl.setAttribute("font-family","monospace");lbl.textContent=n.label;g.appendChild(lbl);
+  const sub=document.createElementNS("http://www.w3.org/2000/svg","text");
+  sub.setAttribute("x",n.x+10);sub.setAttribute("y",n.y+31);sub.setAttribute("font-size","8.5");
+  sub.setAttribute("fill",isDead?"#555":c);sub.setAttribute("font-family","sans-serif");sub.setAttribute("opacity","0.85");
+  sub.textContent=n.sub;g.appendChild(sub);
+  if(isDead){const db=document.createElementNS("http://www.w3.org/2000/svg","text");db.setAttribute("x",n.x+n.w-6);db.setAttribute("y",n.y+12);db.setAttribute("text-anchor","end");db.setAttribute("font-size","7");db.setAttribute("fill","#777");db.setAttribute("font-family","monospace");db.setAttribute("font-weight","bold");db.textContent="DEAD";g.appendChild(db);}
+  const bugs=KNOWN_BUGS[n.id];
+  if(bugs&&bugs.length){
+    const allResolved=bugs.every(b=>b.status==="RESOLVED");
+    const bc=document.createElementNS("http://www.w3.org/2000/svg","circle");
+    bc.setAttribute("cx",n.x+n.w-8);bc.setAttribute("cy",n.y+8);bc.setAttribute("r","7");
+    bc.setAttribute("fill",allResolved?"#10b981":"#ef4444");
+    const bt=document.createElementNS("http://www.w3.org/2000/svg","text");
+    bt.setAttribute("x",n.x+n.w-8);bt.setAttribute("y",n.y+11);bt.setAttribute("text-anchor","middle");
+    bt.setAttribute("font-size","8");bt.setAttribute("fill","#fff");bt.setAttribute("font-weight","700");bt.setAttribute("font-family","sans-serif");
+    bt.textContent=allResolved?"✓":bugs.length;
+    g.appendChild(bc);g.appendChild(bt);
+  }
+  if(isCrit){const glow=document.createElementNS("http://www.w3.org/2000/svg","rect");glow.setAttribute("x",n.x-2);glow.setAttribute("y",n.y-2);glow.setAttribute("width",n.w+4);glow.setAttribute("height",n.h+4);glow.setAttribute("rx","8");glow.setAttribute("fill","none");glow.setAttribute("stroke","#ef4444");glow.setAttribute("stroke-width","0.6");glow.setAttribute("opacity","0.35");g.appendChild(glow);}
+  g.addEventListener("click",ev=>{ev.stopPropagation();selectNode(n.id);});
+  g.addEventListener("mouseenter",()=>{if(!selectedNode)hlNode(n.id);});
+  g.addEventListener("mouseleave",()=>{if(!selectedNode)clearHL();});
+  root.appendChild(g);nodeEls[n.id]=g;
+});
+
+function selectNode(id){selectedNode=id;hlNode(id);showSidebar(id);}
+function hlNode(id){
+  const conn=new Set([id]),connE=new Set();
+  edgeEls.forEach(({el,edge})=>{if(edge.from===id||edge.to===id){conn.add(edge.from);conn.add(edge.to);connE.add(el);}});
+  Object.entries(nodeEls).forEach(([nid,g])=>{if(conn.has(nid)){g.classList.remove("dimmed");g.classList.toggle("selected",nid===id);}else{g.classList.add("dimmed");g.classList.remove("selected");}});
+  edgeEls.forEach(({el})=>el.classList.toggle("dimmed",!connE.has(el)));
+}
+function clearHL(){
+  selectedNode=null;
+  Object.values(nodeEls).forEach(g=>g.classList.remove("dimmed","selected"));
+  edgeEls.forEach(({el})=>el.classList.remove("dimmed"));
+  showDefaultSidebar();
+}
+document.getElementById("svg-area").addEventListener("click",()=>clearHL());
+
+const filterDefs=[
+  {id:"all",label:"Show All Components"},
+  {id:"overview",label:"Core Overview"},
+  {id:"auth",label:"Auth & Login"},
+  {id:"mixes",label:"Mixes & Audio"},
+  {id:"bookings",label:"Bookings"},
+  {id:"events",label:"Events & Tickets"},
+  {id:"battles",label:"Battles"},
+  {id:"subscriptions",label:"Subscriptions"},
+  {id:"admin",label:"Admin"},
+  {id:"bugs",label:"🛡️ Resolved Bugs & Hardening"}
+];
+const chipC=document.getElementById("chips");
+filterDefs.forEach(f=>{
+  const b=document.createElement("button");b.className="chip"+(f.id==="all"?" active":"");
+  b.textContent=f.label;b.dataset.filter=f.id;b.addEventListener("click",()=>applyFilter(f.id));chipC.appendChild(b);
+});
+function applyFilter(fid){
+  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.filter===fid));
+  clearHL();
+  if(fid==="bugs"){
+    const bn=new Set([...Object.keys(KNOWN_BUGS),...nodes.filter(n=>n.dead).map(n=>n.id)]);
+    Object.entries(nodeEls).forEach(([id,g])=>g.style.opacity=bn.has(id)?"1":"0.08");
+    edgeEls.forEach(({el,edge})=>el.style.opacity=(bn.has(edge.from)||bn.has(edge.to))?"0.7":"0.03");
+    return;
+  }
+  if(fid==="all"){
+    Object.values(nodeEls).forEach(g=>g.style.opacity="1");
+    edgeEls.forEach(({el})=>el.style.opacity="1");
+    return;
+  }
+  edgeEls.forEach(({el,edge})=>el.style.opacity=(edge.tag||["all"]).includes(fid)?"1":"0.05");
+  Object.entries(nodeEls).forEach(([id,g])=>{const n=nodes.find(n=>n.id===id);g.style.opacity=(n?.tag||["all"]).includes(fid)?"1":"0.18";});
+}
+
+function showSidebar(nodeId){
+  const n=nodes.find(n=>n.id===nodeId);if(!n)return;
+  const inE=edges.filter(e=>e.to===nodeId),outE=edges.filter(e=>e.from===nodeId);
+  const bugs=KNOWN_BUGS[nodeId]||[];
+  let h=`<div class="sb-section"><div class="sb-label">Selected Node</div>
+    <div class="sb-title">${n.label}${n.critical?'<span class="crit-badge">CRITICAL PATH</span>':''}${n.dead?'<span class="dead-badge">DEAD CODE</span>':''}</div>
+    <div class="sb-sub">${n.sub}</div></div>
+    <div class="sb-section"><div class="sb-label">Technical Role</div><div class="sb-role">${n.role||"&mdash;"}</div></div>
+    <div class="sb-section"><div class="sb-label">Plain English</div><div class="sb-plain">${n.plain||"&mdash;"}</div></div>
+    <div class="sb-section"><div class="sb-label">File Path</div><div class="sb-path">${n.path||"&mdash;"}</div></div>`;
+  if(n.notes&&n.notes.length)h+=`<div class="sb-section"><div class="sb-label">Code Details</div><ul class="sb-notes">${n.notes.map(nt=>`<li>${nt}</li>`).join("")}</ul></div>`;
+  h+=`<hr class="sb-divider">`;
+  if(inE.length){h+=`<div class="sb-section"><div class="sb-label">Incoming Connections (${inE.length})</div>`;inE.slice(0,8).forEach(e=>{const f=nodes.find(n=>n.id===e.from);h+=`<div class="edge-pill ep-${e.kind}">${f?.label||e.from} &rarr; ${e.label}</div>`;});h+=`</div>`;}
+  if(outE.length){h+=`<div class="sb-section"><div class="sb-label">Outgoing Calls (${outE.length})</div>`;outE.slice(0,8).forEach(e=>{const t=nodes.find(n=>n.id===e.to);h+=`<div class="edge-pill ep-${e.kind}">${e.label} &rarr; ${t?.label||e.to}</div>`;});h+=`</div>`;}
+  if(bugs.length){
+    const allResolved=bugs.every(b=>b.status==="RESOLVED");
+    h+=`<hr class="sb-divider"><div class="sb-section"><div class="sb-label" style="color:${allResolved?'#10b981':'var(--critical)'}">${allResolved?'Resolved Issues & Hardening':'Identified Issues / Bugs'} (${bugs.length})</div>`;
+    bugs.forEach(b=>{
+      const isRes=b.status==="RESOLVED";
+      h+=`<div style="margin-bottom:8px;font-size:11.5px;background:${isRes?'rgba(16,185,129,0.08)':'rgba(239,68,68,0.08)'};padding:8px 10px;border-radius:6px;border:1px solid ${isRes?'rgba(16,185,129,0.3)':'rgba(239,68,68,0.25)'}">
+        <div style="display:flex;align-items:center;gap:6px">
+          <span class="${isRes?'badge-resolved':'badge-bug'}">${isRes?'✓':b.sev[0].toUpperCase()}</span>
+          <span style="color:${isRes?'#10b981':'#ef4444'};font-family:monospace;font-size:10.5px;font-weight:bold">${b.ref}</span>
+          <span class="${isRes?'resolved-badge':'crit-badge'}">${b.status||'ISSUE'}</span>
+        </div>
+        <div style="color:#eee;margin-top:4px;line-height:1.4">${b.t}</div>
+      </div>`;
+    });
+    h+=`</div>`;
+  }
+  document.getElementById("sb-content").innerHTML=h;
+}
+
+function showDefaultSidebar(){
+  document.getElementById("sb-content").innerHTML=`
+    <div class="sb-section"><div class="sb-label">Architecture Map Overview</div>
+      <div class="sb-title">Deck Salone System Map</div>
+      <div class="sb-sub">Sierra Leone's Premier DJ & Streaming Platform</div></div>
+    <div class="sb-section"><div class="sb-plain">
+      <strong>Brand Colors:</strong> <span style="display:inline-block;width:11px;height:11px;background:#f4e059;border-radius:2px;vertical-align:middle;margin-right:2px"></span> <code>#f4e059</code> (Primary Yellow) &bull; <span style="display:inline-block;width:11px;height:11px;background:#000000;border:1px solid #444;border-radius:2px;vertical-align:middle;margin:0 2px"></span> <code>#000000</code> (Pure Black) &bull; <span style="display:inline-block;width:11px;height:11px;background:#ceb100;border-radius:2px;vertical-align:middle;margin:0 2px"></span> <code>#ceb100</code> (Dark Gold/Yellow)<br><br>
+      <strong>Stack:</strong> React 19 + Vite 7 SPA &bull; Express 5 API &bull; PostgreSQL (Prisma ORM) &bull; Redis Cache &bull; S3/R2 Cloud Storage &bull; Capacitor Android Shell<br><br>
+      <strong>Metrics:</strong> <code>${nodes.length}</code> nodes &bull; <code>${edges.length}</code> connections &bull; <code>${nodes.filter(n=>n.critical).length}</code> critical spine nodes &bull; <code>${Object.keys(KNOWN_BUGS).length}</code> resolved bug fixes
+    </div></div>
+    <hr class="sb-divider">
+    <div class="findings" style="background:rgba(16,185,129,.06);border-color:rgba(16,185,129,.3)">
+      <div class="findings-title" style="color:#10b981">🛡️ All 9 Architecture Bugs Fixed & Verified</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ isProUser() Role Fix:</strong> Replaced broken <code>role==='PRO'</code> with <code>djProfile.isPro || ['pro','legend'].includes(subscriptionTier)</code> + Redis caching.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Ranking Algorithm Unified:</strong> Consolidated into <code>rankingAlgorithm.ts</code> (v2) with <code>calculateBattleBaseScore</code>; <code>ranking.ts</code> now serves as clean re-export adapter.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Shared Username Utilities:</strong> Extracted <code>RESERVED_USERNAMES</code>, <code>isValidUsername</code>, and generator to <code>utils/username.ts</code>.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Auth Middleware Redis Cache:</strong> Cached active user lookup in Redis (<code>auth_user:{id}</code>, 300s TTL), eliminating 1 redundant DB query per call.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Nodemailer Error Logging:</strong> Added Winston logger with clear warnings listing missing SMTP env vars.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Notification Cleanup Cron:</strong> Scheduled <code>cleanupOldNotifications(30)</code> in <code>server.ts</code> on boot and every 24 hours.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Battle Vote Spam Protection:</strong> Tightened <code>voteLimiter</code> (20/15m per user) and wrapped vote tally in atomic Prisma <code>$transaction</code>.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Gitignore Security Hardening:</strong> Added root & app <code>.gitignore</code> protecting <code>db_dump.sql</code>, <code>*.sql</code>, logs, and env secrets.</div>
+      <div class="finding-item" style="color:#eee"><strong style="color:#10b981">✓ Storage Key Modernization:</strong> Migrated frontend persistence from <code>soundit-auth</code> to <code>decksalone-auth</code> with seamless fallback.</div>
+    </div>
+    <hr class="sb-divider">
+    <div class="sb-section"><div class="sb-label">Critical Path Spine</div>
+      <div style="font-size:11px;color:var(--muted);line-height:1.8;font-family:monospace">
+        main.tsx &rarr; App.tsx &rarr; authStore &rarr; api.ts<br>
+        &rarr; Nginx &rarr; server.ts &rarr; authMiddleware<br>
+        &rarr; routes/* &rarr; utils/* &rarr; Prisma &rarr; PostgreSQL
+      </div></div>
+    <div class="sb-section"><div class="sb-label">Legend</div>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Critical Core Path</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>Resolved Bug Fix / Hardening</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#38bdf8"></div>Route Mount / Component Wire</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ceb100"></div>External API / Provider (#ceb100)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ceb100"></div>Prisma Database Read/Write (#ceb100)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#64748b"></div>Standard Internal Call</div>
+      </div></div>`;
+}
+
+const svgArea=document.getElementById("svg-area");
+svgArea.addEventListener("mousedown",e=>{
+  if(e.target===svgArea||e.target===svg||e.target===root||e.target.tagName==="svg"){isPanning=true;panSX=e.clientX;panSY=e.clientY;panVX=vpX;panVY=vpY;}
+});
+window.addEventListener("mousemove",e=>{if(!isPanning)return;vpX=panVX+(e.clientX-panSX);vpY=panVY+(e.clientY-panSY);applyT();});
+window.addEventListener("mouseup",()=>isPanning=false);
+svgArea.addEventListener("wheel",e=>{
+  e.preventDefault();
+  const r=svgArea.getBoundingClientRect(),cx=e.clientX-r.left,cy=e.clientY-r.top;
+  const f=e.deltaY<0?1.12:0.89,ns=Math.max(0.25,Math.min(3,vpS*f));
+  vpX=cx-(cx-vpX)*(ns/vpS);vpY=cy-(cy-vpY)*(ns/vpS);vpS=ns;applyT();
+},{passive:false});
+
+function fitView(){
+  const r=svgArea.getBoundingClientRect();
+  const w=r.width>50?r.width:(window.innerWidth-380);
+  const h=r.height>50?r.height:(window.innerHeight-60);
+  const sx=(w-40)/CANVAS_W,sy=(h-40)/CANVAS_H;
+  vpS=Math.max(0.25, Math.min(sx,sy,1.0));
+  vpX=Math.max(10,(w-CANVAS_W*vpS)/2);
+  vpY=20;
+  applyT();
+}
+document.getElementById("btn-fit").addEventListener("click",fitView);
+document.getElementById("btn-plus").addEventListener("click",()=>{vpS=Math.min(3,vpS*1.2);applyT();});
+document.getElementById("btn-minus").addEventListener("click",()=>{vpS=Math.max(0.25,vpS/1.2);applyT();});
+
+svg.setAttribute("viewBox",`0 0 ${CANVAS_W} ${CANVAS_H}`);
+window.addEventListener("resize",fitView);
+window.addEventListener("load",fitView);
+
+// Initial call
+fitView();
+showDefaultSidebar();
+applyFilter("all");
+</script>
+</body>
+</html>

@@ -684,7 +684,7 @@ function OverviewTab({ dj }: { dj: DJ }) {
       {/* Right Column */}
       <div className="space-y-6">
         {/* Booking Info Card */}
-        <div className="bg-[#111111] border border-[rgba(212,162,74,0.15)] rounded-2xl p-6">
+        <div className="bg-[#111111] border border-[rgba(244, 224, 89,0.15)] rounded-2xl p-6">
           <span className="section-label">Booking Information</span>
           <div className="mt-4">
             <p className="font-mono-data text-2xl font-semibold text-gold">
@@ -734,7 +734,7 @@ function OverviewTab({ dj }: { dj: DJ }) {
                   href={dj.socialLinks.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(212,162,74,0.1)] transition-colors"
+                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(244, 224, 89,0.1)] transition-colors"
                   title="Instagram"
                 >
                   <Instagram size={18} />
@@ -745,7 +745,7 @@ function OverviewTab({ dj }: { dj: DJ }) {
                   href={dj.socialLinks.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(212,162,74,0.1)] transition-colors"
+                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(244, 224, 89,0.1)] transition-colors"
                   title="X (Twitter)"
                 >
                   <Twitter size={18} />
@@ -756,7 +756,7 @@ function OverviewTab({ dj }: { dj: DJ }) {
                   href={dj.socialLinks.tiktok}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(212,162,74,0.1)] transition-colors"
+                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(244, 224, 89,0.1)] transition-colors"
                   title="TikTok"
                 >
                   <svg viewBox="0 0 24 24" fill="currentColor" className="w-[18px] h-[18px]">
@@ -769,7 +769,7 @@ function OverviewTab({ dj }: { dj: DJ }) {
                   href={dj.socialLinks.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(212,162,74,0.1)] transition-colors"
+                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(244, 224, 89,0.1)] transition-colors"
                   title="YouTube"
                 >
                   <Play size={18} />
@@ -780,7 +780,7 @@ function OverviewTab({ dj }: { dj: DJ }) {
                   href={dj.socialLinks.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(212,162,74,0.1)] transition-colors"
+                  className="w-10 h-10 rounded-full bg-[#181818] flex items-center justify-center text-text-muted hover:text-gold hover:bg-[rgba(244, 224, 89,0.1)] transition-colors"
                   title="Facebook"
                 >
                   <Facebook size={18} />
@@ -885,7 +885,7 @@ function MixesTab({ dj }: { dj: DJ }) {
               className={cn(
                 "px-4 py-2 rounded-full text-sm font-medium transition-all",
                 i === 0
-                  ? "bg-[rgba(212,162,74,0.15)] text-gold border border-gold/30"
+                  ? "bg-[rgba(244, 224, 89,0.15)] text-gold border border-gold/30"
                   : "border border-[rgba(255,255,255,0.1)] text-text-muted hover:text-text-primary hover:border-[rgba(255,255,255,0.3)]"
               )}
             >
@@ -900,7 +900,7 @@ function MixesTab({ dj }: { dj: DJ }) {
         {dj.mixes.map((mix, i) => (
           <motion.div
             key={mix.id}
-            className="group bg-[#111111] border border-[rgba(255,255,255,0.05)] rounded-2xl overflow-hidden hover:border-[rgba(212,162,74,0.3)] hover:-translate-y-1 hover:shadow-card transition-all duration-300"
+            className="group bg-[#111111] border border-[rgba(255,255,255,0.05)] rounded-2xl overflow-hidden hover:border-[rgba(244, 224, 89,0.3)] hover:-translate-y-1 hover:shadow-card transition-all duration-300"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.08, duration: 0.5 }}
@@ -1137,7 +1137,7 @@ function StatsTab({ dj }: { dj: DJ }) {
                         color: "#F5F5F5",
                       }}
                     />
-                    <Bar dataKey="position" fill="#D4A24A" radius={[4, 4, 0, 0]} />
+                    <Bar dataKey="position" fill="#f4e059" radius={[4, 4, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -1181,7 +1181,7 @@ function StatsTab({ dj }: { dj: DJ }) {
                 cy="60"
                 r="52"
                 fill="none"
-                stroke="#D4A24A"
+                stroke="#f4e059"
                 strokeWidth="8"
                 strokeLinecap="round"
                 strokeDasharray={`${2 * Math.PI * 52}`}
@@ -1536,7 +1536,7 @@ function SimilarDJsSection({ currentDj }: { currentDj: DJ }) {
           <motion.a
             key={djItem.id}
             href={`/dj/${djItem.username || djItem.id}`}
-            className="group bg-[#111111] border border-[rgba(255,255,255,0.05)] rounded-2xl overflow-hidden hover:border-[rgba(212,162,74,0.3)] hover:-translate-y-1 hover:shadow-card transition-all duration-300"
+            className="group bg-[#111111] border border-[rgba(255,255,255,0.05)] rounded-2xl overflow-hidden hover:border-[rgba(244, 224, 89,0.3)] hover:-translate-y-1 hover:shadow-card transition-all duration-300"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -1641,7 +1641,7 @@ function DjFollowButton({ djId, djUserId }: { djId: string; djUserId?: string })
         className={cn(
           "flex-1 sm:flex-auto px-4 py-2.5 rounded-full text-sm font-semibold uppercase hover:scale-[1.02] transition-transform flex items-center justify-center gap-2 disabled:opacity-70",
           isFollowing
-            ? "bg-[rgba(212,162,74,0.15)] text-gold border border-gold/30"
+            ? "bg-[rgba(244, 224, 89,0.15)] text-gold border border-gold/30"
             : "border border-[rgba(255,255,255,0.2)] text-text-primary hover:bg-[rgba(255,255,255,0.05)]"
         )}
       >
@@ -1839,7 +1839,7 @@ export default function DjProfile() {
                   <motion.span
                     key={badge}
                     className={cn(
-                      "px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wighter border border-gold/30 text-gold bg-[rgba(212,162,74,0.1)]"
+                      "px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wighter border border-gold/30 text-gold bg-[rgba(244, 224, 89,0.1)]"
                     )}
                     initial={{ opacity: 0, scale: 0 }}
                     animate={{ opacity: 1, scale: 1 }}

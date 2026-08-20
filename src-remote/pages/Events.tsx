@@ -50,7 +50,7 @@ function formatEventDate(dateStr: string) {
 
 function DJAvatar({ name, size = 24 }: { name: string; size?: number }) {
   const initial = name.charAt(0);
-  const colors = ['#D4A24A', '#8B5CF6', '#22C55E', '#3B82F6', '#EF4444', '#F97316'];
+  const colors = ['#f4e059', '#8B5CF6', '#22C55E', '#3B82F6', '#EF4444', '#F97316'];
   const color = colors[name.length % colors.length];
   return (
     <div
