@@ -17,7 +17,7 @@ COPY app/package.json ./app/
 COPY app/package-lock.json ./app/
 
 # Install dependencies (ignoring scripts to avoid premature builds)
-RUN cd app && npm install --include=dev --ignore-scripts
+RUN cd app && npm ci --include=dev --ignore-scripts --legacy-peer-deps
 
 # ==========================================
 # 3. Build stage: Compile TS and React
