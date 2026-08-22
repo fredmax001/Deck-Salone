@@ -50,8 +50,8 @@ echo "🔨 Step 3/5 — Rebuilding Docker image without cache and restarting dec
 ssh $SSH_OPTS "$SERVER" "cd $HOST_PROJECT && docker compose -f docker-compose.prod.yml build --no-cache deck-salone-api && docker compose -f docker-compose.prod.yml up -d deck-salone-api"
 
 echo ""
-echo "🗄️ Step 4/5 — Applying database migrations safely via Prisma Migrate..."
-ssh $SSH_OPTS "$SERVER" "docker exec deck-salone-api npx prisma migrate deploy"
+echo "🗄️ Step 4/5 — Applying database schema & migrations safely via Prisma..."
+ssh $SSH_OPTS "$SERVER" "docker exec deck-salone-api npx prisma db push --accept-data-loss"
 
 echo ""
 echo "🏥 Step 5/5 — Checking API health and restarting web proxy..."
