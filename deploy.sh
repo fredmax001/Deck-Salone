@@ -19,6 +19,11 @@ echo "================================="
 echo "Target: $SERVER -> $HOST_PROJECT"
 echo ""
 
+echo "🔨 Step 0/5 — Building production frontend locally..."
+cd "/Users/djfredmax/Desktop/Deck Salone/app"
+npm run build
+cd -
+
 echo "📦 Step 1/5 — Syncing entire app workspace (dist, src, api, configs) to VPS..."
 ssh $SSH_OPTS "$SERVER" "mkdir -p $HOST_APP"
 rsync -avz --delete \

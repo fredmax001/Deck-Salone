@@ -12,6 +12,9 @@ build/
 *.tar
 *.tar.gz
 
+# Generated responsive image variants (recreated by npm run build)
+app/public/*-{640,768,1024,1280,1920,400,600,1200}.webp
+
 # Environment & Credentials
 .env
 .env.*
