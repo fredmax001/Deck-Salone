@@ -1,0 +1,897 @@
+- generic [ref=e1]:
+  - generic [ref=e8]:
+    - complementary [ref=e9]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Deck Salone" [ref=e11]
+      - navigation [ref=e12]:
+        - generic [ref=e13]:
+          - paragraph [ref=e14]: Browse
+          - generic [ref=e15]:
+            - link "Home" [ref=e16] [cursor=pointer]:
+              - /url: /
+            - link "Discover" [ref=e20] [cursor=pointer]:
+              - /url: /discover
+            - link "Ranking" [ref=e23] [cursor=pointer]:
+              - /url: /rankings
+            - link "Mix Hub" [ref=e26] [cursor=pointer]:
+              - /url: /mixes
+            - link "Playlists" [ref=e29] [cursor=pointer]:
+              - /url: /playlists
+            - link "Feed" [ref=e32] [cursor=pointer]:
+              - /url: /feed
+            - link "Events" [ref=e37] [cursor=pointer]:
+              - /url: /events
+            - link "Battles" [ref=e40] [cursor=pointer]:
+              - /url: /battles
+            - link "Request DJ" [ref=e47] [cursor=pointer]:
+              - /url: /request-dj
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: Info
+          - generic [ref=e55]:
+            - link "About Deck Salone" [ref=e56] [cursor=pointer]:
+              - /url: /about
+            - link "DJ Guide" [ref=e59] [cursor=pointer]:
+              - /url: /help
+            - link "How to Use" [ref=e62] [cursor=pointer]:
+              - /url: /help
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: ♥ Support
+              - generic [ref=e69]: Free
+            - heading "Support a DJ" [level=4] [ref=e70]
+            - paragraph [ref=e71]: Send support directly to your favourite artists. 100% goes to the DJ.
+            - link "Browse DJs" [ref=e72] [cursor=pointer]:
+              - /url: /discover
+    - generic [ref=e73]:
+      - banner [ref=e74]:
+        - generic [ref=e76]:
+          - button "Search" [ref=e77] [cursor=pointer]
+          - button "Toggle theme mode" [ref=e81] [cursor=pointer]
+          - link "Join" [ref=e88] [cursor=pointer]:
+            - /url: /login
+      - main [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - heading "Experience Sierra Leone's Finest DJ Sets" [level=1] [ref=e95]
+              - generic [ref=e96]:
+                - button "Play Spotlight Mix" [ref=e97] [cursor=pointer]
+                - button "Shuffle Play" [ref=e100] [cursor=pointer]
+            - generic [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]:
+                - generic [ref=e110]: "★ #1 SPOTLIGHT MIX"
+                - generic [ref=e111]: 50 plays
+              - generic [ref=e112]:
+                - img "Best Of 3-Step 2026" [ref=e114]
+                - generic [ref=e119]:
+                  - heading "Best Of 3-Step 2026" [level=3] [ref=e120]
+                  - paragraph [ref=e121]: Fred Max
+                  - generic [ref=e122]:
+                    - generic [ref=e123]: Amapiano
+                    - generic [ref=e124]: 1:05:13
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - button "All Genres" [ref=e129] [cursor=pointer]
+              - button "Amapiano (33)" [ref=e130] [cursor=pointer]:
+                - generic [ref=e131]: Amapiano
+                - generic [ref=e132]: (33)
+              - button "Reggae (27)" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: Reggae
+                - generic [ref=e135]: (27)
+              - button "Afrobeats (26)" [ref=e136] [cursor=pointer]:
+                - generic [ref=e137]: Afrobeats
+                - generic [ref=e138]: (26)
+              - button "Salone Mix (20)" [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]: Salone Mix
+                - generic [ref=e141]: (20)
+              - button "Club Mixes (1)" [ref=e142] [cursor=pointer]:
+                - generic [ref=e143]: Club Mixes
+                - generic [ref=e144]: (1)
+              - button "Club & Party Mixes (1)" [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]: Club & Party Mixes
+                - generic [ref=e147]: (1)
+              - button "Dancehall (1)" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]: Dancehall
+                - generic [ref=e150]: (1)
+              - button "Gospel (1)" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: Gospel
+                - generic [ref=e153]: (1)
+              - button "GOSPEL (1)" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: GOSPEL
+                - generic [ref=e156]: (1)
+              - button "Throwbacks (1)" [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]: Throwbacks
+                - generic [ref=e159]: (1)
+            - generic [ref=e160]:
+              - button "Sort mixes" [ref=e161] [cursor=pointer]:
+                - generic [ref=e165]: Newest Uploads
+              - generic [ref=e168]:
+                - button "Cards" [ref=e169] [cursor=pointer]
+                - button "Grid" [ref=e174] [cursor=pointer]
+                - button "List" [ref=e178] [cursor=pointer]
+          - generic [ref=e181]:
+            - heading "All Releases" [level=2] [ref=e184]
+            - generic [ref=e185]:
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - img "SALONE MIX VOL XVI" [ref=e189]
+                  - generic [ref=e190]: "#4"
+                - generic [ref=e192]:
+                  - generic [ref=e193]:
+                    - generic [ref=e194]:
+                      - button "Play" [ref=e195] [cursor=pointer]
+                      - generic [ref=e198]:
+                        - generic [ref=e199]:
+                          - link "Fred Max" [ref=e200] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e201]: ✓
+                          - generic [ref=e202]: 🇸🇱
+                          - generic [ref=e203]: PRO
+                          - generic [ref=e204]: ⚡ BOOSTED
+                        - generic [ref=e205]:
+                          - link [ref=e206] [cursor=pointer]:
+                            - /url: /mix/cmtehvaj9000wz1mip5ehftgl
+                            - heading "SALONE MIX VOL XVI" [level=3] [ref=e207]
+                          - generic [ref=e208]: 320kbit/s
+                    - generic [ref=e209]:
+                      - generic [ref=e210]: Salone Mix
+                      - generic [ref=e211]: 1:05:16
+                  - generic [ref=e213] [cursor=pointer]
+                  - generic [ref=e215]:
+                    - generic [ref=e216]:
+                      - button "Reach more listeners!" [ref=e217] [cursor=pointer]
+                      - button "Embed" [ref=e224] [cursor=pointer]
+                      - button "Add ▾" [ref=e231] [cursor=pointer]
+                      - button "Download" [ref=e234] [cursor=pointer]
+                      - button "Share" [expanded] [active] [ref=e239] [cursor=pointer]
+                    - generic [ref=e246]:
+                      - generic [ref=e247]: on 29.08.2026
+                      - generic "Total Plays" [ref=e248]: "1"
+                      - generic "Downloads" [ref=e252]: "1"
+                      - button "🔥 React" [ref=e257] [cursor=pointer]:
+                        - generic [ref=e258]: 🔥
+                        - generic [ref=e259]: React
+                      - button "0" [ref=e260] [cursor=pointer]
+                      - button "0" [ref=e263] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e269] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e274]:
+                - generic [ref=e275]:
+                  - img "Freaky session ep 3" [ref=e276]
+                  - generic [ref=e277]: "#1"
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]:
+                      - button "Play" [ref=e282] [cursor=pointer]
+                      - generic [ref=e285]:
+                        - generic [ref=e286]:
+                          - link "cyclades650" [ref=e287] [cursor=pointer]:
+                            - /url: /dj/cmt7amzoy0009jsgeb0k4n4el
+                          - generic "Verified DJ" [ref=e288]: ✓
+                          - generic [ref=e289]: 🇸🇱
+                        - generic [ref=e290]:
+                          - link [ref=e291] [cursor=pointer]:
+                            - /url: /mix/cmt7b0c3i0010jsge41w84s66
+                            - heading "Freaky session ep 3" [level=3] [ref=e292]
+                          - generic [ref=e293]: 320kbit/s
+                    - generic [ref=e294]:
+                      - generic [ref=e295]: Club & Party Mixes
+                      - generic [ref=e296]: 0:00
+                  - generic [ref=e298] [cursor=pointer]
+                  - generic [ref=e300]:
+                    - generic [ref=e301]:
+                      - button "Reach more listeners!" [ref=e302] [cursor=pointer]
+                      - button "Embed" [ref=e309] [cursor=pointer]
+                      - button "Add ▾" [ref=e316] [cursor=pointer]
+                      - button "Download" [ref=e319] [cursor=pointer]
+                      - button "Share" [ref=e324] [cursor=pointer]
+                    - generic [ref=e331]:
+                      - generic [ref=e332]: on 24.08.2026
+                      - generic "Total Plays" [ref=e333]: "5"
+                      - generic "Downloads" [ref=e337]: "0"
+                      - button "🔥 React" [ref=e342] [cursor=pointer]:
+                        - generic [ref=e343]: 🔥
+                        - generic [ref=e344]: React
+                      - button "0" [ref=e345] [cursor=pointer]
+                      - button "0" [ref=e348] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e354] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - img "Best Of 3-Step 2026" [ref=e361]
+                  - generic [ref=e362]: "#1"
+                - generic [ref=e364]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - button "Play" [ref=e367] [cursor=pointer]
+                      - generic [ref=e370]:
+                        - generic [ref=e371]:
+                          - link "Fred Max" [ref=e372] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e373]: ✓
+                          - generic [ref=e374]: 🇸🇱
+                          - generic [ref=e375]: PRO
+                        - generic [ref=e376]:
+                          - link [ref=e377] [cursor=pointer]:
+                            - /url: /mix/cmsfw5ydg000uiefqab440k9z
+                            - heading "Best Of 3-Step 2026" [level=3] [ref=e378]
+                          - generic [ref=e379]: 320kbit/s
+                    - generic [ref=e380]:
+                      - generic [ref=e381]: Amapiano
+                      - generic [ref=e382]: 1:05:13
+                  - generic [ref=e384] [cursor=pointer]
+                  - generic [ref=e386]:
+                    - generic [ref=e387]:
+                      - button "Reach more listeners!" [ref=e388] [cursor=pointer]
+                      - button "Embed" [ref=e395] [cursor=pointer]
+                      - button "Add ▾" [ref=e402] [cursor=pointer]
+                      - button "Download" [ref=e405] [cursor=pointer]
+                      - button "Share" [ref=e410] [cursor=pointer]
+                    - generic [ref=e417]:
+                      - generic [ref=e418]: on 05.08.2026
+                      - generic "Total Plays" [ref=e419]: "50"
+                      - generic "Downloads" [ref=e423]: "5"
+                      - button "🔥 React" [ref=e428] [cursor=pointer]:
+                        - generic [ref=e429]: 🔥
+                        - generic [ref=e430]: React
+                      - button "4" [ref=e431] [cursor=pointer]
+                      - button "0" [ref=e434] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e440] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e445]:
+                - generic [ref=e446]:
+                  - img "Dance hall Exclucive" [ref=e447]
+                  - generic [ref=e448]: "#1"
+                - generic [ref=e450]:
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - button "Play" [ref=e453] [cursor=pointer]
+                      - generic [ref=e456]:
+                        - generic [ref=e457]:
+                          - link "Fred Max" [ref=e458] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e459]: ✓
+                          - generic [ref=e460]: 🇸🇱
+                          - generic [ref=e461]: PRO
+                        - generic [ref=e462]:
+                          - link [ref=e463] [cursor=pointer]:
+                            - /url: /mix/cms483cdk002nri7yrz2e1qwg
+                            - heading "Dance hall Exclucive" [level=3] [ref=e464]
+                          - generic [ref=e465]: 320kbit/s
+                    - generic [ref=e466]:
+                      - generic [ref=e467]: Reggae
+                      - generic [ref=e468]: 1:05:47
+                  - generic [ref=e470] [cursor=pointer]
+                  - generic [ref=e472]:
+                    - generic [ref=e473]:
+                      - button "Reach more listeners!" [ref=e474] [cursor=pointer]
+                      - button "Embed" [ref=e481] [cursor=pointer]
+                      - button "Add ▾" [ref=e488] [cursor=pointer]
+                      - button "Download" [ref=e491] [cursor=pointer]
+                      - button "Share" [ref=e496] [cursor=pointer]
+                    - generic [ref=e503]:
+                      - generic [ref=e504]: on 28.07.2026
+                      - generic "Total Plays" [ref=e505]: "4"
+                      - generic "Downloads" [ref=e509]: "0"
+                      - button "🔥 React" [ref=e514] [cursor=pointer]:
+                        - generic [ref=e515]: 🔥
+                        - generic [ref=e516]: React
+                      - button "0" [ref=e517] [cursor=pointer]
+                      - button "0" [ref=e520] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e526] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - img "WORLD REBIRTH RIDDIM" [ref=e533]
+                  - generic [ref=e534]: "#2"
+                - generic [ref=e536]:
+                  - generic [ref=e537]:
+                    - generic [ref=e538]:
+                      - button "Play" [ref=e539] [cursor=pointer]
+                      - generic [ref=e542]:
+                        - generic [ref=e543]:
+                          - link "Fred Max" [ref=e544] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e545]: ✓
+                          - generic [ref=e546]: 🇸🇱
+                          - generic [ref=e547]: PRO
+                        - generic [ref=e548]:
+                          - link [ref=e549] [cursor=pointer]:
+                            - /url: /mix/cms483cdi002lri7ymcnhrdd4
+                            - heading "WORLD REBIRTH RIDDIM" [level=3] [ref=e550]
+                          - generic [ref=e551]: 320kbit/s
+                    - generic [ref=e552]:
+                      - generic [ref=e553]: Reggae
+                      - generic [ref=e554]: 18:04
+                  - generic [ref=e556] [cursor=pointer]
+                  - generic [ref=e558]:
+                    - generic [ref=e559]:
+                      - button "Reach more listeners!" [ref=e560] [cursor=pointer]
+                      - button "Embed" [ref=e567] [cursor=pointer]
+                      - button "Add ▾" [ref=e574] [cursor=pointer]
+                      - button "Download" [ref=e577] [cursor=pointer]
+                      - button "Share" [ref=e582] [cursor=pointer]
+                    - generic [ref=e589]:
+                      - generic [ref=e590]: on 28.07.2026
+                      - generic "Total Plays" [ref=e591]: "3"
+                      - generic "Downloads" [ref=e595]: "0"
+                      - button "🔥 React" [ref=e600] [cursor=pointer]:
+                        - generic [ref=e601]: 🔥
+                        - generic [ref=e602]: React
+                      - button "2" [ref=e603] [cursor=pointer]
+                      - button "0" [ref=e606] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e612] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e617]:
+                - generic [ref=e618]:
+                  - img "VICTORY ROCK RIDDIM" [ref=e619]
+                  - generic [ref=e620]: "#6"
+                - generic [ref=e622]:
+                  - generic [ref=e623]:
+                    - generic [ref=e624]:
+                      - button "Play" [ref=e625] [cursor=pointer]
+                      - generic [ref=e628]:
+                        - generic [ref=e629]:
+                          - link "Fred Max" [ref=e630] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e631]: ✓
+                          - generic [ref=e632]: 🇸🇱
+                          - generic [ref=e633]: PRO
+                        - generic [ref=e634]:
+                          - link [ref=e635] [cursor=pointer]:
+                            - /url: /mix/cms483cdf002jri7y9mu85on5
+                            - heading "VICTORY ROCK RIDDIM" [level=3] [ref=e636]
+                          - generic [ref=e637]: 320kbit/s
+                    - generic [ref=e638]:
+                      - generic [ref=e639]: Reggae
+                      - generic [ref=e640]: 15:11
+                  - generic [ref=e642] [cursor=pointer]
+                  - generic [ref=e644]:
+                    - generic [ref=e645]:
+                      - button "Reach more listeners!" [ref=e646] [cursor=pointer]
+                      - button "Embed" [ref=e653] [cursor=pointer]
+                      - button "Add ▾" [ref=e660] [cursor=pointer]
+                      - button "Download" [ref=e663] [cursor=pointer]
+                      - button "Share" [ref=e668] [cursor=pointer]
+                    - generic [ref=e675]:
+                      - generic [ref=e676]: on 28.07.2026
+                      - generic "Total Plays" [ref=e677]: "1"
+                      - generic "Downloads" [ref=e681]: "0"
+                      - button "🔥 React" [ref=e686] [cursor=pointer]:
+                        - generic [ref=e687]: 🔥
+                        - generic [ref=e688]: React
+                      - button "0" [ref=e689] [cursor=pointer]
+                      - button "0" [ref=e692] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e698] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e703]:
+                - generic [ref=e704]:
+                  - img "ON THE LINES RIDDIM" [ref=e705]
+                  - generic [ref=e706]: "#5"
+                - generic [ref=e708]:
+                  - generic [ref=e709]:
+                    - generic [ref=e710]:
+                      - button "Play" [ref=e711] [cursor=pointer]
+                      - generic [ref=e714]:
+                        - generic [ref=e715]:
+                          - link "Fred Max" [ref=e716] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e717]: ✓
+                          - generic [ref=e718]: 🇸🇱
+                          - generic [ref=e719]: PRO
+                        - generic [ref=e720]:
+                          - link [ref=e721] [cursor=pointer]:
+                            - /url: /mix/cms483cdd002hri7yxjbiymrk
+                            - heading "ON THE LINES RIDDIM" [level=3] [ref=e722]
+                          - generic [ref=e723]: 320kbit/s
+                    - generic [ref=e724]:
+                      - generic [ref=e725]: Reggae
+                      - generic [ref=e726]: 12:26
+                  - generic [ref=e728] [cursor=pointer]
+                  - generic [ref=e730]:
+                    - generic [ref=e731]:
+                      - button "Reach more listeners!" [ref=e732] [cursor=pointer]
+                      - button "Embed" [ref=e739] [cursor=pointer]
+                      - button "Add ▾" [ref=e746] [cursor=pointer]
+                      - button "Download" [ref=e749] [cursor=pointer]
+                      - button "Share" [ref=e754] [cursor=pointer]
+                    - generic [ref=e761]:
+                      - generic [ref=e762]: on 28.07.2026
+                      - generic "Total Plays" [ref=e763]: "3"
+                      - generic "Downloads" [ref=e767]: "0"
+                      - button "🔥 React" [ref=e772] [cursor=pointer]:
+                        - generic [ref=e773]: 🔥
+                        - generic [ref=e774]: React
+                      - button "0" [ref=e775] [cursor=pointer]
+                      - button "0" [ref=e778] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e784] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e789]:
+                - generic [ref=e790]:
+                  - img "ROCK ALL RIDDIM" [ref=e791]
+                  - generic [ref=e792]: "#8"
+                - generic [ref=e794]:
+                  - generic [ref=e795]:
+                    - generic [ref=e796]:
+                      - button "Play" [ref=e797] [cursor=pointer]
+                      - generic [ref=e800]:
+                        - generic [ref=e801]:
+                          - link "Fred Max" [ref=e802] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e803]: ✓
+                          - generic [ref=e804]: 🇸🇱
+                          - generic [ref=e805]: PRO
+                        - generic [ref=e806]:
+                          - link [ref=e807] [cursor=pointer]:
+                            - /url: /mix/cms483cdb002fri7y0hpa0s4a
+                            - heading "ROCK ALL RIDDIM" [level=3] [ref=e808]
+                          - generic [ref=e809]: 320kbit/s
+                    - generic [ref=e810]:
+                      - generic [ref=e811]: Reggae
+                      - generic [ref=e812]: 21:24
+                  - generic [ref=e814] [cursor=pointer]
+                  - generic [ref=e816]:
+                    - generic [ref=e817]:
+                      - button "Reach more listeners!" [ref=e818] [cursor=pointer]
+                      - button "Embed" [ref=e825] [cursor=pointer]
+                      - button "Add ▾" [ref=e832] [cursor=pointer]
+                      - button "Download" [ref=e835] [cursor=pointer]
+                      - button "Share" [ref=e840] [cursor=pointer]
+                    - generic [ref=e847]:
+                      - generic [ref=e848]: on 28.07.2026
+                      - generic "Total Plays" [ref=e849]: "2"
+                      - generic "Downloads" [ref=e853]: "0"
+                      - button "🔥 React" [ref=e858] [cursor=pointer]:
+                        - generic [ref=e859]: 🔥
+                        - generic [ref=e860]: React
+                      - button "0" [ref=e861] [cursor=pointer]
+                      - button "0" [ref=e864] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e870] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e875]:
+                - generic [ref=e876]:
+                  - img "SIX MILES RIDDIM" [ref=e877]
+                  - generic [ref=e878]: "#9"
+                - generic [ref=e880]:
+                  - generic [ref=e881]:
+                    - generic [ref=e882]:
+                      - button "Play" [ref=e883] [cursor=pointer]
+                      - generic [ref=e886]:
+                        - generic [ref=e887]:
+                          - link "Fred Max" [ref=e888] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e889]: ✓
+                          - generic [ref=e890]: 🇸🇱
+                          - generic [ref=e891]: PRO
+                        - generic [ref=e892]:
+                          - link [ref=e893] [cursor=pointer]:
+                            - /url: /mix/cms483cd6002dri7y1lqq3w0o
+                            - heading "SIX MILES RIDDIM" [level=3] [ref=e894]
+                          - generic [ref=e895]: 320kbit/s
+                    - generic [ref=e896]:
+                      - generic [ref=e897]: Reggae
+                      - generic [ref=e898]: 11:58
+                  - generic [ref=e900] [cursor=pointer]
+                  - generic [ref=e902]:
+                    - generic [ref=e903]:
+                      - button "Reach more listeners!" [ref=e904] [cursor=pointer]
+                      - button "Embed" [ref=e911] [cursor=pointer]
+                      - button "Add ▾" [ref=e918] [cursor=pointer]
+                      - button "Download" [ref=e921] [cursor=pointer]
+                      - button "Share" [ref=e926] [cursor=pointer]
+                    - generic [ref=e933]:
+                      - generic [ref=e934]: on 28.07.2026
+                      - generic "Total Plays" [ref=e935]: "1"
+                      - generic "Downloads" [ref=e939]: "0"
+                      - button "🔥 React" [ref=e944] [cursor=pointer]:
+                        - generic [ref=e945]: 🔥
+                        - generic [ref=e946]: React
+                      - button "0" [ref=e947] [cursor=pointer]
+                      - button "0" [ref=e950] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e956] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e961]:
+                - generic [ref=e962]:
+                  - img "FEELINGS RIDDIM" [ref=e963]
+                  - generic [ref=e964]: "#10"
+                - generic [ref=e966]:
+                  - generic [ref=e967]:
+                    - generic [ref=e968]:
+                      - button "Play" [ref=e969] [cursor=pointer]
+                      - generic [ref=e972]:
+                        - generic [ref=e973]:
+                          - link "Fred Max" [ref=e974] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e975]: ✓
+                          - generic [ref=e976]: 🇸🇱
+                          - generic [ref=e977]: PRO
+                        - generic [ref=e978]:
+                          - link [ref=e979] [cursor=pointer]:
+                            - /url: /mix/cms483cd4002bri7ynswgtyxl
+                            - heading "FEELINGS RIDDIM" [level=3] [ref=e980]
+                          - generic [ref=e981]: 320kbit/s
+                    - generic [ref=e982]:
+                      - generic [ref=e983]: Reggae
+                      - generic [ref=e984]: 15:25
+                  - generic [ref=e986] [cursor=pointer]
+                  - generic [ref=e988]:
+                    - generic [ref=e989]:
+                      - button "Reach more listeners!" [ref=e990] [cursor=pointer]
+                      - button "Embed" [ref=e997] [cursor=pointer]
+                      - button "Add ▾" [ref=e1004] [cursor=pointer]
+                      - button "Download" [ref=e1007] [cursor=pointer]
+                      - button "Share" [ref=e1012] [cursor=pointer]
+                    - generic [ref=e1019]:
+                      - generic [ref=e1020]: on 28.07.2026
+                      - generic "Total Plays" [ref=e1021]: "3"
+                      - generic "Downloads" [ref=e1025]: "0"
+                      - button "🔥 React" [ref=e1030] [cursor=pointer]:
+                        - generic [ref=e1031]: 🔥
+                        - generic [ref=e1032]: React
+                      - button "0" [ref=e1033] [cursor=pointer]
+                      - button "0" [ref=e1036] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e1042] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e1047]:
+                - generic [ref=e1048]:
+                  - img "THE HEALER RIDDIM" [ref=e1049]
+                  - generic [ref=e1050]: "#11"
+                - generic [ref=e1052]:
+                  - generic [ref=e1053]:
+                    - generic [ref=e1054]:
+                      - button "Play" [ref=e1055] [cursor=pointer]
+                      - generic [ref=e1058]:
+                        - generic [ref=e1059]:
+                          - link "Fred Max" [ref=e1060] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e1061]: ✓
+                          - generic [ref=e1062]: 🇸🇱
+                          - generic [ref=e1063]: PRO
+                        - generic [ref=e1064]:
+                          - link [ref=e1065] [cursor=pointer]:
+                            - /url: /mix/cms483cd10029ri7yas5n3vng
+                            - heading "THE HEALER RIDDIM" [level=3] [ref=e1066]
+                          - generic [ref=e1067]: 320kbit/s
+                    - generic [ref=e1068]:
+                      - generic [ref=e1069]: Reggae
+                      - generic [ref=e1070]: 16:54
+                  - generic [ref=e1072] [cursor=pointer]
+                  - generic [ref=e1074]:
+                    - generic [ref=e1075]:
+                      - button "Reach more listeners!" [ref=e1076] [cursor=pointer]
+                      - button "Embed" [ref=e1083] [cursor=pointer]
+                      - button "Add ▾" [ref=e1090] [cursor=pointer]
+                      - button "Download" [ref=e1093] [cursor=pointer]
+                      - button "Share" [ref=e1098] [cursor=pointer]
+                    - generic [ref=e1105]:
+                      - generic [ref=e1106]: on 28.07.2026
+                      - generic "Total Plays" [ref=e1107]: "0"
+                      - generic "Downloads" [ref=e1111]: "0"
+                      - button "🔥 React" [ref=e1116] [cursor=pointer]:
+                        - generic [ref=e1117]: 🔥
+                        - generic [ref=e1118]: React
+                      - button "0" [ref=e1119] [cursor=pointer]
+                      - button "0" [ref=e1122] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e1128] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e1133]:
+                - generic [ref=e1134]:
+                  - img "LETTER TO HEAVEN RIDDIM" [ref=e1135]
+                  - generic [ref=e1136]: "#4"
+                - generic [ref=e1138]:
+                  - generic [ref=e1139]:
+                    - generic [ref=e1140]:
+                      - button "Play" [ref=e1141] [cursor=pointer]
+                      - generic [ref=e1144]:
+                        - generic [ref=e1145]:
+                          - link "Fred Max" [ref=e1146] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e1147]: ✓
+                          - generic [ref=e1148]: 🇸🇱
+                          - generic [ref=e1149]: PRO
+                        - generic [ref=e1150]:
+                          - link [ref=e1151] [cursor=pointer]:
+                            - /url: /mix/cms483ccx0027ri7y7dlps1q7
+                            - heading "LETTER TO HEAVEN RIDDIM" [level=3] [ref=e1152]
+                          - generic [ref=e1153]: 320kbit/s
+                    - generic [ref=e1154]:
+                      - generic [ref=e1155]: Reggae
+                      - generic [ref=e1156]: 11:28
+                  - generic [ref=e1158] [cursor=pointer]
+                  - generic [ref=e1160]:
+                    - generic [ref=e1161]:
+                      - button "Reach more listeners!" [ref=e1162] [cursor=pointer]
+                      - button "Embed" [ref=e1169] [cursor=pointer]
+                      - button "Add ▾" [ref=e1176] [cursor=pointer]
+                      - button "Download" [ref=e1179] [cursor=pointer]
+                      - button "Share" [ref=e1184] [cursor=pointer]
+                    - generic [ref=e1191]:
+                      - generic [ref=e1192]: on 28.07.2026
+                      - generic "Total Plays" [ref=e1193]: "3"
+                      - generic "Downloads" [ref=e1197]: "0"
+                      - button "🔥 React" [ref=e1202] [cursor=pointer]:
+                        - generic [ref=e1203]: 🔥
+                        - generic [ref=e1204]: React
+                      - button "0" [ref=e1205] [cursor=pointer]
+                      - button "0" [ref=e1208] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e1214] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e1219]:
+                - generic [ref=e1220]:
+                  - img "LOVE AND LOVE ALONE RIDDIMM" [ref=e1221]
+                  - generic [ref=e1222]: "#13"
+                - generic [ref=e1224]:
+                  - generic [ref=e1225]:
+                    - generic [ref=e1226]:
+                      - button "Play" [ref=e1227] [cursor=pointer]
+                      - generic [ref=e1230]:
+                        - generic [ref=e1231]:
+                          - link "Fred Max" [ref=e1232] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e1233]: ✓
+                          - generic [ref=e1234]: 🇸🇱
+                          - generic [ref=e1235]: PRO
+                        - generic [ref=e1236]:
+                          - link [ref=e1237] [cursor=pointer]:
+                            - /url: /mix/cms483ccv0025ri7y2nkbokqo
+                            - heading "LOVE AND LOVE ALONE RIDDIMM" [level=3] [ref=e1238]
+                          - generic [ref=e1239]: 320kbit/s
+                    - generic [ref=e1240]:
+                      - generic [ref=e1241]: Reggae
+                      - generic [ref=e1242]: 15:29
+                  - generic [ref=e1244] [cursor=pointer]
+                  - generic [ref=e1246]:
+                    - generic [ref=e1247]:
+                      - button "Reach more listeners!" [ref=e1248] [cursor=pointer]
+                      - button "Embed" [ref=e1255] [cursor=pointer]
+                      - button "Add ▾" [ref=e1262] [cursor=pointer]
+                      - button "Download" [ref=e1265] [cursor=pointer]
+                      - button "Share" [ref=e1270] [cursor=pointer]
+                    - generic [ref=e1277]:
+                      - generic [ref=e1278]: on 28.07.2026
+                      - generic "Total Plays" [ref=e1279]: "1"
+                      - generic "Downloads" [ref=e1283]: "0"
+                      - button "🔥 React" [ref=e1288] [cursor=pointer]:
+                        - generic [ref=e1289]: 🔥
+                        - generic [ref=e1290]: React
+                      - button "0" [ref=e1291] [cursor=pointer]
+                      - button "0" [ref=e1294] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e1300] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e1305]:
+                - generic [ref=e1306]:
+                  - img "SWEET SOUNDS RIDDIM.wav" [ref=e1307]
+                  - generic [ref=e1308]: "#14"
+                - generic [ref=e1310]:
+                  - generic [ref=e1311]:
+                    - generic [ref=e1312]:
+                      - button "Play" [ref=e1313] [cursor=pointer]
+                      - generic [ref=e1316]:
+                        - generic [ref=e1317]:
+                          - link "Fred Max" [ref=e1318] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e1319]: ✓
+                          - generic [ref=e1320]: 🇸🇱
+                          - generic [ref=e1321]: PRO
+                        - generic [ref=e1322]:
+                          - link [ref=e1323] [cursor=pointer]:
+                            - /url: /mix/cms483ccs0023ri7yubcwd3b1
+                            - heading "SWEET SOUNDS RIDDIM.wav" [level=3] [ref=e1324]
+                          - generic [ref=e1325]: 320kbit/s
+                    - generic [ref=e1326]:
+                      - generic [ref=e1327]: Reggae
+                      - generic [ref=e1328]: 18:10
+                  - generic [ref=e1330] [cursor=pointer]
+                  - generic [ref=e1332]:
+                    - generic [ref=e1333]:
+                      - button "Reach more listeners!" [ref=e1334] [cursor=pointer]
+                      - button "Embed" [ref=e1341] [cursor=pointer]
+                      - button "Add ▾" [ref=e1348] [cursor=pointer]
+                      - button "Download" [ref=e1351] [cursor=pointer]
+                      - button "Share" [ref=e1356] [cursor=pointer]
+                    - generic [ref=e1363]:
+                      - generic [ref=e1364]: on 28.07.2026
+                      - generic "Total Plays" [ref=e1365]: "0"
+                      - generic "Downloads" [ref=e1369]: "0"
+                      - button "🔥 React" [ref=e1374] [cursor=pointer]:
+                        - generic [ref=e1375]: 🔥
+                        - generic [ref=e1376]: React
+                      - button "0" [ref=e1377] [cursor=pointer]
+                      - button "0" [ref=e1380] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e1386] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e1391]:
+                - generic [ref=e1392]:
+                  - img "SWEET WATA RIDDIM.wav" [ref=e1393]
+                  - generic [ref=e1394]: "#15"
+                - generic [ref=e1396]:
+                  - generic [ref=e1397]:
+                    - generic [ref=e1398]:
+                      - button "Play" [ref=e1399] [cursor=pointer]
+                      - generic [ref=e1402]:
+                        - generic [ref=e1403]:
+                          - link "Fred Max" [ref=e1404] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e1405]: ✓
+                          - generic [ref=e1406]: 🇸🇱
+                          - generic [ref=e1407]: PRO
+                        - generic [ref=e1408]:
+                          - link [ref=e1409] [cursor=pointer]:
+                            - /url: /mix/cms483ccp0021ri7y57vhif0c
+                            - heading "SWEET WATA RIDDIM.wav" [level=3] [ref=e1410]
+                          - generic [ref=e1411]: 320kbit/s
+                    - generic [ref=e1412]:
+                      - generic [ref=e1413]: Reggae
+                      - generic [ref=e1414]: 25:27
+                  - generic [ref=e1416] [cursor=pointer]
+                  - generic [ref=e1418]:
+                    - generic [ref=e1419]:
+                      - button "Reach more listeners!" [ref=e1420] [cursor=pointer]
+                      - button "Embed" [ref=e1427] [cursor=pointer]
+                      - button "Add ▾" [ref=e1434] [cursor=pointer]
+                      - button "Download" [ref=e1437] [cursor=pointer]
+                      - button "Share" [ref=e1442] [cursor=pointer]
+                    - generic [ref=e1449]:
+                      - generic [ref=e1450]: on 28.07.2026
+                      - generic "Total Plays" [ref=e1451]: "0"
+                      - generic "Downloads" [ref=e1455]: "0"
+                      - button "🔥 React" [ref=e1460] [cursor=pointer]:
+                        - generic [ref=e1461]: 🔥
+                        - generic [ref=e1462]: React
+                      - button "0" [ref=e1463] [cursor=pointer]
+                      - button "0" [ref=e1466] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e1472] [cursor=pointer]:
+                        - /url: /rankings
+              - generic [ref=e1477]:
+                - generic [ref=e1478]:
+                  - img "REGGAE GENESIS RIDDIM.wav" [ref=e1479]
+                  - generic [ref=e1480]: "#16"
+                - generic [ref=e1482]:
+                  - generic [ref=e1483]:
+                    - generic [ref=e1484]:
+                      - button "Play" [ref=e1485] [cursor=pointer]
+                      - generic [ref=e1488]:
+                        - generic [ref=e1489]:
+                          - link "Fred Max" [ref=e1490] [cursor=pointer]:
+                            - /url: /dj/cmrit377n0009q2f2rgrhn65u
+                          - generic "Verified DJ" [ref=e1491]: ✓
+                          - generic [ref=e1492]: 🇸🇱
+                          - generic [ref=e1493]: PRO
+                        - generic [ref=e1494]:
+                          - link [ref=e1495] [cursor=pointer]:
+                            - /url: /mix/cms483ccm001zri7yoby6eg9z
+                            - heading "REGGAE GENESIS RIDDIM.wav" [level=3] [ref=e1496]
+                          - generic [ref=e1497]: 320kbit/s
+                    - generic [ref=e1498]:
+                      - generic [ref=e1499]: Reggae
+                      - generic [ref=e1500]: 25:31
+                  - generic [ref=e1502] [cursor=pointer]
+                  - generic [ref=e1504]:
+                    - generic [ref=e1505]:
+                      - button "Reach more listeners!" [ref=e1506] [cursor=pointer]
+                      - button "Embed" [ref=e1513] [cursor=pointer]
+                      - button "Add ▾" [ref=e1520] [cursor=pointer]
+                      - button "Download" [ref=e1523] [cursor=pointer]
+                      - button "Share" [ref=e1528] [cursor=pointer]
+                    - generic [ref=e1535]:
+                      - generic [ref=e1536]: on 28.07.2026
+                      - generic "Total Plays" [ref=e1537]: "1"
+                      - generic "Downloads" [ref=e1541]: "0"
+                      - button "🔥 React" [ref=e1546] [cursor=pointer]:
+                        - generic [ref=e1547]: 🔥
+                        - generic [ref=e1548]: React
+                      - button "0" [ref=e1549] [cursor=pointer]
+                      - button "0" [ref=e1552] [cursor=pointer]
+                      - link "View Chart Rankings" [ref=e1558] [cursor=pointer]:
+                        - /url: /rankings
+            - button "Load More Releases" [ref=e1563] [cursor=pointer]
+      - contentinfo [ref=e1565]:
+        - generic [ref=e1567]:
+          - generic [ref=e1568]:
+            - generic [ref=e1569]:
+              - link [ref=e1570] [cursor=pointer]:
+                - /url: /
+                - img "Deck Salone" [ref=e1571]
+              - paragraph [ref=e1572]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+              - generic [ref=e1573]:
+                - link "Instagram" [ref=e1574] [cursor=pointer]:
+                  - /url: https://instagram.com/decksalone
+                - link "Facebook" [ref=e1578] [cursor=pointer]:
+                  - /url: https://facebook.com/decksalone
+                - link "Twitter" [ref=e1581] [cursor=pointer]:
+                  - /url: https://x.com/decksalone
+                - link "YouTube" [ref=e1584] [cursor=pointer]:
+                  - /url: https://youtube.com/@decksalone
+                - link "TikTok" [ref=e1588] [cursor=pointer]:
+                  - /url: https://tiktok.com/@decksalone
+            - generic [ref=e1593]:
+              - heading "Platform" [level=4] [ref=e1594]
+              - list [ref=e1595]:
+                - listitem [ref=e1596]:
+                  - link "Discover DJs" [ref=e1597] [cursor=pointer]:
+                    - /url: /discover
+                - listitem [ref=e1598]:
+                  - link "Rankings" [ref=e1599] [cursor=pointer]:
+                    - /url: /rankings
+                - listitem [ref=e1600]:
+                  - link "Mix Hub" [ref=e1601] [cursor=pointer]:
+                    - /url: /mixes
+                - listitem [ref=e1602]:
+                  - link "Events" [ref=e1603] [cursor=pointer]:
+                    - /url: /events
+                - listitem [ref=e1604]:
+                  - link "Book a DJ" [ref=e1605] [cursor=pointer]:
+                    - /url: /booking
+                - listitem [ref=e1606]:
+                  - link "Battle Arena" [ref=e1607] [cursor=pointer]:
+                    - /url: /battles
+            - generic [ref=e1608]:
+              - heading "Resources" [level=4] [ref=e1609]
+              - list [ref=e1610]:
+                - listitem [ref=e1611]:
+                  - link "About" [ref=e1612] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e1613]:
+                  - link "Developer API" [ref=e1614] [cursor=pointer]:
+                    - /url: /developers
+                - listitem [ref=e1615]:
+                  - link "Hall of Fame" [ref=e1616] [cursor=pointer]:
+                    - /url: /hall-of-fame
+                - listitem [ref=e1617]:
+                  - link "Blog" [ref=e1618] [cursor=pointer]:
+                    - /url: /blog
+                - listitem [ref=e1619]:
+                  - link "Help Center" [ref=e1620] [cursor=pointer]:
+                    - /url: /help
+                - listitem [ref=e1621]:
+                  - link "Privacy Policy" [ref=e1622] [cursor=pointer]:
+                    - /url: /privacy
+                - listitem [ref=e1623]:
+                  - link "Terms of Service" [ref=e1624] [cursor=pointer]:
+                    - /url: /terms
+                - listitem [ref=e1625]:
+                  - link "Logo & Images" [ref=e1626] [cursor=pointer]:
+                    - /url: /downloads/deck-salone-logos-2026.zip
+            - generic [ref=e1627]:
+              - heading "Connect" [level=4] [ref=e1628]
+              - list [ref=e1629]:
+                - listitem [ref=e1630]:
+                  - link "+232 72 011 156" [ref=e1633] [cursor=pointer]:
+                    - /url: https://wa.me/23272011156
+                - listitem [ref=e1634]:
+                  - link "contact@decksalone.com" [ref=e1638] [cursor=pointer]:
+                    - /url: mailto:contact@decksalone.com
+                - listitem [ref=e1639]:
+                  - link "support@decksalone.com" [ref=e1640] [cursor=pointer]:
+                    - /url: mailto:support@decksalone.com
+              - generic [ref=e1641]:
+                - generic [ref=e1642]: English
+                - generic [ref=e1643]: "|"
+                - generic [ref=e1644]: Krio
+          - generic [ref=e1645]:
+            - paragraph [ref=e1646]: © 2026 Deck Salone. A Sound It Entertainment platform. All rights reserved.
+            - link "Install Mobile App" [ref=e1647] [cursor=pointer]:
+              - /url: /install
+  - dialog [ref=e1653]:
+    - generic [ref=e1654]:
+      - generic [ref=e1655]:
+        - img "SALONE MIX VOL XVI" [ref=e1657]
+        - generic [ref=e1658]:
+          - paragraph [ref=e1659]: SALONE MIX VOL XVI
+          - generic [ref=e1660]: Fred Max
+          - paragraph [ref=e1662]: Salone Mix
+        - generic [ref=e1663]:
+          - paragraph [ref=e1664]: "1"
+          - paragraph [ref=e1665]: plays
+      - paragraph [ref=e1668]: Deck Salone · Mix
+    - paragraph [ref=e1670]: Share via
+    - generic [ref=e1671]:
+      - button "Share Link" [ref=e1672] [cursor=pointer]
+      - button "Copy Link" [ref=e1680] [cursor=pointer]
+      - button "WhatsApp" [ref=e1685] [cursor=pointer]
+      - button "Facebook" [ref=e1689] [cursor=pointer]
+      - button "X (Twitter)" [ref=e1693] [cursor=pointer]
+      - button "Instagram Story" [ref=e1697] [cursor=pointer]
+      - button "Create Share Card" [ref=e1701] [cursor=pointer]
+    - paragraph [ref=e1707]: https://decksalone.com/mix/cmtehvaj9000wz1mip5ehftgl

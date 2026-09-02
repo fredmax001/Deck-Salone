@@ -7,7 +7,7 @@
 set -e
 
 SERVER="${DECK_SALONE_SERVER:-root@31.97.116.21}"
-SSH_KEY="${DECK_SALONE_SSH_KEY:-$HOME/.ssh/deck_deploy_key}"
+SSH_KEY="${DECK_SALONE_SSH_KEY:-/Users/djfredmax/.ssh/deck_deploy_key}"
 HOST_PROJECT="${DECK_SALONE_HOST_PROJECT:-/opt/deck-salone-v2}"
 HOST_APP="${DECK_SALONE_HOST_APP:-/opt/deck-salone-v2/app}"
 
