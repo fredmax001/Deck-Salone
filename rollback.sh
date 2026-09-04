@@ -61,7 +61,7 @@ $REMOTE_BASE "$SERVER" "cd $HOST_PROJECT && docker compose -f docker-compose.pro
 echo ""
 echo "🏥 Waiting for API health check..."
 for i in {1..12}; do
-  if $REMOTE_BASE "$SERVER" "curl -sf http://localhost:5000/api/health >/dev/null"; then
+  if $REMOTE_BASE "$SERVER" "docker exec deck-salone-api wget -qO- http://localhost:5000/health >/dev/null 2>&1"; then
     echo "✅ API health check passed"
     break
   fi
