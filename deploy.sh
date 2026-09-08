@@ -55,6 +55,14 @@ echo "🔨 Step 3/5 — Rebuilding Docker image without cache and restarting dec
 ssh $SSH_OPTS "$SERVER" "cd $HOST_PROJECT && docker compose -f docker-compose.prod.yml build --no-cache deck-salone-api && docker compose -f docker-compose.prod.yml up -d deck-salone-api"
 
 echo ""
+echo "🗄️ Step 3.5/5 — Pre-deploy database backup (retention: last 10)..."
+ssh $SSH_OPTS "$SERVER" 'URL=$(grep -E "^DATABASE_URL=" $HOST_APP/.env | cut -d= -f2- | tr -d "\"" | sed "s/host.docker.internal/localhost/" | sed "s/?schema=public//"); \
+  mkdir -p /opt/deck-salone/backups && \
+  pg_dump "$URL" | gzip > /opt/deck-salone/backups/predeploy_$(date +%Y%m%d_%H%M%S).sql.gz && \
+  ls -t /opt/deck-salone/backups/predeploy_*.sql.gz | tail -n +11 | xargs -r rm -f && \
+  echo "✅ Database backed up to /opt/deck-salone/backups"'
+
+echo ""
 echo "🗄️ Step 4/5 — Applying database schema & migrations safely via Prisma..."
 ssh $SSH_OPTS "$SERVER" "docker exec deck-salone-api sh -c 'cd /app/app/api && npx prisma db push --accept-data-loss'"
 
