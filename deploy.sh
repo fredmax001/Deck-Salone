@@ -56,11 +56,17 @@ ssh $SSH_OPTS "$SERVER" "cd $HOST_PROJECT && docker compose -f docker-compose.pr
 
 echo ""
 echo "🗄️ Step 3.5/5 — Pre-deploy database backup (retention: last 10)..."
-ssh $SSH_OPTS "$SERVER" 'URL=$(grep -E "^DATABASE_URL=" $HOST_APP/.env | cut -d= -f2- | tr -d "\"" | sed "s/host.docker.internal/localhost/" | sed "s/?schema=public//"); \
-  mkdir -p /opt/deck-salone/backups && \
-  pg_dump "$URL" | gzip > /opt/deck-salone/backups/predeploy_$(date +%Y%m%d_%H%M%S).sql.gz && \
-  ls -t /opt/deck-salone/backups/predeploy_*.sql.gz | tail -n +11 | xargs -r rm -f && \
-  echo "✅ Database backed up to /opt/deck-salone/backups"'
+ssh $SSH_OPTS "$SERVER" 'set -e; \
+  URL=$(grep -E "^DATABASE_URL=" /opt/deck-salone-v2/app/.env | cut -d= -f2- | tr -d "\"" | sed "s/host.docker.internal/localhost/" | sed "s/?schema=public//"); \
+  [ -n "$URL" ] || { echo "❌ DATABASE_URL not found in .env — aborting deploy before schema changes" >&2; exit 1; }; \
+  mkdir -p /opt/deck-salone/backups; \
+  OUT=/opt/deck-salone/backups/predeploy_$(date +%Y%m%d_%H%M%S).sql.gz; \
+  TMP=$(mktemp); \
+  pg_dump "$URL" > "$TMP"; \
+  gzip -c "$TMP" > "$OUT"; rm -f "$TMP"; \
+  [ -s "$OUT" ] || { echo "❌ Backup file is empty — aborting deploy" >&2; exit 1; }; \
+  ls -t /opt/deck-salone/backups/predeploy_*.sql.gz | tail -n +11 | xargs -r rm -f; \
+  echo "✅ Database backed up to $OUT"'
 
 echo ""
 echo "🗄️ Step 4/5 — Applying database schema & migrations safely via Prisma..."
