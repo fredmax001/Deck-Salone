@@ -1,0 +1,220 @@
+- generic [ref=f3e8]:
+  - complementary [ref=f3e9]:
+    - link [ref=f3e10] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f3e11]
+    - navigation [ref=f3e12]:
+      - generic [ref=f3e13]:
+        - paragraph [ref=f3e14]: Browse
+        - generic [ref=f3e15]:
+          - link "Home" [ref=f3e16] [cursor=pointer]:
+            - /url: /
+          - link "Discover" [ref=f3e20] [cursor=pointer]:
+            - /url: /discover
+          - link "Ranking" [ref=f3e23] [cursor=pointer]:
+            - /url: /rankings
+          - link "Mix Hub" [ref=f3e26] [cursor=pointer]:
+            - /url: /mixes
+          - link "Playlists" [ref=f3e29] [cursor=pointer]:
+            - /url: /playlists
+          - link "Feed" [ref=f3e32] [cursor=pointer]:
+            - /url: /feed
+          - link "Events" [ref=f3e37] [cursor=pointer]:
+            - /url: /events
+          - link "Battles" [ref=f3e40] [cursor=pointer]:
+            - /url: /battles
+          - link "Request DJ" [ref=f3e47] [cursor=pointer]:
+            - /url: /request-dj
+      - generic [ref=f3e53]:
+        - paragraph [ref=f3e54]: Info
+        - generic [ref=f3e55]:
+          - link "About Deck Salone" [ref=f3e56] [cursor=pointer]:
+            - /url: /about
+          - link "DJ Guide" [ref=f3e59] [cursor=pointer]:
+            - /url: /help
+          - link "How to Use" [ref=f3e62] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f3e66]:
+          - generic [ref=f3e67]:
+            - generic [ref=f3e68]: ♥ Support
+            - generic [ref=f3e69]: Free
+          - heading "Support a DJ" [level=4] [ref=f3e70]
+          - paragraph [ref=f3e71]: Send support directly to your favourite artists. 100% goes to the DJ.
+          - link "Browse DJs" [ref=f3e72] [cursor=pointer]:
+            - /url: /discover
+  - generic [ref=f3e73]:
+    - banner [ref=f3e74]:
+      - generic [ref=f3e76]:
+        - button "Search" [ref=f3e77] [cursor=pointer]
+        - link "Join" [ref=f3e81] [cursor=pointer]:
+          - /url: /login
+    - main [ref=f3e82]:
+      - generic [ref=f3e83]:
+        - generic [ref=f3e84]:
+          - paragraph [ref=f3e85]: Playlists
+          - heading "Find your vibe" [level=1] [ref=f3e89]
+          - paragraph [ref=f3e90]: Hand-curated collections and smart playlists built from mood, genre and energy — filter below or press play.
+        - generic [ref=f3e91]:
+          - generic [ref=f3e92]:
+            - generic [ref=f3e93]:
+              - text: Filter
+              - generic [ref=f3e95]: 2 playlists
+            - button "Clear filters" [ref=f3e416] [cursor=pointer]
+          - generic [ref=f3e96]:
+            - button "Relaxed / Chill" [ref=f3e97] [cursor=pointer]
+            - button "Party" [active] [ref=f3e98] [cursor=pointer]
+            - button "Romantic" [ref=f3e99] [cursor=pointer]
+            - button "Uplifting" [ref=f3e100] [cursor=pointer]
+            - button "Soulful" [ref=f3e101] [cursor=pointer]
+            - button "Dark / Intense" [ref=f3e102] [cursor=pointer]
+            - button "Nostalgic" [ref=f3e103] [cursor=pointer]
+          - generic [ref=f3e104]:
+            - button "Low" [ref=f3e105] [cursor=pointer]
+            - button "Medium" [ref=f3e106] [cursor=pointer]
+            - button "High" [ref=f3e107] [cursor=pointer]
+          - generic [ref=f3e108]:
+            - button "Salone Mix" [ref=f3e109] [cursor=pointer]
+            - button "Afrobeats" [ref=f3e110] [cursor=pointer]
+            - button "Amapiano" [ref=f3e111] [cursor=pointer]
+            - button "Reggae" [ref=f3e112] [cursor=pointer]
+            - button "Dancehall" [ref=f3e113] [cursor=pointer]
+            - button "Palm Wine / Cultural" [ref=f3e114] [cursor=pointer]
+            - button "Hip-Hop / Rap" [ref=f3e115] [cursor=pointer]
+            - button "R&B / Soul" [ref=f3e116] [cursor=pointer]
+            - button "Gospel / Praise" [ref=f3e117] [cursor=pointer]
+            - button "Highlife / Coupe Decale" [ref=f3e118] [cursor=pointer]
+            - button "Soukous / Makossa" [ref=f3e119] [cursor=pointer]
+            - button "Soca / Calypso" [ref=f3e120] [cursor=pointer]
+            - button "Club & Party Mixes" [ref=f3e121] [cursor=pointer]
+            - button "Wedding & Event Essentials" [ref=f3e122] [cursor=pointer]
+            - button "Old Skool / Throwbacks" [ref=f3e123] [cursor=pointer]
+            - button "House / Electronic / EDM" [ref=f3e124] [cursor=pointer]
+            - button "Afro-House / Deep House" [ref=f3e125] [cursor=pointer]
+            - button "Trap & Drill" [ref=f3e126] [cursor=pointer]
+            - button "Afro-Fusion / Afro-Pop" [ref=f3e127] [cursor=pointer]
+        - generic [ref=f3e128]:
+          - link "Afrobeats & Amapiano Heat Smart ★ Featured Play Afrobeats & Amapiano Heat Afrobeats & Amapiano Heat Uplifting Party The freshest uplifting afrobeats, amapiano and afro-house in one place. 0 Mixes Auto-curated" [ref=f3e130] [cursor=pointer]:
+            - /url: /playlist/afrobeats-amapiano-heat-mtvocv0l
+            - generic [ref=f3e131]:
+              - generic [ref=f3e132]:
+                - img "Afrobeats & Amapiano Heat" [ref=f3e133]
+                - generic [ref=f3e135]:
+                  - generic [ref=f3e136]: Smart
+                  - generic [ref=f3e137]: ★ Featured
+                - button "Play Afrobeats & Amapiano Heat" [ref=f3e138]
+              - generic [ref=f3e141]:
+                - generic [ref=f3e142]:
+                  - heading "Afrobeats & Amapiano Heat" [level=3] [ref=f3e143]
+                  - generic [ref=f3e144]:
+                    - generic [ref=f3e145]: Uplifting
+                    - generic [ref=f3e146]: Party
+                  - paragraph [ref=f3e147]: The freshest uplifting afrobeats, amapiano and afro-house in one place.
+                - generic [ref=f3e148]:
+                  - generic [ref=f3e149]: 0 Mixes
+                  - generic [ref=f3e154]: Auto-curated
+          - link "High-Energy Party Starters Smart ★ Featured Play High-Energy Party Starters High-Energy Party Starters Party High Energy Maximum-energy mixes to get any party moving — club, amapiano and dancehall heat. 0 Mixes Auto-curated" [ref=f3e156] [cursor=pointer]:
+            - /url: /playlist/high-energy-party-starters-mtvocv0g
+            - generic [ref=f3e157]:
+              - generic [ref=f3e158]:
+                - img "High-Energy Party Starters" [ref=f3e159]
+                - generic [ref=f3e161]:
+                  - generic [ref=f3e162]: Smart
+                  - generic [ref=f3e163]: ★ Featured
+                - button "Play High-Energy Party Starters" [ref=f3e164]
+              - generic [ref=f3e167]:
+                - generic [ref=f3e168]:
+                  - heading "High-Energy Party Starters" [level=3] [ref=f3e169]
+                  - generic [ref=f3e170]:
+                    - generic [ref=f3e171]: Party
+                    - generic [ref=f3e172]: High Energy
+                  - paragraph [ref=f3e173]: Maximum-energy mixes to get any party moving — club, amapiano and dancehall heat.
+                - generic [ref=f3e174]:
+                  - generic [ref=f3e175]: 0 Mixes
+                  - generic [ref=f3e180]: Auto-curated
+    - contentinfo [ref=f3e329]:
+      - generic [ref=f3e331]:
+        - generic [ref=f3e332]:
+          - generic [ref=f3e333]:
+            - link [ref=f3e334] [cursor=pointer]:
+              - /url: /
+              - img "Deck Salone" [ref=f3e335]
+            - paragraph [ref=f3e336]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+            - generic [ref=f3e337]:
+              - link "Instagram" [ref=f3e338] [cursor=pointer]:
+                - /url: https://instagram.com/decksalone
+              - link "Facebook" [ref=f3e342] [cursor=pointer]:
+                - /url: https://facebook.com/decksalone
+              - link "Twitter" [ref=f3e345] [cursor=pointer]:
+                - /url: https://x.com/decksalone
+              - link "YouTube" [ref=f3e348] [cursor=pointer]:
+                - /url: https://youtube.com/@decksalone
+              - link "TikTok" [ref=f3e352] [cursor=pointer]:
+                - /url: https://tiktok.com/@decksalone
+          - generic [ref=f3e357]:
+            - heading "Platform" [level=4] [ref=f3e358]
+            - list [ref=f3e359]:
+              - listitem [ref=f3e360]:
+                - link "Discover DJs" [ref=f3e361] [cursor=pointer]:
+                  - /url: /discover
+              - listitem [ref=f3e362]:
+                - link "Rankings" [ref=f3e363] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=f3e364]:
+                - link "Mix Hub" [ref=f3e365] [cursor=pointer]:
+                  - /url: /mixes
+              - listitem [ref=f3e366]:
+                - link "Events" [ref=f3e367] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f3e368]:
+                - link "Book a DJ" [ref=f3e369] [cursor=pointer]:
+                  - /url: /booking
+              - listitem [ref=f3e370]:
+                - link "Battle Arena" [ref=f3e371] [cursor=pointer]:
+                  - /url: /battles
+          - generic [ref=f3e372]:
+            - heading "Resources" [level=4] [ref=f3e373]
+            - list [ref=f3e374]:
+              - listitem [ref=f3e375]:
+                - link "About" [ref=f3e376] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f3e377]:
+                - link "Developer API" [ref=f3e378] [cursor=pointer]:
+                  - /url: /developers
+              - listitem [ref=f3e379]:
+                - link "Hall of Fame" [ref=f3e380] [cursor=pointer]:
+                  - /url: /hall-of-fame
+              - listitem [ref=f3e381]:
+                - link "Blog" [ref=f3e382] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f3e383]:
+                - link "Help Center" [ref=f3e384] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=f3e385]:
+                - link "Privacy Policy" [ref=f3e386] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=f3e387]:
+                - link "Terms of Service" [ref=f3e388] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=f3e389]:
+                - link "Logo & Images" [ref=f3e390] [cursor=pointer]:
+                  - /url: /downloads/deck-salone-logos-2026.zip
+          - generic [ref=f3e391]:
+            - heading "Connect" [level=4] [ref=f3e392]
+            - list [ref=f3e393]:
+              - listitem [ref=f3e394]:
+                - link "+232 72 011 156" [ref=f3e397] [cursor=pointer]:
+                  - /url: https://wa.me/23272011156
+              - listitem [ref=f3e398]:
+                - link "contact@decksalone.com" [ref=f3e402] [cursor=pointer]:
+                  - /url: mailto:contact@decksalone.com
+              - listitem [ref=f3e403]:
+                - link "support@decksalone.com" [ref=f3e404] [cursor=pointer]:
+                  - /url: mailto:support@decksalone.com
+            - generic [ref=f3e405]:
+              - generic [ref=f3e406]: English
+              - generic [ref=f3e407]: "|"
+              - generic [ref=f3e408]: Krio
+        - generic [ref=f3e409]:
+          - paragraph [ref=f3e410]: © 2026 Deck Salone. A Sound It Entertainment platform. All rights reserved.
+          - link "Install Mobile App" [ref=f3e411] [cursor=pointer]:
+            - /url: /install
