@@ -1,0 +1,612 @@
+- generic [ref=f6e8]:
+  - complementary [ref=f6e9]:
+    - link [ref=f6e10] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=f6e11]
+    - navigation [ref=f6e12]:
+      - generic [ref=f6e13]:
+        - paragraph [ref=f6e14]: Browse
+        - generic [ref=f6e15]:
+          - link "Home" [ref=f6e16] [cursor=pointer]:
+            - /url: /
+          - link "Discover" [ref=f6e20] [cursor=pointer]:
+            - /url: /discover
+          - link "Ranking" [ref=f6e23] [cursor=pointer]:
+            - /url: /rankings
+          - link "Mix Hub" [ref=f6e26] [cursor=pointer]:
+            - /url: /mixes
+          - link "Playlists" [ref=f6e29] [cursor=pointer]:
+            - /url: /playlists
+          - link "Feed" [ref=f6e36] [cursor=pointer]:
+            - /url: /feed
+          - link "Events" [ref=f6e41] [cursor=pointer]:
+            - /url: /events
+          - link "My Library" [ref=f6e44] [cursor=pointer]:
+            - /url: /library
+          - link "Request DJ" [ref=f6e47] [cursor=pointer]:
+            - /url: /request-dj
+      - generic [ref=f6e53]:
+        - paragraph [ref=f6e54]: Info
+        - generic [ref=f6e55]:
+          - link "About Deck Salone" [ref=f6e56] [cursor=pointer]:
+            - /url: /about
+          - link "DJ Guide" [ref=f6e59] [cursor=pointer]:
+            - /url: /help
+          - link "How to Use" [ref=f6e62] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f6e66]:
+          - generic [ref=f6e67]:
+            - generic [ref=f6e68]: ♥ Support
+            - generic [ref=f6e69]: Free
+          - heading "Support a DJ" [level=4] [ref=f6e70]
+          - paragraph [ref=f6e71]: Send support directly to your favourite artists. 100% goes to the DJ.
+          - link "Browse DJs" [ref=f6e72] [cursor=pointer]:
+            - /url: /discover
+  - generic [ref=f6e73]:
+    - banner [ref=f6e74]:
+      - generic [ref=f6e76]:
+        - button "Search" [ref=f6e77] [cursor=pointer]
+        - link "Join" [ref=f6e81] [cursor=pointer]:
+          - /url: /login
+    - main [ref=f6e82]:
+      - generic [ref=f6e84]:
+        - heading "Discover" [level=1] [ref=f6e86]
+        - generic [ref=f6e87]:
+          - generic [ref=f6e88]:
+            - heading "DJs" [level=2] [ref=f6e89]
+            - link "View All" [ref=f6e90] [cursor=pointer]:
+              - /url: /rankings
+          - generic [ref=f6e93]:
+            - link "Fred Max Fred Max" [ref=f6e94] [cursor=pointer]:
+              - /url: /dj/dj_fredmax
+              - img "Fred Max" [ref=f6e96]
+              - generic [ref=f6e97]: Fred Max
+            - link "cyclades650 cyclades650" [ref=f6e98] [cursor=pointer]:
+              - /url: /dj/cyclades650
+              - img "cyclades650" [ref=f6e100]
+              - generic [ref=f6e101]: cyclades650
+            - link "DJ Babz 232 🇸🇱 DJ Babz 232 🇸🇱" [ref=f6e102] [cursor=pointer]:
+              - /url: /dj/dj_babz_232
+              - img "DJ Babz 232 🇸🇱" [ref=f6e104]
+              - generic [ref=f6e105]: DJ Babz 232 🇸🇱
+            - link "Dj Lovely E Mix Dj Lovely E Mix" [ref=f6e106] [cursor=pointer]:
+              - /url: /dj/emmanuelrw28
+              - img "Dj Lovely E Mix" [ref=f6e108]
+              - generic [ref=f6e109]: Dj Lovely E Mix
+            - link "DJSARKODIE DJSARKODIE" [ref=f6e110] [cursor=pointer]:
+              - /url: /dj/djsarkodie232
+              - img "DJSARKODIE" [ref=f6e112]
+              - generic [ref=f6e113]: DJSARKODIE
+            - link "Yo Tunji Yo Tunji" [ref=f6e114] [cursor=pointer]:
+              - /url: /dj/mashup232mixtapes
+              - img "Yo Tunji" [ref=f6e116]
+              - generic [ref=f6e117]: Yo Tunji
+            - link "DJ SWITCH232 DJ SWITCH232" [ref=f6e118] [cursor=pointer]:
+              - /url: /dj/djswitch232
+              - img "DJ SWITCH232" [ref=f6e120]
+              - generic [ref=f6e121]: DJ SWITCH232
+            - link "Dj capon Dj capon" [ref=f6e122] [cursor=pointer]:
+              - /url: /dj/djcapon
+              - img "Dj capon" [ref=f6e124]
+              - generic [ref=f6e125]: Dj capon
+            - link "DJ DJ" [ref=f6e126] [cursor=pointer]:
+              - /url: /dj/cecilthomas831
+              - img "DJ" [ref=f6e128]
+              - generic [ref=f6e129]: DJ
+            - link "DJ Kish DJ Kish" [ref=f6e130] [cursor=pointer]:
+              - /url: /dj/kishhmixtrender
+              - img "DJ Kish" [ref=f6e132]
+              - generic [ref=f6e133]: DJ Kish
+            - link "Dj SAMKING Dj SAMKING" [ref=f6e134] [cursor=pointer]:
+              - /url: /dj/peterdumbuya355
+              - img "Dj SAMKING" [ref=f6e136]
+              - generic [ref=f6e137]: Dj SAMKING
+            - link "prosoundssolutions prosoundssolutions" [ref=f6e138] [cursor=pointer]:
+              - /url: /dj/prosoundssolutions
+              - img "prosoundssolutions" [ref=f6e140]
+              - generic [ref=f6e141]: prosoundssolutions
+            - link "DJ Med West DJ Med West" [ref=f6e142] [cursor=pointer]:
+              - /url: /dj/msahransumana
+              - img "DJ Med West" [ref=f6e144]
+              - generic [ref=f6e145]: DJ Med West
+            - link "musicsparks musicsparks" [ref=f6e146] [cursor=pointer]:
+              - /url: /dj/musicsparks
+              - img "musicsparks" [ref=f6e148]
+              - generic [ref=f6e149]: musicsparks
+            - link "Dee_Jay Motion Dee_Jay Motion" [ref=f6e150] [cursor=pointer]:
+              - /url: /dj/djmotionsl
+              - img "Dee_Jay Motion" [ref=f6e152]
+              - generic [ref=f6e153]: Dee_Jay Motion
+            - link "DJ DJ" [ref=f6e154] [cursor=pointer]:
+              - /url: /dj/djchris758917
+              - img "DJ" [ref=f6e156]
+              - generic [ref=f6e157]: DJ
+        - generic [ref=f6e158]:
+          - generic [ref=f6e159]:
+            - heading "Todays hits" [level=2] [ref=f6e160]
+            - link "View All" [ref=f6e161] [cursor=pointer]:
+              - /url: /mixes?sortBy=trending
+          - generic [ref=f6e164]:
+            - generic [ref=f6e165] [cursor=pointer]:
+              - img "Amapiano" [ref=f6e167]
+              - generic [ref=f6e172]:
+                - heading "Amapiano" [level=4] [ref=f6e173]
+                - paragraph [ref=f6e174]: Best Of 3-Step 2026
+            - generic [ref=f6e175] [cursor=pointer]:
+              - img "Salone Mix" [ref=f6e177]
+              - generic [ref=f6e182]:
+                - heading "Salone Mix" [level=4] [ref=f6e183]
+                - paragraph [ref=f6e184]: SALONE MIX XV
+            - generic [ref=f6e185] [cursor=pointer]:
+              - img "Krio Fusion" [ref=f6e187]
+              - generic [ref=f6e192]:
+                - heading "Krio Fusion" [level=4] [ref=f6e193]
+                - paragraph [ref=f6e194]: SALONE MIX VOL XVI
+            - generic [ref=f6e195] [cursor=pointer]:
+              - img "Afro-House / Deep House" [ref=f6e197]
+              - generic [ref=f6e202]:
+                - heading "Afro-House / Deep House" [level=4] [ref=f6e203]
+                - paragraph [ref=f6e204]: DJ BABZ 232 - The Chee Vibe Afrohouse (3 step Bootleg) Mix Vol. 1
+            - generic [ref=f6e205] [cursor=pointer]:
+              - img "Club & Party Mixes" [ref=f6e207]
+              - generic [ref=f6e212]:
+                - heading "Club & Party Mixes" [level=4] [ref=f6e213]
+                - paragraph [ref=f6e214]: Freaky session ep 3
+            - generic [ref=f6e215] [cursor=pointer]:
+              - img "Salone Mix" [ref=f6e217]
+              - generic [ref=f6e222]:
+                - heading "Salone Mix" [level=4] [ref=f6e223]
+                - paragraph [ref=f6e224]: S.L Mixtape VOL. 4
+            - generic [ref=f6e225] [cursor=pointer]:
+              - img "Afrobeats" [ref=f6e227]
+              - generic [ref=f6e232]:
+                - heading "Afrobeats" [level=4] [ref=f6e233]
+                - paragraph [ref=f6e234]: Friday Afrobeat Mix
+            - generic [ref=f6e235] [cursor=pointer]:
+              - img "Reggae" [ref=f6e237]
+              - generic [ref=f6e242]:
+                - heading "Reggae" [level=4] [ref=f6e243]
+                - paragraph [ref=f6e244]: Dance hall Exclucive
+            - generic [ref=f6e245] [cursor=pointer]:
+              - img "Reggae" [ref=f6e247]
+              - generic [ref=f6e252]:
+                - heading "Reggae" [level=4] [ref=f6e253]
+                - paragraph [ref=f6e254]: WORLD REBIRTH RIDDIM
+            - generic [ref=f6e255] [cursor=pointer]:
+              - img "Reggae" [ref=f6e257]
+              - generic [ref=f6e262]:
+                - heading "Reggae" [level=4] [ref=f6e263]
+                - paragraph [ref=f6e264]: LETTER TO HEAVEN RIDDIM
+        - generic [ref=f6e265]:
+          - generic [ref=f6e266]:
+            - heading "Recently Played" [level=2] [ref=f6e267]
+            - link "View All" [ref=f6e268] [cursor=pointer]:
+              - /url: /mixes
+          - generic [ref=f6e271]:
+            - generic [ref=f6e272] [cursor=pointer]:
+              - img "Amapiano" [ref=f6e274]
+              - generic [ref=f6e279]:
+                - heading "Amapiano" [level=4] [ref=f6e280]
+                - paragraph [ref=f6e281]: Best Of 3-Step 2026
+            - generic [ref=f6e282] [cursor=pointer]:
+              - img "Salone Mix" [ref=f6e284]
+              - generic [ref=f6e289]:
+                - heading "Salone Mix" [level=4] [ref=f6e290]
+                - paragraph [ref=f6e291]: SALONE MIX XV
+            - generic [ref=f6e292] [cursor=pointer]:
+              - img "Krio Fusion" [ref=f6e294]
+              - generic [ref=f6e299]:
+                - heading "Krio Fusion" [level=4] [ref=f6e300]
+                - paragraph [ref=f6e301]: SALONE MIX VOL XVI
+            - generic [ref=f6e302] [cursor=pointer]:
+              - img "Afro-House / Deep House" [ref=f6e304]
+              - generic [ref=f6e309]:
+                - heading "Afro-House / Deep House" [level=4] [ref=f6e310]
+                - paragraph [ref=f6e311]: DJ BABZ 232 - The Chee Vibe Afrohouse (3 step Bootleg) Mix Vol. 1
+            - generic [ref=f6e312] [cursor=pointer]:
+              - img "Club & Party Mixes" [ref=f6e314]
+              - generic [ref=f6e319]:
+                - heading "Club & Party Mixes" [level=4] [ref=f6e320]
+                - paragraph [ref=f6e321]: Freaky session ep 3
+            - generic [ref=f6e322] [cursor=pointer]:
+              - img "Salone Mix" [ref=f6e324]
+              - generic [ref=f6e329]:
+                - heading "Salone Mix" [level=4] [ref=f6e330]
+                - paragraph [ref=f6e331]: S.L Mixtape VOL. 4
+            - generic [ref=f6e332] [cursor=pointer]:
+              - img "Afrobeats" [ref=f6e334]
+              - generic [ref=f6e339]:
+                - heading "Afrobeats" [level=4] [ref=f6e340]
+                - paragraph [ref=f6e341]: Friday Afrobeat Mix
+            - generic [ref=f6e342] [cursor=pointer]:
+              - img "Reggae" [ref=f6e344]
+              - generic [ref=f6e349]:
+                - heading "Reggae" [level=4] [ref=f6e350]
+                - paragraph [ref=f6e351]: Dance hall Exclucive
+            - generic [ref=f6e352] [cursor=pointer]:
+              - img "Reggae" [ref=f6e354]
+              - generic [ref=f6e359]:
+                - heading "Reggae" [level=4] [ref=f6e360]
+                - paragraph [ref=f6e361]: WORLD REBIRTH RIDDIM
+            - generic [ref=f6e362] [cursor=pointer]:
+              - img "Reggae" [ref=f6e364]
+              - generic [ref=f6e369]:
+                - heading "Reggae" [level=4] [ref=f6e370]
+                - paragraph [ref=f6e371]: LETTER TO HEAVEN RIDDIM
+        - generic [ref=f6e372]:
+          - generic [ref=f6e373]:
+            - heading "Recently Added" [level=2] [ref=f6e374]
+            - link "View All" [ref=f6e375] [cursor=pointer]:
+              - /url: /mixes?sortBy=newest
+          - generic [ref=f6e378]:
+            - generic [ref=f6e379] [cursor=pointer]:
+              - img "Afro-House / Deep House" [ref=f6e381]
+              - generic [ref=f6e386]:
+                - heading "Afro-House / Deep House" [level=4] [ref=f6e387]
+                - paragraph [ref=f6e388]: DJ BABZ 232 - The Chee Vibe Afrohouse (3 step Bootleg) Mix Vol. 1
+            - generic [ref=f6e389] [cursor=pointer]:
+              - img "Krio Fusion" [ref=f6e391]
+              - generic [ref=f6e396]:
+                - heading "Krio Fusion" [level=4] [ref=f6e397]
+                - paragraph [ref=f6e398]: SALONE MIX VOL XVI
+            - generic [ref=f6e399] [cursor=pointer]:
+              - img "Club & Party Mixes" [ref=f6e401]
+              - generic [ref=f6e406]:
+                - heading "Club & Party Mixes" [level=4] [ref=f6e407]
+                - paragraph [ref=f6e408]: Freaky session ep 3
+            - generic [ref=f6e409] [cursor=pointer]:
+              - img "Amapiano" [ref=f6e411]
+              - generic [ref=f6e416]:
+                - heading "Amapiano" [level=4] [ref=f6e417]
+                - paragraph [ref=f6e418]: Best Of 3-Step 2026
+            - generic [ref=f6e419] [cursor=pointer]:
+              - img "Reggae" [ref=f6e421]
+              - generic [ref=f6e426]:
+                - heading "Reggae" [level=4] [ref=f6e427]
+                - paragraph [ref=f6e428]: Dance hall Exclucive
+            - generic [ref=f6e429] [cursor=pointer]:
+              - img "Reggae" [ref=f6e431]
+              - generic [ref=f6e436]:
+                - heading "Reggae" [level=4] [ref=f6e437]
+                - paragraph [ref=f6e438]: WORLD REBIRTH RIDDIM
+            - generic [ref=f6e439] [cursor=pointer]:
+              - img "Reggae" [ref=f6e441]
+              - generic [ref=f6e446]:
+                - heading "Reggae" [level=4] [ref=f6e447]
+                - paragraph [ref=f6e448]: VICTORY ROCK RIDDIM
+            - generic [ref=f6e449] [cursor=pointer]:
+              - img "Reggae" [ref=f6e451]
+              - generic [ref=f6e456]:
+                - heading "Reggae" [level=4] [ref=f6e457]
+                - paragraph [ref=f6e458]: ON THE LINES RIDDIM
+            - generic [ref=f6e459] [cursor=pointer]:
+              - img "Reggae" [ref=f6e461]
+              - generic [ref=f6e466]:
+                - heading "Reggae" [level=4] [ref=f6e467]
+                - paragraph [ref=f6e468]: ROCK ALL RIDDIM
+            - generic [ref=f6e469] [cursor=pointer]:
+              - img "Reggae" [ref=f6e471]
+              - generic [ref=f6e476]:
+                - heading "Reggae" [level=4] [ref=f6e477]
+                - paragraph [ref=f6e478]: SIX MILES RIDDIM
+        - generic [ref=f6e479]:
+          - generic [ref=f6e480]:
+            - heading "Top Rated DJs" [level=2] [ref=f6e481]
+            - link "View All" [ref=f6e482] [cursor=pointer]:
+              - /url: /rankings
+          - generic [ref=f6e485]:
+            - generic [ref=f6e486]:
+              - generic [ref=f6e487]: "1"
+              - link [ref=f6e488] [cursor=pointer]:
+                - /url: /dj/dj_fredmax
+                - img "Fred Max" [ref=f6e489]
+              - generic [ref=f6e490]:
+                - link "Fred Max" [ref=f6e492] [cursor=pointer]:
+                  - /url: /dj/dj_fredmax
+                - generic [ref=f6e496]:
+                  - generic [ref=f6e500]: Brookfields, Freetown
+                  - generic [ref=f6e501]: ·
+                  - generic [ref=f6e502]: 7 followers
+                - generic [ref=f6e503]:
+                  - generic [ref=f6e504]: Afrobeats
+                  - generic [ref=f6e505]: Salone Mix
+                  - generic [ref=f6e506]: Reggae
+              - generic [ref=f6e507]:
+                - generic "Followers" [ref=f6e508]: "7"
+                - generic "Total Mixes" [ref=f6e515]: "105"
+                - generic "Rating" [ref=f6e520]: "0.0"
+              - generic [ref=f6e524]:
+                - generic [ref=f6e525]: SLE 5,000 - SLE 80,000
+                - link "BOOK" [ref=f6e526] [cursor=pointer]:
+                  - /url: /dj/dj_fredmax
+            - generic [ref=f6e527]:
+              - generic [ref=f6e528]: "2"
+              - link [ref=f6e529] [cursor=pointer]:
+                - /url: /dj/cyclades650
+                - img "cyclades650" [ref=f6e530]
+              - generic [ref=f6e531]:
+                - link "cyclades650" [ref=f6e533] [cursor=pointer]:
+                  - /url: /dj/cyclades650
+                - generic [ref=f6e537]:
+                  - generic [ref=f6e541]: Sierra Leone
+                  - generic [ref=f6e542]: ·
+                  - generic [ref=f6e543]: 1 followers
+              - generic [ref=f6e544]:
+                - generic "Followers" [ref=f6e545]: "1"
+                - generic "Total Mixes" [ref=f6e552]: "1"
+                - generic "Rating" [ref=f6e557]: "0.0"
+              - generic [ref=f6e561]:
+                - generic [ref=f6e562]: Contact for Rates
+                - link "BOOK" [ref=f6e563] [cursor=pointer]:
+                  - /url: /dj/cyclades650
+            - generic [ref=f6e564]:
+              - generic [ref=f6e565]: "3"
+              - link [ref=f6e566] [cursor=pointer]:
+                - /url: /dj/dj_babz_232
+                - img "DJ Babz 232 🇸🇱" [ref=f6e567]
+              - generic [ref=f6e568]:
+                - link "DJ Babz 232 🇸🇱" [ref=f6e570] [cursor=pointer]:
+                  - /url: /dj/dj_babz_232
+                - generic [ref=f6e571]:
+                  - generic [ref=f6e575]: Western Freetown, Freetown
+                  - generic [ref=f6e576]: ·
+                  - generic [ref=f6e577]: 0 followers
+                - generic [ref=f6e578]:
+                  - generic [ref=f6e579]: Amapiano
+                  - generic [ref=f6e580]: Afrobeats
+                  - generic [ref=f6e581]: Dancehall
+              - generic [ref=f6e582]:
+                - generic "Followers" [ref=f6e583]: "0"
+                - generic "Total Mixes" [ref=f6e590]: "1"
+                - generic "Rating" [ref=f6e595]: "0.0"
+              - generic [ref=f6e599]:
+                - generic [ref=f6e600]: SLE 1,000+
+                - link "BOOK" [ref=f6e601] [cursor=pointer]:
+                  - /url: /dj/dj_babz_232
+            - generic [ref=f6e602]:
+              - generic [ref=f6e603]: "4"
+              - link [ref=f6e604] [cursor=pointer]:
+                - /url: /dj/emmanuelrw28
+                - img "Dj Lovely E Mix" [ref=f6e605]
+              - generic [ref=f6e606]:
+                - link "Dj Lovely E Mix" [ref=f6e608] [cursor=pointer]:
+                  - /url: /dj/emmanuelrw28
+                - generic [ref=f6e612]:
+                  - generic [ref=f6e616]: Murray Town, Freetown
+                  - generic [ref=f6e617]: ·
+                  - generic [ref=f6e618]: 2 followers
+                - generic [ref=f6e619]:
+                  - generic [ref=f6e620]: Amapiano
+                  - generic [ref=f6e621]: Afrobeats
+                  - generic [ref=f6e622]: Salone Mix
+              - generic [ref=f6e623]:
+                - generic "Followers" [ref=f6e624]: "2"
+                - generic "Total Mixes" [ref=f6e631]: "5"
+                - generic "Rating" [ref=f6e636]: "0.0"
+              - generic [ref=f6e640]:
+                - generic [ref=f6e641]: SLE 5,000 - SLE 30,000
+                - link "BOOK" [ref=f6e642] [cursor=pointer]:
+                  - /url: /dj/emmanuelrw28
+            - generic [ref=f6e643]:
+              - generic [ref=f6e644]: "5"
+              - link [ref=f6e645] [cursor=pointer]:
+                - /url: /dj/djsarkodie232
+                - img "DJSARKODIE" [ref=f6e646]
+              - generic [ref=f6e647]:
+                - link "DJSARKODIE" [ref=f6e649] [cursor=pointer]:
+                  - /url: /dj/djsarkodie232
+                - generic [ref=f6e650]:
+                  - generic [ref=f6e654]: Lumley, Freetown
+                  - generic [ref=f6e655]: ·
+                  - generic [ref=f6e656]: 0 followers
+                - generic [ref=f6e657]:
+                  - generic [ref=f6e658]: Amapiano
+                  - generic [ref=f6e659]: Afrobeats
+                  - generic [ref=f6e660]: Hip Hop
+              - generic [ref=f6e661]:
+                - generic "Followers" [ref=f6e662]: "0"
+                - generic "Total Mixes" [ref=f6e669]: "0"
+                - generic "Rating" [ref=f6e674]: "0.0"
+              - generic [ref=f6e678]:
+                - generic [ref=f6e679]: Contact for Rates
+                - link "BOOK" [ref=f6e680] [cursor=pointer]:
+                  - /url: /dj/djsarkodie232
+            - generic [ref=f6e681]:
+              - generic [ref=f6e682]: "6"
+              - link [ref=f6e683] [cursor=pointer]:
+                - /url: /dj/mashup232mixtapes
+                - img "Yo Tunji" [ref=f6e684]
+              - generic [ref=f6e685]:
+                - link "Yo Tunji" [ref=f6e687] [cursor=pointer]:
+                  - /url: /dj/mashup232mixtapes
+                - generic [ref=f6e691]:
+                  - generic [ref=f6e695]: Lumley, Freetown
+                  - generic [ref=f6e696]: ·
+                  - generic [ref=f6e697]: 3 followers
+                - generic [ref=f6e698]:
+                  - generic [ref=f6e699]: Open Format
+                  - generic [ref=f6e700]: Afrobeats
+                  - generic [ref=f6e701]: Amapiano
+              - generic [ref=f6e702]:
+                - generic "Followers" [ref=f6e703]: "3"
+                - generic "Total Mixes" [ref=f6e710]: "0"
+                - generic "Rating" [ref=f6e715]: "0.0"
+              - generic [ref=f6e719]:
+                - generic [ref=f6e720]: SLE 5,000 - SLE 50,000
+                - link "BOOK" [ref=f6e721] [cursor=pointer]:
+                  - /url: /dj/mashup232mixtapes
+            - generic [ref=f6e722]:
+              - generic [ref=f6e723]: "7"
+              - link [ref=f6e724] [cursor=pointer]:
+                - /url: /dj/djswitch232
+                - img "DJ SWITCH232" [ref=f6e725]
+              - generic [ref=f6e726]:
+                - link "DJ SWITCH232" [ref=f6e728] [cursor=pointer]:
+                  - /url: /dj/djswitch232
+                - generic [ref=f6e732]:
+                  - generic [ref=f6e736]: Freetown
+                  - generic [ref=f6e737]: ·
+                  - generic [ref=f6e738]: 2 followers
+                - generic [ref=f6e739]:
+                  - generic [ref=f6e740]: Amapiano
+                  - generic [ref=f6e741]: Afrobeats
+                  - generic [ref=f6e742]: Hip Hop
+              - generic [ref=f6e743]:
+                - generic "Followers" [ref=f6e744]: "2"
+                - generic "Total Mixes" [ref=f6e751]: "0"
+                - generic "Rating" [ref=f6e756]: "0.0"
+              - generic [ref=f6e760]:
+                - generic [ref=f6e761]: SLE 5,000 - SLE 80,000
+                - link "BOOK" [ref=f6e762] [cursor=pointer]:
+                  - /url: /dj/djswitch232
+            - generic [ref=f6e763]:
+              - generic [ref=f6e764]: "8"
+              - link [ref=f6e765] [cursor=pointer]:
+                - /url: /dj/djcapon
+                - img "Dj capon" [ref=f6e766]
+              - generic [ref=f6e767]:
+                - link "Dj capon" [ref=f6e769] [cursor=pointer]:
+                  - /url: /dj/djcapon
+                - generic [ref=f6e770]:
+                  - generic [ref=f6e774]: Freetown
+                  - generic [ref=f6e775]: ·
+                  - generic [ref=f6e776]: 1 followers
+                - generic [ref=f6e777]:
+                  - generic [ref=f6e778]: Afrobeats
+                  - generic [ref=f6e779]: Amapiano
+                  - generic [ref=f6e780]: Dancehall
+              - generic [ref=f6e781]:
+                - generic "Followers" [ref=f6e782]: "1"
+                - generic "Total Mixes" [ref=f6e789]: "0"
+                - generic "Rating" [ref=f6e794]: "0.0"
+              - generic [ref=f6e798]:
+                - generic [ref=f6e799]: Contact for Rates
+                - link "BOOK" [ref=f6e800] [cursor=pointer]:
+                  - /url: /dj/djcapon
+            - generic [ref=f6e801]:
+              - generic [ref=f6e802]: "9"
+              - link [ref=f6e803] [cursor=pointer]:
+                - /url: /dj/cecilthomas831
+                - img "DJ" [ref=f6e804]
+              - generic [ref=f6e805]:
+                - link "DJ" [ref=f6e807] [cursor=pointer]:
+                  - /url: /dj/cecilthomas831
+                - generic [ref=f6e811]:
+                  - generic [ref=f6e815]: Sierra Leone
+                  - generic [ref=f6e816]: ·
+                  - generic [ref=f6e817]: 0 followers
+              - generic [ref=f6e818]:
+                - generic "Followers" [ref=f6e819]: "0"
+                - generic "Total Mixes" [ref=f6e826]: "0"
+                - generic "Rating" [ref=f6e831]: "0.0"
+              - generic [ref=f6e835]:
+                - generic [ref=f6e836]: Contact for Rates
+                - link "BOOK" [ref=f6e837] [cursor=pointer]:
+                  - /url: /dj/cecilthomas831
+            - generic [ref=f6e838]:
+              - generic [ref=f6e839]: "10"
+              - link [ref=f6e840] [cursor=pointer]:
+                - /url: /dj/kishhmixtrender
+                - img "DJ Kish" [ref=f6e841]
+              - generic [ref=f6e842]:
+                - link "DJ Kish" [ref=f6e844] [cursor=pointer]:
+                  - /url: /dj/kishhmixtrender
+                - generic [ref=f6e848]:
+                  - generic [ref=f6e852]: Sierra Leone
+                  - generic [ref=f6e853]: ·
+                  - generic [ref=f6e854]: 1 followers
+              - generic [ref=f6e855]:
+                - generic "Followers" [ref=f6e856]: "1"
+                - generic "Total Mixes" [ref=f6e863]: "0"
+                - generic "Rating" [ref=f6e868]: "0.0"
+              - generic [ref=f6e872]:
+                - generic [ref=f6e873]: Contact for Rates
+                - link "BOOK" [ref=f6e874] [cursor=pointer]:
+                  - /url: /dj/kishhmixtrender
+    - contentinfo [ref=f6e876]:
+      - generic [ref=f6e878]:
+        - generic [ref=f6e879]:
+          - generic [ref=f6e880]:
+            - link [ref=f6e881] [cursor=pointer]:
+              - /url: /
+              - img "Deck Salone" [ref=f6e882]
+            - paragraph [ref=f6e883]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+            - generic [ref=f6e884]:
+              - link "Instagram" [ref=f6e885] [cursor=pointer]:
+                - /url: https://instagram.com/decksalone
+              - link "Facebook" [ref=f6e889] [cursor=pointer]:
+                - /url: https://facebook.com/decksalone
+              - link "Twitter" [ref=f6e892] [cursor=pointer]:
+                - /url: https://x.com/decksalone
+              - link "YouTube" [ref=f6e895] [cursor=pointer]:
+                - /url: https://youtube.com/@decksalone
+              - link "TikTok" [ref=f6e899] [cursor=pointer]:
+                - /url: https://tiktok.com/@decksalone
+          - generic [ref=f6e904]:
+            - heading "Platform" [level=4] [ref=f6e905]
+            - list [ref=f6e906]:
+              - listitem [ref=f6e907]:
+                - link "Discover DJs" [ref=f6e908] [cursor=pointer]:
+                  - /url: /discover
+              - listitem [ref=f6e909]:
+                - link "Rankings" [ref=f6e910] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=f6e911]:
+                - link "Mix Hub" [ref=f6e912] [cursor=pointer]:
+                  - /url: /mixes
+              - listitem [ref=f6e913]:
+                - link "Playlists" [ref=f6e914] [cursor=pointer]:
+                  - /url: /playlists
+              - listitem [ref=f6e915]:
+                - link "My Library" [ref=f6e916] [cursor=pointer]:
+                  - /url: /library
+              - listitem [ref=f6e917]:
+                - link "Book a DJ" [ref=f6e918] [cursor=pointer]:
+                  - /url: /booking
+          - generic [ref=f6e919]:
+            - heading "Resources" [level=4] [ref=f6e920]
+            - list [ref=f6e921]:
+              - listitem [ref=f6e922]:
+                - link "About" [ref=f6e923] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f6e924]:
+                - link "Developer API" [ref=f6e925] [cursor=pointer]:
+                  - /url: /developers
+              - listitem [ref=f6e926]:
+                - link "Hall of Fame" [ref=f6e927] [cursor=pointer]:
+                  - /url: /hall-of-fame
+              - listitem [ref=f6e928]:
+                - link "Blog" [ref=f6e929] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f6e930]:
+                - link "Help Center" [ref=f6e931] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=f6e932]:
+                - link "Privacy Policy" [ref=f6e933] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=f6e934]:
+                - link "Terms of Service" [ref=f6e935] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=f6e936]:
+                - link "Logo & Images" [ref=f6e937] [cursor=pointer]:
+                  - /url: /downloads/deck-salone-logos-2026.zip
+          - generic [ref=f6e938]:
+            - heading "Connect" [level=4] [ref=f6e939]
+            - list [ref=f6e940]:
+              - listitem [ref=f6e941]:
+                - link "+232 72 011 156" [ref=f6e944] [cursor=pointer]:
+                  - /url: https://wa.me/23272011156
+              - listitem [ref=f6e945]:
+                - link "contact@decksalone.com" [ref=f6e949] [cursor=pointer]:
+                  - /url: mailto:contact@decksalone.com
+              - listitem [ref=f6e950]:
+                - link "support@decksalone.com" [ref=f6e951] [cursor=pointer]:
+                  - /url: mailto:support@decksalone.com
+            - generic [ref=f6e952]:
+              - generic [ref=f6e953]: English
+              - generic [ref=f6e954]: "|"
+              - generic [ref=f6e955]: Krio
+        - generic [ref=f6e956]:
+          - paragraph [ref=f6e957]: © 2026 Deck Salone. A Sound It Entertainment platform. All rights reserved.
+          - link "Install Mobile App" [ref=f6e958] [cursor=pointer]:
+            - /url: /install
