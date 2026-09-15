@@ -1,0 +1,141 @@
+- generic [ref=e8]:
+  - complementary [ref=e9]:
+    - link [ref=e10] [cursor=pointer]:
+      - /url: /
+      - img "Deck Salone" [ref=e11]
+    - navigation [ref=e12]:
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: Browse
+        - generic [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: /
+          - link "Discover" [ref=e20] [cursor=pointer]:
+            - /url: /discover
+          - link "Ranking" [ref=e23] [cursor=pointer]:
+            - /url: /rankings
+          - link "Mix Hub" [ref=e26] [cursor=pointer]:
+            - /url: /mixes
+          - link "Playlists" [ref=e29] [cursor=pointer]:
+            - /url: /playlists
+          - link "Feed" [ref=e36] [cursor=pointer]:
+            - /url: /feed
+          - link "Events" [ref=e41] [cursor=pointer]:
+            - /url: /events
+          - link "My Library" [ref=e44] [cursor=pointer]:
+            - /url: /library
+          - link "Request DJ" [ref=e47] [cursor=pointer]:
+            - /url: /request-dj
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: Info
+        - generic [ref=e55]:
+          - link "About Deck Salone" [ref=e56] [cursor=pointer]:
+            - /url: /about
+          - link "DJ Guide" [ref=e59] [cursor=pointer]:
+            - /url: /help
+          - link "How to Use" [ref=e62] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: ♥ Support
+            - generic [ref=e69]: Free
+          - heading "Support a DJ" [level=4] [ref=e70]
+          - paragraph [ref=e71]: Send support directly to your favourite artists. 100% goes to the DJ.
+          - link "Browse DJs" [ref=e72] [cursor=pointer]:
+            - /url: /discover
+  - generic [ref=e73]:
+    - banner [ref=e74]:
+      - generic [ref=e76]:
+        - button "Search" [ref=e77] [cursor=pointer]
+        - generic [ref=e81]:
+          - link "Sign In" [ref=e82] [cursor=pointer]:
+            - /url: /login
+          - link "Join" [ref=e83] [cursor=pointer]:
+            - /url: /register
+    - main [ref=e84]
+    - contentinfo [ref=e172]:
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - link [ref=e177] [cursor=pointer]:
+              - /url: /
+              - img "Deck Salone" [ref=e178]
+            - paragraph [ref=e179]: The first official digital ecosystem for DJs in Sierra Leone and across Africa.
+            - generic [ref=e180]:
+              - link "Instagram" [ref=e181] [cursor=pointer]:
+                - /url: https://instagram.com/decksalone
+              - link "Facebook" [ref=e185] [cursor=pointer]:
+                - /url: https://facebook.com/decksalone
+              - link "Twitter" [ref=e188] [cursor=pointer]:
+                - /url: https://x.com/decksalone
+              - link "YouTube" [ref=e191] [cursor=pointer]:
+                - /url: https://youtube.com/@decksalone
+              - link "TikTok" [ref=e195] [cursor=pointer]:
+                - /url: https://tiktok.com/@decksalone
+          - generic [ref=e200]:
+            - heading "Platform" [level=4] [ref=e201]
+            - list [ref=e202]:
+              - listitem [ref=e203]:
+                - link "Discover DJs" [ref=e204] [cursor=pointer]:
+                  - /url: /discover
+              - listitem [ref=e205]:
+                - link "Rankings" [ref=e206] [cursor=pointer]:
+                  - /url: /rankings
+              - listitem [ref=e207]:
+                - link "Mix Hub" [ref=e208] [cursor=pointer]:
+                  - /url: /mixes
+              - listitem [ref=e209]:
+                - link "Playlists" [ref=e210] [cursor=pointer]:
+                  - /url: /playlists
+              - listitem [ref=e211]:
+                - link "My Library" [ref=e212] [cursor=pointer]:
+                  - /url: /library
+              - listitem [ref=e213]:
+                - link "Book a DJ" [ref=e214] [cursor=pointer]:
+                  - /url: /booking
+          - generic [ref=e215]:
+            - heading "Resources" [level=4] [ref=e216]
+            - list [ref=e217]:
+              - listitem [ref=e218]:
+                - link "About" [ref=e219] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e220]:
+                - link "Developer API" [ref=e221] [cursor=pointer]:
+                  - /url: /developers
+              - listitem [ref=e222]:
+                - link "Hall of Fame" [ref=e223] [cursor=pointer]:
+                  - /url: /hall-of-fame
+              - listitem [ref=e224]:
+                - link "Blog" [ref=e225] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e226]:
+                - link "Help Center" [ref=e227] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=e228]:
+                - link "Privacy Policy" [ref=e229] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=e230]:
+                - link "Terms of Service" [ref=e231] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e232]:
+                - link "Logo & Images" [ref=e233] [cursor=pointer]:
+                  - /url: /downloads/deck-salone-logos-2026.zip
+          - generic [ref=e234]:
+            - heading "Connect" [level=4] [ref=e235]
+            - list [ref=e236]:
+              - listitem [ref=e237]:
+                - link "+232 72 011 156" [ref=e240] [cursor=pointer]:
+                  - /url: https://wa.me/23272011156
+              - listitem [ref=e241]:
+                - link "contact@decksalone.com" [ref=e245] [cursor=pointer]:
+                  - /url: mailto:contact@decksalone.com
+              - listitem [ref=e246]:
+                - link "support@decksalone.com" [ref=e247] [cursor=pointer]:
+                  - /url: mailto:support@decksalone.com
+            - generic [ref=e248]:
+              - generic [ref=e249]: English
+              - generic [ref=e250]: "|"
+              - generic [ref=e251]: Krio
+        - generic [ref=e252]:
+          - paragraph [ref=e253]: © 2026 Deck Salone. A Sound It Entertainment platform. All rights reserved.
+          - link "Install Mobile App" [ref=e254] [cursor=pointer]:
+            - /url: /install
