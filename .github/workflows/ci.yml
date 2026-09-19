@@ -1,0 +1,42 @@
+name: CI & Security Audit
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  audit-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'app/package-lock.json'
+
+      - name: Install dependencies
+        run: |
+          cd app
+          npm ci
+
+      - name: Run Security Audit (Fails on High/Critical Severity)
+        run: |
+          cd app
+          npm audit --audit-level=high
+
+      - name: Typecheck and Build Frontend
+        run: |
+          cd app
+          npm run build
+
+      - name: Build Backend API
+        run: |
+          cd app
+          npm run api:build
