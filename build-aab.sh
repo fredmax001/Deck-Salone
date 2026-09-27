@@ -12,9 +12,9 @@ PROJECT_ROOT="$(cd "$(dirname "$0")" && pwd)"
 APP_DIR="$PROJECT_ROOT/app"
 ANDROID_DIR="$APP_DIR/android"
 
-echo "📦 Step 1/4 — Building web app assets (targeting app.decksalone.com)..."
+echo "📦 Step 1/4 — Building web app assets (targeting decksalone.com)..."
 cd "$APP_DIR"
-VITE_API_URL="https://app.decksalone.com/api" npm run build
+VITE_API_URL="https://decksalone.com/api" npm run build
 
 echo "⚡ Step 2/4 — Syncing web assets to Capacitor Android..."
 npx cap sync android
@@ -26,11 +26,13 @@ echo "🔨 Step 4/4 — Compiling Android App Bundle (AAB) via Gradle..."
 cd "$ANDROID_DIR"
 ./gradlew bundleRelease bundleDebug
 
+cp "$ANDROID_DIR/app/build/outputs/bundle/release/app-release.aab" "$PROJECT_ROOT/DeckSalone-1.2.0.aab"
 cp "$ANDROID_DIR/app/build/outputs/bundle/release/app-release.aab" "$PROJECT_ROOT/deck-salone-release.aab"
 cp "$ANDROID_DIR/app/build/outputs/bundle/debug/app-debug.aab" "$PROJECT_ROOT/deck-salone-debug.aab"
 
 echo "=========================================="
 echo "🎉 SUCCESS! Deck Salone AAB bundles ready at:"
-echo "Release: $PROJECT_ROOT/deck-salone-release.aab"
-echo "Debug:   $PROJECT_ROOT/deck-salone-debug.aab"
+echo "Release Bundle: $PROJECT_ROOT/DeckSalone-1.2.0.aab"
+echo "Release:        $PROJECT_ROOT/deck-salone-release.aab"
+echo "Debug:          $PROJECT_ROOT/deck-salone-debug.aab"
 echo "=========================================="
