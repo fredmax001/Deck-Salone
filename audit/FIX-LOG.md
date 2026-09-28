@@ -58,6 +58,12 @@ Branch: `hardening/phase-2` (root repo + `app` submodule; all code fixes in the 
 - Known deploy-script bug found: deploy.sh's `:previous` tagging uses wrong image name (`deck-salone-api:latest` vs actual `deck-salone-v2-deck-salone-api:latest`) — worked around manually; fix deploy.sh.
 - All users were logged out by the JWT rotation (expected).
 
+## Post-deploy incident (2026-09-28): dashboard 500
+- Symptom: user's dashboard “Internal server error”. Logs: `PrismaClientValidationError` on `mixPlay.groupBy()` from `getMonthlyListeners` — Prisma's groupBy where REJECTS AND-combined scalar filters (`userId: { AND: [{not: null}, ...] }`). Jest mocks asserted the query shape but never executed it against the real client, so all 247 tests passed while prod 500'd.
+- Fix (`004e54c`): plain `not` for own-user exclusion + post-query null-group filter; args validated against the real Prisma client validator (validation throws before any DB connection, so it runs without a database); regression test added for the null-group drop.
+- Hotfix deployed: patched dist in running container + restart (0 errors), then full image rebuild to persist.
+- Lesson recorded: any future change to Prisma query args must be validated with the real client (pattern: `node -e` script that catches PrismaClientValidationError vs connection error), not mocks alone.
+
 ## Not verified locally (needs running env / user action)
 - Docker build + runtime as non-root (no docker daemon) — host bind mounts need `chown -R 100:101 /opt/deck-salone` before deploy.
 - Migrations applied to a live DB (`migrate deploy` on staging/prod).
