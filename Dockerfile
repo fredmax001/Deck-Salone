@@ -43,6 +43,9 @@ FROM base AS runner
 ENV NODE_ENV=production
 ENV PORT=5000
 
+# Non-root runtime user (INFRA-2): any RCE in the container must not be root.
+RUN addgroup -S app && adduser -S app -G app
+
 # We need Prisma CLI in production to run migrations before startup
 COPY --from=builder /app/app/node_modules /app/app/node_modules
 COPY --from=builder /app/app/dist /app/app/dist
@@ -51,9 +54,23 @@ COPY --from=builder /app/app/api/prisma /app/app/api/prisma
 COPY --from=builder /app/app/package.json /app/app/package.json
 COPY --from=builder /app/app/api/tsconfig.json /app/app/api/tsconfig.json
 
+# Entrypoint (INFRA-4): runs migrations then `exec`s node so it becomes PID 1
+# and receives SIGTERM directly (no signal-swallowing `sh -c` wrapper).
+COPY docker-entrypoint.sh /app/docker-entrypoint.sh
+RUN chmod +x /app/docker-entrypoint.sh
+
+# Writable app dirs (uploads/, logs/) owned by the runtime user. Note: the
+# compose bind mounts (/opt/deck-salone/uploads, /opt/deck-salone/logs) mask
+# these paths at runtime — host-side dirs must also be writable by the
+# container UID (e.g. `chown -R 100:101 /opt/deck-salone` on the host).
+RUN mkdir -p /app/app/api/uploads /app/uploads /app/logs /opt/deck-salone/uploads /opt/deck-salone/logs \
+  && chown -R app:app /app/app/api/uploads /app/uploads /app/logs /opt/deck-salone
+
 WORKDIR /app/app/api
+
+USER app
 
 EXPOSE 5000
 
-# Run Prisma deploy and start the cluster
-CMD ["sh", "-c", "npx prisma migrate deploy && node dist/cluster.js"]
+# Run Prisma deploy then start the cluster (entrypoint exec's node as PID 1)
+ENTRYPOINT ["/app/docker-entrypoint.sh"]

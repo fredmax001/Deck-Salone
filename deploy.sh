@@ -43,6 +43,7 @@ rsync -avz --delete \
   "/Users/djfredmax/Desktop/Deck Salone/app/" "$SERVER:$HOST_APP/"
 
 scp $SSH_OPTS "/Users/djfredmax/Desktop/Deck Salone/Dockerfile" "$SERVER:$HOST_PROJECT/Dockerfile"
+scp $SSH_OPTS "/Users/djfredmax/Desktop/Deck Salone/docker-entrypoint.sh" "$SERVER:$HOST_PROJECT/docker-entrypoint.sh"
 scp $SSH_OPTS "/Users/djfredmax/Desktop/Deck Salone/docker-compose.prod.yml" "$SERVER:$HOST_PROJECT/docker-compose.prod.yml"
 scp $SSH_OPTS "/Users/djfredmax/Desktop/Deck Salone/nginx.conf" "$SERVER:$HOST_PROJECT/nginx.conf"
 
@@ -69,8 +70,8 @@ ssh $SSH_OPTS "$SERVER" 'set -e; \
   echo "✅ Database backed up to $OUT"'
 
 echo ""
-echo "🗄️ Step 4/5 — Applying database schema & migrations safely via Prisma..."
-ssh $SSH_OPTS "$SERVER" "docker exec deck-salone-api sh -c 'cd /app/app/api && npx prisma db push --accept-data-loss'"
+echo "🗄️ Step 4/5 — Applying database migrations safely via Prisma..."
+ssh $SSH_OPTS "$SERVER" "docker exec deck-salone-api sh -c 'cd /app/app/api && npx prisma migrate deploy'"
 
 echo ""
 echo "🏥 Step 5/5 — Checking API health and restarting web proxy..."
