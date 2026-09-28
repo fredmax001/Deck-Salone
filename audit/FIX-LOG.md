@@ -40,7 +40,15 @@ Branch: `hardening/phase-2` (root repo + `app` submodule; all code fixes in the 
 | 3c | INFRA-6 (prod) | server-side | nightly backup cron installed on VPS (dump + uploads tar, 30/7 retention); **restore test PASSED** (counts identical); Postgres/Redis firewall closed to internet (`pg-firewall` systemd unit); docs: `50-RESTORE-PROCEDURE.md` |
 | 3e | load test | docs only | `51-LOAD-TEST.md` — 10 endpoints, zero 5xx at 20 conns; home-board is the perf outlier; media is bandwidth-bound → CDN case |
 
-**Final test count: 18 suites / 240 tests, all passing. Full production build green.**
+**Final test count: 18 suites / 246 tests, all passing. Full production build green.**
+
+## Phase 4 additions
+
+| Item | Commit | Note |
+|---|---|---|
+| DB-3 retain financial ledger | `1ee5730` | Payment/PayPalPayment/PayoutRequest SetNull FKs + nullable PII cols; purge anonymizes; migration + rollback; prod constraint check required pre-deploy |
+| INFRA-1 credential scrub | `9c7e4e3` (root) | compose uses ${DATABASE_URL} interpolation; 👤 rotate + history purge |
+| Delivery docs | root | `60-FINAL-REPORT.md` (per-finding status), `70-BACKLOG.md`, `80-HUMAN-TESTING.md`, `90-RUNBOOK.md` |
 
 ## Not verified locally (needs running env / user action)
 - Docker build + runtime as non-root (no docker daemon) — host bind mounts need `chown -R 100:101 /opt/deck-salone` before deploy.
