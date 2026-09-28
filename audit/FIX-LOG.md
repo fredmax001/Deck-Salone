@@ -50,6 +50,14 @@ Branch: `hardening/phase-2` (root repo + `app` submodule; all code fixes in the 
 | INFRA-1 credential scrub | `9c7e4e3` (root) | compose uses ${DATABASE_URL} interpolation; 👤 rotate + history purge |
 | Delivery docs | root | `60-FINAL-REPORT.md` (per-finding status), `70-BACKLOG.md`, `80-HUMAN-TESTING.md`, `90-RUNBOOK.md` |
 
+## Deployment (2026-09-28) — hardening/phase-2 LIVE on production
+- Pre-deploy drift check done; all 4 migrations applied and verified (`_prisma_migrations` + FKs SET NULL + tokenVersion column + ranking_history unique index).
+- Secrets rotated on VPS: JWT_SECRET, DB password (deckuser), GOOGLE_CLIENT_ID/SECRET (new OAuth client). SMTP_PASS + TICKET_QR_SECRET intentionally NOT rotated (no replacement SMTP creds; TQR rotation would invalidate 2 outstanding ticket QRs — reissue first if desired).
+- Prices set: system_config proPrice=150, legendPrice=250, proPriceAnnual=1000, legendPriceAnnual=1500; code defaults match (`fdc3456`).
+- Smoke results: /health 200, /health/readiness ready(db+redis), audioUrl rewrites live, /audio 206 with Range, static gate 404/404/traversal-404, gated proofs 401 anon, auth 401, home 200, container UID 100, zero startup errors, backup ran clean with new creds, Google OAuth kickoff 302 with state.
+- Known deploy-script bug found: deploy.sh's `:previous` tagging uses wrong image name (`deck-salone-api:latest` vs actual `deck-salone-v2-deck-salone-api:latest`) — worked around manually; fix deploy.sh.
+- All users were logged out by the JWT rotation (expected).
+
 ## Not verified locally (needs running env / user action)
 - Docker build + runtime as non-root (no docker daemon) — host bind mounts need `chown -R 100:101 /opt/deck-salone` before deploy.
 - Migrations applied to a live DB (`migrate deploy` on staging/prod).

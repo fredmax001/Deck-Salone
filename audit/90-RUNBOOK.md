@@ -1,6 +1,6 @@
 # Deck Salone — One-Page Runbook (deploy · rollback · restore)
 
-**Prod:** VPS `31.97.116.21` (root, key `~/.ssh/deck_deploy_key`) · containers: `deck-salone-api` (healthy = good), `deck-salone-web`, `deck-salone-redis` · Postgres **native on host** (`deck_salone` / `deckuser`) · media `/opt/deck-salone/uploads` · backups `/opt/deck-salone/backups` (nightly 02:30 cron).
+**Prod:** VPS `31.97.116.21` (root, key `~/.ssh/deck_deploy_key`) — **hardening/phase-2 DEPLOYED 2026-09-28** (build from that branch; migrations applied; secrets rotated: JWT/DB-password/Google; prices set Pro=150/Pro+=250 SLE) · containers: `deck-salone-api` (healthy = good), `deck-salone-web`, `deck-salone-redis` · Postgres **native on host** (`deck_salone` / `deckuser`) · media `/opt/deck-salone/uploads` · backups `/opt/deck-salone/backups` (nightly 02:30 cron).
 
 ## Deploy (hardening/phase-2 first time)
 ```bash
@@ -36,7 +36,7 @@ ssh -i ~/.ssh/deck_deploy_key root@31.97.116.21 \
 ssh -i ~/.ssh/deck_deploy_key root@31.97.116.21 '
   cd /opt/deck-salone
   docker compose down
-  docker tag deck-salone-api:previous deck-salone-api:latest   # deploy.sh keeps :previous
+  docker tag deck-salone-api:previous deck-salone-api:latest   # rollback tag (applied manually at deploy; deploy.sh's own tag step uses the wrong name — fixed in runbook, fix deploy.sh next edit)
   docker compose up -d
   curl -s http://localhost/health   # via nginx: https://decksalone.com/health'
 ```
