@@ -28,6 +28,20 @@ Branch: `hardening/phase-2` (root repo + `app` submodule; all code fixes in the 
 - Every commit: `npx jest` all-pass + `tsc --noEmit` (api, and client where touched).
 - Two migrations (hand-written, idempotent, with rollback SQL recorded): `20260928120352_add_ranking_history_unique_dj_week`, `20260928130000_add_user_token_version`, `20260928140000_add_event_ticket_idempotency_key`.
 
+## Phase 3 additions (2026-09-28)
+
+| Batch | Finding(s) | Commit | What changed |
+|---|---|---|---|
+| 3a-adversarial | review of all phase-2 fixes | — | 4 parallel reviewers; 2 CRITICAL + 3 HIGH breaks found and fixed below |
+| A | UPL-1b/ADM-2b (CRITICAL), A3/A4/A5 (HIGH), A6/A7 | `60b5eb2` | static-gate decode+normalize closed (`/uploads/./mixes`, `%2f` traversal); ADMIN self-grant SUPER_ADMIN closed; withAuthToken same-origin only; getClientIp for dedup/lockout/analytics + trust proxy 1; PAY-5 deposit TOCTOU closed; smartPlaylists rewrite; PAY-2 422 self-heal via PayPal order verify |
+| B | ADM-3/5, ETK-1/2, AUTH-1/5 residuals | `fabe88f` | per-route gates on 11 admin routes; /notifications counts-only; onsitePassword never returned (onsitePasswordSet boolean); scan responses redact attendee email; /customers gated by canReadGuestList; cache invalidation awaited + suspend invalidates; ?token= paths enforce tokenVersion; Turnstile fails closed unless dev/test |
+| C | RANK-1b/5b, C3-C6 | `5e2c580` | anonymous plays recorded again (monthlyListeners counts authenticated only); battle close atomic; moderator RankingHistory week + logged; hall-of-fame absolute value (client updated); CSV whitespace bypass + 10k row cap; /ticketing/dashboard 500 fixed |
+| D | UPL-12, INFRA-18, RANK-13 + 3b/3d | `e6b52cc` | MulterError→413/400; token redacted in logs; no-store on gated uploads; Referrer-Policy; /health/readiness; scheduler winston + real stop; uploadLimiter 30/10min + audioLimiter 120/min |
+| 3c | INFRA-6 (prod) | server-side | nightly backup cron installed on VPS (dump + uploads tar, 30/7 retention); **restore test PASSED** (counts identical); Postgres/Redis firewall closed to internet (`pg-firewall` systemd unit); docs: `50-RESTORE-PROCEDURE.md` |
+| 3e | load test | docs only | `51-LOAD-TEST.md` — 10 endpoints, zero 5xx at 20 conns; home-board is the perf outlier; media is bandwidth-bound → CDN case |
+
+**Final test count: 18 suites / 240 tests, all passing. Full production build green.**
+
 ## Not verified locally (needs running env / user action)
 - Docker build + runtime as non-root (no docker daemon) — host bind mounts need `chown -R 100:101 /opt/deck-salone` before deploy.
 - Migrations applied to a live DB (`migrate deploy` on staging/prod).
