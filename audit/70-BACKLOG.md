@@ -40,4 +40,6 @@
 31. **DB-2 float money → integer minor units** (Month-2, with reconciliation) · **PAY-3 PayPal webhooks** (Month-2).
 32. **Mobile:** MOB-2 secure token storage, MOB-4 one-time-code deeplinks, MOB-8 APK hash pinning.
 33. **INFRA-21** bugReport email HTML escaping (the one SOC-8 variant not yet closed).
-34. Ops: offsite backups (`BACKUP_REMOTE`), backup-failure alerting, X-Real-IP check in deployed nginx, S3-mode proof ACL (drop `public-read`), staging environment.
+34. **Android signing hygiene** — keystore `deck-salone-release.keystore` is committed in git (cert SHA1 5B:89:D8:44:…). Passwords now externalized (gradle.properties/env, build.gradle); remaining: verify Play Console registered upload key fingerprint matches, purge keystore from git history (force-push), rotate store password if exposure is a concern. Play warning “App bundle is not signed by Google Play” = uploaded bundle's cert ≠ upload key registered in Play Console → compare in Setup → App integrity; if the original upload key is lost, request an upload-key reset (app signing key stays Google-managed, users unaffected).
+35. **App i18n** — Play's “app text not automatically translated” refers to web content (Capacitor WebView); native strings are only brand names. Real fix = react-i18n scaffold + locale files (product decision; EN first, consider FR for the region).
+36. Ops: offsite backups (`BACKUP_REMOTE`), backup-failure alerting, X-Real-IP check in deployed nginx, S3-mode proof ACL (drop `public-read`), staging environment.
