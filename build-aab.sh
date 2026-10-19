@@ -26,13 +26,13 @@ echo "🔨 Step 4/4 — Compiling Android App Bundle (AAB) via Gradle..."
 cd "$ANDROID_DIR"
 ./gradlew bundleRelease bundleDebug
 
-cp "$ANDROID_DIR/app/build/outputs/bundle/release/app-release.aab" "$PROJECT_ROOT/DeckSalone-1.2.0.aab"
+cp "$ANDROID_DIR/app/build/outputs/bundle/release/app-release.aab" "$PROJECT_ROOT/DeckSalone-1.4.0.aab"
 cp "$ANDROID_DIR/app/build/outputs/bundle/release/app-release.aab" "$PROJECT_ROOT/deck-salone-release.aab"
 cp "$ANDROID_DIR/app/build/outputs/bundle/debug/app-debug.aab" "$PROJECT_ROOT/deck-salone-debug.aab"
 
 echo "=========================================="
 echo "🎉 SUCCESS! Deck Salone AAB bundles ready at:"
-echo "Release Bundle: $PROJECT_ROOT/DeckSalone-1.2.0.aab"
+echo "Release Bundle: $PROJECT_ROOT/DeckSalone-1.4.0.aab"
 echo "Release:        $PROJECT_ROOT/deck-salone-release.aab"
 echo "Debug:          $PROJECT_ROOT/deck-salone-debug.aab"
 echo "=========================================="

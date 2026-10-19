@@ -30,10 +30,10 @@ mkdir -p "$PROJECT_ROOT/uploads/apk"
 mkdir -p "$APP_DIR/uploads/apk"
 
 if [ -f "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" ]; then
-  cp "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" "$PROJECT_ROOT/DeckSalone-1.2.0.apk"
+  cp "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" "$PROJECT_ROOT/DeckSalone-1.4.0.apk"
   cp "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" "$PROJECT_ROOT/deck-salone-release.apk"
-  cp "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" "$PROJECT_ROOT/uploads/apk/DeckSalone-1.2.0.apk"
-  cp "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" "$APP_DIR/uploads/apk/DeckSalone-1.2.0.apk"
+  cp "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" "$PROJECT_ROOT/uploads/apk/DeckSalone-1.4.0.apk"
+  cp "$ANDROID_DIR/app/build/outputs/apk/release/app-release.apk" "$APP_DIR/uploads/apk/DeckSalone-1.4.0.apk"
 fi
 
 if [ -f "$ANDROID_DIR/app/build/outputs/apk/debug/app-debug.apk" ]; then
@@ -42,7 +42,7 @@ fi
 
 echo "=========================================="
 echo "🎉 SUCCESS! Deck Salone APKs ready at:"
-echo "Signed Release: $PROJECT_ROOT/DeckSalone-1.2.0.apk"
+echo "Signed Release: $PROJECT_ROOT/DeckSalone-1.4.0.apk"
 echo "Release:        $PROJECT_ROOT/deck-salone-release.apk"
 echo "Debug:          $PROJECT_ROOT/deck-salone-debug.apk"
 echo "=========================================="
