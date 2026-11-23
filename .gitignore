@@ -23,6 +23,11 @@ app/public/*-{640,768,1024,1280,1920,400,600,1200}.webp
 *.key
 *.cert
 *.crt
+*.keystore
+*.jks
+*.p12
+google-services.json
+GoogleService-Info.plist
 
 # Database dumps & Sensitive SQL dumps
 *.sql
